@@ -1,0 +1,453 @@
+shipment_number,shipment_leg,dispatch_time,arrival_time,sender_partner_code,receiver_partner_code,origin_facility_code,destination_facility_code,carrier_partner_code,item_category,declared_quantity,declared_unit,temperature_control_class,authorization_class,declared_purpose,shipment_status
+SHP-2014-00001,1,2014-07-10T09:00:00,2014-07-11T03:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,2,sealed_lot,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2015-00001,1,2015-01-10T11:00:00,2015-01-13T16:00:00,BP-30035,BP-30033,FCL-1009,FCL-1013,BP-30020,medical_consumables,73,case,2-8C,ordinary,scheduled stock transfer,returned
+SHP-2015-00002,1,2015-01-11T06:00:00,2015-01-12T00:00:00,BP-30028,BP-30037,FCL-1020,FCL-1017,BP-30015,office_supply,82,case,ambient,emergency,customer distribution,delivered
+SHP-2015-00003,1,2015-02-17T15:00:00,2015-02-19T08:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30047,biological_sample,2,sealed_lot,2-8C,restricted,laboratory delivery,delivered
+SHP-2015-00004,1,2015-06-10T12:00:00,2015-06-12T09:00:00,BP-30025,BP-30079,FCL-1026,FCL-1022,BP-30025,legal_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2015-00005,1,2015-06-22T16:00:00,2015-06-24T06:00:00,BP-30028,BP-30018,FCL-1020,FCL-1003,BP-30055,monitoring_equipment,8,kit,ambient,ordinary,agricultural distribution,delivered
+SHP-2015-00006,1,2015-06-29T12:00:00,2015-06-30T12:00:00,BP-30007,BP-30020,FCL-1014,FCL-1001,BP-30015,grant,1,grant,ambient,expedited,field programme support,delivered
+SHP-2015-00007,1,2015-07-21T09:00:00,2015-07-23T21:00:00,BP-30002,BP-30054,FCL-1030,FCL-1007,BP-30078,biological_sample,2,sealed_lot,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2015-00008,1,2015-08-12T10:00:00,2015-08-14T10:00:00,BP-30055,BP-30046,FCL-1010,FCL-1010,BP-30047,refrigeration_service,1,service,ambient,ordinary,field programme support,delivered
+SHP-2015-00009,1,2015-08-14T16:00:00,2015-08-16T08:00:00,BP-30039,BP-30003,FCL-1029,FCL-1015,BP-30060,legal_service,1,service,ambient,expedited,agricultural distribution,delivered
+SHP-2015-00010,1,2015-08-24T06:00:00,2015-08-25T08:00:00,BP-30049,BP-30080,FCL-1002,FCL-1020,BP-30060,cold_storage_equipment,15,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2015-00011,1,2015-09-02T09:00:00,2015-09-04T05:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,medical_consumables,6,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2015-00012,1,2015-09-09T15:00:00,2015-09-12T10:00:00,BP-30078,BP-30055,FCL-1011,FCL-1010,BP-30020,biological_sample,7,sealed_lot,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2015-00013,1,2015-10-08T08:00:00,2015-10-11T23:00:00,BP-30071,BP-30062,FCL-1011,FCL-1012,BP-30055,office_supply,66,case,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2015-00014,1,2015-10-12T07:00:00,2015-10-14T23:00:00,BP-30047,BP-30009,FCL-1016,FCL-1010,BP-30042,laboratory_material,31,pack,ambient,restricted,scheduled stock transfer,delayed
+SHP-2015-00015,1,2015-11-22T10:00:00,2015-11-26T06:00:00,BP-30073,BP-30011,FCL-1019,FCL-1012,BP-30020,transport_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2015-00016,1,2015-12-09T15:00:00,2015-12-13T11:00:00,BP-30012,BP-30067,FCL-1020,FCL-1023,BP-30025,biological_sample,5,sealed_lot,2-8C,ordinary,customer distribution,delivered
+SHP-2015-00017,1,2015-12-26T07:00:00,2015-12-29T15:00:00,BP-30033,BP-30004,FCL-1013,FCL-1029,BP-30055,medical_consumables,78,case,2-8c,ordinary,agricultural distribution,delivered
+SHP-2016-00001,1,2016-01-10T14:00:00,2016-01-13T03:00:00,BP-30004,BP-30041,FCL-1029,FCL-1008,BP-30015,monitoring_equipment,13,kit,ambient,ordinary,facility replenishment,returned
+SHP-2016-00002,1,2016-02-10T09:00:00,2016-02-11T22:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,46,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2016-00003,1,2016-02-15T05:00:00,2016-02-17T03:00:00,BP-30044,BP-30031,FCL-1029,FCL-1023,BP-30055,refrigeration_service,1,service,ambient,expedited,field programme support,delivered
+SHP-2016-00004,1,2016-04-25T15:00:00,2016-04-29T10:00:00,BP-30007,BP-30044,FCL-1014,FCL-1029,BP-30031,research_contract,1,contract,ambient,expedited,agricultural distribution,delivered
+SHP-2016-00005,1,2016-05-26T13:00:00,2016-05-30T08:00:00,BP-30040,BP-30028,FCL-1015,FCL-1020,BP-30042,agricultural_equipment,21,unit,ambient,ordinary,field programme support,delivered
+SHP-2016-00006,1,2016-06-08T09:00:00,2016-06-11T11:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,20,case,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2016-00007,1,2016-07-21T09:00:00,2016-07-22T22:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,8,sealed_lot,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2016-00008,1,2016-07-26T14:00:00,2016-07-28T02:00:00,BP-30080,BP-30072,FCL-1020,FCL-1024,BP-30060,consulting_service,1,service,ambient,emergency,customer distribution,delivered
+SHP-2016-00009,1,2016-09-05T13:00:00,2016-09-08T02:00:00,BP-30043,BP-30036,FCL-1010,FCL-1030,BP-30020,consulting_service,1,service,ambient,emergency,scheduled stock transfer,delivered
+SHP-2016-00010,1,2016-09-12T17:00:00,2016-09-15T05:00:00,BP-30052,BP-30078,FCL-1011,FCL-1011,BP-30020,medical_consumables,83,case,2-8C,restricted,scheduled stock transfer,returned
+SHP-2016-00011,1,2016-10-07T05:00:00,2016-10-08T13:00:00,BP-30065,BP-30043,FCL-1014,FCL-1010,BP-30047,laboratory_material,37,pack,ambient,restricted,scheduled stock transfer,delivered
+SHP-2016-00012,1,2016-10-18T12:00:00,2016-10-19T02:00:00,BP-30015,BP-30021,FCL-1006,FCL-1007,BP-30060,agricultural_equipment,10,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2016-00013,1,2016-10-27T11:00:00,2016-10-30T02:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30078,medical_consumables,82,case,2-8C,ordinary,customer distribution,delivered
+SHP-2016-00014,1,2016-11-03T16:00:00,2016-11-07T00:00:00,BP-30051,BP-30064,FCL-1005,FCL-1010,BP-30047,monitoring_equipment,29,kit,ambient,ordinary,laboratory delivery,delayed
+SHP-2016-00015,1,2016-11-10T16:00:00,2016-11-11T17:00:00,BP-30018,BP-30016,FCL-1003,FCL-1030,BP-30020,consulting_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2016-00016,1,2016-11-15T15:00:00,2016-11-18T15:00:00,BP-30010,BP-30078,FCL-1016,FCL-1011,BP-30055,cold_storage_equipment,17,unit,ambient,ordinary,customer distribution,delivered
+SHP-2016-00017,1,2016-12-20T08:00:00,2016-12-20T22:00:00,BP-30023,BP-30050,FCL-1002,FCL-1028,BP-30025,biological_sample,17,sealed_lot,2-8C,emergency,facility replenishment,delivered
+SHP-2017-00001,1,2017-01-18T07:00:00,2017-01-19T04:00:00,BP-30015,BP-30061,FCL-1006,FCL-1030,BP-30060,medical_consumables,69,case,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2017-00002,1,2017-01-19T09:00:00,2017-01-22T07:00:00,BP-30063,BP-30046,FCL-1025,FCL-1010,BP-30020,cold_storage_equipment,2,unit,ambient,restricted,customer distribution,delivered
+SHP-2017-00003,1,2017-03-15T14:00:00,2017-03-18T11:00:00,BP-30029,BP-30020,FCL-1004,FCL-1001,BP-30020,medical_equipment,8,unit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2017-00004,1,2017-03-22T11:00:00,2017-03-24T06:00:00,BP-30036,BP-30019,FCL-1030,FCL-1010,BP-30055,cold_storage_equipment,17,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2017-00005,1,2017-03-31T09:00:00,,BP-30009,BP-30070,FCL-1010,FCL-1019,BP-30025,transport_service,1,service,ambient,ordinary,customer distribution,in_transit
+SHP-2017-00006,1,2017-05-04T09:00:00,2017-05-06T05:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,3,sealed_lot,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2017-00007,1,2017-05-23T17:00:00,2017-05-24T05:00:00,BP-30067,BP-30045,FCL-1023,FCL-1016,BP-30047,medical_consumables,84,case,2-8C,ordinary,field programme support,delivered
+SHP-2017-00008,1,2017-05-30T07:00:00,2017-05-31T04:00:00,BP-30021,BP-30023,FCL-1007,FCL-1002,BP-30047,refrigeration_service,1,service,ambient,ordinary,customer distribution,delivered
+SHP-2017-00009,1,2017-07-22T13:00:00,2017-07-26T06:00:00,BP-30078,BP-30053,FCL-1011,FCL-1030,BP-30078,cold_storage_equipment,2,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2017-00010,1,2017-07-22T18:00:00,2017-07-23T16:00:00,BP-30061,BP-30019,FCL-1030,FCL-1010,BP-30055,monitoring_equipment,24,kit,ambient,ordinary,laboratory delivery,delayed
+SHP-2017-00011,1,2017-07-28T07:00:00,2017-07-28T19:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30042,cold_storage_equipment,2,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2017-00012,1,2017-08-17T06:00:00,2017-08-21T05:00:00,BP-30008,BP-30071,FCL-1007,FCL-1011,BP-30042,medical_consumables,25,case,2-8C,ordinary,agricultural distribution,delivered
+SHP-2017-00013,1,2017-08-23T08:00:00,2017-08-25T22:00:00,BP-30070,BP-30048,FCL-1019,FCL-1011,BP-30060,laboratory_material,58,pack,ambient,ordinary,field programme support,delivered
+SHP-2017-00014,1,2017-08-30T10:00:00,2017-09-02T12:00:00,BP-30010,BP-30014,FCL-1016,FCL-1029,BP-30060,transport_service,1,service,ambient,ordinary,field programme support,delivered
+SHP-2017-00015,1,2017-09-13T09:00:00,2017-09-15T23:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,3,sealed_lot,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2017-00016,1,2017-09-29T06:00:00,2017-10-03T03:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30025,agricultural_product,22,pallet,ambient,expedited,laboratory delivery,delivered
+SHP-2017-00017,1,2017-10-26T09:00:00,2017-10-26T15:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,biological_sample,7,sealed_lot,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2017-00018,1,2017-11-19T11:00:00,2017-11-20T17:00:00,BP-30014,BP-30017,FCL-1029,FCL-1010,BP-30031,agricultural_equipment,9,unit,ambient,expedited,agricultural distribution,delivered
+SHP-2017-00019,1,2017-12-30T07:00:00,2017-12-31T02:00:00,BP-30030,BP-30016,FCL-1018,FCL-1030,BP-30047,transport_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2018-00001,1,2018-01-18T09:00:00,2018-01-19T22:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,37,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2018-00002,1,2018-02-07T06:00:00,2018-02-10T07:00:00,BP-30045,BP-30024,FCL-1016,FCL-1016,BP-30015,agricultural_equipment,7,unit,ambient,restricted,laboratory delivery,delivered
+SHP-2018-00003,1,2018-02-14T09:00:00,16/02/2018 12:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,biological_sample,2,sealed_lot,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2018-00004,1,2018-02-16T09:00:00,2018-02-17T04:00:00,BP-30056,BP-30078,FCL-1020,FCL-1020,BP-30047,biological_sample,3,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2018-00005,1,2018-03-19T14:00:00,2018-03-22T00:00:00,BP-30004,BP-30045,FCL-1029,FCL-1016,BP-30015,grant,1,grant,ambient,expedited,scheduled stock transfer,delayed
+SHP-2018-00006,1,2018-03-21T05:00:00,2018-03-24T09:00:00,BP-30069,BP-30078,FCL-1008,FCL-1011,BP-30025,medical_equipment,9,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2018-00007,1,2018-03-23T09:00:00,2018-03-25T08:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,5,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2018-00008,1,2018-04-03T05:00:00,2018-04-05T15:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30015,monitoring_equipment,4,kit,ambient,ordinary,scheduled stock transfer,delayed
+SHP-2018-00009,1,2018-04-05T07:00:00,2018-04-08T20:00:00,BP-30049,BP-30070,FCL-1002,FCL-1019,BP-30015,medical_consumables,64,case,2-8C,restricted,facility replenishment,delivered
+SHP-2018-00010,1,2018-04-05T10:00:00,2018-04-06T19:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30047,other,4,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2018-00011,1,2018-04-05T13:00:00,2018-04-06T16:00:00,BP-30023,BP-30066,FCL-1002,FCL-1003,BP-30060,laboratory_material,54,pack,ambient,ordinary,agricultural distribution,delivered
+SHP-2018-00012,1,2018-04-07T07:00:00,2018-04-10T10:00:00,BP-30020,BP-30056,FCL-1001,FCL-1019,BP-30042,transport_service,1,service,ambient,emergency,agricultural distribution,delivered
+SHP-2018-00013,1,2018-04-07T14:00:00,2018-04-08T16:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30015,agricultural_product,25,pallet,ambient,ordinary,facility replenishment,delivered
+SHP-2018-00014,1,2018-04-08T18:00:00,2018-04-12T03:00:00,BP-30066,BP-30078,FCL-1003,FCL-1011,BP-30015,refrigeration_service,1,service,ambient,expedited,laboratory delivery,delivered
+SHP-2018-00015,1,2018-04-09T08:00:00,2018-04-12T21:00:00,BP-30079,BP-30040,FCL-1022,FCL-1015,BP-30015,monitoring_equipment,7,kit,ambient,restricted,agricultural distribution,delayed
+SHP-2018-00016,1,2018-04-10T05:00:00,2018-04-13T22:00:00,BP-30051,BP-30007,FCL-1005,FCL-1014,BP-30055,office_supply,43,case,ambient,expedited,facility replenishment,returned
+SHP-2018-00017,1,2018-04-10T12:00:00,,BP-30031,BP-30060,FCL-1023,FCL-1009,BP-30015,protective_equipment,58,case,ambient,expedited,facility replenishment,in_transit
+SHP-2018-00018,1,2018-04-10T18:00:00,2018-04-11T01:00:00,BP-30046,BP-30010,FCL-1010,FCL-1016,BP-30025,laboratory_material,50,pack,ambient,expedited,customer distribution,delivered
+SHP-2018-00019,1,2018-04-11T14:00:00,2018-04-14T13:00:00,BP-30014,BP-30040,FCL-1029,FCL-1015,BP-30031,agricultural_product,49,pallet,ambient,restricted,facility replenishment,delivered
+SHP-2018-00020,1,2018-04-12T10:00:00,2018-04-13T00:00:00,BP-30037,BP-30029,FCL-1017,FCL-1004,BP-30042,laboratory_material,32,pack,ambient,restricted,customer distribution,delivered
+SHP-2018-00021,1,2018-04-12T11:00:00,2018-04-14T18:00:00,BP-30009,BP-30076,FCL-1010,FCL-1020,BP-30025,cold_storage_equipment,12,unit,ambient,expedited,scheduled stock transfer,delivered
+SHP-2018-00022,1,2018-04-12T15:00:00,2018-04-15T18:00:00,BP-30078,BP-30050,FCL-1011,FCL-1028,BP-30042,monitoring_equipment,20,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2018-00023,1,2018-04-13T17:00:00,2018-04-15T12:00:00,BP-30018,BP-30035,FCL-1003,FCL-1009,BP-30047,agricultural_product,28,pallet,ambient,restricted,field programme support,delayed
+SHP-2018-00024,1,2018-04-17T14:00:00,2018-04-18T07:00:00,BP-30008,BP-30004,FCL-1007,FCL-1029,BP-30020,agricultural_equipment,18,unit,ambient,ordinary,field programme support,delivered
+SHP-2018-00025,1,2018-04-20T18:00:00,2018-04-24T02:00:00,BP-30078,BP-30012,FCL-1011,FCL-1020,BP-30042,communication_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2018-00026,1,2018-04-21T05:00:00,2018-04-22T02:00:00,BP-30004,BP-30007,FCL-1029,FCL-1014,BP-30020,consulting_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2018-00027,1,2018-04-21T10:00:00,2018-04-24T03:00:00,BP-30008,BP-30009,FCL-1007,FCL-1010,BP-30078,monitoring_equipment,24,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2018-00028,1,2018-04-22T13:00:00,2018-04-25T04:00:00,BP-30053,BP-30076,FCL-1030,FCL-1020,BP-30020,transport_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2018-00029,1,2018-04-23T11:00:00,,BP-30046,BP-30078,FCL-1010,FCL-1011,BP-30078,protective_equipment,69,case,ambient,ordinary,scheduled stock transfer,in_transit
+SHP-2018-00030,1,2018-04-23T12:00:00,2018-04-26T01:00:00,BP-30074,BP-30020,FCL-1015,FCL-1001,BP-30055,other,19,unit,ambient,ordinary,customer distribution,Delivered
+SHP-2018-00031,1,2018-04-26T07:00:00,2018-04-27T12:00:00,BP-30054,BP-30014,FCL-1007,FCL-1029,BP-30055,monitoring_equipment,25,kit,ambient,ordinary,laboratory delivery,delayed
+SHP-2018-00032,1,2018-05-25T09:00:00,2018-05-29T01:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,3,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2018-00033,1,2018-06-11T16:00:00,2018-06-15T02:00:00,BP-30004,BP-30046,FCL-1029,FCL-1010,BP-30015,protective_equipment,24,case,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2018-00034,1,2018-06-13T09:00:00,2018-06-17T05:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,79,case,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2018-00035,1,2018-07-16T17:00:00,2018-07-20T07:00:00,BP-30077,BP-30042,FCL-1007,FCL-1015,BP-30055,protective_equipment,33,case,ambient,emergency,facility replenishment,delivered
+SHP-2018-00036,1,2018-07-22T12:00:00,2018-07-24T23:00:00,BP-30076,BP-30017,FCL-1020,FCL-1010,BP-30055,office_supply,22,case,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2018-00037,1,2018-08-12T08:00:00,2018-08-15T21:00:00,BP-30040,BP-30035,FCL-1015,FCL-1009,BP-30055,agricultural_product,38,pallet,ambient,restricted,field programme support,delivered
+SHP-2018-00038,1,2018-08-23T10:00:00,2018-08-24T21:00:00,BP-30010,BP-30057,FCL-1016,FCL-1016,BP-30047,cold_storage_equipment,2,unit,ambient,expedited,laboratory delivery,delivered
+SHP-2018-00039,1,2018-08-30T08:00:00,2018-08-31T17:00:00,BP-30078,BP-30018,FCL-1011,FCL-1003,BP-30078,consulting_service,1,service,ambient,ordinary,  laboratory  delivery ,delivered
+SHP-2018-00040,1,2018-09-08T17:00:00,2018-09-11T10:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30015,office_supply,62,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2018-00041,1,2018-09-21T06:00:00,2018-09-21T20:00:00,BP-30073,BP-30055,FCL-1019,FCL-1010,BP-30042,office_supply,83,case,ambient,expedited,facility replenishment,delivered
+SHP-2018-00042,1,2018-09-29T15:00:00,2018-10-01T18:00:00,BP-30032,BP-30065,FCL-1019,FCL-1014,BP-30025,protective_equipment,51,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2018-00043,1,2018-10-19T15:00:00,,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30015,cold_storage_equipment,9,unit,ambient,ordinary,laboratory delivery,in_transit
+SHP-2018-00044,1,2018-11-03T17:00:00,2018-11-04T10:00:00,BP-30052,BP-30008,FCL-1011,FCL-1007,BP-30020,agricultural_product,26,pallet,ambient,restricted,laboratory delivery,delivered
+SHP-2018-00045,1,2018-11-13T11:00:00,2018-11-14T20:00:00,BP-30049,BP-30047,FCL-1002,FCL-1016,BP-30078,agricultural_equipment,3,unit,ambient,ordinary,customer distribution,delivered
+SHP-2018-00046,1,2018-12-16T16:00:00,2018-12-17T02:00:00,BP-30029,BP-30035,FCL-1004,FCL-1009,BP-30078,biological_sample,8,sealed_lot,2-8C,ordinary,field programme support,delivered
+SHP-2018-00047,1,2018-12-29T11:00:00,2018-12-30T19:00:00,BP-30078,BP-30071,FCL-1011,FCL-1011,BP-30055,agricultural_product,13,pallet,frozen,expedited,customer distribution,delivered
+SHP-2019-00001,1,2019-01-12T13:00:00,2019-01-16T01:00:00,BP-30070,BP-30035,FCL-1019,FCL-1009,BP-30020,agricultural_equipment,19,unit,ambient,expedited,facility replenishment,delayed
+SHP-2019-00002,1,2019-02-05T11:00:00,2019-02-06T00:00:00,BP-30001,BP-30044,FCL-1025,FCL-1029,BP-30025,consulting_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2019-00003,1,2019-03-06T09:00:00,2019-03-06T22:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,medical_consumables,60,case,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2019-00004,1,2019-04-18T14:00:00,,BP-30014,BP-30006,FCL-1029,FCL-1019,BP-30078,office_supply,63,case,ambient,ordinary,laboratory delivery,in_transit
+SHP-2019-00005,1,2019-04-19T09:00:00,,BP-30004,BP-30006,FCL-1029,FCL-1019,BP-30055,consulting_service,1,service,ambient,ordinary,laboratory delivery,in_transit
+SHP-2019-00006,1,2019-05-09T09:00:00,2019-05-10T15:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,8,sealed_lot,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2019-00007,1,2019-07-04T09:00:00,2019-07-06T18:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30047,laboratory_material,4,pack,ambient,ordinary,facility replenishment,delivered
+SHP-2019-00008,1,2019-07-08T15:00:00,2019-07-08T21:00:00,BP-30065,BP-30040,FCL-1014,FCL-1015,BP-30078,agricultural_product,15,pallet,ambient,restricted,facility replenishment,delivered
+SHP-2019-00009,1,2019-08-09T09:00:00,11-Aug-2019 18:00:00,BP-30056,BP-30078,FCL-1020,FCL-1020,BP-30047,biological_sample,2,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2019-00010,1,2019-08-19T07:00:00,2019-08-19T23:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30031,laboratory_material,39,pack,ambient,ordinary,agricultural distribution,delayed
+SHP-2019-00011,1,2019-08-26T11:00:00,2019-08-29T06:00:00,BP-30078,BP-30076,FCL-1011,FCL-1020,BP-30055,protective_equipment,49,case,ambient,expedited,field programme support,delivered
+SHP-2019-00012,1,2019-08-31T13:00:00,2019-09-03T16:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30020,medical_consumables,54,case,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2019-00013,1,2019-09-02T08:00:00,2019-09-06T03:00:00,BP-30066,BP-30016,FCL-1003,FCL-1030,BP-30025,medical_consumables,44,case,2-8C,ordinary,facility replenishment,delivered
+SHP-2019-00014,1,2019-09-02T09:00:00,2019-09-02T17:00:00,BP-30044,BP-30002,FCL-1029,FCL-1030,BP-30078,office_supply,42,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2019-00015,1,2019-09-02T11:00:00,2019-09-05T05:00:00,BP-30015,BP-30035,FCL-1006,FCL-1009,BP-30025,cold_storage_equipment,24,unit,ambient,ordinary,field programme support,delivered
+SHP-2019-00016,1,2019-09-02T14:00:00,2019-09-04T22:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30078,agricultural_product,15,pallet,frozen,ordinary,facility replenishment,returned
+SHP-2019-00017,1,2019-09-04T15:00:00,2019-09-08T09:00:00,BP-30035,BP-30042,FCL-1009,FCL-1015,BP-30020,biological_sample,4,sealed_lot,2-8C,ordinary,field programme support,delivered
+SHP-2019-00018,1,2019-09-06T09:00:00,2019-09-06T16:00:00,BP-30019,BP-30015,FCL-1010,FCL-1006,BP-30025,monitoring_equipment,17,kit,ambient,ordinary,facility replenishment,delivered
+SHP-2019-00019,1,2019-09-07T05:00:00,2019-09-11T03:00:00,BP-30053,BP-30046,FCL-1030,FCL-1010,BP-30047,medical_consumables,90,case,2-8C,ordinary,agricultural distribution,delivered
+SHP-2019-00020,1,2019-09-07T09:00:00,2019-09-09T07:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30020,cold_storage_equipment,3,unit,ambient,ordinary,field programme support,delivered
+SHP-2019-00021,1,2019-09-11T18:00:00,2019-09-15T09:00:00,BP-30017,BP-30055,FCL-1010,FCL-1010,BP-30055,research_contract,1,contract,ambient,ordinary,customer distribution,delivered
+SHP-2019-00022,1,2019-09-12T14:00:00,2019-09-15T20:00:00,BP-30064,BP-30041,FCL-1010,FCL-1008,BP-30042,other,23,unit,ambient,expedited,field programme support,delivered
+SHP-2019-00023,1,2019-09-12T18:00:00,2019-09-13T06:00:00,BP-30060,BP-30008,FCL-1009,FCL-1007,BP-30020,research_contract,1,contract,ambient,restricted,agricultural distribution,delivered
+SHP-2019-00024,1,2019-09-13T07:00:00,2019-09-17T03:00:00,BP-30023,BP-30036,FCL-1002,FCL-1030,BP-30060,office_supply,39,case,ambient,ordinary,facility replenishment,delivered
+SHP-2019-00025,1,2019-09-13T08:00:00,2019-09-15T00:00:00,BP-30004,BP-30078,FCL-1029,FCL-1011,BP-30025,agricultural_product,24,pallet,ambient,ordinary,laboratory delivery,delivered
+SHP-2019-00026,1,2019-09-13T09:00:00,2019-09-15T09:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,4,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2019-00027,1,2019-09-13T11:00:00,2019-09-16T05:00:00,BP-30078,BP-30049,FCL-1011,FCL-1002,BP-30060,medical_consumables,85,case,2-8C,ordinary,scheduled stock transfer,returned
+SHP-2019-00028,1,2019-09-14T16:00:00,2019-09-16T05:00:00,BP-30028,BP-30057,FCL-1020,FCL-1016,BP-30025,laboratory_material,39,pack,ambient,expedited,field programme support,delivered
+SHP-2019-00029,1,2019-09-15T07:00:00,2019-09-18T23:00:00,BP-30025,BP-30051,FCL-1026,FCL-1005,BP-30031,consulting_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2019-00030,1,2019-09-16T09:00:00,2019-09-19T21:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30078,consulting_service,1,service,ambient,restricted,facility replenishment,delivered
+SHP-2019-00031,1,2019-09-16T13:00:00,2019-09-18T23:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30055,agricultural_product,24,pallet,ambient,ordinary,agricultural distribution,delivered
+SHP-2019-00032,1,2019-09-16T18:00:00,2019-09-19T15:00:00,BP-30015,BP-30078,FCL-1006,FCL-1011,BP-30025,refrigeration_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2019-00033,1,2019-09-17T06:00:00,2019-09-17T20:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30020,agricultural_product,41,pallet,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2019-00034,1,2019-09-18T09:00:00,2019-09-18T17:00:00,BP-30024,BP-30041,FCL-1016,FCL-1008,BP-30055,cold_storage_equipment,17,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2019-00035,1,2019-09-20T14:00:00,2019-09-23T15:00:00,BP-30060,BP-30077,FCL-1009,FCL-1007,BP-30060,monitoring_equipment,7,kit,ambient,ordinary,agricultural distribution,delivered
+SHP-2019-00036,1,2019-09-20T18:00:00,,BP-30067,BP-30010,FCL-1023,FCL-1016,BP-30047,laboratory_material,31,pack,ambient,ordinary,scheduled stock transfer,in_transit
+SHP-2019-00037,1,2019-09-21T15:00:00,2019-09-23T02:00:00,BP-30072,BP-30074,FCL-1024,FCL-1015,BP-30060,other,23,unit,ambient,ordinary,scheduled stock transfer,delayed
+SHP-2019-00038,1,2019-09-25T09:00:00,2019-09-28T02:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,medical_consumables,12,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2019-00039,1,2019-09-25T14:00:00,2019-09-26T02:00:00,BP-30018,BP-30037,FCL-1003,FCL-1017,BP-30020,monitoring_equipment,20,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2019-00040,1,2019-10-26T10:00:00,2019-10-29T23:00:00,BP-30047,BP-30044,FCL-1016,FCL-1029,BP-30042,medical_consumables,50,case,2-8C,expedited,customer distribution,delivered
+SHP-2019-00041,1,2019-11-08T09:00:00,2019-11-10T14:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,7,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2019-00042,1,2019-11-14T09:00:00,2019-11-15T10:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,80,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2019-00043,1,2019-11-15T11:00:00,2019-11-18T17:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30055,laboratory_material,58,pack,ambient,ordinary,laboratory delivery,delivered
+SHP-2019-00044,1,2019-11-22T12:00:00,2019-11-22T21:00:00,BP-30019,BP-30027,FCL-1010,FCL-1021,BP-30047,biological_sample,18,sealed_lot,2-8C,ordinary,facility replenishment,delivered
+SHP-2019-00045,1,2019-12-19T06:00:00,2019-12-21T15:00:00,BP-30024,BP-30030,FCL-1016,FCL-1018,BP-30055,communication_service,1,service,ambient,ordinary,field programme support,delayed
+SHP-2020-00001,1,2020-01-02T18:00:00,2020-01-03T05:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30015,agricultural_product,4,pallet,ambient,ordinary,laboratory delivery,delivered
+SHP-2020-00002,1,2020-01-09T15:00:00,2020-01-11T09:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30015,cold_storage_equipment,6,unit,ambient,expedited,customer distribution,delivered
+SHP-2020-00003,1,2020-01-24T16:00:00,2020-01-27T02:00:00,BP-30016,BP-30036,FCL-1030,FCL-1030,BP-30015,office_supply,40,case,ambient,ordinary,customer distribution,delivered
+SHP-2020-00004,1,2020-01-30T09:00:00,2020-02-02T16:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,biological_sample,9,sealed_lot,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2020-00005,1,2020-02-18T17:00:00,,BP-30019,BP-30016,FCL-1010,FCL-1030,BP-30025,refrigeration_service,1,service,ambient,ordinary,agricultural distribution,in_transit
+SHP-2020-00006,1,2020-02-21T07:00:00,2020-02-22T18:00:00,BP-30040,BP-30042,FCL-1015,FCL-1015,BP-30025,cold_storage_equipment,24,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2020-00007,1,2020-02-26T09:00:00,2020-02-26T20:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,10,case,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2020-00008,1,2020-03-21T05:00:00,2020-03-24T20:00:00,BP-30010,BP-30075,FCL-1016,FCL-1027,BP-30015,medical_consumables,66,case,2-8C,emergency,field programme support,delivered
+SHP-2020-00009,1,2020-04-03T07:00:00,2020-04-03T22:00:00,BP-30031,BP-30033,FCL-1023,FCL-1013,BP-30031,cold_storage_equipment,18,unit,ambient,ordinary,customer distribution,delivered
+SHP-2020-00010,1,2020-04-03T18:00:00,2020-04-05T12:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30078,consulting_service,1,service,ambient,ordinary,customer distribution,returned
+SHP-2020-00011,1,2020-04-04T09:00:00,2020-04-05T11:00:00,BP-30054,BP-30041,FCL-1007,FCL-1008,BP-30025,agricultural_product,22,pallet,ambient,ordinary,laboratory delivery,delivered
+SHP-2020-00012,1,2020-04-04T10:00:00,2020-04-05T07:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30042,biological_sample,7,sealed_lot,2-8C,ordinary,field programme support,delivered
+SHP-2020-00013,1,2020-04-04T15:00:00,2020-04-05T01:00:00,BP-30044,BP-30015,FCL-1029,FCL-1006,BP-30055,other,2,unit,ambient,restricted,facility replenishment,delivered
+SHP-2020-00014,1,2020-04-05T14:00:00,2020-04-05T23:00:00,BP-30052,BP-30008,FCL-1011,FCL-1007,BP-30055,legal_service,1,service,ambient,expedited,facility replenishment,delivered
+SHP-2020-00015,1,2020-04-06T11:00:00,2020-04-09T19:00:00,BP-30068,BP-30065,FCL-1020,FCL-1014,BP-30078,biological_sample,1,sealed_lot,2-8C,ordinary,agricultural distribution,delivered
+SHP-2020-00016,1,2020-04-08T08:00:00,2020-04-10T08:00:00,BP-30057,BP-30069,FCL-1016,FCL-1008,BP-30078,monitoring_equipment,22,kit,ambient,ordinary,field programme support,delivered
+SHP-2020-00017,1,2020-04-08T10:00:00,2020-04-08T17:00:00,BP-30041,BP-30070,FCL-1008,FCL-1019,BP-30055,office_supply,79,case,ambient,ordinary,customer distribution,delivered
+SHP-2020-00018,1,2020-04-08T10:00:00,2020-04-09T15:00:00,BP-30063,BP-30041,FCL-1025,FCL-1008,BP-30031,research_contract,1,contract,ambient,ordinary,field programme support,delivered
+SHP-2020-00019,1,2020-04-10T09:00:00,2020-04-12T01:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,2,sealed_lot,2-8C,ordinary,environmental and wildlife reference materials,delivered
+SHP-2020-00020,1,2020-04-10T17:00:00,2020-04-11T00:00:00,BP-30068,BP-30006,FCL-1020,FCL-1019,BP-30047,protective_equipment,34,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2020-00021,1,2020-04-13T08:00:00,2020-04-16T17:00:00,BP-30001,BP-30045,FCL-1025,FCL-1016,BP-30042,legal_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2020-00022,1,2020-04-14T05:00:00,2020-04-17T20:00:00,BP-30040,BP-30076,FCL-1015,FCL-1020,BP-30025,agricultural_equipment,15,unit,ambient,expedited,customer distribution,delivered
+SHP-2020-00023,1,2020-04-14T09:00:00,2020-04-17T22:00:00,BP-30045,BP-30037,FCL-1016,FCL-1017,BP-30055,agricultural_equipment,15,unit,ambient,restricted,agricultural distribution,delivered
+SHP-2020-00024,1,2020-04-15T18:00:00,2020-04-19T02:00:00,BP-30036,BP-30041,FCL-1030,FCL-1008,BP-30042,protective_equipment,10,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2020-00025,1,2020-04-16T10:00:00,2020-04-18T15:00:00,BP-30010,BP-30067,FCL-1016,FCL-1023,BP-30078,other,12,unit,ambient,ordinary,field programme support,delivered
+SHP-2020-00026,1,2020-04-17T07:00:00,2020-04-19T07:00:00,BP-30023,BP-30039,FCL-1002,FCL-1029,BP-30055,cold_storage_equipment,5,unit,ambient,expedited,agricultural distribution,delivered
+SHP-2020-00027,1,2020-04-17T11:00:00,2020-04-19T00:00:00,BP-30035,BP-30032,FCL-1009,FCL-1019,BP-30078,monitoring_equipment,21,kit,ambient,ordinary,customer distribution,delivered
+SHP-2020-00028,1,2020-04-18T08:00:00,2020-04-21T20:00:00,BP-30076,BP-30062,FCL-1020,FCL-1012,BP-30060,refrigeration_service,1,service,ambient,ordinary,customer distribution,delivered
+SHP-2020-00029,1,2020-04-18T13:00:00,2020-04-20T03:00:00,BP-30071,BP-30046,FCL-1011,FCL-1010,BP-30060,agricultural_equipment,13,unit,ambient,ordinary,customer distribution,delivered
+SHP-2020-00030,1,2020-04-20T07:00:00,2020-04-22T03:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30042,agricultural_product,25,pallet,ambient,expedited,agricultural distribution,delayed
+SHP-2020-00031,1,2020-04-20T09:00:00,,BP-30006,BP-30010,FCL-1019,FCL-1016,BP-30025,office_supply,48,case,ambient,ordinary,scheduled stock transfer,in_transit
+SHP-2020-00032,1,2020-04-20T14:00:00,2020-04-22T09:00:00,BP-30037,BP-30061,FCL-1017,FCL-1030,BP-30042,medical_consumables,2,case,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2020-00033,1,2020-04-22T17:00:00,2020-04-26T15:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30020,monitoring_equipment,30,kit,ambient,restricted,scheduled stock transfer,delivered
+SHP-2020-00034,1,2020-04-23T18:00:00,2020-04-26T01:00:00,BP-30031,BP-30009,FCL-1023,FCL-1010,BP-30025,agricultural_product,28,pallet,ambient,expedited,laboratory delivery,delivered
+SHP-2020-00035,1,2020-04-28T08:00:00,2020-04-29T11:00:00,BP-30031,BP-30065,FCL-1023,FCL-1014,BP-30025,medical_consumables,68,case,2-8C,restricted,customer distribution,delivered
+SHP-2020-00036,1,2020-05-28T08:00:00,2020-05-31T07:00:00,BP-30050,BP-30033,FCL-1028,FCL-1013,BP-30015,medical_consumables,69,case,2-8C,expedited,field programme support,delivered
+SHP-2020-00037,1,2020-05-30T15:00:00,,BP-30008,BP-30045,FCL-1007,FCL-1016,BP-30055,laboratory_material,54,pack,ambient,ordinary,facility replenishment,in_transit
+SHP-2020-00038,1,2020-06-12T09:00:00,2020-06-14T21:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,5,sealed_lot,2-8C,ordinary,environmental and wildlife reference materials,delivered
+SHP-2020-00039,1,2020-06-20T16:00:00,2020-06-24T13:00:00,BP-30054,BP-30046,FCL-1007,FCL-1010,BP-30060,monitoring_equipment,3,kit,ambient,ordinary,scheduled stock transfer,delayed
+SHP-2020-00040,1,2020-07-14T12:00:00,2020-07-15T18:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30015,protective_equipment,76,case,ambient,ordinary,facility replenishment,delivered
+SHP-2020-00041,1,2020-10-20T05:00:00,2020-10-22T14:00:00,BP-30068,BP-30067,FCL-1020,FCL-1023,BP-30015,biological_sample,12,sealed_lot,2-8C,ordinary,laboratory delivery,delivered
+SHP-2020-00042,1,2020-10-20T09:00:00,2020-10-21T14:00:00,BP-30017,BP-30004,FCL-1010,FCL-1029,BP-30042,consulting_service,1,service,ambient,emergency,field programme support,delivered
+SHP-2020-00043,1,2020-10-29T07:00:00,2020-10-30T12:00:00,BP-30065,BP-30006,FCL-1014,FCL-1019,BP-30060,biological_sample,7,sealed_lot,2-8C,restricted,facility replenishment,delivered
+SHP-2020-00044,1,2020-11-04T16:00:00,2020-11-08T00:00:00,BP-30078,BP-30037,FCL-1011,FCL-1017,BP-30060,grant,1,grant,ambient,ordinary,field programme support,delivered
+SHP-2020-00045,1,2020-11-21T08:00:00,2020-11-22T20:00:00,BP-30080,BP-30070,FCL-1020,FCL-1019,BP-30020,consulting_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2020-00046,1,2020-12-16T15:00:00,2020-12-18T06:00:00,BP-30055,BP-30078,FCL-1010,FCL-1011,BP-30055,cold_storage_equipment,16,unit,ambient,emergency,agricultural distribution,delivered
+SHP-2021-00001,1,2021-01-12T14:00:00,2021-01-15T10:00:00,BP-30061,BP-30075,FCL-1030,FCL-1027,BP-30078,medical_consumables,4,case,2-8C,expedited,field programme support,delivered
+SHP-2021-00002,1,2021-02-12T11:00:00,2021-02-13T23:00:00,BP-30012,BP-30017,FCL-1020,FCL-1010,BP-30015,protective_equipment,64,case,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2021-00003,1,2021-02-18T09:00:00,2021-02-21T15:00:00,BP-30031,BP-30017,FCL-1023,FCL-1010,BP-30042,agricultural_equipment,12,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2021-00004,1,2021-02-26T10:00:00,2021-02-28T23:00:00,BP-30030,BP-30066,FCL-1018,FCL-1003,BP-30055,monitoring_equipment,20,kit,ambient,ordinary,field programme support,delivered
+SHP-2021-00005,1,2021-03-16T15:00:00,2021-03-18T02:00:00,BP-30057,BP-30080,FCL-1016,FCL-1020,BP-30047,protective_equipment,65,case,ambient,ordinary,agricultural distribution,delivered
+SHP-2021-00006,1,2021-03-17T09:00:00,2021-03-18T12:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,8,sealed_lot,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2021-00007,1,2021-03-26T09:00:00,2021-03-28T17:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,8,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2021-00008,1,2021-05-01T09:00:00,2021-05-02T03:00:00,BP-30046,BP-30023,FCL-1010,FCL-1002,BP-30015,office_supply,46,case,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2021-00009,1,2021-05-01T14:00:00,2021-05-02T02:00:00,BP-30070,BP-30045,FCL-1019,FCL-1016,BP-30031,agricultural_product,17,pallet,ambient,ordinary,  customer  distribution ,delivered
+SHP-2021-00010,1,2021-05-03T18:00:00,2021-05-06T06:00:00,BP-30061,BP-30043,FCL-1030,FCL-1010,BP-30031,grant,1,grant,ambient,ordinary,customer distribution,delivered
+SHP-2021-00011,1,2021-05-04T10:00:00,2021-05-07T17:00:00,BP-30039,BP-30067,FCL-1029,FCL-1023,BP-30031,agricultural_product,8,pallet,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2021-00012,1,2021-05-04T17:00:00,2021-05-07T20:00:00,BP-30077,BP-30078,FCL-1007,FCL-1011,BP-30025,office_supply,61,case,ambient,emergency,scheduled stock transfer,delivered
+SHP-2021-00013,1,2021-05-07T18:00:00,2021-05-10T01:00:00,BP-30007,BP-30074,FCL-1014,FCL-1015,BP-30078,medical_equipment,22,unit,ambient,ordinary,agricultural distribution,delivered
+SHP-2021-00014,1,2021-05-08T18:00:00,2021-05-09T16:00:00,BP-30056,BP-30018,FCL-1019,FCL-1003,BP-30047,cold_storage_equipment,22,unit,ambient,ordinary,agricultural distribution,delivered
+SHP-2021-00015,1,2021-05-09T14:00:00,2021-05-10T13:00:00,BP-30017,BP-30075,FCL-1010,FCL-1027,BP-30047,medical_equipment,6,unit,ambient,ordinary,customer distribution,delivered
+SHP-2021-00016,1,2021-05-09T18:00:00,2021-05-12T22:00:00,BP-30050,BP-30056,FCL-1028,FCL-1019,BP-30047,medical_consumables,61,case,2-8C,ordinary,agricultural distribution,delivered
+SHP-2021-00017,1,2021-05-11T09:00:00,2021-05-15T06:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30060,consulting_service,1,service,ambient,restricted,facility replenishment,delivered
+SHP-2021-00018,1,2021-05-12T12:00:00,2021-05-13T11:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30025,agricultural_equipment,19,unit,ambient,ordinary,agricultural distribution,delivered
+SHP-2021-00019,1,2021-05-12T13:00:00,2021-05-13T02:00:00,BP-30057,BP-30044,FCL-1016,FCL-1029,BP-30055,refrigeration_service,1,service,ambient,ordinary,laboratory delivery,delayed
+SHP-2021-00020,1,2021-05-13T10:00:00,2021-05-17T08:00:00,BP-30069,BP-30020,FCL-1008,FCL-1001,BP-30042,monitoring_equipment,10,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2021-00021,1,2021-05-13T18:00:00,2021-05-17T04:00:00,BP-30030,BP-30079,FCL-1018,FCL-1022,BP-30047,refrigeration_service,1,service,ambient,ordinary,customer distribution,delayed
+SHP-2021-00022,1,2021-05-15T05:00:00,2021-05-18T02:00:00,BP-30027,BP-30020,FCL-1021,FCL-1001,BP-30047,office_supply,85,case,ambient,expedited,laboratory delivery,delivered
+SHP-2021-00023,1,15-May-2021 06:00:00,2021-05-18T09:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30078,refrigeration_service,1,service,ambient,emergency,scheduled stock transfer,delivered
+SHP-2021-00024,1,2021-05-18T14:00:00,2021-05-22T05:00:00,BP-30063,BP-30044,FCL-1025,FCL-1029,BP-30047,agricultural_product,47,pallet,ambient,expedited,field programme support,delivered
+SHP-2021-00025,1,2021-05-19T05:00:00,2021-05-22T07:00:00,BP-30021,BP-30014,FCL-1007,FCL-1029,BP-30047,monitoring_equipment,30,kit,ambient,ordinary,field programme support,delivered
+SHP-2021-00026,1,2021-05-19T11:00:00,2021-05-20T01:00:00,BP-30014,BP-30069,FCL-1029,FCL-1008,BP-30078,medical_consumables,37,case,2-8C,expedited,field programme support,delivered
+SHP-2021-00027,1,2021-05-20T13:00:00,2021-05-23T11:00:00,BP-30009,BP-30032,FCL-1010,FCL-1019,BP-30025,refrigeration_service,1,service,ambient,ordinary,scheduled stock transfer,returned
+SHP-2021-00028,1,2021-05-21T09:00:00,2021-05-23T20:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,2,sealed_lot,2-8C,ordinary,environmental and wildlife reference materials,delivered
+SHP-2021-00029,1,2021-05-22T10:00:00,2021-05-22T17:00:00,BP-30045,BP-30044,FCL-1016,FCL-1029,BP-30047,laboratory_material,43,pack,ambient,ordinary,laboratory delivery,delivered
+SHP-2021-00030,1,2021-05-22T15:00:00,2021-05-24T22:00:00,BP-30067,BP-30010,FCL-1023,FCL-1016,BP-30020,transport_service,1,service,ambient,ordinary,customer distribution,delivered
+SHP-2021-00031,1,2021-05-22T16:00:00,2021-05-24T15:00:00,BP-30011,BP-30040,FCL-1012,FCL-1015,BP-30031,cold_storage_equipment,6,unit,ambient,restricted,agricultural distribution,delivered
+SHP-2021-00032,1,2021-05-23T06:00:00,2021-05-24T11:00:00,BP-30003,BP-30011,FCL-1015,FCL-1012,BP-30042,office_supply,84,case,Ambient,ordinary,customer distribution,delivered
+SHP-2021-00033,1,2021-05-23T13:00:00,2021-05-24T01:00:00,BP-30053,BP-30020,FCL-1030,FCL-1001,BP-30042,agricultural_equipment,6,unit,ambient,expedited,scheduled stock transfer,delayed
+SHP-2021-00034,1,2021-05-23T14:00:00,2021-05-24T05:00:00,BP-30017,BP-30006,FCL-1010,FCL-1019,BP-30025,refrigeration_service,1,service,ambient,ordinary,agricultural distribution,delivered
+SHP-2021-00035,1,2021-05-26T14:00:00,2021-05-30T08:00:00,BP-30029,BP-30014,FCL-1004,FCL-1029,BP-30060,agricultural_product,50,pallet,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2021-00036,1,2021-05-27T09:00:00,2021-05-28T09:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,biological_sample,3,sealed_lot,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2021-00037,1,2021-07-09T11:00:00,2021-07-12T13:00:00,BP-30021,BP-30033,FCL-1007,FCL-1013,BP-30025,agricultural_product,4,pallet,ambient,restricted,customer distribution,returned
+SHP-2021-00038,1,2021-07-25T06:00:00,2021-07-27T12:00:00,BP-30052,BP-30046,FCL-1011,FCL-1010,BP-30015,office_supply,59,case,ambient,expedited,customer distribution,delivered
+SHP-2021-00039,1,2021-10-06T09:00:00,2021-10-10T03:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,medical_consumables,64,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2021-00040,1,2021-10-20T18:00:00,2021-10-22T17:00:00,BP-30020,BP-30032,FCL-1001,FCL-1019,BP-30078,cold_storage_equipment,20,unit,ambient,ordinary,agricultural distribution,delivered
+SHP-2021-00041,1,2021-11-19T10:00:00,2021-11-22T05:00:00,BP-30002,BP-30001,FCL-1030,FCL-1025,BP-30078,agricultural_product,5,pallet,ambient,emergency,  scheduled  stock  transfer ,delayed
+SHP-2021-00042,1,2021-12-01T07:00:00,2021-12-04T08:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30031,agricultural_product,35,pallet,frozen,ordinary,agricultural distribution,returned
+SHP-2021-00043,1,2021-12-18T10:00:00,2021-12-19T11:00:00,BP-30079,BP-30076,FCL-1022,FCL-1020,BP-30042,agricultural_product,37,pallet,ambient,restricted,customer distribution,delivered
+SHP-2022-00001,1,2022-01-20T09:00:00,2022-01-23T20:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,89,case,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2022-00002,1,2022-02-01T06:00:00,2022-02-04T22:00:00,BP-30030,BP-30039,FCL-1018,FCL-1029,BP-30060,communication_service,1,service,ambient,expedited,field programme support,delivered
+SHP-2022-00003,1,2022-02-01T11:00:00,2022-02-04T12:00:00,BP-30061,BP-30018,FCL-1030,FCL-1003,BP-30025,medical_consumables,1,case,2-8C,restricted,field programme support,delivered
+SHP-2022-00004,1,2022-02-01T14:00:00,2022-02-04T14:00:00,BP-30041,BP-30040,FCL-1008,FCL-1015,BP-30015,monitoring_equipment,27,kit,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00005,1,2022-02-06T08:00:00,2022-02-07T20:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30078,medical_equipment,6,unit,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00006,1,2022-02-06T16:00:00,2022-02-09T23:00:00,BP-30060,BP-30010,FCL-1009,FCL-1016,BP-30042,laboratory_material,25,pack,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00007,1,2022-02-07T08:00:00,2022-02-09T05:00:00,BP-30080,BP-30042,FCL-1020,FCL-1015,BP-30047,medical_consumables,42,case,2-8C,emergency,agricultural distribution,delivered
+SHP-2022-00008,1,2022-02-07T16:00:00,2022-02-10T15:00:00,BP-30078,BP-30065,FCL-1011,FCL-1014,BP-30025,communication_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00009,1,2022-02-08T12:00:00,2022-02-12T00:00:00,BP-30069,BP-30056,FCL-1008,FCL-1019,BP-30078,agricultural_product,34,pallet,ambient,ordinary,customer distribution,delayed
+SHP-2022-00010,1,2022-02-09T09:00:00,2022-02-11T00:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,biological_sample,3,sealed_lot,2-8C,ordinary,temperature-controlled clinical programme delivery,delivered
+SHP-2022-00011,1,2022-02-09T11:00:00,2022-02-12T10:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30042,protective_equipment,29,case,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00012,1,2022-02-10T09:00:00,2022-02-11T01:00:00,BP-30001,BP-30054,FCL-1025,FCL-1007,BP-30020,monitoring_equipment,20,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2022-00013,1,2022/02/10 13:00:00,2022-02-12T17:00:00,BP-30066,BP-30036,FCL-1003,FCL-1030,BP-30015,cold_storage_equipment,17,unit,ambient,expedited,agricultural distribution,delivered
+SHP-2022-00014,1,2022-02-11T13:00:00,2022-02-15T01:00:00,BP-30023,BP-30048,FCL-1002,FCL-1011,BP-30078,laboratory_material,48,pack,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2022-00015,1,2022-02-12T10:00:00,2022-02-13T17:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30025,transport_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2022-00016,1,2022-02-14T10:00:00,2022-02-16T14:00:00,BP-30049,BP-30071,FCL-1002,FCL-1011,BP-30015,office_supply,58,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00017,1,2022-02-16T14:00:00,2022-02-18T15:00:00,BP-30073,BP-30078,FCL-1019,FCL-1011,BP-30031,protective_equipment,3,case,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00018,1,2022-02-18T09:00:00,2022-02-19T22:00:00,BP-30056,BP-30078,FCL-1020,FCL-1020,BP-30047,biological_sample,7,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2022-00019,1,2022-02-18T13:00:00,2022-02-20T06:00:00,BP-30002,BP-30063,FCL-1030,FCL-1025,BP-30025,medical_consumables,63,case,2-8C,ordinary,field programme support,DELIVERED
+SHP-2022-00020,1,2022-02-19T09:00:00,2022-02-22T23:00:00,BP-30079,BP-30078,FCL-1022,FCL-1011,BP-30060,office_supply,84,case,ambient,restricted,field programme support,delivered
+SHP-2022-00021,1,2022-02-19T13:00:00,2022-02-20T15:00:00,BP-30033,BP-30016,FCL-1013,FCL-1030,BP-30078,agricultural_equipment,3,unit,ambient,ordinary,field programme support,delivered
+SHP-2022-00022,1,2022-02-19T17:00:00,2022-02-20T13:00:00,BP-30063,BP-30044,FCL-1025,FCL-1029,BP-30025,protective_equipment,71,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00023,1,2022-02-22T10:00:00,2022-02-23T06:00:00,BP-30020,BP-30065,FCL-1001,FCL-1014,BP-30042,agricultural_equipment,5,unit,ambient,expedited,facility replenishment,delivered
+SHP-2022-00024,1,2022-02-22T16:00:00,2022-02-26T04:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30031,monitoring_equipment,20,kit,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00025,1,2022-02-23T08:00:00,2022-02-23T14:00:00,BP-30046,BP-30079,FCL-1010,FCL-1022,BP-30031,office_supply,2,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00026,1,2022-02-23T16:00:00,2022-02-25T11:00:00,BP-30009,BP-30040,FCL-1010,FCL-1015,BP-30031,protective_equipment,58,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00027,1,2022-02-24T15:00:00,2022-02-27T11:00:00,BP-30078,BP-30009,FCL-1011,FCL-1010,BP-30015,other,8,unit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2022-00028,1,2022-03-07T09:00:00,2022-03-10T20:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30031,refrigeration_service,1,service,ambient,expedited,scheduled stock transfer,delivered
+SHP-2022-00029,1,2022-04-07T09:00:00,2022-04-08T06:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,86,case,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2022-00030,1,2022-04-16T15:00:00,2022-04-18T03:00:00,BP-30041,BP-30009,FCL-1008,FCL-1010,BP-30042,communication_service,1,service,ambient,ordinary,field programme support,DELAYED
+SHP-2022-00031,1,2022-07-23T18:00:00,2022-07-24T04:00:00,BP-30068,BP-30030,FCL-1020,FCL-1018,BP-30055,medical_consumables,46,case,2-8C,ordinary,field programme support,delivered
+SHP-2022-00032,1,2022-09-13T14:00:00,2022-09-17T01:00:00,BP-30050,BP-30073,FCL-1028,FCL-1019,BP-30015,agricultural_equipment,9,unit,ambient,expedited,field programme support,delivered
+SHP-2022-00033,1,2022-10-02T05:00:00,2022-10-04T21:00:00,BP-30033,BP-30056,FCL-1013,FCL-1019,BP-30055,other,16,unit,ambient,ordinary,scheduled stock transfer,returned
+SHP-2022-00034,1,2022-10-04T17:00:00,2022-10-06T19:00:00,BP-30070,BP-30077,FCL-1019,FCL-1007,BP-30060,transport_service,1,service,ambient,ordinary,customer distribution,delivered
+SHP-2022-00035,1,2022-10-05T10:00:00,2022-10-05T20:00:00,BP-30028,BP-30031,FCL-1020,FCL-1023,BP-30047,cold_storage_equipment,3,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00036,1,2022-10-07T08:00:00,2022-10-09T02:00:00,BP-30053,BP-30004,FCL-1030,FCL-1029,BP-30055,consulting_service,1,service,ambient,ordinary,field programme support,delivered
+SHP-2022-00037,1,2022-10-07T16:00:00,2022-10-08T17:00:00,BP-30046,BP-30078,FCL-1010,FCL-1011,BP-30042,medical_consumables,22,case,2-8C,ordinary,field programme support,delivered
+SHP-2022-00038,1,2022-10-11T09:00:00,2022-10-12T20:00:00,BP-30078,BP-30050,FCL-1011,FCL-1028,BP-30060,laboratory_material,32,pack,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00039,1,2022-10-12T08:00:00,2022-10-15T17:00:00,BP-30049,BP-30078,FCL-1002,FCL-1011,BP-30042,monitoring_equipment,8,kit,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00040,1,2022-10-12T10:00:00,2022-10-12T21:00:00,BP-30063,BP-30033,FCL-1025,FCL-1013,BP-30020,communication_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00041,1,2022-10-12T15:00:00,2022-10-13T23:00:00,BP-30009,BP-30078,FCL-1010,FCL-1011,BP-30015,consulting_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00042,1,2022-10-12T18:00:00,,BP-30074,BP-30064,FCL-1015,FCL-1010,BP-30025,monitoring_equipment,25,kit,ambient,ordinary,customer distribution,in_transit
+SHP-2022-00043,1,2022-10-13T10:00:00,2022-10-14T06:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30031,monitoring_equipment,29,kit,ambient,ordinary,customer distribution,delayed
+SHP-2022-00044,1,2022-10-13T10:00:00,2022-10-16T07:00:00,BP-30016,BP-30072,FCL-1030,FCL-1024,BP-30060,medical_equipment,24,unit,ambient,restricted,field programme support,delivered
+SHP-2022-00045,1,2022-10-13T12:00:00,2022-10-16T09:00:00,BP-30054,BP-30063,FCL-1007,FCL-1025,BP-30055,legal_service,1,service,ambient,restricted,field programme support,delivered
+SHP-2022-00046,1,2022-10-14T07:00:00,2022-10-14T22:00:00,BP-30060,BP-30052,FCL-1009,FCL-1011,BP-30060,medical_equipment,14,unit,ambient,emergency,customer distribution,delivered
+SHP-2022-00047,1,2022-10-15T05:00:00,2022-10-17T06:00:00,BP-30077,BP-30047,FCL-1007,FCL-1016,BP-30078,laboratory_material,5,pack,ambient,ordinary,agricultural distribution,delivered
+SHP-2022-00048,1,2022-10-15T09:00:00,2022-10-16T08:00:00,BP-30024,BP-30006,FCL-1016,FCL-1019,BP-30031,legal_service,1,service,ambient,expedited,scheduled stock transfer,delivered
+SHP-2022-00049,1,2022-10-15T12:00:00,2022-10-19T08:00:00,BP-30009,BP-30030,FCL-1010,FCL-1018,BP-30031,transport_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00050,1,2022-10-17T05:00:00,,BP-30046,BP-30073,FCL-1010,FCL-1019,BP-30042,other,25,unit,ambient,ordinary,field programme support,in_transit
+SHP-2022-00051,1,2022-10-17T07:00:00,2022-10-19T05:00:00,BP-30012,BP-30029,FCL-1020,FCL-1004,BP-30047,agricultural_product,6,pallet,ambient,expedited,scheduled stock transfer,delivered
+SHP-2022-00052,1,2022-10-17T08:00:00,2022-10-19T16:00:00,BP-30010,BP-30055,FCL-1016,FCL-1010,BP-30025,research_contract,1,contract,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00053,1,2022-10-18T12:00:00,2022-10-22T09:00:00,BP-30073,BP-30066,FCL-1019,FCL-1003,BP-30047,agricultural_product,30,pallet,ambient,ordinary,field programme support,delivered
+SHP-2022-00054,1,2022-10-19T16:00:00,2022-10-20T13:00:00,BP-30027,BP-30009,FCL-1021,FCL-1010,BP-30047,agricultural_product,3,pallet,ambient,ordinary,field programme support,delivered
+SHP-2022-00055,1,2022-10-22T09:00:00,2022-10-22T19:00:00,BP-30033,BP-30052,FCL-1013,FCL-1011,BP-30055,laboratory_material,36,pack,ambient,expedited,facility replenishment,delivered
+SHP-2022-00056,1,2022-10-22T11:00:00,2022-10-25T19:00:00,BP-30061,BP-30068,FCL-1030,FCL-1020,BP-30055,protective_equipment,77,case,ambient,restricted,field programme support,delivered
+SHP-2022-00057,1,2022-10-22T14:00:00,2022-10-23T21:00:00,BP-30044,BP-30070,FCL-1029,FCL-1019,BP-30060,office_supply,40,case,ambient,emergency,field programme support,delivered
+SHP-2022-00058,1,2022-10-22T18:00:00,2022-10-25T07:00:00,BP-30055,BP-30033,FCL-1010,FCL-1013,BP-30015,office_supply,62,case,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00059,1,2022-10-24T18:00:00,2022-10-27T06:00:00,BP-30080,BP-30060,FCL-1020,FCL-1009,BP-30020,office_supply,40,case,ambient,ordinary,laboratory delivery,delivered
+SHP-2022-00060,1,2022-12-02T10:00:00,2022-12-06T04:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30015,biological_sample,18,sealed_lot,2-8C,restricted,scheduled stock transfer,delivered
+SHP-2022-00061,1,2022-12-11T18:00:00,,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30078,medical_consumables,6,case,2-8C,ordinary,laboratory delivery,in_transit
+SHP-2023-00001,1,2023-03-14T10:00:00,2023-03-17T12:00:00,BP-30039,BP-30054,FCL-1029,FCL-1007,BP-30031,agricultural_product,28,pallet,ambient,restricted,facility replenishment,delivered
+SHP-2023-00002,1,2023-03-23T08:00:00,2023-03-25T02:00:00,BP-30003,BP-30027,FCL-1015,FCL-1021,BP-30055,grant,1,grant,ambient,expedited,facility replenishment,delivered
+SHP-2023-00003,1,2023-03-29T09:00:00,2023-03-31T23:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,medical_consumables,64,case,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2023-00004,1,2023-04-01T18:00:00,2023-04-05T12:00:00,BP-30068,BP-30077,FCL-1020,FCL-1007,BP-30042,monitoring_equipment,10,kit,ambient,ordinary,laboratory delivery,delivered
+SHP-2023-00005,1,2023-04-02T08:00:00,2023-04-04T11:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30031,consulting_service,1,service,ambient,ordinary,agricultural distribution,delivered
+SHP-2023-00006,1,2023-04-02T12:00:00,2023-04-05T00:00:00,BP-30018,BP-30045,FCL-1003,FCL-1016,BP-30025,monitoring_equipment,15,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2023-00007,1,2023-04-02T13:00:00,2023-04-02T20:00:00,BP-30055,BP-30036,FCL-1010,FCL-1030,BP-30025,monitoring_equipment,9,kit,ambient,ordinary,customer distribution,delivered
+SHP-2023-00008,1,2023-04-03T18:00:00,2023-04-04T03:00:00,BP-30071,BP-30032,FCL-1011,FCL-1019,BP-30078,biological_sample,13,sealed_lot,2-8C,emergency,customer distribution,delivered
+SHP-2023-00009,1,2023-04-04T12:00:00,2023-04-04T20:00:00,BP-30063,BP-30067,FCL-1025,FCL-1023,BP-30015,cold_storage_equipment,24,unit,ambient,expedited,agricultural distribution,delivered
+SHP-2023-00010,1,2023-04-05T18:00:00,2023-04-07T19:00:00,BP-30078,BP-30033,FCL-1011,FCL-1013,BP-30055,agricultural_equipment,2,unit,ambient,expedited,scheduled stock transfer,delivered
+SHP-2023-00011,1,2023-04-06T16:00:00,2023-04-07T09:00:00,BP-30065,BP-30077,FCL-1014,FCL-1007,BP-30031,cold_storage_equipment,8,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00012,1,2023-04-07T07:00:00,2023-04-11T00:00:00,BP-30009,BP-30079,FCL-1010,FCL-1022,BP-30015,cold_storage_equipment,14,unit,ambient,emergency,customer distribution,delivered
+SHP-2023-00013,1,2023-04-07T16:00:00,2023-04-10T04:00:00,BP-30042,BP-30031,FCL-1015,FCL-1023,BP-30047,laboratory_material,34,pack,ambient,ordinary,facility replenishment,delayed
+SHP-2023-00014,1,2023-04-08T05:00:00,2023-04-11T10:00:00,BP-30052,BP-30011,FCL-1011,FCL-1012,BP-30078,protective_equipment,40,case,ambient,emergency,laboratory delivery,delivered
+SHP-2023-00015,1,2023-04-08T16:00:00,2023-04-10T11:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30060,medical_consumables,64,case,2-8C,ordinary,laboratory delivery,delivered
+SHP-2023-00016,1,2023-04-09T10:00:00,2023-04-11T22:00:00,BP-30080,BP-30075,FCL-1020,FCL-1027,BP-30042,protective_equipment,83,case,ambient,ordinary,facility replenishment,delayed
+SHP-2023-00017,1,2023-04-09T11:00:00,2023-04-10T18:00:00,BP-30031,BP-30011,FCL-1023,FCL-1012,BP-30078,cold_storage_equipment,24,unit,ambient,restricted,laboratory delivery,delivered
+SHP-2023-00018,1,2023-04-09T13:00:00,2023-04-10T10:00:00,BP-30035,BP-30078,FCL-1009,FCL-1011,BP-30031,communication_service,1,service,ambient,expedited,customer distribution,delivered
+SHP-2023-00019,1,2023-04-12T05:00:00,2023-04-14T06:00:00,BP-30062,BP-30001,FCL-1012,FCL-1025,BP-30031,agricultural_product,36,pallet,ambient,restricted,laboratory delivery,delivered
+SHP-2023-00020,1,2023-04-13T05:00:00,2023-04-14T16:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30020,refrigeration_service,1,service,ambient,restricted,customer distribution,delivered
+SHP-2023-00021,1,2023-04-13T06:00:00,2023-04-13T13:00:00,BP-30062,BP-30043,FCL-1012,FCL-1010,BP-30020,biological_sample,16,sealed_lot,2-8C,ordinary,laboratory delivery,delivered
+SHP-2023-00022,1,2023-04-15T11:00:00,2023-04-18T07:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30060,biological_sample,6,sealed_lot,2-8C,ordinary,field programme support,delivered
+SHP-2023-00023,1,2023-04-16T17:00:00,2023-04-17T16:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30047,laboratory_material,42,pack,ambient,ordinary,laboratory delivery,delivered
+SHP-2023-00024,1,2023-04-18T13:00:00,2023-04-21T20:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30060,monitoring_equipment,14,kit,ambient,ordinary,laboratory delivery,delayed
+SHP-2023-00025,1,2023-04-19T06:00:00,2023-04-22T13:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30025,laboratory_material,23,pack,ambient,ordinary,field programme support,delivered
+SHP-2023-00026,1,2023-04-21T08:00:00,2023-04-22T21:00:00,BP-30011,BP-30004,FCL-1012,FCL-1029,BP-30031,monitoring_equipment,6,kit,ambient,expedited,field programme support,delayed
+SHP-2023-00027,1,2023-04-21T09:00:00,2023-04-22T00:00:00,BP-30023,BP-30015,FCL-1002,FCL-1006,BP-30078,medical_consumables,83,case,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2023-00028,1,2023-04-21T16:00:00,2023-04-24T06:00:00,BP-30073,BP-30047,FCL-1019,FCL-1016,BP-30015,grant,1,grant,ambient,emergency,agricultural distribution,delivered
+SHP-2023-00029,1,2023-04-22T09:00:00,2023-04-25T02:00:00,BP-30030,BP-30052,FCL-1018,FCL-1011,BP-30015,medical_consumables,37,case,2-8C,ordinary,laboratory delivery,delivered
+SHP-2023-00030,1,2023-04-22T11:00:00,2023-04-24T04:00:00,BP-30041,BP-30001,FCL-1008,FCL-1025,BP-30020,consulting_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2023-00031,1,2023-04-22T12:00:00,2023-04-22T22:00:00,BP-30079,BP-30018,FCL-1022,FCL-1003,BP-30042,cold_storage_equipment,19,unit,ambient,ordinary,laboratory delivery,delivered
+SHP-2023-00032,1,2023-04-22T16:00:00,2023-04-23T17:00:00,BP-30035,BP-30023,FCL-1009,FCL-1002,BP-30025,grant,1,grant,ambient,ordinary,agricultural distribution,delivered
+SHP-2023-00033,1,2023-04-22T18:00:00,2023-04-25T21:00:00,BP-30010,BP-30018,FCL-1016,FCL-1003,BP-30025,protective_equipment,68,case,ambient,ordinary,field programme support,delivered
+SHP-2023-00034,1,2023-04-23T05:00:00,2023-04-27T02:00:00,BP-30036,BP-30060,FCL-1030,FCL-1009,BP-30025,monitoring_equipment,24,kit,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00035,1,2023-05-30T05:00:00,2023-05-31T13:00:00,BP-30029,BP-30027,FCL-1004,FCL-1021,BP-30055,legal_service,1,service,ambient,ordinary,facility replenishment,delayed
+SHP-2023-00036,1,2023-06-24T17:00:00,2023-06-25T16:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30020,research_contract,1,contract,ambient,emergency,agricultural distribution,delayed
+SHP-2023-00037,1,2023-09-01T05:00:00,2023-09-03T22:00:00,BP-30028,BP-30071,FCL-1020,FCL-1011,BP-30042,agricultural_product,25,pallet,ambient,ordinary,field programme support,delivered
+SHP-2023-00038,1,2023-09-01T15:00:00,2023-09-03T19:00:00,BP-30030,BP-30068,FCL-1018,FCL-1020,BP-30060,communication_service,1,service,ambient,restricted,agricultural distribution,delivered
+SHP-2023-00039,1,2023-09-02T11:00:00,2023-09-04T23:00:00,BP-30032,BP-30019,FCL-1019,FCL-1010,BP-30031,communication_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2023-00040,1,2023-09-02T11:00:00,2023-09-03T09:00:00,BP-30032,BP-30079,FCL-1019,FCL-1022,BP-30047,refrigeration_service,1,service,ambient,ordinary,agricultural distribution,delivered
+SHP-2023-00041,1,2023-09-03T12:00:00,2023-09-06T17:00:00,BP-30053,BP-30046,FCL-1030,FCL-1010,BP-30078,medical_consumables,89,case,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2023-00042,1,2023-09-03T15:00:00,2023-09-06T20:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30042,cold_storage_equipment,14,unit,ambient,ordinary,field programme support,delivered
+SHP-2023-00043,1,2023-09-03T15:00:00,2023-09-07T00:00:00,BP-30041,BP-30056,FCL-1008,FCL-1019,BP-30042,medical_equipment,8,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00044,1,2023-09-05T05:00:00,2023-09-07T21:00:00,BP-30078,BP-30006,FCL-1011,FCL-1019,BP-30042,medical_consumables,3,case,2-8C,emergency,field programme support,delivered
+SHP-2023-00045,1,2023-09-05T12:00:00,2023-09-07T19:00:00,BP-30046,BP-30060,FCL-1010,FCL-1009,BP-30078,laboratory_material,44,pack,ambient,ordinary,customer distribution,delivered
+SHP-2023-00046,1,2023-09-05T13:00:00,2023-09-06T17:00:00,BP-30017,BP-30042,FCL-1010,FCL-1015,BP-30015,monitoring_equipment,4,kit,ambient,ordinary,customer distribution,delivered
+SHP-2023-00047,1,2023-09-06T13:00:00,,BP-30066,BP-30078,FCL-1003,FCL-1011,BP-30031,biological_sample,7,sealed_lot,2-8C,ordinary,customer distribution,in_transit
+SHP-2023-00048,1,2023-09-06T13:00:00,2023-09-09T05:00:00,BP-30037,BP-30033,FCL-1017,FCL-1013,BP-30042,medical_consumables,8,case,2-8C,restricted,customer distribution,delivered
+SHP-2023-00049,1,2023-09-06T17:00:00,2023-09-08T12:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30078,agricultural_product,9,pallet,ambient,ordinary,agricultural distribution,delivered
+SHP-2023-00050,1,2023-09-07T14:00:00,2023-09-09T05:00:00,BP-30033,BP-30074,FCL-1013,FCL-1015,BP-30015,refrigeration_service,1,service,ambient,restricted,field programme support,delivered
+SHP-2023-00051,1,2023-09-08T18:00:00,2023-09-12T13:00:00,BP-30016,BP-30068,FCL-1030,FCL-1020,BP-30047,transport_service,1,service,ambient,expedited,field programme support,delivered
+SHP-2023-00052,1,2023/09/09 08:00:00,2023-09-12T21:00:00,BP-30021,BP-30043,FCL-1007,FCL-1010,BP-30015,transport_service,1,service,ambient,ordinary,customer distribution,delivered
+SHP-2023-00053,1,2023-09-09T14:00:00,,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30042,communication_service,1,service,ambient,ordinary,facility replenishment,in_transit
+SHP-2023-00054,1,2023-09-12T07:00:00,2023-09-13T21:00:00,BP-30079,BP-30061,FCL-1022,FCL-1030,BP-30031,medical_equipment,21,unit,ambient,expedited,scheduled stock transfer,delivered
+SHP-2023-00055,1,2023-09-12T09:00:00,2023-09-15T23:00:00,BP-30025,BP-30017,FCL-1026,FCL-1010,BP-30060,communication_service,1,service,ambient,restricted,customer distribution,delivered
+SHP-2023-00056,1,2023-09-12T09:00:00,2023-09-13T16:00:00,BP-30056,BP-30051,FCL-1019,FCL-1005,BP-30015,biological_sample,6,sealed_lot,2-8C,ordinary,facility replenishment,delivered
+SHP-2023-00057,1,2023-09-13T11:00:00,2023-09-16T21:00:00,BP-30068,BP-30079,FCL-1020,FCL-1022,BP-30055,monitoring_equipment,25,kit,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00058,1,2023-09-13T17:00:00,2023-09-16T00:00:00,BP-30061,BP-30066,FCL-1030,FCL-1003,BP-30078,agricultural_product,1,pallet,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2023-00059,1,2023-09-14T06:00:00,2023-09-15T00:00:00,BP-30064,BP-30042,FCL-1010,FCL-1015,BP-30055,cold_storage_equipment,17,unit,ambient,emergency,field programme support,delivered
+SHP-2023-00060,1,2023-09-15T09:00:00,2023-09-18T10:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,2,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2023-00061,1,2023-09-15T11:00:00,2023-09-18T09:00:00,BP-30015,BP-30014,FCL-1006,FCL-1029,BP-30031,agricultural_product,47,pallet,FROZEN,ordinary,agricultural distribution,delivered
+SHP-2023-00062,1,2023-09-15T11:00:00,2023-09-18T20:00:00,BP-30076,BP-30078,FCL-1020,FCL-1011,BP-30078,agricultural_product,46,pallet,ambient,ordinary,field programme support,delivered
+SHP-2023-00063,1,2023-09-18T15:00:00,2023-09-21T09:00:00,BP-30010,BP-30080,FCL-1016,FCL-1020,BP-30042,refrigeration_service,1,service,ambient,ordinary,agricultural distribution,delayed
+SHP-2023-00064,1,2023-09-18T18:00:00,2023-09-20T19:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30078,medical_equipment,3,unit,ambient,ordinary,customer distribution,delivered
+SHP-2023-00065,1,2023-09-19T05:00:00,2023-09-19T15:00:00,BP-30035,BP-30042,FCL-1009,FCL-1015,BP-30042,protective_equipment,37,case,ambient,expedited,agricultural distribution,delivered
+SHP-2023-00066,1,2023-09-23T07:00:00,2023-09-24T16:00:00,BP-30006,BP-30051,FCL-1019,FCL-1005,BP-30025,laboratory_material,27,pack,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00067,1,2023-09-23T10:00:00,2023-09-25T03:00:00,BP-30030,BP-30015,FCL-1018,FCL-1006,BP-30015,communication_service,1,service,ambient,emergency,field programme support,delivered
+SHP-2023-00068,1,2023-09-23T10:00:00,2023-09-24T16:00:00,BP-30072,BP-30033,FCL-1024,FCL-1013,BP-30047,refrigeration_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00069,1,2023-10-16T16:00:00,2023-10-20T00:00:00,BP-30078,BP-30023,FCL-1011,FCL-1002,BP-30055,laboratory_material,30,pack,ambient,ordinary,facility replenishment,delivered
+SHP-2023-00070,1,2023-10-19T06:00:00,2023-10-20T01:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30042,medical_equipment,21,unit,ambient,restricted,agricultural distribution,delivered
+SHP-2023-00071,1,2023-11-10T09:00:00,2023-11-12T05:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,8,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2023-00072,1,2023-11-22T11:00:00,2023-11-23T15:00:00,BP-30045,BP-30064,FCL-1016,FCL-1010,BP-30020,cold_storage_equipment,12,unit,ambient,ordinary,  field  programme  support ,delivered
+SHP-2023-00073,1,2023-11-26T06:00:00,2023-11-27T18:00:00,BP-30078,BP-30046,FCL-1011,FCL-1010,BP-30025,biological_sample,9,sealed_lot,2-8C,ordinary,agricultural distribution,delivered
+SHP-2024-00001,1,2024-01-01T17:00:00,2024-01-05T10:00:00,BP-30010,BP-30066,FCL-1016,FCL-1003,BP-30078,monitoring_equipment,28,kit,ambient,ordinary,field programme support,delivered
+SHP-2024-00002,1,2024-02-01T09:00:00,2024-02-03T05:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,medical_consumables,28,case,2-8C,restricted,temperature-controlled clinical programme delivery,delivered
+SHP-2024-00003,1,2024-02-17T18:00:00,2024-02-19T18:00:00,BP-30078,BP-30014,FCL-1011,FCL-1029,BP-30042,other,22,unit,ambient,ordinary,scheduled stock transfer,returned
+SHP-2024-00004,1,2024-02-19T09:00:00,2024-02-22T10:00:00,BP-30080,BP-30070,FCL-1020,FCL-1019,BP-30060,communication_service,1,service,ambient,ordinary,agricultural distribution,delivered
+SHP-2024-00005,1,2024-02-22T09:00:00,2024-02-24T16:00:00,BP-30078,BP-30021,FCL-1011,FCL-1010,BP-30047,biological_sample,8,sealed_lot,2-8C,expedited,temperature-controlled clinical programme delivery,delivered
+SHP-2024-00006,1,2024-02-25T09:00:00,2024-02-27T17:00:00,BP-30054,BP-30049,FCL-1007,FCL-1002,BP-30060,agricultural_product,24,pallet,ambient,emergency,agricultural distribution,delayed
+SHP-2024-00007,1,2024-03-22T09:00:00,2024-03-23T16:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,6,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2024-00008,1,2024-03-31T16:00:00,2024-04-01T02:00:00,BP-30040,BP-30074,FCL-1015,FCL-1015,BP-30047,office_supply,29,case,ambient,ordinary,customer distribution,delivered
+SHP-2024-00009,1,2024-04-06T12:00:00,2024-04-09T02:00:00,BP-30011,BP-30020,FCL-1012,FCL-1001,BP-30031,transport_service,1,service,ambient,ordinary,field programme support,delivered
+SHP-2024-00010,1,2024-05-17T14:00:00,2024-05-21T04:00:00,BP-30020,BP-30078,FCL-1001,FCL-1011,BP-30020,legal_service,1,service,ambient,ordinary,field programme support,delivered
+SHP-2024-00011,1,2024-05-31T09:00:00,2024-06-03T03:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,3,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2024-00012,1,2024-06-01T05:00:00,2024-06-02T07:00:00,BP-30027,BP-30069,FCL-1021,FCL-1008,BP-30031,cold_storage_equipment,16,unit,ambient,emergency,laboratory delivery,delivered
+SHP-2024-00013,1,2024-06-01T07:00:00,2024-06-04T13:00:00,BP-30019,BP-30007,FCL-1010,FCL-1014,BP-30055,agricultural_equipment,2,unit,ambient,ordinary,customer distribution,delivered
+SHP-2024-00014,1,2024-06-01T10:00:00,2024-06-03T01:00:00,BP-30066,BP-30052,FCL-1003,FCL-1011,BP-30042,monitoring_equipment,7,kit,ambient,ordinary,customer distribution,delivered
+SHP-2024-00015,1,2024-06-01T15:00:00,2024-06-03T20:00:00,BP-30060,BP-30009,FCL-1009,FCL-1010,BP-30047,agricultural_product,22,pallet,ambient,ordinary,laboratory delivery,delivered
+SHP-2024-00016,1,2024-06-02T15:00:00,2024-06-03T05:00:00,BP-30019,BP-30049,FCL-1010,FCL-1002,BP-30055,agricultural_equipment,21,unit,ambient,expedited,scheduled stock transfer,delivered
+SHP-2024-00017,1,2024-06-03T16:00:00,2024-06-05T01:00:00,BP-30065,BP-30053,FCL-1014,FCL-1030,BP-30025,refrigeration_service,1,service,ambient,restricted,scheduled stock transfer,delivered
+SHP-2024-00018,1,2024-06-03T18:00:00,2024-06-05T22:00:00,BP-30055,BP-30036,FCL-1010,FCL-1030,BP-30025,transport_service,1,service,ambient,expedited,laboratory delivery,delivered
+SHP-2024-00019,1,2024-06-04T06:00:00,2024-06-06T12:00:00,BP-30017,BP-30076,FCL-1010,FCL-1020,BP-30055,agricultural_product,26,pallet,ambient,ordinary,facility replenishment,delivered
+SHP-2024-00020,1,2024-06-04T15:00:00,2024-06-05T18:00:00,BP-30007,BP-30064,FCL-1014,FCL-1010,BP-30015,biological_sample,4,sealed_lot,2-8C,ordinary,laboratory delivery,delivered
+SHP-2024-00021,1,2024-06-05T15:00:00,2024-06-08T05:00:00,BP-30080,BP-30072,FCL-1020,FCL-1024,BP-30060,cold_storage_equipment,7,unit,ambient,emergency,scheduled stock transfer,delivered
+SHP-2024-00022,1,2024-06-05T17:00:00,2024-06-06T17:00:00,BP-30039,BP-30015,FCL-1029,FCL-1006,BP-30055,biological_sample,10,sealed_lot,2-8C,ordinary,agricultural distribution,delivered
+SHP-2024-00023,1,2024-06-05T18:00:00,2024-06-07T06:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30047,refrigeration_service,1,service,ambient,ordinary,customer distribution,delivered
+SHP-2024-00024,1,2024-06-07T05:00:00,2024-06-09T10:00:00,BP-30062,BP-30036,FCL-1012,FCL-1030,BP-30042,refrigeration_service,1,service,ambient,ordinary,agricultural distribution,delivered
+SHP-2024-00025,1,2024-06-08T15:00:00,2024-06-09T17:00:00,BP-30078,BP-30041,FCL-1011,FCL-1008,BP-30031,monitoring_equipment,10,kit,ambient,ordinary,customer distribution,delivered
+SHP-2024-00026,1,2024-06-10T10:00:00,2024-06-11T23:00:00,BP-30044,BP-30020,FCL-1029,FCL-1001,BP-30020,legal_service,1,service,ambient,ordinary,agricultural distribution,delivered
+SHP-2024-00027,1,2024-06-12T08:00:00,2024-06-12T16:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30020,laboratory_material,11,pack,ambient,expedited,laboratory delivery,delivered
+SHP-2024-00028,1,2024-06-12T10:00:00,2024-06-13T02:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30042,agricultural_product,31,pallet,ambient,expedited,scheduled stock transfer,delivered
+SHP-2024-00029,1,2024-06-15T12:00:00,2024-06-17T07:00:00,BP-30008,BP-30023,FCL-1007,FCL-1002,BP-30015,legal_service,1,service,ambient,emergency,customer distribution,delayed
+SHP-2024-00030,1,2024-06-16T08:00:00,2024-06-18T22:00:00,BP-30068,BP-30009,FCL-1020,FCL-1010,BP-30042,refrigeration_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2024-00031,1,2024-06-16T16:00:00,2024-06-18T08:00:00,BP-30037,BP-30078,FCL-1017,FCL-1011,BP-30015,consulting_service,1,service,ambient,ordinary,laboratory delivery,returned
+SHP-2024-00032,1,2024-06-16T18:00:00,2024-06-20T06:00:00,BP-30018,BP-30077,FCL-1003,FCL-1007,BP-30015,monitoring_equipment,23,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2024-00033,1,2024-06-18T11:00:00,2024-06-21T05:00:00,BP-30007,BP-30071,FCL-1014,FCL-1011,BP-30020,office_supply,44,case,ambient,ordinary,field programme support,delivered
+SHP-2024-00034,1,2024-06-19T05:00:00,2024-06-22T22:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30015,agricultural_product,50,pallet,ambient,expedited,customer distribution,delivered
+SHP-2024-00035,1,2024-06-19T05:00:00,2024-06-20T13:00:00,BP-30016,BP-30078,FCL-1030,FCL-1011,BP-30015,medical_consumables,69,case,2-8C,ordinary,customer distribution,delivered
+SHP-2024-00036,1,2024-06-21T10:00:00,2024-06-24T14:00:00,BP-30053,BP-30033,FCL-1030,FCL-1013,BP-30020,monitoring_equipment,3,kit,ambient,ordinary,agricultural distribution,delivered
+SHP-2024-00037,1,2024-06-22T07:00:00,2024-06-25T20:00:00,BP-30047,BP-30024,FCL-1016,FCL-1016,BP-30042,laboratory_material,52,pack,ambient,emergency,facility replenishment,delivered
+SHP-2024-00038,1,2024-06-23T05:00:00,2024-06-25T00:00:00,BP-30049,BP-30050,FCL-1002,FCL-1028,BP-30031,transport_service,1,service,ambient,ordinary,field programme support,delivered
+SHP-2024-00039,1,2024-06-23T15:00:00,2024-06-27T01:00:00,BP-30050,BP-30061,FCL-1028,FCL-1030,BP-30060,communication_service,1,service,ambient,ordinary,facility replenishment,delivered
+SHP-2024-00040,1,2024-06-23T18:00:00,2024-06-26T18:00:00,BP-30006,BP-30039,FCL-1019,FCL-1029,BP-30060,medical_consumables,88,case,2-8C,ordinary,facility replenishment,delivered
+SHP-2024-00041,1,2024-06-25T11:00:00,2024-06-29T02:00:00,BP-30075,BP-30080,FCL-1027,FCL-1020,BP-30042,medical_consumables,54,case,2-8C,ordinary,customer distribution,delivered
+SHP-2024-00042,1,2024-07-07T15:00:00,07-Jul-2024 22:00:00,BP-30061,BP-30021,FCL-1030,FCL-1007,BP-30060,laboratory_material,60,pack,ambient,restricted,laboratory delivery,delivered
+SHP-2024-00043,1,2024-07-09T06:00:00,2024-07-12T06:00:00,BP-30017,BP-30039,FCL-1010,FCL-1029,BP-30060,consulting_service,1,service,ambient,expedited,scheduled stock transfer,delivered
+SHP-2024-00044,1,2024-08-16T09:00:00,2024-08-17T05:00:00,BP-30056,BP-30078,FCL-1020,FCL-1020,BP-30047,biological_sample,3,sealed_lot,2-8C,expedited,environmental and wildlife reference materials,delivered
+SHP-2024-00045,1,2024-08-17T09:00:00,2024-08-18T12:00:00,BP-30011,BP-30078,FCL-1012,FCL-1011,BP-30055,agricultural_product,37,pallet,ambient,expedited,field programme support,delivered
+SHP-2024-00046,1,2024-09-06T07:00:00,2024-09-06T21:00:00,BP-30065,BP-30047,FCL-1014,FCL-1016,BP-30020,consulting_service,1,service,ambient,ordinary,field programme support,DELIVERED
+SHP-2024-00047,1,2024-09-07T12:00:00,2024-09-09T07:00:00,BP-30004,BP-30071,FCL-1029,FCL-1011,BP-30042,office_supply,37,case,ambient,ordinary,facility replenishment,returned
+SHP-2025-00001,1,2025-02-11T09:00:00,2025-02-13T21:00:00,BP-30052,BP-30012,FCL-1011,FCL-1020,BP-30055,office_supply,8,case,ambient,expedited,agricultural distribution,delayed
+SHP-2025-00002,1,2025-02-12T09:00:00,2025-02-15T22:00:00,BP-30035,BP-30080,FCL-1009,FCL-1020,BP-30015,agricultural_product,46,pallet,ambient,ordinary,facility replenishment,delivered
+SHP-2025-00003,1,2025-03-08T15:00:00,2025-03-09T16:00:00,BP-30011,BP-30029,FCL-1012,FCL-1004,BP-30055,monitoring_equipment,13,kit,ambient,ordinary,laboratory delivery,delivered
+SHP-2025-00004,1,2025-04-03T11:00:00,,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30020,medical_consumables,33,case,2-8C,ordinary,laboratory delivery,in_transit
+SHP-2025-00005,1,2025-04-18T09:00:00,2025-04-20T11:00:00,BP-30056,BP-30078,FCL-1030,FCL-1024,BP-30047,biological_sample,4,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2025-00006,1,2025-05-01T10:00:00,2025-05-02T02:00:00,BP-30049,BP-30078,FCL-1002,FCL-1011,BP-30025,cold_storage_equipment,20,unit,ambient,ordinary,field programme support,delayed
+SHP-2025-00007,1,2025-05-01T12:00:00,,BP-30001,BP-30069,FCL-1025,FCL-1008,BP-30042,protective_equipment,3,case,ambient,restricted,scheduled stock transfer,in_transit
+SHP-2025-00008,1,2025-05-03T06:00:00,2025-05-03T21:00:00,BP-30051,BP-30064,FCL-1005,FCL-1010,BP-30020,transport_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2025-00009,1,2025-05-03T08:00:00,2025-05-05T04:00:00,BP-30069,BP-30031,FCL-1008,FCL-1023,BP-30031,transport_service,1,service,ambient,expedited,facility replenishment,delivered
+SHP-2025-00010,1,2025-05-04T18:00:00,2025-05-06T04:00:00,BP-30065,BP-30032,FCL-1014,FCL-1019,BP-30015,other,17,unit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2025-00011,1,2025-05-05T08:00:00,2025-05-07T18:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30042,laboratory_material,3,pack,ambient,ordinary,laboratory delivery,delivered
+SHP-2025-00012,1,2025-05-05T16:00:00,2025-05-06T03:00:00,BP-30076,BP-30003,FCL-1020,FCL-1015,BP-30060,medical_equipment,13,unit,ambient,ordinary,facility replenishment,delivered
+SHP-2025-00013,1,2025-05-05T18:00:00,2025-05-08T04:00:00,BP-30048,BP-30007,FCL-1011,FCL-1014,BP-30047,cold_storage_equipment,13,unit,ambient,expedited,field programme support,delivered
+SHP-2025-00014,1,2025-05-06T11:00:00,2025-05-10T08:00:00,BP-30078,BP-30021,FCL-1011,FCL-1007,BP-30025,agricultural_product,3,pallet,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2025-00015,1,2025-05-06T15:00:00,2025-05-07T13:00:00,BP-30045,BP-30006,FCL-1016,FCL-1019,BP-30047,protective_equipment,16,case,ambient,ordinary,customer distribution,delivered
+SHP-2025-00016,1,2025-05-07T15:00:00,2025-05-09T05:00:00,BP-30072,BP-30061,FCL-1024,FCL-1030,BP-30060,communication_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2025-00017,1,2025-05-10T10:00:00,2025-05-14T08:00:00,BP-30033,BP-30027,FCL-1013,FCL-1021,BP-30015,protective_equipment,1,case,ambient,ordinary,customer distribution,delayed
+SHP-2025-00018,1,2025-05-11T11:00:00,2025-05-13T18:00:00,BP-30078,BP-30079,FCL-1011,FCL-1022,BP-30055,research_contract,1,contract,ambient,ordinary,laboratory delivery,delivered
+SHP-2025-00019,1,2025-05-12T07:00:00,2025-05-16T00:00:00,BP-30077,BP-30002,FCL-1007,FCL-1030,BP-30025,monitoring_equipment,10,kit,ambient,expedited,customer distribution,delivered
+SHP-2025-00020,1,2025-05-13T07:00:00,2025-05-14T14:00:00,BP-30055,BP-30046,FCL-1010,FCL-1010,BP-30025,protective_equipment,80,case,ambient,ordinary,agricultural distribution,DELIVERED
+SHP-2025-00021,1,2025-05-14T13:00:00,2025-05-17T09:00:00,BP-30069,BP-30067,FCL-1008,FCL-1023,BP-30078,refrigeration_service,1,service,ambient,restricted,customer distribution,delivered
+SHP-2025-00022,1,2025-05-15T08:00:00,2025-05-16T00:00:00,BP-30017,BP-30069,FCL-1010,FCL-1008,BP-30025,refrigeration_service,1,service,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2025-00023,1,2025-05-15T09:00:00,2025-05-16T09:00:00,BP-30031,BP-30077,FCL-1023,FCL-1007,BP-30042,monitoring_equipment,19,kit,ambient,ordinary,scheduled stock transfer,delivered
+SHP-2025-00024,1,2025-05-17T08:00:00,2025-05-20T10:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30055,medical_consumables,26,case,2-8C,ordinary,scheduled stock transfer,delivered
+SHP-2025-00025,1,2025-05-17T12:00:00,2025-05-17T22:00:00,BP-30033,BP-30061,FCL-1013,FCL-1030,BP-30015,biological_sample,15,sealed_lot,2-8C,ordinary,field programme support,delivered
+SHP-2025-00026,1,2025-05-18T14:00:00,2025-05-19T04:00:00,BP-30056,BP-30078,FCL-1019,FCL-1011,BP-30042,refrigeration_service,1,service,ambient,emergency,laboratory delivery,delivered
+SHP-2025-00027,1,2025-05-20T17:00:00,2025-05-24T05:00:00,BP-30037,BP-30047,FCL-1017,FCL-1016,BP-30042,protective_equipment,51,case,ambient,expedited,laboratory delivery,delivered
+SHP-2025-00028,1,2025-05-21T16:00:00,2025-05-23T00:00:00,BP-30003,BP-30079,FCL-1015,FCL-1022,BP-30055,laboratory_material,17,pack,ambient,ordinary,facility replenishment,delayed
+SHP-2025-00029,1,2025-05-22T17:00:00,2025-05-23T07:00:00,BP-30054,BP-30014,FCL-1007,FCL-1029,BP-30042,laboratory_material,7,pack,ambient,restricted,facility replenishment,delivered
+SHP-2025-00030,1,2025-05-23T06:00:00,2025-05-24T05:00:00,BP-30025,BP-30057,FCL-1026,FCL-1016,BP-30047,monitoring_equipment,15,kit,ambient,ordinary,field programme support,delivered
+SHP-2025-00031,1,2025-05-23T10:00:00,2025-05-24T08:00:00,BP-30078,BP-30056,FCL-1011,FCL-1019,BP-30047,agricultural_product,49,pallet,ambient,expedited,laboratory delivery,delivered
+SHP-2025-00032,1,2025-06-03T14:00:00,2025-06-07T00:00:00,BP-30017,BP-30078,FCL-1010,FCL-1011,BP-30042,consulting_service,1,service,ambient,ordinary,laboratory delivery,delivered
+SHP-2025-00033,1,2025-06-13T09:00:00,2025-06-15T22:00:00,BP-30056,BP-30078,FCL-1019,FCL-1019,BP-30047,biological_sample,8,sealed_lot,2-8C,restricted,environmental and wildlife reference materials,delivered
+SHP-2025-00034,1,2025-06-15T13:00:00,2025-06-16T03:00:00,BP-30039,BP-30017,FCL-1029,FCL-1010,BP-30060,laboratory_material,57,pack,ambient,ordinary,facility replenishment,delivered
+SHP-2022-00017,1,2022-02-16T14:00:00,2022-02-18T15:00:00,BP-30073,BP-30078,FCL-1019,FCL-1011,BP-30031,protective_equipment,3,case,ambient,ordinary,agricultural distribution,delivered
+SHP-2016-00009,1,2016-09-05T13:00:00,2016-09-08T02:00:00,BP-30043,BP-30036,FCL-1010,FCL-1030,BP-30020,consulting_service,1,service,ambient,emergency,scheduled stock transfer,delivered

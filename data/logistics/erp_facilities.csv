@@ -1,0 +1,31 @@
+facility_code,facility_name,facility_category,operating_partner_code,street_address,region,latitude,longitude,opening_date,facility_status,storage_capabilities
+FCL-1011,Meridian Valenne Headquarters,office,BP-30078,"Meridian Valenne Headquarters, Valenne Central District",Valenne Central District,47.24,7.58,2006-01-01,active,ambient
+FCL-1024,Meridian Kintara Biological Aggregation Facility,warehouse,BP-30078,"Meridian Kintara Biological Aggregation Facility, Kintara Karst Cluster",Kintara Karst Cluster,4.74,112.28,1997-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1019,Meridian Avelora Transfer Annex,transfer_hub,BP-30078,"Meridian Avelora Transfer Annex, Eastern Avelora Agricultural Cluster",Eastern Avelora Agricultural Cluster,7.46,101.91,2003-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1020,Meridian Tembara Coastal Hub,transfer_hub,BP-30078,"Meridian Tembara Coastal Hub, Tembara Coastal Cluster",Tembara Coastal Cluster,2.2,104.55,2010-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1016,Northstar Tembara Cold-Chain Hub,warehouse,BP-30047,"Northstar Tembara Cold-Chain Hub, Tembara Coastal Cluster",Tembara Coastal Cluster,2.23,104.58,2008-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1010,Asterion Central Clinical Campus,laboratory_delivery_point,BP-30021,"Asterion Central Clinical Campus, Valenne Central District",Valenne Central District,47.2,7.51,2008-01-01,active,2-8C;controlled_access
+FCL-1007,Asterion Avelora Executive Clinic,clinical_delivery_point,BP-30021,"Asterion Avelora Executive Clinic, Eastern Avelora Agricultural Cluster",Eastern Avelora Agricultural Cluster,7.35,101.62,2011-01-01,active,2-8C;controlled_access
+FCL-1030,Kintara Cave Authority Field Depot,field_depot,BP-30016,"Kintara Cave Authority Field Depot, Kintara Karst Cluster",Kintara Karst Cluster,4.76,112.38,2011-01-01,active,ambient
+FCL-1029,Vale Strategy Valenne Office,office,BP-30044,"Vale Strategy Valenne Office, Valenne Central District",Valenne Central District,47.26,7.49,2009-01-01,active,
+FCL-1015,Threshold Earth Avelora Laboratory,laboratory_delivery_point,BP-30040,"Threshold Earth Avelora Laboratory, Eastern Avelora Agricultural Cluster",Eastern Avelora Agricultural Cluster,7.5,101.75,2012-01-01,active,2-8C;controlled_access
+FCL-1027,Valenne Central Distribution Centre,transfer_hub,BP-30075,"Valenne Central Distribution Centre, Valenne Central District",Valenne Central District,47.1481,7.6765,1998-01-01,active,ambient;secure_cage
+FCL-1009,Nordhaven Freight Exchange Warehouse,warehouse,BP-30060,"Nordhaven Freight Exchange Warehouse, Nordhaven Maritime District",Nordhaven Maritime District,56.3572,9.0504,2007-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1008,Civic Health Receiving Centre,warehouse,BP-30069,"Civic Health Receiving Centre, Valenne Central District",Valenne Central District,47.2606,7.5003,2009-01-01,active,ambient;secure_cage
+FCL-1018,Auric Medical Supply Depot,warehouse,BP-30030,"Auric Medical Supply Depot, Valenne Central District",Valenne Central District,47.2894,7.848,2005-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1006,Tembara Port Consolidation Yard,port_staging,BP-30015,"Tembara Port Consolidation Yard, Tembara Coastal Cluster",Tembara Coastal Cluster,2.2093,104.5033,2006-01-01,active,ambient;secure_cage
+FCL-1022,Kintara Field Equipment Depot,warehouse,BP-30079,"Kintara Field Equipment Depot, Kintara Karst Cluster",Kintara Karst Cluster,4.6435,112.2424,2012-01-01,active,ambient;secure_cage
+FCL-1017,Avelora Orchard Export Packhouse,warehouse,BP-30037,"Avelora Orchard Export Packhouse, Eastern Avelora Agricultural Cluster",Eastern Avelora Agricultural Cluster,7.3451,101.8877,1999-01-01,active,ambient;secure_cage
+FCL-1013,Nordhaven Refrigeration Workshop,service_facility,BP-30033,"Nordhaven Refrigeration Workshop, Nordhaven Maritime District",Nordhaven Maritime District,56.5286,8.8348,2003-01-01,active,ambient
+FCL-1012,Valenne Laboratory Materials Store,warehouse,BP-30011,"Valenne Laboratory Materials Store, Valenne Central District",Valenne Central District,47.0273,7.6438,2012-01-01,active,ambient;secure_cage
+FCL-1014,Tembara Coastal Research Store,laboratory_delivery_point,BP-30065,"Tembara Coastal Research Store, Tembara Coastal Cluster",Tembara Coastal Cluster,2.2229,104.2706,2009-01-01,active,2-8C;controlled_access
+FCL-1025,Marula Cooperative Cold Store,warehouse,BP-30001,"Marula Cooperative Cold Store, Eastern Avelora Agricultural Cluster",Eastern Avelora Agricultural Cluster,7.4355,101.9226,2002-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1003,Pelagos Samples Laboratory,laboratory_delivery_point,BP-30018,"Pelagos Samples Laboratory, Tembara Coastal Cluster",Tembara Coastal Cluster,2.0992,104.3596,2007-01-01,active,2-8C;controlled_access
+FCL-1004,Kestrel Conservation Field Depot,field_depot,BP-30029,"Kestrel Conservation Field Depot, Kintara Karst Cluster",Kintara Karst Cluster,4.7363,112.3743,2015-01-01,active,ambient
+FCL-1002,Lumen Safety Equipment Store,warehouse,BP-30023,"Lumen Safety Equipment Store, Valenne Central District",Valenne Central District,47.2996,7.5208,1997-01-01,active,ambient;secure_cage
+FCL-1001,Nacre Air Cargo Terminal,air_cargo_terminal,BP-30020,"Nacre Air Cargo Terminal, Tembara Coastal Cluster",Tembara Coastal Cluster,2.1298,104.5129,2002-01-01,active,ambient;secure_cage
+FCL-1026,Amber Kintara Transit Warehouse,warehouse,BP-30025,"Amber Kintara Transit Warehouse, Kintara Karst Cluster",Kintara Karst Cluster,4.7549,112.391,1996-01-01,active,ambient;secure_cage
+FCL-1028,Eastgate Clinical Receiving Unit,clinical_delivery_point,BP-30050,"Eastgate Clinical Receiving Unit, Eastern Avelora Agricultural Cluster",Eastern Avelora Agricultural Cluster,7.4529,101.9087,1999-01-01,active,2-8C;controlled_access
+FCL-1023,North Quay Biomedical Store,warehouse,BP-30031,"North Quay Biomedical Store, Nordhaven Maritime District",Nordhaven Maritime District,56.1606,8.7405,2014-01-01,active,ambient;secure_cage;2-8C;frozen
+FCL-1021,Kintara Emergency Logistics Depot,field_depot,BP-30027,"Kintara Emergency Logistics Depot, Kintara Karst Cluster",Kintara Karst Cluster,4.673,112.2945,2010-01-01,active,ambient
+FCL-1005,Tembara Customs Inspection Yard,field_depot,BP-30051,"Tembara Customs Inspection Yard, Tembara Coastal Cluster",Tembara Coastal Cluster,2.559,104.3376,2006-01-01,active,ambient

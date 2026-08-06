@@ -1,0 +1,81 @@
+partner_code,partner_name,partner_role,external_registration_number,billing_region,shipping_region,default_currency,payment_terms,partner_status,risk_class,onboarding_date
+BP-30001,Marula Cold Store Cooperative,supplier_customer,REG-AVL-20012,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,NET45,active,review,2001-02-01
+BP-30002,Blue Heron Monitoring Cooperative,customer,REG-KNT-20037,Kintara Republic,Kintara Karst Cluster,KRN,NET45,active,standard,2012-03-01
+BP-30003,Orra Technical Services,supplier,REG-AVL-20022,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PUBLIC30,active,review,2008-04-01
+BP-30004,Common Ground Climate Forum,service_partner,REG-VLN-01008,Valenne Republic,Valenne Central District,VLN,PREPAID,active,review,2014-05-01
+BP-30005,Warden Medical Ventures,service_partner,REG-VLN-01016,Valenne Republic,Valenne Republic,VLN,PREPAID,inactive,standard,2013-06-01
+BP-30006,Avelora Food Standards Office,customer,,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,NET15,active,standard,2013-07-01
+BP-30007,Helix Legal and Compliance,service_partner,REG-NDH-01012,Nordhaven Union,Nordhaven Maritime District,NDH,NET45,active,standard,2013-08-01
+BP-30008,Riverstone Waste Management,supplier,REG-AVL-20036,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PUBLIC30,active,low,2019-09-01
+BP-30009,Lantern Investigative Bureau,service_partner,REG-VLN-01010,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,low,2016-10-01
+BP-30010,Tembara Coastal Administration,customer,,Tembara Commonwealth,Tembara Commonwealth,TMB,PREPAID,active,low,1998-11-01
+BP-30011,Valenne Laboratory Materials,supplier,REG-VLN-20009,Valenne Republic,Valenne Central District,VLN,NET30,active,standard,2011-12-01
+BP-30012,Pandan Agricultural Finance,service_partner,REG-TMB-20033,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET45,active,low,2010-01-01
+BP-30013,Vann Maritime Advisory,service_partner,REG-NDH-01015,Nordhaven Union,Nordhaven Union,NDH,PUBLIC30,inactive,standard,2001-02-01
+BP-30014,Ardena Commercial Bank,service_partner,REG-VLN-20018,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,review,2008-03-01
+BP-30015,Tembara Port Services,carrier,REG-TMB-20005,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET15,active,low,1998-04-01
+BP-30016,Kintara Cave and Pollinator Authority,customer,,Kintara Republic,Kintara Karst Cluster,KRN,NET15,active,low,2009-05-01
+BP-30017,Meridian–Asterion Foundation,customer,REG-VLN-01014,Valenne Republic,Valenne Central District,VLN,NET30,active,review,2013-06-01
+BP-30018,Pelagos Marine Samples Laboratory,customer,REG-TMB-20013,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET30,active,review,2000-07-01
+BP-30019,Orison Medical Audit Board,customer,,Valenne Republic,Valenne Central District,VLN,NET30,active,review,2000-08-01
+BP-30020,Nacre Air Cargo,carrier,REG-TMB-20017,Tembara Commonwealth,Tembara Coastal Cluster,TMB,PREPAID,active,standard,2010-09-01
+BP-30021,Asterion Clinical Institute,customer,REG-VLN-01002,Valenne Republic,Valenne Central District,VLN,PREPAID,active,review,01/10/2003
+BP-30022,Varlan Natural History Circle,customer,REG-KNT-01018,Kintara Republic,Kintara Republic,KRN,NET30,inactive,low,2008-11-01
+BP-30023,Lumen Protective Equipment,supplier,REG-VLN-20016,Valenne Republic,Valenne Central District,VLN,PREPAID,active,standard,2012-12-01
+BP-30024,Dune Agricultural Machinery,supplier,REG-TMB-20027,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET45,active,review,2002-01-01
+BP-30025,Amber Storage and Transit,carrier,REG-KNT-20032,Kintara Republic,Kintara Karst Cluster,KRN,PREPAID,active,standard,2004-02-01
+BP-30026,Valenne Industrial Supply Consortium,customer,REG-VLN-20040,Valenne Republic,Valenne Central District,VLN,PREPAID,inactive,standard,2011-03-01
+BP-30027,Kintara Emergency Response Office,customer,,Kintara Republic,Kintara Karst Cluster,KRN,PUBLIC30,active,low,2010-04-01
+BP-30028,Mango Coast Growers Association,customer,REG-TMB-20034,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET15,active,elevated,2019-05-01
+BP-30029,Kestrel Conservation Services,supplier,REG-KNT-20014,,Kintara Karst Cluster,KRN,PREPAID,active,standard,2015-06-01
+BP-30030,Auric Medical Supplies,supplier,REG-VLN-20004,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,low,2003-07-01
+BP-30031,North Quay Biomedical Storage,carrier,REG-NDH-20039,Nordhaven Union,Nordhaven Maritime District,NDH,NET30,active,standard,2014-08-01
+BP-30032,Nordhaven Trade Documentation Centre,supplier,REG-NDH-20042,Nordhaven Union,Nordhaven Maritime District,NDH,PUBLIC30,active,standard,2013-09-01
+BP-30033,Nordhaven Refrigeration Works,supplier,REG-NDH-20008,Nordhaven Union,Nordhaven Maritime District,NDH,NET45,active,standard,2003-10-01
+BP-30034,Commonway Legal Registry Services,service_partner,REG-VLN-20023,Valenne Republic,Valenne Central District,VLN,NET30,inactive,low,1998-11-01
+BP-30035,Ardena Capital Union,service_partner,REG-VLN-01023,Valenne Republic,Valenne Republic,VLN,PUBLIC30,active,elevated,2015-12-01
+BP-30036,Office of the Kintara Chancellor,customer,,Kintara Republic,Kintara Republic,KRN,PUBLIC30,active,low,2001-01-01
+BP-30037,Avelora Orchard Export Union,supplier_customer,REG-AVL-20007,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,NET15,active,low,2015-02-01
+BP-30038,Vosmere Biotechnics,supplier_customer,REG-NDH-01017,Nordhaven Union,Nordhaven Union,NDH,NET15,inactive,standard,2009-03-01
+BP-30039,Valenne Industrial Futures Council,customer,REG-VLN-01005,Valenne Republic,Valenne Central District,VLN,NET30,active,elevated,2014-04-01
+BP-30040,Threshold Earth Observatory,customer,REG-AVL-01007,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,NET15,active,review,2012-05-01
+BP-30041,Earth Ledger Project,customer,REG-NDH-01011,Nordhaven Union,Nordhaven Maritime District,NDH,NET15,active,standard,2015-06-01
+BP-30042,Nivren Maritime Logistics,carrier,REG-NDH-01022,Nordhaven Union,Nordhaven Union,NDH,PREPAID,active,standard,2013-07-01
+BP-30043,Whitehaven Strategic Holdings,service_partner,REG-VLN-01004,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,low,2008-08-01
+BP-30044,Vale Strategy Collective,service_partner,REG-VLN-01006,Valenne Republic,Valenne Central District,VLN,NET15,active,elevated,2009-09-01
+BP-30045,Tembara Biodiversity Service,customer,,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET15,active,review,2003-10-01
+BP-30046,Sable Route Analytics,service_partner,REG-VLN-20011,Valenne Republic,Valenne Central District,VLN,NET45,active,standard,2005-11-01
+BP-30047,Northstar Cold Chain Services,carrier,REG-TMB-01003,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET15,active,elevated,2006-12-01
+BP-30048,Cedar Public Affairs Advisory,service_partner,REG-VLN-20035,Valenne Republic,Valenne Central District,VLN,NET45,active,standard,2018-01-01
+BP-30049,Boreal Insurance Mutual,service_partner,REG-NDH-20019,Nordhaven Union,Nordhaven Maritime District,NDH,NET45,active,review,2006-02-01
+BP-30050,Eastgate Clinical Services,customer,REG-AVL-20038,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PREPAID,active,standard,2004-03-01
+BP-30051,  Tembara  Customs  Coordination  Unit ,customer,,Tembara Commonwealth,Tembara Coastal Cluster,TMB,PUBLIC30,active,review,2010-04-01
+BP-30052,Orison Facility Management,supplier,REG-VLN-20015,Valenne Republic,Valenne Central District,VLN,NET45,active,review,2012-05-01
+BP-30053,Juniper Community Health Foundation,customer,REG-KNT-20025,Kintara Republic,Kintara Karst Cluster,KRN,NET15,active,standard,2003-06-01
+BP-30054,Willow Regional Media Service,service_partner,REG-AVL-20030,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PREPAID,active,review,2016-07-01
+BP-30055,Silverline Courier Cooperative,carrier,REG-VLN-20026,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,standard,2006-08-01
+BP-30056,Horizon Field Research Cooperative,customer,REG-AVL-01013,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PREPAID,active,standard,2008-09-01
+BP-30057,Harbour Ledger Auditors,service_partner,REG-NDH-20024,Nordhaven Union,Nordhaven Maritime District,NDH,PUBLIC30,active,standard,2008-10-01
+BP-30058,Marot Ecological Policy Office,service_partner,REG-VLN-01020,Valenne Republic,Valenne Republic,VLN,PREPAID,inactive,standard,2004-11-01
+BP-30059,Bell Conservation Survey,customer,REG-AVL-01019,Avelora Federation,Avelora Federation,AVL,NET15,inactive,standard,2004-12-01
+BP-30060,Crescent Freight Exchange,carrier,REG-NDH-20002,Nordhaven Union,Nordhaven Maritime District,NDH,NET30,active,review,2000-01-01
+BP-30061,Kintara Rural Transport Board,customer,,Kintara Republic,Kintara Karst Cluster,KRN,PUBLIC30,active,low,2016-02-01
+BP-30062,Solvane Energy Group,customer,REG-VLN-01021,Valenne Republic,Valenne Republic,VLN,NET30,active,elevated,2007-03-01
+BP-30063,Nordhaven Maritime Safety Agency,customer,,Nordhaven Union,Nordhaven Maritime District,NDH,NET45,active,review,2007-04-01
+BP-30064,Quartz Data Hosting,supplier,REG-VLN-20028,Valenne Republic,Valenne Central District,VLN,NET45,active,standard,2005-05-01
+BP-30065,Tembara Coastal Research Trust,customer,REG-TMB-20010,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET45,active,review,2009-06-01
+BP-30066,Belen Agro-Industries,supplier_customer,REG-KNT-01024,Kintara Republic,Kintara Republic,KRN,NET30,active,standard,2000-07-01
+BP-30067,Avelora Ministry of Strategic Resources,customer,,Avelora Federation,Avelora Federation,AVL,NET45,active,standard,2000-08-01
+BP-30068,Tamarind Environmental Law Centre,service_partner,REG-TMB-20029,Tembara Commonwealth,Tembara Coastal Cluster,TMB,PUBLIC30,active,review,2012-09-01
+BP-30069,Civic Health Purchasing Network,Supplier,REG-VLN-20003,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,elevated,2008-10-01
+BP-30070,Avelora Agricultural Resilience Agency,customer,,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PREPAID,active,standard,2005-11-01
+BP-30071,Valenne Public Procurement Authority,customer,,Valenne Republic,Valenne Central District,VLN,PUBLIC30,active,standard,2005-12-01
+BP-30072,Senna Agricultural Research Centre,customer,REG-KNT-20020,Kintara Republic,Kintara Karst Cluster,KRN,NET30,active,elevated,2008-01-01
+BP-30073,Avelora Civil Service College,customer,REG-AVL-20041,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,NET30,active,low,2004-02-01
+BP-30074,Pollinator Justice Network,service_partner,REG-AVL-01009,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,NET30,active,standard,2015-03-01
+BP-30075,Interregional Procurement Cooperative,supplier_customer,REG-VLN-20001,Valenne Republic,Valenne Central District,VLN,NET30,active,standard,1998-04-01
+BP-30076,Avelora Council of State,customer,,Avelora Federation,Avelora Federation,AVL,PUBLIC30,active,standard,1999-05-01
+BP-30077,Velin Packaging Industries,supplier,REG-AVL-20021,Avelora Federation,Eastern Avelora Agricultural Cluster,AVL,PUBLIC30,active,standard,1998-06-01
+BP-30078,Meridian BioLogistics,carrier,REG-VLN-01001,Valenne Republic,Valenne Central District,VLN,NET30,active,standard,2011-07-01
+BP-30079,Kintara Field Equipment Cooperative,supplier_customer,REG-KNT-20006,Kintara Republic,Kintara Karst Cluster,KRN,NET30,active,elevated,2003-08-01
+BP-30080,Garnet Scientific Instruments,supplier,REG-TMB-20031,Tembara Commonwealth,Tembara Coastal Cluster,TMB,NET45,active,standard,2003-09-01

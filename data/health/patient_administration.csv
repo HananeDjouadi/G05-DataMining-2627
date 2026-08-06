@@ -1,0 +1,242 @@
+patient_number,family_name,given_name,date_of_birth,registered_sex,home_region,occupation_text,registration_date,primary_facility_license,record_status
+PAT-31162,Varen,Eli,1962-04-19,male,Valenne Republic,corporate adviser,2018-01-01,FAC-VLN-101,inactive
+PAT-31040,Valen,Jonah,1972-06-12,male,Valenne Republic,research professional,2017-02-01,FAC-AVL-201,active
+PAT-31115,Oren,Nadia,1979-09-03,female,Valenne Republic,clinical specialist,2018-05-01,FAC-AVL-301,active
+PAT-31186,Kader,Soren,1969-02-11,male,Nordhaven Union,corporate adviser,2017-06-01,FAC-VLN-101,active
+PAT-31215,Roe,Ilan,1976-07-07,male,Avelora Federation,research professional,2018-05-01,FAC-AVL-201,active
+PAT-31233,Ven,Mara,1983-05-23,female,Valenne Republic,research professional,2017-08-01,FAC-AVL-301,active
+PAT-31065,Hallen,Corin,1975-10-09,male,Valenne Republic,clinical specialist,2018-08-01,FAC-VLN-101,active
+PAT-31012,Sen,Amara,1981-08-16,female,Kintara Republic,research professional,2017-01-01,FAC-AVL-201,active
+PAT-31086,Veran,Niko,1973-01-29,male,Tembara Commonwealth,corporate adviser,2018-01-01,FAC-AVL-301,active
+PAT-31037,Aran,Sel,1986-11-04,female,Avelora Federation,research professional,2017-01-01,FAC-VLN-101,active
+PAT-31221,Kassen,Leora,1947-04-02,female,Kintara Republic,Head of government of Kintara Republic,2015-08-01,FAC-VLN-101,active
+PAT-31044,Serat,Tavian,1953-01-14,male,Avelora Federation,Senior minister of the Avelora Federation,2016-11-01,FAC-AVL-201,active
+PAT-31174,Talven,Mirek,1942-03-02,male,Tembara Commonwealth,Regional governor in the Tembara Commonwealth,2015-03-01,FAC-AVL-201,active
+PAT-31119,Varro,Celene,1950-06-06,female,Valenne Republic,Chief executive of Solvane Energy Group,2017-07-01,FAC-VLN-101,active
+PAT-31074,Nivren,Oskar,1946-06-16,male,Nordhaven Union,Executive chair of Nivren Maritime Logistics,2017-05-01,FAC-VLN-101,active
+PAT-31183,Solva,Adrienne,1958-03-16,female,Valenne Republic,Executive director of Ardena Capital Union,2015-12-01,FAC-VLN-101,active
+PAT-31142,Belen,Rayan,1952-04-07,male,Kintara Republic,Chair of Belen Agro-Industries,2018-09-01,FAC-AVL-201,active
+PAT-31099,Vaun,Elira,1935-09-11,female,Avelora Federation,Retired political intermediary and former council president,2014-01-01,FAC-AVL-201,deceased
+PAT-31113,Orell,Xara,1978-01-20,male,Valenne Republic,Investigative reporter,2019-09-01,FAC-AVL-201,active
+PAT-31167,Zorin,Jalen,1984-04-10,female,Avelora Federation,Senior field analyst,2018-10-01,FAC-VLN-101,active
+PAT-31137,Garen,Daria,1976-12-21,female,Nordhaven Union,Compliance counsel,2021-08-01,FAC-VLN-101,active
+PAT-31136,Yorin,Taren,1986-01-09,nonbinary,Valenne Republic,Regional executive,2021-09-01,FAC-VLN-101,active
+PAT-31238,Rellan,Kellan,1973-11-19,female,Nordhaven Union,Records researcher,2019-01-01,FAC-VLN-101,active
+PAT-31041,Norel,Doran,1978-10-09,male,Avelora Federation,Field research coordinator,2019-12-01,FAC-VLN-101,active
+PAT-31120,Cevan,Nadia,1976-03-19,male,Valenne Republic,Corporate adviser,2018-10-01,FAC-VLN-101,active
+PAT-31128,Palen,Zoren,1989-08-13,male,Valenne Republic,Strategic adviser,2018-01-01,FAC-VLN-101,active
+PAT-31210,Wessen,Alina,1962-04-01,female,Avelora Federation,Council vice-president,2019-04-01,FAC-AVL-201,active
+PAT-31054,Zorin,Miran,1958-04-04,male,Valenne Republic,Campaign coordinator,2018-03-01,FAC-VLN-101,active
+PAT-31202,Uren,Doran,1992-07-09,nonbinary,Avelora Federation,Deputy minister,2020-12-01,FAC-VLN-101,active
+PAT-31231,Palen,Ravin,1963-02-08,nonbinary,Valenne Republic,Clinical research scientist,2017-09-01,FAC-AVL-201,inactive
+PAT-31190,Quorin,Jalen,1989-01-07,male,Tembara Commonwealth,Regional administrative director,2018-02-01,FAC-VLN-101,active
+PAT-31172,Yorin,Zoren,1964-05-19,female,Valenne Republic,Grant officer,2020-12-01,FAC-VLN-101,active
+PAT-31039,Uren,Liora,1973-03-15,male,Avelora Federation,Senior field analyst,2020-07-01,FAC-VLN-101,active
+PAT-31103,Garen,Yana,1959-08-03,female,Avelora Federation,Pollination programme specialist,2019-04-01,FAC-AVL-301,active
+PAT-31017,Vela,Jora,1973-12-07,male,Avelora Federation,Field research coordinator,2020-11-01,FAC-AVL-201,active
+PAT-31007,Kerin,Marek,1988-07-12,male,Kintara Republic,Wildlife programme officer,2017-05-01,FAC-VLN-101,active
+PAT-31056,Norel,Kira,1962-03-02,male,Tembara Commonwealth,Regional logistics manager,2017-08-01,FAC-VLN-101,active
+PAT-31093,Elen,Calen,1971-08-21,nonbinary,Tembara Commonwealth,Regional logistics manager,2017-02-01,FAC-VLN-101,active
+PAT-31064,Lask,Xara,1968-03-25,male,Kintara Republic,Senior executive-office official,2019-04-01,FAC-VLN-101,active
+PAT-31087,Soren,Amina,1972-08-19,male,Nordhaven Union,Records researcher,2021-03-01,FAC-AVL-201,active
+PAT-31079,Aster,Arden,1984-12-26,male,Valenne Republic,Grant officer,2017-01-01,FAC-VLN-101,active
+PAT-31048,Istra,Nadia,1965-03-18,nonbinary,Avelora Federation,Senior field analyst,2020-12-01,FAC-AVL-201,active
+PAT-31081,Kerin,Orin,1956-10-24,female,Nordhaven Union,Compliance counsel,2017-07-01,FAC-AVL-201,active
+PAT-31219,Zaven,Jora,1993-08-02,male,Avelora Federation,Pollination programme specialist,2017-05-01,FAC-VLN-101,active
+PAT-31033,Lorin,Miran,1987-12-01,nonbinary,Valenne Republic,Policy consultant,2017-07-01,FAC-AVL-201,active
+PAT-31195,Maren,Daria,1972-08-10,male,Kintara Republic,Senior executive-office official,2017-09-01,FAC-AVL-201,active
+PAT-31169,Havel,Farah,1994-03-11,male,Valenne Republic,Specialist clinician,2018-06-01,FAC-AVL-201,active
+PAT-31146,Boras,Rina,1979-04-19,male,Valenne Republic,Campaign coordinator,2020-10-01,FAC-VLN-101,active
+PAT-31095,Serin,Yorin,1962-02-03,female,Valenne Republic,Investigative reporter,2020-06-01,FAC-VLN-101,active
+PAT-31184,Elen,Bran,1956-05-18,male,Nordhaven Union,Records researcher,2017-11-01,FAC-VLN-101,active
+PAT-31126,Perin,Ilia,1967-07-24,female,Valenne Republic,Accreditation officer,2020-12-01,FAC-VLN-101,active
+PAT-31223,Belen,Bela,1988-02-07,nonbinary,Valenne Republic,Grant officer,01/09/2019,FAC-VLN-101,active
+PAT-31071,Orell,Kellan,1989-01-04,female,Kintara Republic,Senior executive-office official,2019-12-01,FAC-VLN-101,active
+PAT-31085,Essen,Ravin,1978-10-01,male,Kintara Republic,Agricultural operations director,2021-01-01,FAC-VLN-101,active
+PAT-31216,Horan,Orin,1966-03-05,female,Tembara Commonwealth,Regional logistics manager,2019-03-01,FAC-VLN-101,active
+PAT-31192,Waren,Vera,1963-01-20,nonbinary,Avelora Federation,Pollinator advocate,2019-06-01,FAC-VLN-101,active
+PAT-31240,Istra,Alina,1984-11-18,male,Valenne Republic,Compliance analyst,2017-07-01,FAC-VLN-101,active
+PAT-31057,Elen,Kira,1983-06-13,female,Valenne Republic,Accreditation officer,2019-11-01,FAC-AVL-201,active
+PAT-31076,Grell,Sena,1970-11-02,female,Tembara Commonwealth,Regional administrative director,2018-06-01,FAC-AVL-301,inactive
+PAT-31179,Soren,Miran,1987-06-21,male,Valenne Republic,  Regional  executive ,2018-03-01,FAC-AVL-201,active
+PAT-31225,Havel,Orin,1974-11-13,female,Valenne Republic,Corporate affairs director,2021-10-01,FAC-VLN-101,active
+PAT-31232,Wessen,Hana,1967-10-25,female,Avelora Federation,Deputy minister,2021-04-01,FAC-AVL-301,active
+PAT-31051,Elen,Amina,1964-05-12,male,Avelora Federation,Pollinator advocate,2020-05-01,FAC-VLN-101,active
+PAT-31096,Garen,Zalia,1994-11-13,nonbinary,Valenne Republic,transport worker,2019-06-01,FAC-VLN-101,active
+PAT-31026,Quorin,Eira,1953-12-19,male,Nordhaven Union,agricultural worker,2020-08-01,FAC-VLN-101,active
+PAT-31222,Uren,Olia,2002-01-08,female,Kintara Republic,retired professional,2018-11-01,FAC-AVL-301,active
+PAT-31102,Yorin,Talia,1985-03-03,male,Avelora Federation,agricultural worker,2020-08-01,FAC-VLN-101,active
+PAT-31042,Orell,Taren,1956-05-03,male,Kintara Republic,teacher,2021-05-01,FAC-AVL-201,active
+PAT-31171,Cevan,Alina,1949-06-16,nonbinary,Tembara Commonwealth,technician,2021-09-01,FAC-AVL-201,active
+PAT-31072,Jaren,Ilia,1985-03-07,nonbinary,Valenne Republic,transport worker,2021-08-01,FAC-VLN-101,active
+PAT-31135,Boras,Sena,1945-05-11,nonbinary,Kintara Republic,technician,2021-03-01,FAC-VLN-101,active
+PAT-31168,Ferran,Jora,1981-12-21,female,Tembara Commonwealth,administrative employee,2016-12-01,FAC-AVL-201,active
+PAT-31003,Aster,Marek,1960-09-11,female,Tembara Commonwealth,agricultural worker,2019-05-01,FAC-VLN-101,active
+PAT-31125,Lorin,Eira,1949-10-18,female,Kintara Republic,administrative employee,2017-02-01,FAC-VLN-101,active
+PAT-31016,Perin,Vera,1939-12-26,nonbinary,Valenne Republic,research assistant,2019-07-01,FAC-VLN-101,active
+PAT-31107,Dalen,Orin,1985-04-06,nonbinary,Nordhaven Union,administrative employee,2021-10-01,FAC-VLN-101,active
+PAT-31014,Faron,Varen,1969-01-26,male,Nordhaven Union,retired professional,2019-03-01,FAC-VLN-101,active
+PAT-31046,Jorel,Marek,1953-10-06,male,Tembara Commonwealth,research assistant,2021-03-01,FAC-VLN-101,active
+PAT-31205,Yorin,Sadia,1981-10-01,male,Kintara Republic,retired professional,2019-07-01,FAC-VLN-101,active
+PAT-31082,Quorin,Yorin,1963-02-06,female,Avelora Federation,transport worker,2020-01-01,FAC-AVL-201,active
+PAT-31001,Yorin,Marek,2000-05-06,female,Nordhaven Union,small-business owner,2019-01-01,FAC-AVL-201,active
+PAT-31058,Jorel,Farah,1972-04-02,nonbinary,Kintara Republic,teacher,2021-01-01,FAC-VLN-101,active
+PAT-31187,Meral,Faris,1980-08-09,male,Tembara Commonwealth,transport worker,2019-03-01,FAC-VLN-101,active
+PAT-31149,Wessen,Liora,1948-05-21,male,Valenne Republic,transport worker,2017-01-01,FAC-VLN-101,active
+PAT-31034,Serin,Doran,1987-09-25,female,Nordhaven Union,research assistant,2018-07-01,FAC-VLN-101,active
+PAT-31092,Lorin,Sena,1957-02-26,male,Avelora Federation,agricultural worker,2017-11-01,FAC-AVL-301,active
+PAT-31176,Rellan,Halen,1975-05-04,male,Avelora Federation,agricultural worker,2019-07-01,FAC-AVL-301,active
+PAT-31129,Valek,Walen,1998-09-11,male,Tembara Commonwealth,transport worker,2021-11-01,FAC-AVL-201,inactive
+PAT-31144,Toren,Calen,1954-11-08,female,Avelora Federation,administrative employee,2017-04-01,FAC-AVL-201,active
+PAT-31116,Havel,Vera,1990-11-03,female,Kintara Republic,research assistant,2021-07-01,FAC-VLN-101,active
+PAT-31152,Wessen,Celia,1973-01-13,female,Valenne Republic,small-business owner,2018-10-01,FAC-AVL-201,active
+PAT-31020,Ravel,Kira,1950-07-12,female,Nordhaven Union,teacher,2020-11-01,FAC-AVL-201,active
+PAT-31008,Kerin,Faris,1992-12-27,nonbinary,Kintara Republic,small-business owner,2021-09-01,FAC-VLN-101,active
+PAT-31155,Soren,Galen,1985-07-15,male,Kintara Republic,retired professional,2019-03-01,FAC-AVL-201,active
+PAT-31078,Orsen,Hana,1965-08-04,nonbinary,Valenne Republic,transport worker,2020-11-01,FAC-VLN-101,active
+PAT-31117,Dalen,Lena,1951-06-03,female,Tembara Commonwealth,administrative employee,2016-12-01,FAC-AVL-201,active
+PAT-31133,Dalen,Elian,1978-06-23,female,Nordhaven Union,technician,2021-08-01,FAC-VLN-101,active
+PAT-31097,Corda,Yorin,1976-10-18,nonbinary,Tembara Commonwealth,teacher,2018-07-01,FAC-VLN-101,active
+PAT-31157,Perin,Taren,1946-03-19,male,Kintara Republic,transport worker,2018-06-01,FAC-AVL-201,active
+PAT-31165,Elen,Rina,1954-10-14,nonbinary,Avelora Federation,teacher,2019-07-01,FAC-AVL-201,active
+PAT-31228,Essen,Sena,1948-11-18,male,Avelora Federation,retired professional,2017-12-01,FAC-VLN-101,active
+PAT-31122,Perin,Yana,1951-09-16,male,Avelora Federation,small-business owner,2020-09-01,FAC-AVL-201,active
+PAT-31134,Quell,Hana,1971-10-05,female,Avelora Federation,administrative employee,2018-10-01,FAC-VLN-101,active
+PAT-31130,Soren,Lena,1969-08-12,female,Nordhaven Union,administrative employee,2020-12-01,FAC-VLN-101,active
+PAT-31060,Zorin,Marek,1975-06-08,nonbinary,Kintara Republic,transport worker,2021-08-01,FAC-AVL-301,active
+PAT-31208,Meral,Arel,1976-07-07,female,Nordhaven Union,administrative employee,2019-11-01,FAC-VLN-101,active
+PAT-31201,Quell,Alina,1950-12-15,male,Avelora Federation,agricultural worker,2017-09-01,FAC-VLN-101,active
+PAT-31204,Istra,Arden,1963-08-07,male,Tembara Commonwealth,small-business owner,2018-11-01,FAC-VLN-101,active
+PAT-31138,Kassen,Taren,1997-03-23,nonbinary,Kintara Republic,agricultural worker,2019-01-01,FAC-AVL-201,active
+PAT-31052,Jorel,Wira,1971-10-10,nonbinary,Valenne Republic,retired professional,2019-07-01,FAC-AVL-201,active
+PAT-31100,Boras,Vera,2000-08-04,nonbinary,Nordhaven Union,transport worker,2017-04-01,FAC-AVL-301,active
+PAT-31083,Yaren,Walen,1994-02-15,nonbinary,Kintara Republic,agricultural worker,2021-09-01,FAC-VLN-101,active
+PAT-31091,Perin,Iris,1980-07-11,female,Kintara Republic,research assistant,2021-09-01,FAC-VLN-101,active
+PAT-31148,Koral,Jalen,1962-01-05,female,Avelora Federation,research assistant,2016-12-01,FAC-VLN-101,active
+PAT-31193,Essen,Orin,1947-05-24,female,Kintara Republic,technician,2018-06-01,FAC-AVL-301,active
+PAT-31021,Kassen,Talia,1989-09-12,male,Kintara Republic,retired professional,2018-05-01,FAC-VLN-101,active
+PAT-31032,Yaren,Uma,1951-01-08,female,Valenne Republic,research assistant,2021-10-01,FAC-VLN-101,inactive
+PAT-31070,Lask,Celia,1945-12-06,male,Nordhaven Union,technician,2020-03-01,FAC-VLN-101,active
+PAT-31236,Yorin,Xara,1950-04-27,female,Valenne Republic,retired professional,2017-08-01,FAC-VLN-101,active
+PAT-31062,Istra,Ravin,1999-04-11,female,Tembara Commonwealth,agricultural worker,2021-08-01,FAC-VLN-101,active
+PAT-31004,Zorin,Talia,1950-07-14,nonbinary,Nordhaven Union,transport worker,2019-10-01,FAC-VLN-101,active
+PAT-31161,Wessen,Faris,1983-03-23,male,Kintara Republic,transport worker,2021-11-01,FAC-VLN-101,active
+PAT-31214,Yaren,Marek,1968-05-08,female,Kintara Republic,administrative employee,2017-03-01,FAC-VLN-101,active
+PAT-31061,Orsen,Lena,1994-07-20,female,Avelora Federation,retired professional,2018-09-01,FAC-VLN-101,active
+PAT-31069,  Iven ,Hana,1959-01-15,female,Tembara Commonwealth,retired professional,2018-03-01,FAC-VLN-101,active
+PAT-31200,Perin,Doran,1988-10-15,male,Nordhaven Union,transport worker,2017-12-01,FAC-VLN-101,active
+PAT-31185,Kerin,Daria,1980-05-22,nonbinary,Avelora Federation,retired professional,2017-08-01,FAC-AVL-201,active
+PAT-31198,Jaren,Ravin,1950-05-24,nonbinary,Nordhaven Union,technician,2021-09-01,FAC-VLN-101,active
+PAT-31053,Ferran,Jalen,1950-05-19,male,Avelora Federation,technician,2019-02-01,FAC-AVL-301,active
+PAT-31151,Lask,Liora,1959-06-14,female,Kintara Republic,retired professional,2021-10-01,FAC-VLN-101,active
+PAT-31141,Corda,Pavel,1957-11-19,nonbinary,Avelora Federation,teacher,2019-06-01,FAC-VLN-101,active
+PAT-31239,Norel,Yana,1961-01-03,female,Avelora Federation,retired professional,2020-05-01,FAC-AVL-201,active
+PAT-31188,Faron,Olia,1973-07-26,male,Avelora Federation,technician,2019-03-01,FAC-AVL-201,active
+PAT-31140,Tavel,Uma,1960-04-13,male,Nordhaven Union,technician,2019-10-01,FAC-VLN-101,active
+PAT-31145,Jorel,Elian,1974-09-15,female,Nordhaven Union,transport worker,2020-12-01,FAC-VLN-101,active
+PAT-31166,Norel,Daria,1979-02-07,female,Valenne Republic,transport worker,2020-05-01,FAC-AVL-301,active
+PAT-31191,Soren,Xara,1992-12-23,nonbinary,Nordhaven Union,agricultural worker,2020-03-01,FAC-AVL-201,active
+PAT-31047,Aster,Varen,1955-04-22,female,Tembara Commonwealth,retired professional,2020-05-01,FAC-VLN-101,active
+PAT-31088,Palen,Taren,1988-03-07,female,Nordhaven Union,transport worker,2017-12-01,FAC-AVL-301,active
+PAT-31234,Soren,Taren,1963-04-10,male,Kintara Republic,research assistant,2018-06-01,FAC-VLN-101,active
+PAT-31123,Ravel,Taren,1985-04-21,male,Nordhaven Union,teacher,2020-11-01,FAC-VLN-101,active
+PAT-31030,Cevan,Jalen,1951-08-23,male,Tembara Commonwealth,research assistant,2019-10-01,FAC-VLN-101,active
+PAT-31235,Kassen,Iris,1954-12-03,female,Kintara Republic,administrative employee,2019-03-01,FAC-AVL-201,active
+PAT-31163,Corda,Gita,1952-11-10,nonbinary,Nordhaven Union,research assistant,2018-11-01,FAC-VLN-101,active
+PAT-31106,Palen,Petra,1958-06-11,male,Tembara Commonwealth,transport worker,2019/09/01,FAC-AVL-201,active
+PAT-31177,Waren,Arel,1957-06-15,nonbinary,Avelora Federation,retired professional,2020-01-01,FAC-VLN-101,inactive
+PAT-31005,Quell,Kellan,1973-11-06,female,Kintara Republic,research assistant,2021-03-01,FAC-AVL-201,active
+PAT-31224,Iven,Bran,1945-01-12,male,Valenne Republic,agricultural worker,2018-03-01,FAC-AVL-201,active
+PAT-31080,Quorin,Elian,1970-12-03,male,Tembara Commonwealth,administrative employee,2020-10-01,FAC-VLN-101,active
+PAT-31104,Garen,Ilia,2000-12-17,male,Kintara Republic,administrative employee,2018-09-01,FAC-VLN-101,active
+PAT-31118,Quorin,Vera,1968-12-24,male,Kintara Republic,administrative employee,2018-10-01,FAC-AVL-201,active
+PAT-31212,Waren,Bran,1999-06-19,female,Valenne Republic,administrative employee,2020-05-01,FAC-VLN-101,active
+PAT-31002,Faron,Eira,1974-11-11,female,Tembara Commonwealth,research assistant,2020-09-01,FAC-VLN-101,active
+PAT-31196,Ravel,Gita,1950-01-17,female,Avelora Federation,transport worker,2019-09-01,FAC-AVL-301,active
+PAT-31109,Lask,Talia,1972-01-19,male,Avelora Federation,administrative employee,2019-02-01,FAC-AVL-201,active
+PAT-31114,Ferran,Galen,1967-11-27,female,Kintara Republic,administrative employee,2021-09-01,FAC-VLN-101,active
+PAT-31025,Rellan,Taren,1966-01-02,female,Nordhaven Union,research assistant,2017-05-01,FAC-AVL-201,active
+PAT-31049,Boras,Ilia,1991-03-22,male,Nordhaven Union,retired professional,2020-01-01,FAC-AVL-201,active
+PAT-31227,Uren,Zoren,1959-02-08,nonbinary,vALENNE rEPUBLIC,technician,2018-08-01,FAC-AVL-301,active
+PAT-31121,Koral,Kira,1964-09-21,male,Valenne Republic,teacher,2017-11-01,FAC-VLN-101,active
+PAT-31022,Perin,Bran,1956-03-22,female,Nordhaven Union,retired professional,2018-10-01,FAC-VLN-101,active
+PAT-31110,Elen,Kellan,1953-07-10,male,Avelora Federation,teacher,2016-11-01,FAC-AVL-301,active
+PAT-31059,Norel,Wira,1956-05-08,female,Nordhaven Union,technician,2021-04-01,FAC-VLN-101,active
+PAT-31015,Soren,Yana,1982-03-27,female,Nordhaven Union,technician,2020-06-01,FAC-VLN-101,active
+PAT-31101,Soren,Uma,2001-03-03,male,Tembara Commonwealth,transport worker,2020-10-01,FAC-VLN-101,active
+PAT-31024,Zorin,Alina,1977-04-03,female,Nordhaven Union,small-business owner,2019-08-01,FAC-AVL-201,active
+PAT-31077,Garen,Galen,1996-03-14,female,Nordhaven Union,small-business owner,2017-12-01,FAC-AVL-201,active
+PAT-31218,Soren,Orin,1966-08-05,female,Kintara Republic,administrative employee,2021-04-01,FAC-VLN-101,active
+PAT-31211,Iven,Nora,1974-06-07,female,Nordhaven Union,administrative employee,2019-02-01,FAC-VLN-101,active
+PAT-31132,Yorin,Bran,2003-03-26,nonbinary,Kintara Republic,teacher,2018-07-01,FAC-VLN-101,active
+PAT-31066,Orell,Zalia,1992-06-24,male,Tembara Commonwealth,teacher,2020-06-01,FAC-VLN-101,active
+PAT-31209,Kerin,Amina,1981-02-24,male,Valenne Republic,administrative employee,2017-06-01,FAC-VLN-101,active
+PAT-31217,Norel,Hana,1972-10-06,nonbinary,Avelora Federation,administrative employee,2017-09-01,FAC-AVL-201,active
+PAT-31045,Garen,Olia,2000-08-01,female,Nordhaven Union,transport worker,2021-02-01,FAC-VLN-101,active
+PAT-31043,Zaven,Bela,1978-03-15,male,Kintara Republic,research assistant,2018-07-01,FAC-AVL-201,inactive
+PAT-31098,Meral,Zoren,1959-06-16,nonbinary,Avelora Federation,small-business owner,2020-05-01,FAC-VLN-101,active
+PAT-31073,Zorin,Sadia,1957-03-20,nonbinary,Tembara Commonwealth,teacher,2018-06-01,FAC-VLN-101,active
+PAT-31006,Valek,Orin,1996-07-11,nonbinary,Avelora Federation,research assistant,2018-06-01,FAC-VLN-101,active
+PAT-31063,Rellan,Olia,2003-03-03,male,Avelora Federation,  small-business  owner ,2020-01-01,FAC-AVL-201,active
+PAT-31013,Elen,Iris,1982-02-15,female,Nordhaven Union,teacher,2017-10-01,FAC-AVL-301,active
+PAT-31124,Ferran,Amina,1984-02-20,nonbinary,Kintara Republic,administrative employee,2018-04-01,FAC-VLN-101,active
+PAT-31011,Yaren,Nadia,1948-10-13,nonbinary,Avelora Federation,transport worker,2017-03-01,FAC-VLN-101,active
+PAT-31180,Lorin,Celia,1971-01-13,nonbinary,Avelora Federation,agricultural worker,2021-11-01,FAC-VLN-101,active
+PAT-31194,Kerin,Sadia,1994-08-08,male,Tembara Commonwealth,retired professional,2021-07-01,FAC-VLN-101,active
+PAT-31175,Jaren,Taren,1967-07-23,female,Tembara Commonwealth,transport worker,2019-06-01,FAC-AVL-301,active
+PAT-31150,Corda,Vera,1973-03-02,male,Tembara Commonwealth,technician,2020-07-01,FAC-VLN-101,active
+PAT-31127,Jorel,Miran,1979-05-12,male,Tembara Commonwealth,small-business owner,2020-08-01,FAC-AVL-201,active
+PAT-31154,Koral,Calen,1977-06-03,female,Nordhaven Union,agricultural worker,2021-06-01,FAC-AVL-201,active
+PAT-31010,Essen,Jalen,1974-06-09,nonbinary,Kintara Republic,agricultural worker,2021-03-01,FAC-AVL-201,active
+PAT-31182,Orsen,Jalen,1991-05-10,female,Kintara Republic,small-business owner,2017-06-01,FAC-VLN-101,active
+PAT-31181,Perin,Bela,1974-01-09,male,Tembara Commonwealth,transport worker,2020-05-01,FAC-AVL-301,ACTIVE
+PAT-31220,Ravel,Nora,1946-08-04,female,Nordhaven Union,teacher,2017-09-01,FAC-VLN-101,active
+PAT-31068,Zaven,Arel,1956-02-14,female,Nordhaven Union,technician,2019-01-01,FAC-VLN-101,active
+PAT-31023,Ravel,Bela,1957-07-24,female,Tembara Commonwealth,retired professional,2020-06-01,FAC-VLN-101,active
+PAT-31027,Garen,Sadia,1971-05-06,nonbinary,Tembara Commonwealth,small-business owner,2017-04-01,FAC-VLN-101,active
+PAT-31019,Zaven,Galen,1987-09-06,female,Avelora Federation,transport worker,2021-07-01,FAC-VLN-101,active
+PAT-31050,Zorin,Nadia,1960-04-14,male,Avelora Federation,teacher,2020-10-01,FAC-VLN-101,active
+PAT-31108,Meral,Olia,1982-05-15,female,Kintara Republic,teacher,2019-01-01,FAC-AVL-201,active
+PAT-31035,Jaren,Sadia,1960-05-17,male,Avelora Federation,transport worker,2019-04-01,FAC-VLN-101,active
+PAT-31207,Orell,Sena,1972-02-13,male,Kintara Republic,research assistant,2021-01-01,FAC-VLN-101,active
+PAT-31230,Yorin,Orin,1952-09-27,female,Nordhaven Union,small-business owner,2021-04-01,FAC-VLN-101,active
+PAT-31197,Vela,Marek,1957-12-20,male,Kintara Republic,small-business owner,2019-01-01,FAC-AVL-301,active
+PAT-31055,Vela,Nadia,1972-01-12,female,Tembara Commonwealth,agricultural worker,2017-07-01,FAC-VLN-101,active
+PAT-31089,Palen,Nadia,1949-04-18,male,Tembara Commonwealth,retired professional,2020-10-01,FAC-AVL-201,inactive
+PAT-31075,Ferran,Yorin,1959-07-18,male,Valenne Republic,teacher,2021-03-01,FAC-VLN-101,active
+PAT-31131,Jaren,Arel,1971-07-23,female,Valenne Republic,technician,2019-12-01,FAC-VLN-101,active
+PAT-31036,Jorel,Amina,1982-03-09,male,Valenne Republic,teacher,2017-06-01,FAC-AVL-301,active
+PAT-31153,Orell,Sadia,1956-02-08,male,Nordhaven Union,small-business owner,2017-08-01,FAC-VLN-101,active
+PAT-31237,Zaven,Celia,1951-04-22,female,Kintara Republic,technician,2018-04-01,FAC-VLN-101,active
+PAT-31112,Vela,Rina,1961-07-03,female,Avelora Federation,retired professional,2019-05-01,FAC-AVL-201,active
+PAT-31158,Wessen,Marek,1947-06-23,male,Valenne Republic,teacher,2020-07-01,FAC-AVL-201,active
+PAT-31203,Valek,Miran,1976-09-06,nonbinary,Valenne Republic,retired professional,2021-01-01,FAC-VLN-101,active
+PAT-31090,Orell,Bela,1958-05-13,nonbinary,Kintara Republic,research assistant,2018-07-01,FAC-VLN-101,active
+PAT-31173,Jorel,Doran,1949-06-06,nonbinary,Nordhaven Union,agricultural worker,2021-07-01,FAC-VLN-101,active
+PAT-31213,Kassen,Uma,1990-12-17,female,Avelora Federation,administrative employee,2020-03-01,FAC-VLN-101,active
+PAT-31105,Norel,Miran,1966-08-23,female,Kintara Republic,small-business owner,2018-02-01,FAC-VLN-101,active
+PAT-31199,Havel,Nora,1945-07-17,female,Nordhaven Union,research assistant,2019-03-01,FAC-VLN-101,active
+PAT-31139,Havel,Kira,1948-03-05,male,Avelora Federation,retired professional,2019-05-01,FAC-VLN-101,active
+PAT-31018,Naven,Alina,1975-01-10,female,Avelora Federation,retired professional,2021-11-01,FAC-VLN-101,active
+PAT-31170,Jaren,Zalia,1992-09-20,female,Avelora Federation,transport worker,2018-12-01,FAC-VLN-101,active
+PAT-31084,Jaren,Celia,1961-01-05,nonbinary,Avelora Federation,retired professional,2020-06-01,FAC-VLN-101,active
+PAT-31111,Serin,Zoren,1973-12-02,female,Valenne Republic,small-business owner,2021-03-01,FAC-VLN-101,active
+PAT-31028,Zorin,Bela,1996-08-09,female,Tembara Commonwealth,retired professional,2021-09-01,FAC-AVL-201,active
+PAT-31009,Garen,Zoren,1975-02-15,nonbinary,Kintara Republic,research assistant,2020-08-01,FAC-VLN-101,active
+PAT-31226,Uren,Bela,1984-06-05,male,Tembara Commonwealth,agricultural worker,2019-05-01,FAC-AVL-201,active
+PAT-31164,Horan,Yorin,1952-02-13,female,Valenne Republic,agricultural worker,2018-02-01,FAC-AVL-301,active
+PAT-31147,Deren,Kellan,1972-11-12,nonbinary,Nordhaven Union,technician,2021-02-01,FAC-VLN-101,active
+PAT-31206,Ravel,Zoren,1938-11-25,male,Valenne Republic,teacher,2017-02-01,FAC-VLN-101,active
+PAT-31159,Meral,Bela,1945-11-16,female,Kintara Republic,administrative employee,2020-12-01,FAC-AVL-201,active
+PAT-31160,Valek,Daria,1946-05-08,female,Nordhaven Union,agricultural worker,2017-01-01,FAC-VLN-101,active
+PAT-31067,Palen,Arel,1990-07-05,nonbinary,Nordhaven Union,agricultural worker,2021-04-01,FAC-VLN-101,active
+PAT-31178,Elen,Bela,1958-02-03,female,Nordhaven Union,agricultural worker,2020-08-01,FAC-VLN-101,active
+PAT-31229,Waren,Hana,1983-01-09,nonbinary,Nordhaven Union,teacher,2018-03-01,FAC-AVL-201,inactive
+PAT-31038,Aren,Taren,2001-03-04,female,Avelora Federation,retired professional,2019-05-01,FAC-VLN-101,active
+PAT-31156,Valek,Talia,1955-12-06,female,Nordhaven Union,research assistant,2019-04-01,FAC-VLN-101,active
+PAT-31031,Aster,Daria,1977-03-20,male,Nordhaven Union,teacher,2017-02-01,FAC-AVL-301,active
+PAT-31143,Deren,Nadia,1963-02-24,male,Tembara Commonwealth,agricultural worker,2017-02-01,FAC-VLN-101,active
+PAT-31029,Quorin,Sadia,1982-06-24,male,Tembara Commonwealth,retired professional,2020-01-01,FAC-AVL-201,active
+PAT-31189,Tavel,Walen,1964-04-05,male,Avelora Federation,teacher,2021-10-01,FAC-VLN-101,active
+PAT-31094,Rellan,Vera,1949-01-21,nonbinary,Nordhaven Union,retired professional,2017-10-01,FAC-AVL-301,active
+PAT-31045,Garen,Olia,2000-08-01,female,Nordhaven Union,transport worker,2021-02-01,FAC-VLN-101,active
