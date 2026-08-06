@@ -1,0 +1,405 @@
+source_bundle,source_system_id,file_name,field_name,logical_type,key_role,description,example_value
+SB02,SYS-CLN-OPS,clinical_encounters.csv,encounter_number,identifier,primary_or_composite_key,Source-local encounter identifier.,ENC-000001
+SB02,SYS-CLN-OPS,clinical_encounters.csv,patient_number,identifier,non_key,Source-local patient identifier used within the clinical system.,PAT-31162
+SB02,SYS-CLN-OPS,clinical_encounters.csv,encounter_start,date_or_datetime,non_key,Encounter start.,2018-02-27T09:15:00
+SB02,SYS-CLN-OPS,clinical_encounters.csv,encounter_end,date_or_datetime,non_key,Encounter end.,2018-02-27T10:45:00
+SB02,SYS-CLN-OPS,clinical_encounters.csv,facility_license_number,identifier,non_key,Facility license number.,FAC-VLN-101
+SB02,SYS-CLN-OPS,clinical_encounters.csv,encounter_type,categorical_or_text,non_key,Encounter type.,mobility_assessment
+SB02,SYS-CLN-OPS,clinical_encounters.csv,referral_source,categorical_or_text,non_key,Referral source.,research programme
+SB02,SYS-CLN-OPS,clinical_encounters.csv,attending_license_number,identifier,non_key,Attending license number.,LIC-VLN-MED-1001
+SB02,SYS-CLN-OPS,clinical_encounters.csv,service_unit,categorical_or_text,non_key,Service unit.,cardiac diagnostics
+SB02,SYS-CLN-OPS,clinical_encounters.csv,disposition,categorical_or_text,non_key,Disposition.,follow_up_planned
+SB02,SYS-CLN-OPS,clinical_encounters.csv,confidentiality_class,categorical_or_text,non_key,Confidentiality class.,standard
+SB02,SYS-CLN-OPS,clinical_encounters.csv,follow_up_date,date_or_datetime,non_key,Follow up date.,2019-09-04
+SB02,SYS-CLN-OPS,clinical_observations.csv,observation_number,identifier,primary_or_composite_key,Observation number.,OBS-0000001
+SB02,SYS-CLN-OPS,clinical_observations.csv,encounter_number,identifier,non_key,Source-local encounter identifier.,ENC-000001
+SB02,SYS-CLN-OPS,clinical_observations.csv,patient_number,identifier,non_key,Source-local patient identifier used within the clinical system.,PAT-31162
+SB02,SYS-CLN-OPS,clinical_observations.csv,observation_time,date_or_datetime,non_key,Observation time.,2018-02-27T09:27:00
+SB02,SYS-CLN-OPS,clinical_observations.csv,observation_code,identifier,non_key,Observation code.,RPULSE
+SB02,SYS-CLN-OPS,clinical_observations.csv,observation_name,categorical_or_text,non_key,Observation name.,Resting pulse
+SB02,SYS-CLN-OPS,clinical_observations.csv,numeric_value,numeric,non_key,Numeric value.,64.0
+SB02,SYS-CLN-OPS,clinical_observations.csv,text_value,categorical_or_text,non_key,Text value.,inconclusive
+SB02,SYS-CLN-OPS,clinical_observations.csv,unit,categorical_or_text,non_key,Unit.,bpm
+SB02,SYS-CLN-OPS,clinical_observations.csv,reference_range_text,categorical_or_text,non_key,Reference range text.,50–100
+SB02,SYS-CLN-OPS,clinical_observations.csv,interpretation_code,identifier,non_key,Interpretation code.,within_expected_range
+SB02,SYS-CLN-OPS,clinical_observations.csv,device_reference,identifier,non_key,Device reference.,DEV-002
+SB02,SYS-CLN-OPS,clinical_observations.csv,quality_code,identifier,non_key,Quality code.,acceptable
+SB02,SYS-CLN-OPS,clinical_observations.csv,assessor_license_number,identifier,non_key,Assessor license number.,LIC-VLN-MED-1001
+SB02,SYS-CLN-OPS,clinical_procedures.csv,procedure_record_id,identifier,primary_or_composite_key,Procedure record id.,PRC-000001
+SB02,SYS-CLN-OPS,clinical_procedures.csv,encounter_number,identifier,non_key,Source-local encounter identifier.,ENC-001018
+SB02,SYS-CLN-OPS,clinical_procedures.csv,patient_number,identifier,non_key,Source-local patient identifier used within the clinical system.,PAT-31221
+SB02,SYS-CLN-OPS,clinical_procedures.csv,procedure_code,identifier,non_key,Procedure code.,MRP-42
+SB02,SYS-CLN-OPS,clinical_procedures.csv,procedure_description,categorical_or_text,non_key,Procedure description.,Targeted metabolic resilience administration
+SB02,SYS-CLN-OPS,clinical_procedures.csv,scheduled_time,date_or_datetime,non_key,Scheduled time.,2016-02-18T08:30:00
+SB02,SYS-CLN-OPS,clinical_procedures.csv,performed_time,date_or_datetime,non_key,Performed time.,2016-02-18T09:05:00
+SB02,SYS-CLN-OPS,clinical_procedures.csv,performing_facility_license,categorical_or_text,non_key,Performing facility license.,FAC-VLN-101
+SB02,SYS-CLN-OPS,clinical_procedures.csv,performing_license_number,identifier,non_key,Performing license number.,LIC-VLN-MED-1002
+SB02,SYS-CLN-OPS,clinical_procedures.csv,authorization_class,categorical_or_text,non_key,Authorization class.,restricted_specialist
+SB02,SYS-CLN-OPS,clinical_procedures.csv,material_reference,identifier,non_key,Material reference.,MTL-2016-0002
+SB02,SYS-CLN-OPS,clinical_procedures.csv,procedure_status,categorical_or_text,non_key,Procedure status.,completed
+SB02,SYS-CLN-OPS,clinical_procedures.csv,outcome_code,identifier,non_key,Outcome code.,completed_without_immediate_complication
+SB02,SYS-CLN-OPS,clinical_procedures.csv,next_review_date,date_or_datetime,non_key,Next review date.,2016-03-22
+SB02,SYS-CLN-OPS,patient_administration.csv,patient_number,identifier,primary_or_composite_key,Source-local patient identifier used within the clinical system.,PAT-31162
+SB02,SYS-CLN-OPS,patient_administration.csv,family_name,categorical_or_text,non_key,Family name.,Varen
+SB02,SYS-CLN-OPS,patient_administration.csv,given_name,categorical_or_text,non_key,Given name.,Eli
+SB02,SYS-CLN-OPS,patient_administration.csv,date_of_birth,date_or_datetime,non_key,Date of birth.,1962-04-19
+SB02,SYS-CLN-OPS,patient_administration.csv,registered_sex,categorical_or_text,non_key,Registered sex.,male
+SB02,SYS-CLN-OPS,patient_administration.csv,home_region,categorical_or_text,non_key,Home region.,Valenne Republic
+SB02,SYS-CLN-OPS,patient_administration.csv,occupation_text,categorical_or_text,non_key,Occupation text.,corporate adviser
+SB02,SYS-CLN-OPS,patient_administration.csv,registration_date,date_or_datetime,non_key,Registration date.,2018-01-01
+SB02,SYS-CLN-OPS,patient_administration.csv,primary_facility_license,categorical_or_text,non_key,Primary facility license.,FAC-VLN-101
+SB02,SYS-CLN-OPS,patient_administration.csv,record_status,categorical_or_text,non_key,Record status.,inactive
+SB01,SYS-PR-FAC,licensed_facilities.csv,facility_license_number,identifier,primary_or_composite_key,Facility license number.,FAC-VLN-101
+SB01,SYS-PR-FAC,licensed_facilities.csv,facility_name,categorical_or_text,non_key,Facility name.,Asterion Central Clinical Campus
+SB01,SYS-PR-FAC,licensed_facilities.csv,facility_category,categorical_or_text,non_key,Facility category.,research_hospital
+SB01,SYS-PR-FAC,licensed_facilities.csv,operating_organization_registration,categorical_or_text,non_key,Operating organization registration.,REG-VLN-01002
+SB01,SYS-PR-FAC,licensed_facilities.csv,street_address,categorical_or_text,non_key,Street address.,"Asterion Central Clinical Campus, Valenne Central District"
+SB01,SYS-PR-FAC,licensed_facilities.csv,region,categorical_or_text,non_key,Region.,Valenne Republic
+SB01,SYS-PR-FAC,licensed_facilities.csv,latitude,numeric,non_key,Latitude.,47.2
+SB01,SYS-PR-FAC,licensed_facilities.csv,longitude,numeric,non_key,Longitude.,7.51
+SB01,SYS-PR-FAC,licensed_facilities.csv,license_start,date_or_datetime,non_key,License start.,2001-02-01
+SB01,SYS-PR-FAC,licensed_facilities.csv,license_end,date_or_datetime,non_key,License end.,
+SB01,SYS-PR-FAC,licensed_facilities.csv,facility_status,categorical_or_text,non_key,Facility status.,active
+SB01,SYS-PR-FAC,licensed_facilities.csv,declared_services,categorical_or_text,non_key,Declared services.,preventive medicine; cardiac assessment; clinical research
+SB01,SYS-PR-PRO,licensed_professionals.csv,license_number,identifier,primary_or_composite_key,License number.,LIC-VLN-MED-1001
+SB01,SYS-PR-PRO,licensed_professionals.csv,professional_name,categorical_or_text,non_key,Professional name.,Emil Warden
+SB01,SYS-PR-PRO,licensed_professionals.csv,profession,categorical_or_text,non_key,Profession.,physician
+SB01,SYS-PR-PRO,licensed_professionals.csv,specialty,categorical_or_text,non_key,Specialty.,cardiology
+SB01,SYS-PR-PRO,licensed_professionals.csv,license_issue_date,date_or_datetime,non_key,License issue date.,1895-07-01
+SB01,SYS-PR-PRO,licensed_professionals.csv,license_expiry_date,date_or_datetime,non_key,License expiry date.,
+SB01,SYS-PR-PRO,licensed_professionals.csv,license_status,categorical_or_text,non_key,License status.,active
+SB01,SYS-PR-PRO,licensed_professionals.csv,primary_facility_license,categorical_or_text,non_key,Primary facility license.,FAC-VLN-101
+SB01,SYS-PR-PRO,licensed_professionals.csv,registered_region,categorical_or_text,non_key,Registered region.,Valennan
+SB01,SYS-PR-PRO,licensed_professionals.csv,disciplinary_status,categorical_or_text,non_key,Disciplinary status.,none
+SB01,SYS-PR-OFF,officer_filings.csv,filing_id,identifier,primary_or_composite_key,Filing id.,FLG-000001
+SB01,SYS-PR-OFF,officer_filings.csv,registration_number,identifier,non_key,Public legal-entity registration number.,REG-NDH-01015
+SB01,SYS-PR-OFF,officer_filings.csv,officer_local_ref,categorical_or_text,non_key,Officer local ref.,OFR-20001
+SB01,SYS-PR-OFF,officer_filings.csv,full_name,categorical_or_text,non_key,Full name.,Edward Vann
+SB01,SYS-PR-OFF,officer_filings.csv,birth_year_or_age_band,numeric,non_key,Birth year or age band.,1815
+SB01,SYS-PR-OFF,officer_filings.csv,nationality_or_region,categorical_or_text,non_key,Nationality or region.,Nordhaven
+SB01,SYS-PR-OFF,officer_filings.csv,role_title,categorical_or_text,non_key,Role title.,Industrial and shipping adviser
+SB01,SYS-PR-OFF,officer_filings.csv,appointment_date,date_or_datetime,non_key,Appointment date.,1840-01-01
+SB01,SYS-PR-OFF,officer_filings.csv,cessation_date,date_or_datetime,non_key,Cessation date.,1888-12-31
+SB01,SYS-PR-OFF,officer_filings.csv,filing_date,date_or_datetime,non_key,Filing date.,1840-03-09
+SB01,SYS-PR-OFF,officer_filings.csv,service_address,categorical_or_text,non_key,Service address.,Nordhaven Union
+SB01,SYS-PR-OFF,officer_filings.csv,filing_status,categorical_or_text,non_key,Filing status.,historical
+SB01,SYS-PR-APT,public_appointments.csv,appointment_record_id,identifier,primary_or_composite_key,Appointment record id.,APT-000001
+SB01,SYS-PR-APT,public_appointments.csv,appointing_jurisdiction,categorical_or_text,non_key,Appointing jurisdiction.,Aveloran
+SB01,SYS-PR-APT,public_appointments.csv,office_holder_name,categorical_or_text,non_key,Office holder name.,Ilyan Rho
+SB01,SYS-PR-APT,public_appointments.csv,recorded_birth_year,numeric,non_key,Recorded birth year.,1975
+SB01,SYS-PR-APT,public_appointments.csv,office_title,categorical_or_text,non_key,Office title.,Regional pollinator and agricultural technical adviser
+SB01,SYS-PR-APT,public_appointments.csv,institution_name,categorical_or_text,non_key,Institution name.,Avelora Agricultural Resilience Agency
+SB01,SYS-PR-APT,public_appointments.csv,appointment_start,date_or_datetime,non_key,Appointment start.,2003-01-01
+SB01,SYS-PR-APT,public_appointments.csv,appointment_end,date_or_datetime,non_key,Appointment end.,2021-09-18
+SB01,SYS-PR-APT,public_appointments.csv,appointment_basis,categorical_or_text,non_key,Appointment basis.,appointed
+SB01,SYS-PR-APT,public_appointments.csv,departure_reason,categorical_or_text,non_key,Departure reason.,deceased
+SB01,SYS-PR-APT,public_appointments.csv,official_region,categorical_or_text,non_key,Official region.,Aveloran
+SB01,SYS-PR-APT,public_appointments.csv,source_notice_reference,identifier,non_key,Source notice reference.,NOTICE-AVL-2003-0002
+SB01,SYS-PR-REG,registered_entities.csv,registration_number,identifier,primary_or_composite_key,Public legal-entity registration number.,REG-VLN-01001
+SB01,SYS-PR-REG,registered_entities.csv,legal_name,categorical_or_text,non_key,Legal name.,Meridian BioLogistics
+SB01,SYS-PR-REG,registered_entities.csv,registered_entity_type,categorical_or_text,non_key,Registered entity type.,logistics_company
+SB01,SYS-PR-REG,registered_entities.csv,registration_date,date_or_datetime,non_key,Registration date.,1996-01-15
+SB01,SYS-PR-REG,registered_entities.csv,current_status,categorical_or_text,non_key,Current status.,active
+SB01,SYS-PR-REG,registered_entities.csv,registered_address,categorical_or_text,non_key,Registered address.,Meridian Valenne Headquarters
+SB01,SYS-PR-REG,registered_entities.csv,jurisdiction,categorical_or_text,non_key,Jurisdiction.,Valenne Republic
+SB01,SYS-PR-REG,registered_entities.csv,declared_activity,categorical_or_text,non_key,Declared activity.,International biological and cold-chain logistics
+SB01,SYS-PR-REG,registered_entities.csv,parent_registration_number,identifier,non_key,Parent registration number.,
+SB01,SYS-PR-REG,registered_entities.csv,last_filing_date,date_or_datetime,non_key,Last filing date.,2025-03-31
+SB03,SYS-ECO-RPM,bat_surveys.csv,survey_id,identifier,primary_or_composite_key,Survey id.,BAT-0000001
+SB03,SYS-ECO-RPM,bat_surveys.csv,site_code,identifier,non_key,Source-local ecological monitoring-site code.,KNT-KES
+SB03,SYS-ECO-RPM,bat_surveys.csv,survey_start,date_or_datetime,non_key,Survey start.,2019-01-05T18:00:00
+SB03,SYS-ECO-RPM,bat_surveys.csv,survey_end,date_or_datetime,non_key,Survey end.,2019-01-12T00:00:00
+SB03,SYS-ECO-RPM,bat_surveys.csv,survey_method,categorical_or_text,non_key,Survey method.,fixed_acoustic_station
+SB03,SYS-ECO-RPM,bat_surveys.csv,observation_hours,numeric,non_key,Observation hours.,28.6
+SB03,SYS-ECO-RPM,bat_surveys.csv,observed_bat_count,numeric,non_key,Observed bat count.,7
+SB03,SYS-ECO-RPM,bat_surveys.csv,acoustic_detection_count,numeric,non_key,Acoustic detection count.,13
+SB03,SYS-ECO-RPM,bat_surveys.csv,nightly_visit_count,numeric,non_key,Nightly visit count.,7
+SB03,SYS-ECO-RPM,bat_surveys.csv,colony_estimate,numeric,non_key,Colony estimate.,3.8
+SB03,SYS-ECO-RPM,bat_surveys.csv,comparison_species_count,numeric,non_key,Comparison species count.,8
+SB03,SYS-ECO-RPM,bat_surveys.csv,observer_team,categorical_or_text,non_key,Observer team.,TEAM-11-2
+SB03,SYS-ECO-RPM,bat_surveys.csv,survey_quality,categorical_or_text,non_key,Survey quality.,high
+SB03,SYS-ECO-RPM,bat_surveys.csv,weather_interference,numeric,non_key,Weather interference.,32.0
+SB03,SYS-ECO-RPM,environmental_monthly.csv,site_code,identifier,primary_or_composite_key,Source-local ecological monitoring-site code.,KNT-KES
+SB03,SYS-ECO-RPM,environmental_monthly.csv,reporting_month,identifier,primary_or_composite_key,Reporting month.,2019-01-01
+SB03,SYS-ECO-RPM,environmental_monthly.csv,mean_temperature_c,numeric,non_key,Mean temperature c.,25.25
+SB03,SYS-ECO-RPM,environmental_monthly.csv,rainfall_mm,numeric,non_key,Rainfall mm.,95.0
+SB03,SYS-ECO-RPM,environmental_monthly.csv,mean_humidity_pct,numeric,non_key,Mean humidity pct.,74.4
+SB03,SYS-ECO-RPM,environmental_monthly.csv,vegetation_cover_pct,numeric,non_key,Vegetation cover pct.,69.7
+SB03,SYS-ECO-RPM,environmental_monthly.csv,habitat_disturbance_index,numeric,non_key,Habitat disturbance index.,25.9
+SB03,SYS-ECO-RPM,environmental_monthly.csv,pesticide_index,numeric,non_key,Pesticide index.,31.6
+SB03,SYS-ECO-RPM,environmental_monthly.csv,land_use_category,categorical_or_text,non_key,Land use category.,karst_habitat
+SB03,SYS-ECO-RPM,environmental_monthly.csv,weather_exception_code,identifier,non_key,Weather exception code.,DRY_SPELL
+SB03,SYS-ECO-RPM,environmental_monthly.csv,data_completeness_pct,numeric,non_key,Data completeness pct.,98.6
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,device_operation_id,identifier,primary_or_composite_key,Device operation id.,DOP-0000001
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,site_code,identifier,non_key,Source-local ecological monitoring-site code.,KNT-KES
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,device_reference,identifier,non_key,Device reference.,DEV-KNTKES-2
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,operation_start,date_or_datetime,non_key,Operation start.,2019-01-01T00:00:00
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,operation_end,date_or_datetime,non_key,Operation end.,2019-01-31T23:59:59
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,uptime_pct,numeric,non_key,Uptime pct.,92.3
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,acoustic_quality,categorical_or_text,non_key,Acoustic quality.,85.9
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,maintenance_type,categorical_or_text,non_key,Maintenance type.,routine inspection
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,fault_code,identifier,non_key,Fault code.,STORAGE_LIMIT
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,maintenance_provider,categorical_or_text,non_key,Maintenance provider.,ECO-SERVICE-2
+SB03,SYS-ECO-RPM,monitoring_device_operations.csv,record_status,categorical_or_text,non_key,Record status.,closed
+SB03,SYS-ECO-RPM,monitoring_sites.csv,site_code,identifier,primary_or_composite_key,Source-local ecological monitoring-site code.,KNT-KES
+SB03,SYS-ECO-RPM,monitoring_sites.csv,site_name,categorical_or_text,non_key,Site name.,Kestrel Cavern Monitoring Site
+SB03,SYS-ECO-RPM,monitoring_sites.csv,site_category,categorical_or_text,non_key,Site category.,cave monitoring
+SB03,SYS-ECO-RPM,monitoring_sites.csv,region,categorical_or_text,non_key,Region.,Kintara Karst Cluster
+SB03,SYS-ECO-RPM,monitoring_sites.csv,jurisdiction,categorical_or_text,non_key,Jurisdiction.,Kintara Republic
+SB03,SYS-ECO-RPM,monitoring_sites.csv,latitude,numeric,non_key,Latitude.,4.68
+SB03,SYS-ECO-RPM,monitoring_sites.csv,longitude,numeric,non_key,Longitude.,112.31
+SB03,SYS-ECO-RPM,monitoring_sites.csv,elevation_m,numeric,non_key,Elevation m.,248.0
+SB03,SYS-ECO-RPM,monitoring_sites.csv,habitat_category,categorical_or_text,non_key,Habitat category.,karst_habitat
+SB03,SYS-ECO-RPM,monitoring_sites.csv,cave_access_category,categorical_or_text,non_key,Cave access category.,managed
+SB03,SYS-ECO-RPM,monitoring_sites.csv,orchard_context,categorical_or_text,non_key,Orchard context.,none recorded
+SB03,SYS-ECO-RPM,monitoring_sites.csv,programme_start_date,date_or_datetime,non_key,Programme start date.,2016-01-01
+SB03,SYS-ECO-RPM,monitoring_sites.csv,programme_end_date,date_or_datetime,non_key,Programme end date.,
+SB03,SYS-ECO-RPM,monitoring_sites.csv,site_status,categorical_or_text,non_key,Site status.,active
+SB03,SYS-ECO-RPM,orchard_surveys.csv,orchard_survey_id,identifier,primary_or_composite_key,Orchard survey id.,ORC-0000001
+SB03,SYS-ECO-RPM,orchard_surveys.csv,site_code,identifier,non_key,Source-local ecological monitoring-site code.,AVL-MAR
+SB03,SYS-ECO-RPM,orchard_surveys.csv,survey_period,date_or_datetime,non_key,Survey period.,2019-01-01
+SB03,SYS-ECO-RPM,orchard_surveys.csv,orchard_area_ha,numeric,non_key,Orchard area ha.,24.1
+SB03,SYS-ECO-RPM,orchard_surveys.csv,durian_flower_density,numeric,non_key,Durian flower density.,40.3
+SB03,SYS-ECO-RPM,orchard_surveys.csv,fruit_set_rate_pct,numeric,non_key,Fruit set rate pct.,34.7
+SB03,SYS-ECO-RPM,orchard_surveys.csv,durian_yield_kg,numeric,non_key,Durian yield kg.,20400.8
+SB03,SYS-ECO-RPM,orchard_surveys.csv,other_pollinator_activity,numeric,non_key,Other pollinator activity.,55.2
+SB03,SYS-ECO-RPM,orchard_surveys.csv,fertilizer_use_index,numeric,non_key,Fertilizer use index.,27.1
+SB03,SYS-ECO-RPM,orchard_surveys.csv,irrigation_level,numeric,non_key,Irrigation level.,38.4
+SB03,SYS-ECO-RPM,orchard_surveys.csv,agricultural_disturbance_note,categorical_or_text,non_key,Agricultural disturbance note.,  storm-related  flower  loss 
+SB05,SYS-CASE-REG,regulatory_case_events.csv,regulatory_event_id,identifier,primary_or_composite_key,Regulatory event id.,RGE-000001
+SB05,SYS-CASE-REG,regulatory_case_events.csv,case_number,identifier,non_key,Case number.,REG-2018-0001
+SB05,SYS-CASE-REG,regulatory_case_events.csv,case_category,categorical_or_text,non_key,Case category.,environmental_complaint
+SB05,SYS-CASE-REG,regulatory_case_events.csv,event_time,date_or_datetime,non_key,Event time.,2018-05-14T09:00:00
+SB05,SYS-CASE-REG,regulatory_case_events.csv,activity,categorical_or_text,non_key,Activity.,case_opened
+SB05,SYS-CASE-REG,regulatory_case_events.csv,subject_name,categorical_or_text,non_key,Subject name.,Avelora Agricultural Resilience Agency
+SB05,SYS-CASE-REG,regulatory_case_events.csv,subject_registration_number,identifier,non_key,Subject registration number.,REG-VLN-01001
+SB05,SYS-CASE-REG,regulatory_case_events.csv,agency_name,categorical_or_text,non_key,Agency name.,Tembara Customs Coordination Unit
+SB05,SYS-CASE-REG,regulatory_case_events.csv,initiating_source,categorical_or_text,non_key,Initiating source.,civil society referral
+SB05,SYS-CASE-REG,regulatory_case_events.csv,assigned_unit,categorical_or_text,non_key,Assigned unit.,integrity review
+SB05,SYS-CASE-REG,regulatory_case_events.csv,related_site_code,identifier,non_key,Related site code.,AVL-MAR
+SB05,SYS-CASE-REG,regulatory_case_events.csv,related_shipment_number,identifier,non_key,Related shipment number.,SHP-2018-00032
+SB05,SYS-CASE-REG,regulatory_case_events.csv,previous_status,categorical_or_text,non_key,Previous status.,new
+SB05,SYS-CASE-REG,regulatory_case_events.csv,new_status,categorical_or_text,non_key,New status.,open
+SB05,SYS-CASE-REG,regulatory_case_events.csv,outcome,categorical_or_text,non_key,Outcome.,case registered
+SB05,SYS-CASE-REG,regulatory_case_events.csv,public_reference,identifier,non_key,Public reference.,PUB-2020-0004
+SB05,SYS-CASE-ACC,site_access_case_events.csv,access_event_id,identifier,primary_or_composite_key,Access event id.,ACE-000001
+SB05,SYS-CASE-ACC,site_access_case_events.csv,access_case_number,identifier,non_key,Access case number.,ACC-2018-0001
+SB05,SYS-CASE-ACC,site_access_case_events.csv,site_code,identifier,non_key,Source-local ecological monitoring-site code.,TMB-NAC
+SB05,SYS-CASE-ACC,site_access_case_events.csv,event_time,date_or_datetime,non_key,Event time.,2018-01-15T09:00:00
+SB05,SYS-CASE-ACC,site_access_case_events.csv,activity,categorical_or_text,non_key,Activity.,request_submitted
+SB05,SYS-CASE-ACC,site_access_case_events.csv,requesting_organization_name,categorical_or_text,non_key,Requesting organization name.,Horizon Field Research Cooperative
+SB05,SYS-CASE-ACC,site_access_case_events.csv,requesting_registration_number,identifier,non_key,Requesting registration number.,REG-AVL-01013
+SB05,SYS-CASE-ACC,site_access_case_events.csv,authorizing_agency,categorical_or_text,non_key,Authorizing agency.,Tembara Biodiversity Service
+SB05,SYS-CASE-ACC,site_access_case_events.csv,authorized_person_name,categorical_or_text,non_key,Authorized person name.,Bela Ferran
+SB05,SYS-CASE-ACC,site_access_case_events.csv,access_purpose,categorical_or_text,non_key,Access purpose.,acoustic monitoring and equipment maintenance
+SB05,SYS-CASE-ACC,site_access_case_events.csv,equipment_category,categorical_or_text,non_key,Equipment category.,portable monitoring and cold-storage equipment
+SB05,SYS-CASE-ACC,site_access_case_events.csv,previous_status,categorical_or_text,non_key,Previous status.,draft
+SB05,SYS-CASE-ACC,site_access_case_events.csv,new_status,categorical_or_text,non_key,New status.,submitted
+SB05,SYS-CASE-ACC,site_access_case_events.csv,confidentiality_class,categorical_or_text,non_key,Confidentiality class.,restricted
+SB05,SYS-CASE-ACC,site_access_case_events.csv,outcome,categorical_or_text,non_key,Outcome.,request logged
+SB04,SYS-LOG-MER,erp_facilities.csv,facility_code,identifier,primary_or_composite_key,ERP-local facility code.,FCL-1011
+SB04,SYS-LOG-MER,erp_facilities.csv,facility_name,categorical_or_text,non_key,Facility name.,Meridian Valenne Headquarters
+SB04,SYS-LOG-MER,erp_facilities.csv,facility_category,categorical_or_text,non_key,Facility category.,office
+SB04,SYS-LOG-MER,erp_facilities.csv,operating_partner_code,identifier,non_key,Operating partner code.,BP-30078
+SB04,SYS-LOG-MER,erp_facilities.csv,street_address,categorical_or_text,non_key,Street address.,"Meridian Valenne Headquarters, Valenne Central District"
+SB04,SYS-LOG-MER,erp_facilities.csv,region,categorical_or_text,non_key,Region.,Valenne Central District
+SB04,SYS-LOG-MER,erp_facilities.csv,latitude,numeric,non_key,Latitude.,47.24
+SB04,SYS-LOG-MER,erp_facilities.csv,longitude,numeric,non_key,Longitude.,7.58
+SB04,SYS-LOG-MER,erp_facilities.csv,opening_date,date_or_datetime,non_key,Opening date.,2006-01-01
+SB04,SYS-LOG-MER,erp_facilities.csv,facility_status,categorical_or_text,non_key,Facility status.,active
+SB04,SYS-LOG-MER,erp_facilities.csv,storage_capabilities,categorical_or_text,non_key,Storage capabilities.,ambient
+SB04,SYS-LOG-MER,goods_receipts.csv,receipt_number,identifier,primary_or_composite_key,Receipt number.,RCV-2014-00001
+SB04,SYS-LOG-MER,goods_receipts.csv,purchase_order_number,identifier,non_key,Purchase order number.,PO-2014-00001
+SB04,SYS-LOG-MER,goods_receipts.csv,purchase_order_line,categorical_or_text,non_key,Purchase order line.,1
+SB04,SYS-LOG-MER,goods_receipts.csv,receipt_date,date_or_datetime,non_key,Receipt date.,2014-07-08
+SB04,SYS-LOG-MER,goods_receipts.csv,receiving_facility_code,identifier,non_key,Receiving facility code.,FCL-1007
+SB04,SYS-LOG-MER,goods_receipts.csv,supplier_partner_code,identifier,non_key,Supplier partner code.,BP-30078
+SB04,SYS-LOG-MER,goods_receipts.csv,received_quantity,numeric,non_key,Received quantity.,73
+SB04,SYS-LOG-MER,goods_receipts.csv,received_unit,categorical_or_text,non_key,Received unit.,case
+SB04,SYS-LOG-MER,goods_receipts.csv,batch_reference,identifier,non_key,Batch reference.,B-2014-44545
+SB04,SYS-LOG-MER,goods_receipts.csv,inspection_status,categorical_or_text,non_key,Inspection status.,held
+SB04,SYS-LOG-MER,goods_receipts.csv,storage_location_code,identifier,non_key,Storage location code.,BIN-35
+SB04,SYS-LOG-MER,goods_receipts.csv,receipt_status,categorical_or_text,non_key,Receipt status.,quality_hold
+SB04,SYS-LOG-MER,inventory_adjustments.csv,adjustment_number,identifier,primary_or_composite_key,Adjustment number.,ADJ-2014-00001
+SB04,SYS-LOG-MER,inventory_adjustments.csv,facility_code,identifier,non_key,ERP-local facility code.,FCL-1007
+SB04,SYS-LOG-MER,inventory_adjustments.csv,adjustment_date,date_or_datetime,non_key,Adjustment date.,2014-07-18
+SB04,SYS-LOG-MER,inventory_adjustments.csv,item_category,categorical_or_text,non_key,Item category.,medical_consumables
+SB04,SYS-LOG-MER,inventory_adjustments.csv,adjustment_quantity,numeric,non_key,Adjustment quantity.,-1.58
+SB04,SYS-LOG-MER,inventory_adjustments.csv,unit,categorical_or_text,non_key,Unit.,case
+SB04,SYS-LOG-MER,inventory_adjustments.csv,adjustment_reason,categorical_or_text,non_key,Adjustment reason.,specialist programme issue
+SB04,SYS-LOG-MER,inventory_adjustments.csv,approved_by_role,categorical_or_text,non_key,Approved by role.,clinical stores manager
+SB04,SYS-LOG-MER,inventory_adjustments.csv,related_receipt_number,identifier,non_key,Related receipt number.,RCV-2022-00361
+SB04,SYS-LOG-MER,inventory_adjustments.csv,related_shipment_number,identifier,non_key,Related shipment number.,SHP-2023-00029
+SB04,SYS-LOG-MER,inventory_adjustments.csv,adjustment_status,categorical_or_text,non_key,Adjustment status.,posted
+SB04,SYS-LOG-MER,inventory_month_end.csv,facility_code,identifier,primary_or_composite_key,ERP-local facility code.,FCL-1024
+SB04,SYS-LOG-MER,inventory_month_end.csv,reporting_month,identifier,primary_or_composite_key,Reporting month.,2018-02-01
+SB04,SYS-LOG-MER,inventory_month_end.csv,item_category,identifier,primary_or_composite_key,Item category.,biological_sample
+SB04,SYS-LOG-MER,inventory_month_end.csv,opening_stock,numeric,non_key,Opening stock.,14.55 sealed_lot
+SB04,SYS-LOG-MER,inventory_month_end.csv,received_quantity,numeric,non_key,Received quantity.,5.46
+SB04,SYS-LOG-MER,inventory_month_end.csv,outgoing_quantity,numeric,non_key,Outgoing quantity.,0.00
+SB04,SYS-LOG-MER,inventory_month_end.csv,documented_internal_use,numeric,non_key,Documented internal use.,0.49
+SB04,SYS-LOG-MER,inventory_month_end.csv,documented_waste,numeric,non_key,Documented waste.,0.22
+SB04,SYS-LOG-MER,inventory_month_end.csv,closing_stock,numeric,non_key,Closing stock.,16.24
+SB04,SYS-LOG-MER,inventory_month_end.csv,unit,categorical_or_text,non_key,Unit.,sealed_lot
+SB04,SYS-LOG-MER,inventory_month_end.csv,inventory_status,categorical_or_text,non_key,Inventory status.,closed
+SB04,SYS-LOG-MER,erp_business_partners.csv,partner_code,identifier,primary_or_composite_key,ERP-local business-partner code.,BP-30001
+SB04,SYS-LOG-MER,erp_business_partners.csv,partner_name,categorical_or_text,non_key,Partner name.,Marula Cold Store Cooperative
+SB04,SYS-LOG-MER,erp_business_partners.csv,partner_role,categorical_or_text,non_key,Partner role.,supplier_customer
+SB04,SYS-LOG-MER,erp_business_partners.csv,external_registration_number,identifier,non_key,External registration number.,REG-AVL-20012
+SB04,SYS-LOG-MER,erp_business_partners.csv,billing_region,categorical_or_text,non_key,Billing region.,Avelora Federation
+SB04,SYS-LOG-MER,erp_business_partners.csv,shipping_region,categorical_or_text,non_key,Shipping region.,Eastern Avelora Agricultural Cluster
+SB04,SYS-LOG-MER,erp_business_partners.csv,default_currency,categorical_or_text,non_key,Default currency.,AVL
+SB04,SYS-LOG-MER,erp_business_partners.csv,payment_terms,categorical_or_text,non_key,Payment terms.,NET45
+SB04,SYS-LOG-MER,erp_business_partners.csv,partner_status,categorical_or_text,non_key,Partner status.,active
+SB04,SYS-LOG-MER,erp_business_partners.csv,risk_class,categorical_or_text,non_key,Risk class.,review
+SB04,SYS-LOG-MER,erp_business_partners.csv,onboarding_date,date_or_datetime,non_key,Onboarding date.,2001-02-01
+SB04,SYS-LOG-MER,purchase_order_lines.csv,purchase_order_number,identifier,primary_or_composite_key,Purchase order number.,PO-2014-00001
+SB04,SYS-LOG-MER,purchase_order_lines.csv,purchase_order_line,identifier,primary_or_composite_key,Purchase order line.,1
+SB04,SYS-LOG-MER,purchase_order_lines.csv,order_date,date_or_datetime,non_key,Order date.,2014-06-24
+SB04,SYS-LOG-MER,purchase_order_lines.csv,ordering_facility_code,identifier,non_key,Ordering facility code.,FCL-1007
+SB04,SYS-LOG-MER,purchase_order_lines.csv,supplier_partner_code,identifier,non_key,Supplier partner code.,BP-30078
+SB04,SYS-LOG-MER,purchase_order_lines.csv,item_code,identifier,non_key,Item code.,ITM-MED-001
+SB04,SYS-LOG-MER,purchase_order_lines.csv,item_description,categorical_or_text,non_key,Item description.,General clinical consumable case
+SB04,SYS-LOG-MER,purchase_order_lines.csv,item_category,categorical_or_text,non_key,Item category.,medical_consumables
+SB04,SYS-LOG-MER,purchase_order_lines.csv,ordered_quantity,numeric,non_key,Ordered quantity.,73
+SB04,SYS-LOG-MER,purchase_order_lines.csv,ordered_unit,categorical_or_text,non_key,Ordered unit.,case
+SB04,SYS-LOG-MER,purchase_order_lines.csv,unit_price,numeric,non_key,Unit price.,157.85
+SB04,SYS-LOG-MER,purchase_order_lines.csv,currency,categorical_or_text,non_key,Currency.,VLN
+SB04,SYS-LOG-MER,purchase_order_lines.csv,requested_delivery_date,date_or_datetime,non_key,Requested delivery date.,2014-07-08
+SB04,SYS-LOG-MER,purchase_order_lines.csv,authorization_class,categorical_or_text,non_key,Authorization class.,restricted
+SB04,SYS-LOG-MER,purchase_order_lines.csv,declared_cost_center,categorical_or_text,non_key,Declared cost center.,Clinical Programmes
+SB04,SYS-LOG-MER,purchase_order_lines.csv,order_status,categorical_or_text,non_key,Order status.,completed
+SB04,SYS-LOG-MER,shipments.csv,shipment_number,identifier,primary_or_composite_key,Shipment number.,SHP-2014-00001
+SB04,SYS-LOG-MER,shipments.csv,shipment_leg,identifier,primary_or_composite_key,Shipment leg.,1
+SB04,SYS-LOG-MER,shipments.csv,dispatch_time,date_or_datetime,non_key,Dispatch time.,2014-07-10T09:00:00
+SB04,SYS-LOG-MER,shipments.csv,arrival_time,date_or_datetime,non_key,Arrival time.,2014-07-11T03:00:00
+SB04,SYS-LOG-MER,shipments.csv,sender_partner_code,identifier,non_key,Sender partner code.,BP-30078
+SB04,SYS-LOG-MER,shipments.csv,receiver_partner_code,identifier,non_key,Receiver partner code.,BP-30021
+SB04,SYS-LOG-MER,shipments.csv,origin_facility_code,identifier,non_key,Origin facility code.,FCL-1011
+SB04,SYS-LOG-MER,shipments.csv,destination_facility_code,identifier,non_key,Destination facility code.,FCL-1007
+SB04,SYS-LOG-MER,shipments.csv,carrier_partner_code,identifier,non_key,Carrier partner code.,BP-30047
+SB04,SYS-LOG-MER,shipments.csv,item_category,categorical_or_text,non_key,Item category.,biological_sample
+SB04,SYS-LOG-MER,shipments.csv,declared_quantity,numeric,non_key,Declared quantity.,2
+SB04,SYS-LOG-MER,shipments.csv,declared_unit,categorical_or_text,non_key,Declared unit.,sealed_lot
+SB04,SYS-LOG-MER,shipments.csv,temperature_control_class,categorical_or_text,non_key,Temperature control class.,2-8C
+SB04,SYS-LOG-MER,shipments.csv,authorization_class,categorical_or_text,non_key,Authorization class.,expedited
+SB04,SYS-LOG-MER,shipments.csv,declared_purpose,categorical_or_text,non_key,Declared purpose.,temperature-controlled clinical programme delivery
+SB04,SYS-LOG-MER,shipments.csv,shipment_status,categorical_or_text,non_key,Shipment status.,delivered
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,recording_id,identifier,primary_or_composite_key,Source-local cardiac recording identifier.,CRD-410031
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,patient_number,identifier,non_key,Source-local patient identifier used within the clinical system.,PAT-31162
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,encounter_number,identifier,non_key,Source-local encounter identifier.,ENC-000004
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,recording_date,date_or_datetime,non_key,Recording date.,2022-06-21
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,recording_context,categorical_or_text,non_key,Recording context.,rest
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,facility_license_number,identifier,non_key,Facility license number.,FAC-VLN-101
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,reviewing_license_number,identifier,non_key,Reviewing license number.,LIC-VLN-RES-1016
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,device_serial_number,identifier,non_key,Device serial number.,DEV-CARD-07034
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,device_model,categorical_or_text,non_key,Device model.,Vantage Rhythm Monitor
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,sampling_rate_hz,numeric,non_key,Sampling rate hz.,100
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,sampling_interval_ms,numeric,non_key,Sampling interval ms.,10
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,duration_seconds,numeric,non_key,Duration seconds.,12.0
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,channel_count,numeric,non_key,Channel count.,2
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,sample_count,numeric,non_key,Sample count.,1200
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,amplitude_unit,categorical_or_text,non_key,Amplitude unit.,normalized_unit
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,automated_interpretation,categorical_or_text,non_key,Automated interpretation.,complex
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,recording_notes_code,identifier,non_key,Recording notes code.,rhythm_variability
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,device_quality,numeric,non_key,Device quality.,80.9
+SB02,SYS-CLN-DEV,cardiac_recordings.csv,archive_status,categorical_or_text,non_key,Archive status.,finalized
+SB02,SYS-CLN-DEV,cardiac_signal_samples.csv,recording_id,identifier,primary_or_composite_key,Source-local cardiac recording identifier.,CRD-410031
+SB02,SYS-CLN-DEV,cardiac_signal_samples.csv,time_ms,identifier,primary_or_composite_key,Time ms.,0
+SB02,SYS-CLN-DEV,cardiac_signal_samples.csv,channel_a_normalized,numeric,non_key,Channel a normalized.,-0.118963
+SB02,SYS-CLN-DEV,cardiac_signal_samples.csv,channel_b_normalized,numeric,non_key,Channel b normalized.,-0.200416
+SB06,SYS-DOC-CLN,clinical_notes.csv,document_id,identifier,primary_or_composite_key,Repository-local document identifier.,CLN-510027
+SB06,SYS-DOC-CLN,clinical_notes.csv,patient_number,identifier,non_key,Source-local patient identifier used within the clinical system.,PAT-31065
+SB06,SYS-DOC-CLN,clinical_notes.csv,encounter_number,identifier,non_key,Source-local encounter identifier.,ENC-000037
+SB06,SYS-DOC-CLN,clinical_notes.csv,document_date,date_or_datetime,non_key,Document date.,2023-04-11
+SB06,SYS-DOC-CLN,clinical_notes.csv,document_type,categorical_or_text,non_key,Document type.,imaging_report
+SB06,SYS-DOC-CLN,clinical_notes.csv,author_license_number,identifier,non_key,Author license number.,LIC-VLN-MED-1003
+SB06,SYS-DOC-CLN,clinical_notes.csv,facility_license_number,identifier,non_key,Facility license number.,FAC-VLN-101
+SB06,SYS-DOC-CLN,clinical_notes.csv,title,categorical_or_text,non_key,Title.,Targeted Thoracic Imaging Review
+SB06,SYS-DOC-CLN,clinical_notes.csv,text,long_text,non_key,Full document body as stored by the source repository.,"INDICATION
+Review of recurrent discordance between peripheral pulse measurements and apical recordings in a restricted patient, with comparison to the prior rhythm study.
+
+TECHNIQUE
+Targeted thoracic ultrasound and synchronized surface recording were performed in two acoustic windows. Device quality was acceptable. The study was repeated after repositioning because the initial waveform contained motion artefact.
+
+FINDINGS
+Two spatially distinct zones of contractile motion are visible. The dominant left-sided source follows the peripheral pulse. A second, smaller source is consistently located inferior and medial to the first and produces a pulsatile sequence that is not fully phase-locked to the dominant cycle. During the repeat acquisition, the interval between the two sources varied while each source retained internal periodicity. The finding was reproduced in both windows and was not abolished by lead replacement.
+
+There is no acute chamber dilatation, effusion, or evidence of device displacement. The study cannot determine whether the second motion represents an accessory contractile structure, an unusual vascular phenomenon, or a stable anatomical variant.
+
+IMPRESSION
+Reproducible dual cardiac structures are considered as an imaging differential because two contractile sources are spatially separated and partly independent in timing. This wording describes the observed pattern rather than a final anatomical conclusion. Correlation with the paired signal recording, prior imaging, and specialist review is recommended."
+SB06,SYS-DOC-CLN,clinical_notes.csv,confidentiality_class,categorical_or_text,non_key,Confidentiality class.,restricted
+SB06,SYS-DOC-CLN,clinical_notes.csv,superseded_document_id,identifier,non_key,Superseded document id.,
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,document_id,identifier,primary_or_composite_key,Repository-local document identifier.,EFR-510088
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,site_code,identifier,non_key,Source-local ecological monitoring-site code.,KNT-KES
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,document_date,date_or_datetime,non_key,Document date.,2024-04-02
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,document_type,categorical_or_text,non_key,Document type.,ecological_incident_report
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,author_name,categorical_or_text,non_key,Author name.,Anika Dren
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,author_organization,categorical_or_text,non_key,Author organization.,Horizon Field Research Cooperative
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,reporting_period,date_or_datetime,non_key,Reporting period.,2024-04
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,title,categorical_or_text,non_key,Title.,Post-Access Ecological Incident at KNT-KES
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,text,long_text,non_key,Full document body as stored by the source repository.,"INCIDENT
+A post-access inspection was conducted at KNT-KES after the March access window. The acoustic station remained operational, but the subsequent survey recorded a marked reduction in *Eonycteris spelaea* activity compared with other environmentally similar months.
+
+EVIDENCE
+Device uptime was above ninety percent and the acoustic-quality record did not show a sustained fault. Weather interference was moderate and does not account for the full change. Visual inspection identified fresh handling marks near the secondary entrance, two short lengths of cut restraint material, and disturbed sediment along a route not used by the monitoring team. No dead animals were found. The access register confirms authorized equipment entry, although the declared purpose was routine monitoring maintenance.
+
+IMMEDIATE ACTION
+The entrance was photographed, the cut material was retained, and the station configuration was checked against the prior record. A repeat survey and a comparison with adjacent sites were requested. The access authority was asked to preserve the associated case file.
+
+UNCERTAINTY
+The observations are consistent with recent removal or handling activity, but they do not identify who conducted it or why. Seasonal movement, unrecorded disturbance, and temporary roost relocation remain alternatives. The report therefore records an unexplained post-access bat deficit with functioning devices and physical traces; it does not assign a covert operation or final use."
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,related_survey_id,identifier,non_key,Related survey id.,BAT-0000064
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,related_device_reference,identifier,non_key,Related device reference.,DEV-KNTKES-2
+SB06,SYS-DOC-ECO,environmental_field_reports.csv,publication_status,categorical_or_text,non_key,Publication status.,restricted
+SB06,SYS-DOC-INS,institutional_memos.csv,document_id,identifier,primary_or_composite_key,Repository-local document identifier.,MEM-510062
+SB06,SYS-DOC-INS,institutional_memos.csv,document_date,date_or_datetime,non_key,Document date.,2024-04-30
+SB06,SYS-DOC-INS,institutional_memos.csv,document_type,categorical_or_text,non_key,Document type.,inventory_explanation
+SB06,SYS-DOC-INS,institutional_memos.csv,author_name,categorical_or_text,non_key,Author name.,Soren Kade
+SB06,SYS-DOC-INS,institutional_memos.csv,author_organization,categorical_or_text,non_key,Author organization.,Meridian BioLogistics
+SB06,SYS-DOC-INS,institutional_memos.csv,recipient_text,categorical_or_text,non_key,Recipient text.,Restricted operations and compliance group
+SB06,SYS-DOC-INS,institutional_memos.csv,subject_line,categorical_or_text,non_key,Subject line.,April Biological-Unit Reconciliation
+SB06,SYS-DOC-INS,institutional_memos.csv,text,long_text,non_key,Full document body as stored by the source repository.,"SUBJECT
+Unresolved biological-unit imbalance following April inventory reconciliation.
+
+CONTEXT
+The monthly reconciliation reviewed receipts, declared internal use, documented waste, adjustments, and outbound records for the controlled biological-sample category. Adjustment ADJ-2022-00088 was included in the review. Unit conversions were checked against the current item master.
+
+FINDINGS
+The opening balance and posted receipts reconcile with the warehouse ledger. Declared internal use and waste are supported by signed records. The outbound register accounts for the listed shipments, but the calculated closing balance remains above the physical count. A recount by a second controller produced the same result. No temperature excursion or damaged-container report explains the difference.
+
+The discrepancy is concentrated in sealed biological units handled under restricted authorization. Similar differences have occurred in earlier periods, although their direction and size vary. Ordinary causes such as delayed posting, split batches, unit conversion, and transfer between storage locations remain under review.
+
+ACTION
+Maintain the adjustment as provisional, suspend automatic closure of the period, and obtain the secure dispatch register for comparison. This memorandum establishes a material sink in the accounting sequence; it does not identify a destination, user, or purpose."
+SB06,SYS-DOC-INS,institutional_memos.csv,related_purchase_order,categorical_or_text,non_key,Related purchase order.,PO-2022-00044
+SB06,SYS-DOC-INS,institutional_memos.csv,related_shipment_number,identifier,non_key,Related shipment number.,SHP-2022-00011
+SB06,SYS-DOC-INS,institutional_memos.csv,related_case_number,identifier,non_key,Related case number.,ACC-2019-0005
+SB06,SYS-DOC-INS,institutional_memos.csv,visibility_level,categorical_or_text,non_key,Visibility level.,restricted
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,document_id,identifier,primary_or_composite_key,Repository-local document identifier.,PUB-510045
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,document_date,date_or_datetime,non_key,Document date.,2022-07-08
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,collection,categorical_or_text,non_key,Collection.,investigative_repository
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,document_type,categorical_or_text,non_key,Document type.,confidential_briefing
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,author_name,categorical_or_text,non_key,Author name.,Dr. Lysa Quen
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,author_organization,categorical_or_text,non_key,Author organization.,Orison Medical Audit Board
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,named_location,categorical_or_text,non_key,Named location.,Valenne Central District
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,title,categorical_or_text,non_key,Title.,Restricted Review of Recurrent Executive Health Interventions
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,text,long_text,non_key,Full document body as stored by the source repository.,"PURPOSE
+This restricted briefing summarizes a small set of senior office-holders and corporate leaders who have received recurrent confidential health interventions through overlapping providers.
+
+EVIDENCE REVIEWED
+Appointment archives, professional licences, facility records, encounter dates, and restricted procedure summaries were compared. Eight individuals show repeated specialist attendance over several years. Their public roles differ, and no common diagnosis is recorded in the accessible files. The same limited group of clinicians and facilities appears more often than expected from the individuals' home regions and ordinary referral pathways. Several interventions occur shortly before a return to demanding public duties.
+
+INTERPRETATION
+The recurrence and provider overlap are supported findings. The purpose of the interventions is not stated in the public record. An elite-health programme, security-related continuity planning, or a private preventive-care arrangement remain plausible explanations. The available documents do not establish a biological mechanism, a contractual exchange, or a common political agenda.
+
+OPTIONS
+The review team may request billing and material-flow records, compare biological-age estimates with chronological age, and examine whether the same providers appear in unrelated logistics activity. Any disclosure should distinguish documented recurrence from inference about benefits or intent.
+
+HANDLING
+This note contains sensitive health and appointment information. Distribution is limited to the named review group. It must not be represented as a formal determination.
+
+The comparison group included other leaders receiving ordinary executive health reviews. Those controls show isolated confidential visits and occasional shared providers, but not the same combination of recurrence, biological-age divergence, and tightly clustered specialist facilities. This difference is analytically useful, although selection bias and incomplete private-care data could exaggerate it."
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,public_or_restricted,categorical_or_text,non_key,Public or restricted.,restricted
+SB06,SYS-DOC-PUB,public_and_investigative_documents.csv,source_reference,identifier,non_key,Source reference.,ARC-2022-0103
