@@ -1,0 +1,651 @@
+purchase_order_number,purchase_order_line,order_date,ordering_facility_code,supplier_partner_code,item_code,item_description,item_category,ordered_quantity,ordered_unit,unit_price,currency,requested_delivery_date,authorization_class,declared_cost_center,order_status,order_year,order_month,lead_time_days
+PO-2014-00001,1,2014-06-24,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,73,case,157.85,VLN,2014-07-08,restricted,Clinical Programmes,completed,2014,6,14
+PO-2015-00001,1,2015-01-22,FCL-1010,BP-30068,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3482.27,VLN,2015-02-01,ordinary,Clinical Services,completed,2015,1,10
+PO-2015-00002,1,2015-01-29,FCL-1030,BP-30066,ITM-COM-001,Secure communication service,communication_service,1,service,1292.19,KRN,2015-02-26,ordinary,General Operations,completed,2015,1,28
+PO-2015-00003,1,2015-02-10,FCL-1010,BP-30080,ITM-LAB-002,Sample preparation material pack,laboratory_material,3,pack,458.67,VLN,2015-03-02,expedited,Clinical Services,completed,2015,2,20
+PO-2015-00004,1,2015-02-12,FCL-1022,BP-30021,ITM-GRA-001,Programme grant transfer,grant,1,grant,26933.28,KRN,2015-02-21,ordinary,Facilities,completed,2015,2,9
+PO-2015-00005,1,2015-02-27,FCL-1009,BP-30039,ITM-AGR-001,Durian produce pallet,agricultural_product,19,pallet,1824.43,VLN,2015-03-16,expedited,Clinical Services,completed,2015,2,17
+PO-2015-00006,1,2015-03-06,FCL-1011,BP-30037,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,3,unit,13839.65,VLN,2015-03-13,ordinary,General Operations,completed,2015,3,7
+PO-2015-00007,1,2015-03-07,FCL-1019,BP-30039,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4325.18,AVL,2015-04-05,expedited,General Operations,completed,2015,3,29
+PO-2015-00008,1,2015-05-01,FCL-1007,BP-30028,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,1,kit,2173.66,AVL,2015-06-09,ordinary,General Operations,completed,2015,5,39
+PO-2015-00009,1,2015-06-13,FCL-1007,BP-30078,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4755.61,VLN,2015-06-24,ordinary,Research Services,completed,2015,6,11
+PO-2015-00010,1,2015-06-20,FCL-1010,BP-30057,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,23,unit,14064.86,VLN,2015-07-15,emergency,Facilities,completed,2015,6,25
+PO-2015-00011,1,2015-06-24,FCL-1011,BP-30009,ITM-RES-001,Applied research contract,research_contract,1,contract,18719.43,VLN,2015-07-13,restricted,Field Programmes,completed,2015,6,19
+PO-2015-00012,1,2015-07-07,FCL-1011,BP-30022,ITM-CON-001,Operational consulting service,consulting_service,1,service,6132.88,VLN,2015-07-29,restricted,Agricultural Distribution,completed,2015,7,22
+PO-2015-00013,1,2015-07-16,FCL-1011,BP-30003,ITM-MED-002,Sterile administration supplies,medical_consumables,17,case,281.44,VLN,2015-08-15,restricted,Field Programmes,completed,2015,7,30
+PO-2015-00014,1,2015-07-25,FCL-1022,BP-30012,ITM-BIO-002,Environmental reference sample lot,biological_sample,7,sealed_lot,1468.51,KRN,2015-08-16,ordinary,General Operations,completed,2015,7,22
+PO-2015-00015,1,2015-08-05,FCL-1023,BP-30057,ITM-LAB-002,Sample preparation material pack,laboratory_material,37,pack,560.69,NDH,2015-09-02,restricted,Cold Chain,completed,2015,8,28
+PO-2015-00016,1,2015-08-11,FCL-1007,BP-30078,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4712.58,VLN,2015-09-19,ordinary,Agricultural Distribution,completed,2015,8,39
+PO-2015-00017,1,2015-08-17,FCL-1007,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,4,sealed_lot,1083.12,VLN,2015-09-11,expedited,Clinical Programmes,completed,2015,8,25
+PO-2015-00018,1,2015-09-23,FCL-1009,BP-30079,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4778.03,VLN,2015-10-10,ordinary,General Operations,completed,2015,9,17
+PO-2015-00019,1,2015-10-31,FCL-1008,BP-30009,ITM-AGR-001,Durian produce pallet,agricultural_product,31,pallet,1646.7,NDH,2015-12-04,expedited,Research Services,completed,2015,10,34
+PO-2015-00020,1,2015-11-03,FCL-1007,BP-30078,ITM-PRO-001,Field protective equipment case,protective_equipment,4,case,391.98,VLN,2015-11-17,ordinary,Field Programmes,completed,2015,11,14
+PO-2015-00021,1,2015-11-26,FCL-1011,BP-30011,ITM-MED-001,General clinical consumable case,medical_consumables,6,case,165.35,VLN,2016-01-03,ordinary,Facilities,completed,2015,11,38
+PO-2015-00022,1,2015-12-01,FCL-1007,BP-30078,ITM-AGR-001,Durian produce pallet,agricultural_product,36,pallet,1960.1,VLN,2015-12-21,ordinary,Field Programmes,completed,2015,12,20
+PO-2015-00023,1,2015-12-02,FCL-1025,BP-30012,ITM-LAB-001,Laboratory assay material pack,laboratory_material,54,pack,688.05,NDH,2015-12-23,ordinary,General Operations,cancelled,2015,12,21
+PO-2015-00024,1,2015-12-09,FCL-1010,BP-30046,ITM-OFF-001,Office supply case,office_supply,14,case,109.16,VLN,2016-01-01,expedited,Clinical Services,completed,2015,12,23
+PO-2015-00025,1,2015-12-09,FCL-1015,BP-30066,ITM-CSE-002,Insulated transport container,cold_storage_equipment,14,unit,3149.6,AVL,2015-12-19,expedited,General Operations,completed,2015,12,10
+PO-2015-00026,1,2015-12-09,FCL-1012,BP-30017,ITM-OFF-001,Office supply case,office_supply,89,case,96.64,VLN,2015-12-24,expedited,General Operations,completed,2015,12,15
+PO-2016-00001,1,2016-01-15,FCL-1017,BP-30023,ITM-COM-001,Secure communication service,communication_service,1,service,1455.26,AVL,2016-02-15,ordinary,Facilities,completed,2016,1,31
+PO-2016-00002,1,2016-01-25,FCL-1010,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,61,case,299.2,VLN,2016-02-16,restricted,Clinical Programmes,completed,2016,1,22
+PO-2016-00003,1,2016-02-04,FCL-1009,BP-30013,ITM-MED-002,Sterile administration supplies,medical_consumables,7,case,230.62,VLN,2016-02-26,ordinary,Agricultural Distribution,completed,2016,2,22
+PO-2016-00004,1,2016-02-06,FCL-1002,BP-30033,ITM-OFF-001,Office supply case,office_supply,10,case,99.52,VLN,2016-03-14,restricted,General Operations,completed,2016,2,37
+PO-2016-00005,1,2016-02-10,FCL-1011,BP-30012,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,20,unit,5067.98,VLN,2016-02-25,ordinary,Field Programmes,completed,2016,2,15
+PO-2016-00006,1,2016-02-21,FCL-1016,BP-30003,ITM-MED-002,Sterile administration supplies,medical_consumables,19,case,230.6,NDH,2016-03-19,emergency,Cold Chain,completed,2016,2,27
+PO-2016-00007,1,2016-02-24,FCL-1014,BP-30039,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2802.3,TMB,2016-04-03,expedited,Research Services,completed,2016,2,39
+PO-2016-00008,1,2016-03-04,FCL-1027,BP-30060,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,20,kit,2385.53,VLN,2016-04-02,ordinary,General Operations,completed,2016,3,29
+PO-2016-00009,1,2016-03-14,FCL-1010,BP-30068,ITM-LAB-001,Laboratory assay material pack,laboratory_material,55,pack,725.96,VLN,2016-04-20,ordinary,Research Services,completed,2016,3,37
+PO-2016-00010,1,2016-03-26,FCL-1010,BP-30054,ITM-OFF-001,Office supply case,office_supply,6,case,95.85,VLN,2016-04-08,ordinary,Field Programmes,completed,2016,3,13
+PO-2016-00011,1,2016-04-19,FCL-1030,BP-30028,ITM-GRA-001,Programme grant transfer,grant,1,grant,26340.48,KRN,2016-05-21,ordinary,Clinical Services,completed,2016,4,32
+PO-2016-00012,1,2016-05-23,FCL-1010,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,8,case,275.75,VLN,2016-06-25,expedited,Clinical Programmes,completed,2016,5,33
+PO-2016-00013,1,2016-05-28,FCL-1005,BP-30046,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,18,unit,14057.39,TMB,2016-06-20,ordinary,Cold Chain,completed,2016,5,23
+PO-2016-00014,1,2016-06-28,FCL-1030,BP-30073,ITM-BIO-002,Environmental reference sample lot,biological_sample,15,sealed_lot,1343.13,KRN,2016-08-04,restricted,Research Services,completed,2016,6,37
+PO-2016-00015,1,2016-07-05,FCL-1007,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,3,case,295.52,VLN,2016-07-24,expedited,Clinical Programmes,completed,2016,7,19
+PO-2016-00016,1,2016-07-07,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,28,case,143.73,VLN,2016-07-30,restricted,Clinical Services,completed,2016,7,23
+PO-2016-00017,1,2016-07-08,FCL-1011,BP-30060,ITM-MED-002,Sterile administration supplies,medical_consumables,42,case,300.2,VLN,2016-07-22,ordinary,Facilities,pending,2016,7,14
+PO-2016-00018,1,2016-08-03,FCL-1010,BP-30030,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2596.19,VLN,2016-08-23,ordinary,Clinical Services,completed,2016,8,20
+PO-2016-00019,1,2016-08-18,FCL-1030,BP-30080,ITM-MED-001,General clinical consumable case,medical_consumables,78,case,142.23,KRN,2016-09-11,ordinary,Field Programmes,completed,2016,8,24
+PO-2016-00020,1,2016-09-26,FCL-1010,BP-30011,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2795.84,VLN,2016-10-22,ordinary,Clinical Services,completed,2016,9,26
+PO-2016-00021,1,2016-10-02,FCL-1002,BP-30029,ITM-MED-002,Sterile administration supplies,medical_consumables,88,case,276.92,NDH,2016-10-30,ordinary,Facilities,completed,2016,10,28
+PO-2016-00022,1,2016-10-04,FCL-1007,BP-30009,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,15,unit,4797.82,AVL,2016-10-22,restricted,Agricultural Distribution,completed,2016,10,18
+PO-2016-00023,1,2016-11-14,FCL-1010,BP-30048,ITM-BIO-002,Environmental reference sample lot,biological_sample,3,sealed_lot,1455.6,VLN,2016-12-07,expedited,Facilities,completed,2016,11,23
+PO-2016-00024,1,2016-12-07,FCL-1019,BP-30078,ITM-CSE-002,Insulated transport container,cold_storage_equipment,22,unit,3302.98,AVL,2017-01-03,ordinary,Clinical Services,completed,2016,12,27
+PO-2016-00025,1,2016-12-08,FCL-1030,BP-30032,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4404.1,KRN,2017-01-17,ordinary,Research Services,completed,2016,12,40
+PO-2016-00026,1,2016-12-15,FCL-1019,BP-30078,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,36,pallet,1258.4,AVL,2016-12-28,ordinary,General Operations,completed,2016,12,13
+PO-2016-00027,1,2016-12-22,FCL-1008,BP-30057,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,1,kit,1818.23,NDH,2017-01-05,expedited,General Operations,completed,2016,12,14
+PO-2016-00028,1,2016-12-24,FCL-1014,BP-30025,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3467.84,NDH,2017-01-09,expedited,Research Services,completed,2016,12,16
+PO-2017-00001,1,2017-01-13,FCL-1019,BP-30078,ITM-PRO-001,Field protective equipment case,protective_equipment,35,case,498.42,AVL,2017-02-14,ordinary,Research Services,completed,2017,1,32
+PO-2017-00002,1,2017-01-17,FCL-1010,BP-30008,ITM-OTH-001,General facility material,other,6,unit,693.74,VLN,2017-02-20,restricted,Agricultural Distribution,completed,2017,1,34
+PO-2017-00003,1,2017-01-27,FCL-1011,BP-30059,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,2,sealed_lot,1077.41,VLN,2017-02-09,ordinary,Research Services,completed,2017,1,13
+PO-2017-00004,1,2017-02-04,FCL-1011,BP-30049,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,14,kit,1953.7,VLN,2017-03-05,ordinary,General Operations,completed,2017,2,29
+PO-2017-00005,1,2017-02-06,FCL-1011,BP-30014,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,22,unit,5790.45,VLN,2017-03-12,ordinary,General Operations,completed,2017,2,34
+PO-2017-00006,1,2017-02-16,FCL-1020,BP-30053,ITM-OFF-001,Office supply case,office_supply,15,case,108.7,AVL,2017-03-28,ordinary,Field Programmes,completed,2017,2,40
+PO-2017-00007,1,2017-02-21,FCL-1003,BP-30080,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4069.24,TMB,2017-03-08,ordinary,Facilities,completed,2017,2,15
+PO-2017-00008,1,2017-03-06,FCL-1004,BP-30009,ITM-CON-001,Operational consulting service,consulting_service,1,service,6041.77,KRN,2017-03-27,ordinary,Agricultural Distribution,completed,2017,3,21
+PO-2017-00009,1,2017-03-07,FCL-1010,BP-30002,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,25,unit,11647.3,VLN,2017-03-30,ordinary,Clinical Services,completed,2017,3,23
+PO-2017-00010,1,2017-03-21,FCL-1006,BP-30023,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,78,case,574.53,TMB,2017-04-27,expedited,Research Services,completed,2017,3,37
+PO-2017-00011,1,2017-03-29,FCL-1030,BP-30077,ITM-CON-001,Operational consulting service,consulting_service,1,service,5525.21,KRN,2017-04-16,ordinary,General Operations,completed,2017,3,18
+PO-2017-00012,1,2017-04-18,FCL-1007,BP-30078,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,5,sealed_lot,4746.67,VLN,2017-05-27,restricted,Clinical Programmes,completed,2017,4,39
+PO-2017-00013,1,2017-05-16,FCL-1015,BP-30001,ITM-OTH-001,General facility material,other,11,unit,578.95,AVL,2017-06-23,ordinary,Clinical Services,completed,2017,5,38
+PO-2017-00014,1,2017-06-08,FCL-1019,BP-30078,ITM-COM-001,Secure communication service,communication_service,1,service,1571.42,AVL,2017-06-19,ordinary,Agricultural Distribution,completed,2017,6,11
+PO-2017-00015,1,2017-07-19,FCL-1007,BP-30052,ITM-CSE-002,Insulated transport container,cold_storage_equipment,12,unit,3028.34,AVL,2017-07-28,ordinary,Cold Chain,completed,2017,7,9
+PO-2017-00016,1,2017-08-14,FCL-1015,BP-30035,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,7,unit,12410.76,AVL,2017-09-16,ordinary,Field Programmes,completed,2017,8,33
+PO-2017-00017,1,2017-08-28,FCL-1007,BP-30078,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,5,sealed_lot,4411.07,VLN,2017-09-04,ordinary,Clinical Programmes,completed,2017,8,7
+PO-2017-00018,1,2017-08-28,FCL-1014,BP-30064,ITM-OTH-001,General facility material,other,4,unit,699.83,TMB,2017-09-05,ordinary,Cold Chain,completed,2017,8,8
+PO-2017-00019,1,2017-09-25,FCL-1016,BP-30080,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,17,unit,18925.46,TMB,2017-11-05,restricted,Research Services,completed,2017,9,41
+PO-2017-00020,1,2017-09-30,FCL-1019,BP-30005,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,5,sealed_lot,5337.99,AVL,2017-11-08,ordinary,Research Services,completed,2017,9,39
+PO-2017-00021,1,2017-10-03,FCL-1029,BP-30073,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,23,unit,21820.52,VLN,2017-10-20,ordinary,Research Services,completed,2017,10,17
+PO-2017-00022,1,2017-10-10,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,7,case,143.14,VLN,2017-11-11,ordinary,Clinical Programmes,completed,2017,10,32
+PO-2017-00023,1,2017-10-13,FCL-1003,BP-30001,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,29,kit,2528.51,TMB,2017-11-19,expedited,General Operations,completed,2017,10,37
+PO-2017-00024,1,2017-12-10,FCL-1007,BP-30078,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,26,pallet,1469.11,VLN,2017-12-27,ordinary,Clinical Services,completed,2017,12,17
+PO-2017-00025,1,2017-12-18,FCL-1030,BP-30026,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,6,unit,5910.33,KRN,2018-01-19,restricted,Clinical Services,completed,2017,12,32
+PO-2017-00026,1,2017-12-22,FCL-1009,BP-30080,ITM-GRA-001,Programme grant transfer,grant,1,grant,25786.97,NDH,2018-01-22,ordinary,General Operations,cancelled,2017,12,31
+PO-2018-00001,1,2018-01-02,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,43,case,138.19,VLN,2018-01-30,ordinary,Clinical Programmes,completed,2018,1,28
+PO-2018-00002,1,2018-01-10,FCL-1020,BP-30018,ITM-OTH-001,General facility material,other,11,unit,671.01,TMB,2018-01-24,expedited,Research Services,completed,2018,1,14
+PO-2018-00003,1,2018-01-19,FCL-1007,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,14,sealed_lot,1116.46,VLN,2018-02-12,restricted,Field Programmes,completed,2018,1,24
+PO-2018-00004,1,2018-01-21,FCL-1004,BP-30043,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4086.23,KRN,2018-02-23,ordinary,Agricultural Distribution,completed,2018,1,33
+PO-2018-00005,1,2018-01-28,FCL-1020,BP-30078,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,29,kit,1724.79,AVL,2018-02-28,expedited,Field Operations,completed,2018,1,31
+PO-2018-00006,1,2018-01-29,FCL-1010,BP-30078,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,6,sealed_lot,5001.41,VLN,2018-02-21,ordinary,Clinical Programmes,completed,2018,1,23
+PO-2018-00007,1,2018-03-04,FCL-1030,BP-30078,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,88,case,582.02,AVL,2018-03-16,ordinary,Field Operations,completed,2018,3,12
+PO-2018-00008,1,2018-03-14,FCL-1020,BP-30072,ITM-LAB-002,Sample preparation material pack,laboratory_material,11,pack,457.82,TMB,2018-04-04,ordinary,Facilities,completed,2018,3,21
+PO-2018-00009,1,2018-04-02,FCL-1007,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,14,sealed_lot,923.32,VLN,2018-04-11,ordinary,Facilities,completed,2018,4,9
+PO-2018-00010,1,2018-04-02,FCL-1002,BP-30034,ITM-OFF-001,Office supply case,office_supply,82,case,91.67,VLN,2018-04-21,emergency,Cold Chain,completed,2018,4,19
+PO-2018-00011,1,2018-04-03,FCL-1020,BP-30028,ITM-LEG-001,Regulatory legal service,legal_service,1,service,3846.03,TMB,2018-04-20,ordinary,Research Services,completed,2018,4,17
+PO-2018-00012,1,2018-04-03,FCL-1011,BP-30001,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,15,unit,20696.3,VLN,2018-05-11,ordinary,Cold Chain,completed,2018,4,38
+PO-2018-00013,1,2018-04-04,FCL-1025,BP-30059,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,6,sealed_lot,4403.97,AVL,2018-04-26,ordinary,Research Services,pending,2018,4,22
+PO-2018-00014,1,2018-04-04,FCL-1019,BP-30038,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2773.86,AVL,2018-05-02,ordinary,General Operations,completed,2018,4,28
+PO-2018-00015,1,2018-04-04,FCL-1014,BP-30057,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,3051.5,NDH,2018-05-11,ordinary,Field Programmes,completed,2018,4,37
+PO-2018-00016,1,2018-04-05,FCL-1020,BP-30009,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,5,kit,1979.32,TMB,2018-04-28,ordinary,Agricultural Distribution,completed,2018,4,23
+PO-2018-00017,1,2018-04-06,FCL-1011,BP-30056,ITM-CSE-002,Insulated transport container,cold_storage_equipment,16,unit,3358.92,VLN,2018-05-12,ordinary,Field Programmes,completed,2018,4,36
+PO-2018-00018,1,2018-04-06,FCL-1019,BP-30078,ITM-OFF-001,Office supply case,office_supply,68,case,103.18,AVL,2018-04-27,emergency,Field Programmes,completed,2018,4,21
+PO-2018-00019,1,2018-04-06,FCL-1011,BP-30002,ITM-OFF-001,Office supply case,office_supply,31,case,108.54,VLN,2018-04-30,ordinary,General Operations,completed,2018,4,24
+PO-2018-00020,1,2018-04-06,FCL-1015,BP-30078,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2728.55,AVL,2018-05-05,expedited,Research Services,completed,2018,4,29
+PO-2018-00021,1,2018-04-08,FCL-1010,BP-30048,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4107.83,VLN,2018-04-26,expedited,Research Services,completed,2018,4,18
+PO-2018-00022,1,2018-04-08,FCL-1010,BP-30040,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2487.17,VLN,2018-04-23,ordinary,Agricultural Distribution,completed,2018,4,15
+PO-2018-00023,1,2018-04-09,FCL-1013,BP-30059,ITM-CON-001,Operational consulting service,consulting_service,1,service,6257.91,NDH,2018-04-28,ordinary,General Operations,completed,2018,4,19
+PO-2018-00024,1,2018-04-11,FCL-1025,BP-30005,ITM-CON-001,Operational consulting service,consulting_service,1,service,5375.58,NDH,2018-04-21,ordinary,Research Services,completed,2018,4,10
+PO-2018-00025,1,2018-04-13,FCL-1007,BP-30078,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4195.39,VLN,2018-05-07,ordinary,Research Services,completed,2018,4,24
+PO-2018-00026,1,2018-04-13,FCL-1007,BP-30078,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4769.47,VLN,2018-04-20,ordinary,Field Programmes,completed,2018,4,7
+PO-2018-00027,1,2018-04-14,FCL-1019,BP-30018,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,14,kit,2469.48,NDH,2018-05-17,ordinary,Field Programmes,completed,2018,4,33
+PO-2018-00028,1,2018-04-15,FCL-1030,BP-30069,ITM-MED-002,Sterile administration supplies,medical_consumables,73,case,237.63,KRN,2018-05-04,ordinary,General Operations,delayed,2018,4,19
+PO-2018-00029,1,2018-04-15,FCL-1007,BP-30075,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4805.24,AVL,2018-05-03,ordinary,General Operations,completed,2018,4,18
+PO-2018-00030,1,2018-04-17,FCL-1030,BP-30002,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4765.97,KRN,2018-05-27,ordinary,Facilities,completed,2018,4,40
+PO-2018-00031,1,2018-04-18,FCL-1011,BP-30022,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,19,unit,12342.04,VLN,2018-05-20,ordinary,General Operations,delayed,2018,4,32
+PO-2018-00032,1,2018-04-19,FCL-1007,BP-30078,ITM-COM-001,Secure communication service,communication_service,1,service,1300.67,AVL,2018-05-22,ordinary,Clinical Services,completed,2018,4,33
+PO-2018-00033,1,2018-04-19,FCL-1005,BP-30055,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,72,case,651.79,TMB,2018-05-18,ordinary,Research Services,completed,2018,4,29
+PO-2018-00034,1,2018-04-21,FCL-1011,BP-30066,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,12,unit,5481.67,VLN,2018-05-22,ordinary,Agricultural Distribution,completed,2018,4,31
+PO-2018-00035,1,2018-04-22,FCL-1006,BP-30021,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,11,kit,1679.35,TMB,2018-05-03,ordinary,Field Programmes,completed,2018,4,11
+PO-2018-00036,1,2018-04-22,FCL-1011,BP-30030,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,9,unit,5623.78,VLN,2018-05-17,expedited,Clinical Services,completed,2018,4,25
+PO-2018-00037,1,2018-04-22,FCL-1025,BP-30042,ITM-LAB-001,Laboratory assay material pack,laboratory_material,12,pack,802.94,AVL,2018-04-30,ordinary,Field Programmes,completed,2018,4,8
+PO-2018-00038,1,2018-04-23,FCL-1019,BP-30025,ITM-OTH-001,General facility material,other,17,unit,617.79,AVL,2018-06-01,ordinary,Clinical Services,completed,2018,4,39
+PO-2018-00039,1,2018-04-23,FCL-1015,BP-30013,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,42,case,697.29,NDH,2018-05-29,expedited,Clinical Services,completed,2018,4,36
+PO-2018-00040,1,2018-04-23,FCL-1011,BP-30066,ITM-AGR-001,Durian produce pallet,agricultural_product,27,pallet,1735.34,VLN,2018-05-28,ordinary,Clinical Services,completed,2018,4,35
+PO-2018-00041,1,2018-04-25,FCL-1007,BP-30055,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4652.1,AVL,2018-05-10,ordinary,Research Services,completed,2018,4,15
+PO-2018-00042,1,2018-05-06,FCL-1019,BP-30078,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,7,unit,12531.43,AVL,2018-06-05,ordinary,Field Operations,completed,2018,5,30
+PO-2018-00043,1,2018-05-09,FCL-1011,BP-30056,ITM-COM-001,Secure communication service,communication_service,1,service,1597.08,VLN,2018-06-07,ordinary,Agricultural Distribution,completed,2018,5,29
+PO-2018-00044,1,2018-05-22,FCL-1019,BP-30053,ITM-PRO-001,Field protective equipment case,protective_equipment,45,case,425.53,AVL,2018-06-09,ordinary,Cold Chain,pending,2018,5,18
+PO-2018-00045,1,2018-05-28,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,47,case,140.95,VLN,2018-06-15,ordinary,Clinical Programmes,completed,2018,5,18
+PO-2018-00046,1,2018-06-22,FCL-1016,BP-30053,ITM-MED-002,Sterile administration supplies,medical_consumables,55,case,299.66,TMB,2018-07-25,ordinary,Research Services,completed,2018,6,33
+PO-2018-00047,1,2018-07-26,FCL-1011,BP-30008,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,9,unit,20729.0,VLN,2018-08-03,ordinary,Facilities,completed,2018,7,8
+PO-2018-00048,1,2018-09-03,FCL-1020,BP-30008,ITM-OTH-001,General facility material,other,8,unit,685.31,TMB,2018-09-26,expedited,Field Programmes,delayed,2018,9,23
+PO-2018-00049,1,2018-09-20,FCL-1007,BP-30080,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,1,kit,2474.89,VLN,2018-10-04,ordinary,Agricultural Distribution,completed,2018,9,14
+PO-2018-00050,1,2018-10-27,FCL-1019,BP-30078,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2875.61,AVL,2018-12-03,ordinary,General Operations,completed,2018,10,37
+PO-2018-00051,1,2018-11-14,FCL-1011,BP-30056,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,2,pallet,1422.94,VLN,2018-12-03,restricted,Clinical Services,completed,2018,11,19
+PO-2018-00052,1,2018-12-05,FCL-1011,BP-30021,ITM-LAB-002,Sample preparation material pack,laboratory_material,60,pack,479.93,VLN,2019-01-11,ordinary,Research Services,completed,2018,12,37
+PO-2018-00053,1,2018-12-19,FCL-1011,BP-30058,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,90,case,555.09,VLN,2019-01-04,emergency,General Operations,completed,2018,12,16
+PO-2019-00001,1,2019-01-27,FCL-1011,BP-30037,ITM-CON-001,Operational consulting service,consulting_service,1,service,5500.86,VLN,2019-02-24,ordinary,Agricultural Distribution,completed,2019,1,28
+PO-2019-00002,1,2019-02-09,FCL-1010,BP-30080,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2985.72,VLN,2019-03-03,ordinary,Research Services,delayed,2019,2,22
+PO-2019-00003,1,2019-02-18,FCL-1007,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,85,case,240.98,VLN,2019-03-16,restricted,Clinical Programmes,completed,2019,2,26
+PO-2019-00004,1,2019-03-21,FCL-1019,BP-30070,ITM-BIO-002,Environmental reference sample lot,biological_sample,10,sealed_lot,1468.58,AVL,2019-04-28,expedited,Agricultural Distribution,completed,2019,3,38
+PO-2019-00005,1,2019-03-21,FCL-1007,BP-30078,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,83,case,606.0,VLN,2019-04-26,restricted,General Operations,completed,2019,3,36
+PO-2019-00006,1,2019-04-12,FCL-1001,BP-30021,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,34,pallet,1256.58,TMB,2019-05-23,ordinary,Cold Chain,completed,2019,4,41
+PO-2019-00007,1,2019-04-16,FCL-1011,BP-30030,ITM-MED-002,Sterile administration supplies,medical_consumables,77,case,232.74,VLN,2019-05-27,ordinary,Agricultural Distribution,completed,2019,4,41
+PO-2019-00008,1,2019-04-23,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,48,case,149.99,VLN,2019-05-19,expedited,Clinical Programmes,completed,2019,4,26
+PO-2019-00009,1,2019-05-01,FCL-1015,BP-30072,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2958.0,AVL,2019-05-31,ordinary,Facilities,completed,2019,5,30
+PO-2019-00010,1,2019-05-10,FCL-1016,BP-30033,ITM-RES-001,Applied research contract,research_contract,1,contract,16790.72,TMB,2019-05-25,expedited,General Operations,completed,2019,5,15
+PO-2019-00011,1,2019-05-26,FCL-1011,BP-30025,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,6,unit,18833.4,VLN,2019-06-09,restricted,Research Services,completed,2019,5,14
+PO-2019-00012,1,2019-06-09,FCL-1016,BP-30022,ITM-MED-001,General clinical consumable case,medical_consumables,37,case,134.97,TMB,2019-07-07,ordinary,Research Services,pending,2019,6,28
+PO-2019-00013,1,2019-06-14,FCL-1016,BP-30044,ITM-MED-002,Sterile administration supplies,medical_consumables,70,case,293.25,TMB,2019-07-14,ordinary,Cold Chain,completed,2019,6,30
+PO-2019-00014,1,2019-07-04,FCL-1007,BP-30078,ITM-BIO-002,Environmental reference sample lot,biological_sample,18,sealed_lot,1253.84,VLN,2019-08-08,expedited,Research Services,completed,2019,7,35
+PO-2019-00015,1,2019-07-11,FCL-1010,BP-30047,ITM-PRO-001,Field protective equipment case,protective_equipment,4,case,431.42,VLN,2019-07-29,ordinary,Research Services,completed,2019,7,18
+PO-2019-00016,1,2019-07-11,FCL-1029,BP-30007,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,1,sealed_lot,999.59,VLN,2019-07-21,expedited,Clinical Services,completed,2019,7,10
+PO-2019-00017,1,2019-07-21,FCL-1020,BP-30078,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,78,case,682.18,AVL,2019-08-27,ordinary,Field Operations,completed,2019,7,37
+PO-2019-00018,1,2019-08-11,FCL-1019,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,64,case,161.77,AVL,2019-09-20,ordinary,Field Programmes,completed,2019,8,40
+PO-2019-00019,1,2019-08-25,FCL-1030,BP-30078,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,4,kit,1790.81,AVL,2019-09-17,ordinary,Field Operations,completed,2019,8,23
+PO-2019-00020,1,2019-09-01,FCL-1011,BP-30034,ITM-MED-001,General clinical consumable case,medical_consumables,68,case,130.96,VLN,2019-10-10,ordinary,Agricultural Distribution,completed,2019,9,39
+PO-2019-00021,1,2019-09-02,FCL-1011,BP-30056,ITM-OTH-001,General facility material,other,22,unit,650.62,VLN,2019-09-29,expedited,Field Programmes,completed,2019,9,27
+PO-2019-00022,1,2019-09-03,FCL-1011,BP-30030,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,11,sealed_lot,962.73,VLN,2019-09-12,emergency,Field Programmes,completed,2019,9,9
+PO-2019-00023,1,2019-09-04,FCL-1019,BP-30052,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,1,kit,1811.11,AVL,2019-09-24,expedited,Cold Chain,completed,2019,9,20
+PO-2019-00024,1,2019-09-04,FCL-1011,BP-30029,ITM-CON-001,Operational consulting service,consulting_service,1,service,4997.25,VLN,2019-10-04,ordinary,Agricultural Distribution,completed,2019,9,30
+PO-2019-00025,1,2019-09-05,FCL-1007,BP-30078,ITM-OTH-001,General facility material,other,21,unit,582.65,VLN,2019-10-07,expedited,General Operations,completed,2019,9,32
+PO-2019-00026,1,2019-09-06,FCL-1016,BP-30028,ITM-LAB-002,Sample preparation material pack,laboratory_material,45,pack,563.83,TMB,2019-10-04,expedited,Agricultural Distribution,completed,2019,9,28
+PO-2019-00027,1,2019-09-06,FCL-1030,BP-30022,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,48,pallet,1281.86,KRN,2019-09-14,ordinary,Clinical Services,completed,2019,9,8
+PO-2019-00028,1,2019-09-06,FCL-1011,BP-30042,ITM-OFF-001,Office supply case,office_supply,39,case,91.08,VLN,2019-10-17,emergency,Clinical Services,completed,2019,9,41
+PO-2019-00029,1,2019-09-06,FCL-1010,BP-30014,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,22,pallet,1281.23,VLN,2019-09-30,expedited,Facilities,completed,2019,9,24
+PO-2019-00030,1,2019-09-09,FCL-1012,BP-30008,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,7,unit,17341.3,VLN,2019-09-16,ordinary,Field Programmes,completed,2019,9,7
+PO-2019-00031,1,2019-09-09,FCL-1007,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,3,sealed_lot,1015.31,VLN,2019-09-23,restricted,Clinical Programmes,completed,2019,9,14
+PO-2019-00032,1,2019-09-10,FCL-1011,BP-30062,ITM-MED-001,General clinical consumable case,medical_consumables,53,case,131.14,VLN,2019-09-30,ordinary,Field Programmes,completed,2019,9,20
+PO-2019-00033,1,2019-09-11,FCL-1010,BP-30015,ITM-OFF-001,Office supply case,office_supply,70,case,94.67,VLN,2019-10-12,expedited,Cold Chain,completed,2019,9,31
+PO-2019-00034,1,2019-09-11,FCL-1020,BP-30054,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2850.25,TMB,2019-10-10,ordinary,General Operations,completed,2019,9,29
+PO-2019-00035,1,2019-09-12,FCL-1011,BP-30012,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,47,pallet,1512.6,VLN,2019-09-26,ordinary,Clinical Services,completed,2019,9,14
+PO-2019-00036,1,2019-09-12,FCL-1011,BP-30079,ITM-CON-001,Operational consulting service,consulting_service,1,service,5321.01,VLN,2019-10-04,ordinary,Field Programmes,completed,2019,9,22
+PO-2019-00037,1,2019-09-12,FCL-1007,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,17637.07,VLN,2019-10-06,restricted,Agricultural Distribution,completed,2019,9,24
+PO-2019-00038,1,2019-09-13,FCL-1002,BP-30020,ITM-OTH-001,General facility material,other,15,unit,604.92,NDH,2019-10-02,ordinary,Agricultural Distribution,completed,2019,9,19
+PO-2019-00039,1,2019-09-13,FCL-1013,BP-30032,ITM-RES-001,Applied research contract,research_contract,1,contract,17513.17,NDH,2019-10-09,ordinary,General Operations,completed,2019,9,26
+PO-2019-00040,1,2019-09-14,FCL-1019,BP-30001,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4239.29,AVL,2019-10-24,ordinary,General Operations,completed,2019,9,40
+PO-2019-00041,1,2019-09-14,FCL-1019,BP-30018,ITM-LAB-002,Sample preparation material pack,laboratory_material,33,pack,533.79,AVL,2019-09-30,expedited,Clinical Services,completed,2019,9,16
+PO-2019-00042,1,2019-09-15,FCL-1016,BP-30050,ITM-CSE-002,Insulated transport container,cold_storage_equipment,10,unit,3571.35,TMB,2019-10-17,emergency,Field Programmes,completed,2019,9,32
+PO-2019-00043,1,2019-09-17,FCL-1020,BP-30052,ITM-LAB-001,Laboratory assay material pack,laboratory_material,24,pack,776.8,TMB,2019-10-03,restricted,Clinical Services,completed,2019,9,16
+PO-2019-00044,1,2019-09-17,FCL-1020,BP-30066,ITM-OFF-001,Office supply case,office_supply,58,case,88.21,TMB,2019-10-12,ordinary,Research Services,completed,2019,9,25
+PO-2019-00045,1,2019-09-17,FCL-1007,BP-30078,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,17,kit,1909.28,VLN,2019-09-28,expedited,unknown,completed,2019,9,11
+PO-2019-00046,1,2019-09-17,FCL-1025,BP-30079,ITM-RES-001,Applied research contract,research_contract,1,contract,18721.3,NDH,2019-10-26,ordinary,General Operations,completed,2019,9,39
+PO-2019-00047,1,2019-09-18,FCL-1007,BP-30021,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4051.33,AVL,2019-10-26,restricted,Research Services,completed,2019,9,38
+PO-2019-00048,1,2019-09-19,FCL-1011,BP-30029,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,24,kit,800.19,VLN,2019-09-28,expedited,Research Services,completed,2019,9,9
+PO-2019-00049,1,2019-09-19,FCL-1007,BP-30078,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3685.15,VLN,2019-10-06,restricted,Agricultural Distribution,completed,2019,9,17
+PO-2019-00050,1,2019-09-21,FCL-1011,BP-30064,ITM-CSE-002,Insulated transport container,cold_storage_equipment,18,unit,3249.6,VLN,2019-10-29,ordinary,Agricultural Distribution,completed,2019,9,38
+PO-2019-00051,1,2019-09-21,FCL-1007,BP-30078,ITM-LAB-001,Laboratory assay material pack,laboratory_material,8,pack,788.25,VLN,2019-10-16,ordinary,Field Programmes,completed,2019,9,25
+PO-2019-00052,1,2019-09-22,FCL-1011,BP-30009,ITM-LAB-002,Sample preparation material pack,laboratory_material,48,pack,463.37,VLN,2019-10-27,ordinary,Cold Chain,completed,2019,9,35
+PO-2019-00053,1,2019-09-22,FCL-1011,BP-30056,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2937.86,VLN,2019-10-22,ordinary,Clinical Services,completed,2019,9,30
+PO-2019-00054,1,2019-09-22,FCL-1004,BP-30002,ITM-CON-001,Operational consulting service,consulting_service,1,service,6342.62,KRN,2019-10-26,ordinary,Agricultural Distribution,completed,2019,9,34
+PO-2019-00055,1,2019-10-20,FCL-1019,BP-30078,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,26,kit,2357.1,AVL,2019-11-06,ordinary,Field Operations,completed,2019,10,17
+PO-2019-00056,1,2019-10-26,FCL-1024,BP-30057,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,21,kit,2230.4,KRN,2019-11-29,ordinary,Facilities,completed,2019,10,34
+PO-2019-00057,1,2019-10-29,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,48,case,150.96,VLN,2019-11-28,restricted,Clinical Programmes,completed,2019,10,30
+PO-2019-00058,1,2019-11-15,FCL-1028,BP-30072,ITM-COM-001,Secure communication service,communication_service,1,service,1332.06,AVL,2019-12-14,ordinary,Facilities,completed,2019,11,29
+PO-2019-00059,1,2019-11-16,FCL-1007,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,63,case,235.36,VLN,2019-11-30,ordinary,Agricultural Distribution,completed,2019,11,14
+PO-2019-00060,1,2019-11-27,FCL-1010,BP-30041,ITM-PRO-001,Field protective equipment case,protective_equipment,63,case,483.96,VLN,2019-12-28,ordinary,General Operations,delayed,2019,11,31
+PO-2019-00061,1,2019-12-18,FCL-1008,BP-30056,ITM-OFF-001,Office supply case,office_supply,63,case,105.09,VLN,2020-01-20,ordinary,Agricultural Distribution,completed,2019,12,33
+PO-2020-00001,1,2020-01-06,FCL-1015,BP-30030,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,17,unit,5405.38,NDH,2020-02-13,expedited,Facilities,completed,2020,1,38
+PO-2020-00002,1,2020-01-13,FCL-1015,BP-30044,ITM-OFF-001,Office supply case,office_supply,65,case,98.36,AVL,2020-02-11,restricted,Facilities,completed,2020,1,29
+PO-2020-00003,1,2020-01-14,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,6,case,164.73,VLN,2020-01-26,ordinary,Clinical Programmes,completed,2020,1,12
+PO-2020-00004,1,2020-01-15,FCL-1021,BP-30014,ITM-AGR-001,Durian produce pallet,agricultural_product,21,pallet,1845.63,KRN,2020-01-30,ordinary,Facilities,completed,2020,1,15
+PO-2020-00005,1,2020-01-18,FCL-1011,BP-30056,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,15,unit,13900.72,VLN,2020-01-25,ordinary,General Operations,completed,2020,1,7
+PO-2020-00006,1,2020-01-23,FCL-1007,BP-30078,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,19,kit,916.28,VLN,2020-02-04,ordinary,Clinical Services,completed,2020,1,12
+PO-2020-00007,1,2020-02-10,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,36,case,166.03,VLN,2020-03-01,ordinary,Clinical Programmes,completed,2020,2,20
+PO-2020-00008,1,2020-02-15,FCL-1030,BP-30052,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,30,pallet,1421.93,KRN,2020-03-10,ordinary,Field Programmes,completed,2020,2,24
+PO-2020-00009,1,2020-03-01,FCL-1006,BP-30038,ITM-AGR-001,Durian produce pallet,agricultural_product,21,pallet,1913.86,TMB,2020-04-11,ordinary,Facilities,completed,2020,3,41
+PO-2020-00010,1,2020-03-04,FCL-1011,BP-30028,ITM-CSE-002,Insulated transport container,cold_storage_equipment,24,unit,3020.79,VLN,2020-04-14,ordinary,Field Programmes,completed,2020,3,41
+PO-2020-00011,1,2020-03-15,FCL-1010,BP-30001,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2841.21,VLN,2020-03-30,ordinary,Clinical Services,completed,2020,3,15
+PO-2020-00012,1,2020-03-22,FCL-1030,BP-30078,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,15,unit,13899.59,AVL,2020-03-30,ordinary,Field Operations,completed,2020,3,8
+PO-2020-00013,1,2020-04-01,FCL-1021,BP-30012,ITM-MED-002,Sterile administration supplies,medical_consumables,64,case,229.8,KRN,2020-05-11,ordinary,Cold Chain,completed,2020,4,40
+PO-2020-00014,1,2020-04-01,FCL-1020,BP-30014,ITM-MED-002,Sterile administration supplies,medical_consumables,5,case,298.02,TMB,2020-04-29,emergency,Agricultural Distribution,completed,2020,4,28
+PO-2020-00015,1,2020-04-01,FCL-1029,BP-30068,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,15,unit,20513.03,VLN,2020-05-01,ordinary,Research Services,completed,2020,4,30
+PO-2020-00016,1,2020-04-02,FCL-1030,BP-30029,ITM-OFF-001,Office supply case,office_supply,77,case,89.09,KRN,2020-04-29,ordinary,Agricultural Distribution,completed,2020,4,27
+PO-2020-00017,1,2020-04-02,FCL-1025,BP-30046,ITM-COM-001,Secure communication service,communication_service,1,service,1298.61,NDH,2020-05-01,ordinary,Clinical Services,completed,2020,4,29
+PO-2020-00018,1,2020-04-02,FCL-1020,BP-30032,ITM-GRA-001,Programme grant transfer,grant,1,grant,28663.74,TMB,2020-05-07,ordinary,Field Programmes,completed,2020,4,35
+PO-2020-00019,1,2020-04-03,FCL-1015,BP-30011,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,4,kit,2240.56,AVL,2020-05-06,restricted,Research Services,completed,2020,4,33
+PO-2020-00020,1,2020-04-04,FCL-1007,BP-30040,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4349.52,AVL,2020-04-20,emergency,Agricultural Distribution,completed,2020,4,16
+PO-2020-00021,1,2020-04-04,FCL-1011,BP-30059,ITM-OTH-001,General facility material,other,2,unit,605.04,VLN,2020-04-26,ordinary,Agricultural Distribution,completed,2020,4,22
+PO-2020-00022,1,2020-04-05,FCL-1012,BP-30069,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,47,pallet,1481.14,VLN,2020-05-15,ordinary,Field Programmes,completed,2020,4,40
+PO-2020-00023,1,2020-04-05,FCL-1004,BP-30035,ITM-OTH-001,General facility material,other,4,unit,596.04,KRN,2020-05-06,expedited,Research Services,completed,2020,4,31
+PO-2020-00024,1,2020-04-06,FCL-1030,BP-30058,ITM-GRA-001,Programme grant transfer,grant,1,grant,28081.79,KRN,2020-04-17,ordinary,Research Services,completed,2020,4,11
+PO-2020-00025,1,2020-04-06,FCL-1020,BP-30073,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,3026.71,TMB,2020-05-06,expedited,Agricultural Distribution,completed,2020,4,30
+PO-2020-00026,1,2020-04-07,FCL-1011,BP-30077,ITM-OFF-001,Office supply case,office_supply,30,case,107.16,VLN,2020-04-23,emergency,Field Programmes,completed,2020,4,16
+PO-2020-00027,1,2020-04-08,FCL-1015,BP-30002,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2748.26,AVL,2020-05-01,expedited,Clinical Services,completed,2020,4,23
+PO-2020-00028,1,2020-04-09,FCL-1029,BP-30037,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4034.16,VLN,2020-05-14,restricted,General Operations,completed,2020,4,35
+PO-2020-00029,1,2020-04-09,FCL-1025,BP-30042,ITM-OTH-001,General facility material,other,7,unit,651.82,AVL,2020-04-24,ordinary,Agricultural Distribution,completed,2020,4,15
+PO-2020-00030,1,2020-04-09,FCL-1003,BP-30043,ITM-CON-001,Operational consulting service,consulting_service,1,service,5041.98,TMB,2020-04-22,emergency,Agricultural Distribution,completed,2020,4,13
+PO-2020-00031,1,2020-04-09,FCL-1014,BP-30037,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,38,pallet,1345.84,TMB,2020-04-24,restricted,Research Services,completed,2020,4,15
+PO-2020-00032,1,2020-04-11,FCL-1029,BP-30013,ITM-PRO-001,Field protective equipment case,protective_equipment,86,case,468.62,VLN,2020-05-03,ordinary,Facilities,completed,2020,4,22
+PO-2020-00033,1,2020-04-11,FCL-1001,BP-30022,ITM-RES-001,Applied research contract,research_contract,1,contract,18465.03,TMB,2020-05-17,expedited,Clinical Services,completed,2020,4,36
+PO-2020-00034,1,2020-04-12,FCL-1011,BP-30056,ITM-GRA-001,Programme grant transfer,grant,1,grant,25726.91,VLN,2020-05-02,ordinary,General Operations,completed,2020,4,20
+PO-2020-00035,1,2020-04-13,FCL-1011,BP-30075,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,8,sealed_lot,4676.53,VLN,2020-04-24,emergency,General Operations,completed,2020,4,11
+PO-2020-00036,1,2020-04-13,FCL-1001,BP-30079,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,83,case,631.94,TMB,2020-05-19,ordinary,Cold Chain,completed,2020,4,36
+PO-2020-00037,1,2020-04-14,FCL-1014,BP-30069,ITM-AGR-001,Durian produce pallet,agricultural_product,37,pallet,1887.51,NDH,2020-05-01,ordinary,Clinical Services,completed,2020,4,17
+PO-2020-00038,1,2020-04-15,FCL-1006,BP-30022,ITM-MED-001,General clinical consumable case,medical_consumables,11,case,162.24,TMB,2020-05-04,expedited,Cold Chain,completed,2020,4,19
+PO-2020-00039,1,2020-04-16,FCL-1023,BP-30054,ITM-OTH-001,General facility material,other,20,unit,588.29,AVL,2020-05-07,restricted,Agricultural Distribution,completed,2020,4,21
+PO-2020-00040,1,2020-04-16,FCL-1007,BP-30078,ITM-COM-001,Secure communication service,communication_service,1,service,1640.0,VLN,2020-05-27,expedited,General Operations,completed,2020,4,41
+PO-2020-00041,1,2020-04-17,FCL-1015,BP-30039,ITM-LAB-001,Laboratory assay material pack,laboratory_material,20,pack,694.49,AVL,2020-05-03,ordinary,Research Services,completed,2020,4,16
+PO-2020-00042,1,2020-04-18,FCL-1011,BP-30005,ITM-CON-001,Operational consulting service,consulting_service,1,service,4976.7,VLN,2020-05-22,restricted,Facilities,completed,2020,4,34
+PO-2020-00043,1,2020-04-19,FCL-1029,BP-30009,ITM-LAB-002,Sample preparation material pack,laboratory_material,4,pack,485.68,VLN,2020-05-30,ordinary,Clinical Services,completed,2020,4,41
+PO-2020-00044,1,2020-04-20,FCL-1021,BP-30080,ITM-AGR-001,Durian produce pallet,agricultural_product,7,pallet,1803.07,KRN,2020-05-05,ordinary,Cold Chain,completed,2020,4,15
+PO-2020-00045,1,2020-04-20,FCL-1007,BP-30078,ITM-LAB-001,Laboratory assay material pack,laboratory_material,18,pack,725.64,VLN,2020-05-15,ordinary,General Operations,completed,2020,4,25
+PO-2020-00046,1,2020-04-20,FCL-1010,BP-30050,ITM-LAB-002,Sample preparation material pack,laboratory_material,17,pack,560.35,VLN,2020-05-18,expedited,Agricultural Distribution,completed,2020,4,28
+PO-2020-00047,1,2020-04-21,FCL-1011,BP-30001,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,11,sealed_lot,4315.04,VLN,2020-05-05,ordinary,Cold Chain,completed,2020,4,14
+PO-2020-00048,1,2020-04-21,FCL-1011,BP-30068,ITM-OFF-001,Office supply case,office_supply,45,case,99.22,VLN,2020-05-16,ordinary,Cold Chain,completed,2020,4,25
+PO-2020-00049,1,2020-04-23,FCL-1007,BP-30038,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,21,kit,1997.33,AVL,2020-05-11,expedited,Cold Chain,completed,2020,4,18
+PO-2020-00050,1,2020-04-23,FCL-1003,BP-30033,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,14,sealed_lot,4767.41,TMB,2020-05-30,restricted,General Operations,delayed,2020,4,37
+PO-2020-00051,1,2020-05-20,FCL-1007,BP-30078,ITM-PRO-001,Field protective equipment case,protective_equipment,15,case,458.13,VLN,2020-06-11,ordinary,Cold Chain,completed,2020,5,22
+PO-2020-00052,1,2020-05-21,FCL-1007,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,15895.9,VLN,2020-07-01,ordinary,Clinical Services,completed,2020,5,41
+PO-2020-00053,1,2020-05-24,FCL-1019,BP-30078,ITM-CSE-002,Insulated transport container,cold_storage_equipment,12,unit,3335.64,AVL,2020-06-10,restricted,Field Operations,completed,2020,5,17
+PO-2020-00054,1,2020-06-04,FCL-1029,BP-30044,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,52,case,685.76,VLN,2020-07-13,ordinary,Cold Chain,completed,2020,6,39
+PO-2020-00055,1,2020-06-15,FCL-1014,BP-30073,ITM-LAB-002,Sample preparation material pack,laboratory_material,11,pack,495.84,TMB,2020-07-17,ordinary,Research Services,completed,2020,6,32
+PO-2020-00056,1,2020-07-27,FCL-1003,BP-30003,ITM-OTH-001,General facility material,other,8,unit,611.09,KRN,2020-08-18,ordinary,Facilities,completed,2020,7,22
+PO-2020-00057,1,2020-08-08,FCL-1010,BP-30034,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,18,unit,5197.71,VLN,2020-08-18,emergency,Field Programmes,completed,2020,8,10
+PO-2020-00058,1,2020-08-17,FCL-1029,BP-30005,ITM-CON-001,Operational consulting service,consulting_service,1,service,4967.44,VLN,2020-09-01,ordinary,Research Services,completed,2020,8,15
+PO-2020-00059,1,2020-09-17,FCL-1012,BP-30015,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4045.45,VLN,2020-10-13,ordinary,Field Programmes,cancelled,2020,9,26
+PO-2020-00060,1,2020-09-25,FCL-1011,BP-30029,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3886.12,VLN,2020-11-05,ordinary,General Operations,completed,2020,9,41
+PO-2020-00061,1,2020-09-25,FCL-1011,BP-30046,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,6,unit,5994.69,VLN,2020-10-17,ordinary,General Operations,completed,2020,9,22
+PO-2020-00062,1,2020-09-29,FCL-1012,BP-30059,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,21,unit,5095.41,VLN,2020-10-28,ordinary,General Operations,completed,2020,9,29
+PO-2020-00063,1,2020-10-09,FCL-1013,BP-30021,ITM-RES-001,Applied research contract,research_contract,1,contract,20830.71,NDH,2020-11-12,expedited,Research Services,completed,2020,10,34
+PO-2020-00064,1,2020-11-12,FCL-1007,BP-30028,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3529.88,AVL,2020-12-22,ordinary,Cold Chain,completed,2020,11,40
+PO-2020-00065,1,2020-11-27,FCL-1019,BP-30078,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,8,unit,5795.41,AVL,2020-12-15,ordinary,Cold Chain,completed,2020,11,18
+PO-2020-00066,1,2020-11-27,FCL-1020,BP-30055,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4464.59,AVL,2020-12-11,emergency,Agricultural Distribution,completed,2020,11,14
+PO-2020-00067,1,2020-11-27,FCL-1005,BP-30073,ITM-OFF-001,Office supply case,office_supply,86,case,101.64,TMB,2020-12-24,ordinary,Agricultural Distribution,completed,2020,11,27
+PO-2020-00068,1,2020-12-01,FCL-1011,BP-30065,ITM-LAB-002,Sample preparation material pack,laboratory_material,32,pack,559.39,VLN,2020-12-09,ordinary,Cold Chain,completed,2020,12,8
+PO-2020-00069,1,2020-12-02,FCL-1011,BP-30047,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,39,pallet,1225.92,VLN,2021-01-05,restricted,Clinical Services,completed,2020,12,34
+PO-2020-00070,1,2020-12-09,FCL-1015,BP-30033,ITM-CSE-002,Insulated transport container,cold_storage_equipment,24,unit,3159.12,NDH,2020-12-26,ordinary,Field Programmes,completed,2020,12,17
+PO-2020-00071,1,2020-12-26,FCL-1010,BP-30064,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,1,unit,5695.99,VLN,2021-01-22,emergency,Field Programmes,completed,2020,12,27
+PO-2021-00001,1,2021-01-05,FCL-1023,BP-30069,ITM-MED-001,General clinical consumable case,medical_consumables,2,case,157.93,NDH,2021-01-29,restricted,Research Services,completed,2021,1,24
+PO-2021-00002,1,2021-02-08,FCL-1011,BP-30056,ITM-LAB-001,Laboratory assay material pack,laboratory_material,41,pack,804.4,VLN,2021-02-23,ordinary,Clinical Services,completed,2021,2,15
+PO-2021-00003,1,2021-02-20,FCL-1010,BP-30053,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,26,kit,1966.7,VLN,2021-03-22,expedited,Agricultural Distribution,completed,2021,2,30
+PO-2021-00004,1,2021-03-01,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,60,case,146.88,VLN,2021-03-27,expedited,Clinical Programmes,completed,2021,3,26
+PO-2021-00005,1,2021-03-07,FCL-1030,BP-30078,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,29,kit,999.58,AVL,2021-03-28,restricted,Field Operations,completed,2021,3,21
+PO-2021-00006,1,2021-03-19,FCL-1016,BP-30054,ITM-CON-001,Operational consulting service,consulting_service,1,service,6111.58,TMB,2021-04-20,ordinary,Agricultural Distribution,completed,2021,3,32
+PO-2021-00007,1,2021-03-25,FCL-1019,BP-30045,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,14,unit,19736.62,AVL,2021-04-19,restricted,Research Services,completed,2021,3,25
+PO-2021-00008,1,2021-04-06,FCL-1007,BP-30078,ITM-LAB-001,Laboratory assay material pack,laboratory_material,14,pack,755.49,VLN,2021-05-08,ordinary,Research Services,completed,2021,4,32
+PO-2021-00009,1,2021-05-01,FCL-1010,BP-30026,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,19,kit,984.4,VLN,2021-05-27,expedited,Clinical Services,completed,2021,5,26
+PO-2021-00010,1,2021-05-02,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,66,case,150.22,VLN,2021-05-09,emergency,Agricultural Distribution,completed,2021,5,7
+PO-2021-00011,1,2021-05-02,FCL-1019,BP-30078,ITM-PRO-001,Field protective equipment case,protective_equipment,46,case,422.83,AVL,2021-06-04,restricted,Field Operations,completed,2021,5,33
+PO-2021-00012,1,2021-05-03,FCL-1011,BP-30059,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,7,unit,14698.78,VLN,2021-06-07,ordinary,Facilities,completed,2021,5,35
+PO-2021-00013,1,2021-05-03,FCL-1025,BP-30049,ITM-AGR-001,Durian produce pallet,agricultural_product,23,pallet,2093.96,AVL,2021-05-19,restricted,General Operations,completed,2021,5,16
+PO-2021-00014,1,2021-05-03,FCL-1009,BP-30039,ITM-LAB-002,Sample preparation material pack,laboratory_material,4,pack,459.53,NDH,2021-06-03,restricted,Facilities,pending,2021,5,31
+PO-2021-00015,1,2021-05-03,FCL-1019,BP-30038,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,20,unit,14603.57,AVL,2021-05-25,ordinary,Cold Chain,completed,2021,5,22
+PO-2021-00016,1,2021-05-03,FCL-1009,BP-30072,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,12,sealed_lot,5546.31,VLN,2021-05-20,expedited,General Operations,completed,2021,5,17
+PO-2021-00017,1,2021-05-05,FCL-1010,BP-30011,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,8,kit,1757.86,VLN,2021-05-29,ordinary,Facilities,completed,2021,5,24
+PO-2021-00018,1,2021-05-05,FCL-1019,BP-30053,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,15,unit,4985.33,AVL,2021-06-13,expedited,Clinical Services,completed,2021,5,39
+PO-2021-00019,1,2021-05-05,FCL-1011,BP-30039,ITM-MED-002,Sterile administration supplies,medical_consumables,10,case,268.7,VLN,2021-06-15,expedited,Research Services,completed,2021,5,41
+PO-2021-00020,1,2021-05-05,FCL-1002,BP-30079,ITM-PRO-001,Field protective equipment case,protective_equipment,1,case,478.91,VLN,2021-05-21,ordinary,Agricultural Distribution,completed,2021,5,16
+PO-2021-00021,1,2021-05-06,FCL-1009,BP-30022,ITM-MED-001,General clinical consumable case,medical_consumables,9,case,144.7,VLN,2021-05-28,expedited,Field Programmes,cancelled,2021,5,22
+PO-2021-00022,1,2021-05-06,FCL-1020,BP-30075,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,21,unit,5282.29,TMB,2021-06-06,ordinary,Facilities,completed,2021,5,31
+PO-2021-00023,1,2021-05-08,FCL-1010,BP-30066,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3848.24,VLN,2021-06-01,restricted,Clinical Services,completed,2021,5,24
+PO-2021-00024,1,2021-05-08,FCL-1011,BP-30035,ITM-OFF-001,Office supply case,office_supply,47,case,100.93,VLN,2021-06-05,ordinary,Cold Chain,completed,2021,5,28
+PO-2021-00025,1,2021-05-08,FCL-1030,BP-30054,ITM-AGR-001,Durian produce pallet,agricultural_product,16,pallet,2090.18,KRN,2021-05-24,ordinary,General Operations,completed,2021,5,16
+PO-2021-00026,1,2021-05-08,FCL-1011,BP-30001,ITM-MED-001,General clinical consumable case,medical_consumables,29,case,138.34,VLN,2021-05-29,ordinary,Cold Chain,completed,2021,5,21
+PO-2021-00027,1,2021-05-08,FCL-1010,BP-30018,ITM-OFF-001,Office supply case,office_supply,17,case,106.56,VLN,2021-05-21,expedited,Agricultural Distribution,completed,2021,5,13
+PO-2021-00028,1,2021-05-09,FCL-1010,BP-30058,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,21,unit,6013.42,VLN,2021-06-19,expedited,Facilities,completed,2021,5,41
+PO-2021-00029,1,2021-05-10,FCL-1015,BP-30012,ITM-MED-001,General clinical consumable case,medical_consumables,46,case,166.26,NDH,2021-05-22,emergency,Cold Chain,completed,2021,5,12
+PO-2021-00030,1,2021-05-10,FCL-1001,BP-30057,ITM-PRO-001,Field protective equipment case,protective_equipment,17,case,460.35,TMB,2021-06-16,expedited,Research Services,completed,2021,5,37
+PO-2021-00031,1,2021-05-11,FCL-1007,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,5,sealed_lot,1115.6,VLN,2021-05-27,expedited,Clinical Programmes,completed,2021,5,16
+PO-2021-00032,1,2021-05-11,FCL-1020,BP-30018,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,17,unit,17957.31,TMB,2021-06-07,ordinary,Field Programmes,completed,2021,5,27
+PO-2021-00033,1,2021-05-11,FCL-1011,BP-30009,ITM-RES-001,Applied research contract,research_contract,1,contract,18807.4,VLN,2021-05-25,restricted,Cold Chain,completed,2021,5,14
+PO-2021-00034,1,2021-05-12,FCL-1030,BP-30038,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,11,case,628.56,KRN,2021-05-26,expedited,Cold Chain,completed,2021,5,14
+PO-2021-00035,1,2021-05-12,FCL-1010,BP-30073,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,27,kit,2497.2,VLN,2021-06-16,ordinary,Cold Chain,completed,2021,5,35
+PO-2021-00036,1,2021-05-13,FCL-1019,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,9,sealed_lot,939.71,AVL,2021-06-05,expedited,Field Programmes,completed,2021,5,23
+PO-2021-00037,1,2021-05-14,FCL-1011,BP-30056,ITM-LAB-001,Laboratory assay material pack,laboratory_material,22,pack,806.52,VLN,2021-06-16,restricted,Cold Chain,completed,2021,5,33
+PO-2021-00038,1,2021-05-14,FCL-1011,BP-30003,ITM-OTH-001,General facility material,other,15,unit,596.74,VLN,2021-05-31,restricted,Field Programmes,completed,2021,5,17
+PO-2021-00039,1,2021-05-15,FCL-1007,BP-30025,ITM-OTH-001,General facility material,other,1,unit,559.85,AVL,2021-06-23,ordinary,Cold Chain,completed,2021,5,39
+PO-2021-00040,1,2021-05-15,FCL-1010,BP-30018,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,20,kit,2407.98,VLN,2021-06-23,ordinary,Agricultural Distribution,completed,2021,5,39
+PO-2021-00041,1,2021-05-15,FCL-1007,BP-30056,ITM-RES-001,Applied research contract,research_contract,1,contract,15892.7,AVL,2021-06-22,ordinary,Clinical Services,completed,2021,5,38
+PO-2021-00042,1,2021-05-16,FCL-1009,BP-30005,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,22,kit,2030.75,NDH,2021-05-24,expedited,Clinical Services,completed,2021,5,8
+PO-2021-00043,1,2021-05-17,FCL-1029,BP-30068,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,1,unit,5110.87,VLN,2021-06-02,restricted,Cold Chain,completed,2021,5,16
+PO-2021-00044,1,2021-05-19,FCL-1011,BP-30021,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,23,unit,6172.73,VLN,2021-06-08,ordinary,Facilities,completed,2021,5,20
+PO-2021-00045,1,2021-05-20,FCL-1019,BP-30075,ITM-CON-001,Operational consulting service,consulting_service,1,service,5788.71,AVL,2021-05-30,ordinary,Field Programmes,completed,2021,5,10
+PO-2021-00046,1,2021-05-21,FCL-1010,BP-30050,ITM-LAB-001,Laboratory assay material pack,laboratory_material,48,pack,746.69,VLN,2021-05-31,expedited,Facilities,completed,2021,5,10
+PO-2021-00047,1,2021-05-21,FCL-1011,BP-30056,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,21,unit,12510.63,VLN,2021-06-19,ordinary,Research Services,completed,2021,5,29
+PO-2021-00048,1,2021-05-21,FCL-1011,BP-30038,ITM-LAB-002,Sample preparation material pack,laboratory_material,38,pack,501.41,VLN,2021-06-17,ordinary,Cold Chain,completed,2021,5,27
+PO-2021-00049,1,2021-05-23,FCL-1018,BP-30080,ITM-CON-001,Operational consulting service,consulting_service,1,service,5247.16,VLN,2021-06-08,emergency,Facilities,completed,2021,5,16
+PO-2021-00050,1,2021-06-20,FCL-1011,BP-30056,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4392.81,VLN,2021-07-26,ordinary,Cold Chain,completed,2021,6,36
+PO-2021-00051,1,2021-07-23,FCL-1015,BP-30030,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,74,case,615.75,AVL,2021-08-20,ordinary,Research Services,completed,2021,7,28
+PO-2021-00052,1,2021-07-23,FCL-1027,BP-30059,ITM-MED-002,Sterile administration supplies,medical_consumables,28,case,279.73,VLN,2021-08-25,ordinary,General Operations,completed,2021,7,33
+PO-2021-00053,1,2021-08-25,FCL-1002,BP-30032,ITM-CON-001,Operational consulting service,consulting_service,1,service,5289.26,NDH,2021-09-04,restricted,Clinical Services,completed,2021,8,10
+PO-2021-00054,1,2021-08-27,FCL-1007,BP-30078,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,12,pallet,1170.6,VLN,2021-09-13,ordinary,Cold Chain,completed,2021,8,17
+PO-2021-00055,1,2021-09-11,FCL-1003,BP-30014,ITM-MED-002,Sterile administration supplies,medical_consumables,77,case,261.85,KRN,2021-09-30,expedited,Cold Chain,completed,2021,9,19
+PO-2021-00056,1,2021-09-20,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,33,case,149.15,VLN,2021-10-04,restricted,Clinical Programmes,completed,2021,9,14
+PO-2021-00057,1,2021-09-23,FCL-1011,BP-30056,ITM-LAB-001,Laboratory assay material pack,laboratory_material,42,pack,672.83,VLN,2021-10-05,ordinary,Cold Chain,completed,2021,9,12
+PO-2021-00058,1,2021-11-09,FCL-1029,BP-30050,ITM-OFF-001,Office supply case,office_supply,31,case,102.13,VLN,2021-12-11,expedited,Research Services,completed,2021,11,32
+PO-2021-00059,1,2021-11-18,FCL-1026,BP-30057,ITM-MED-002,Sterile administration supplies,medical_consumables,5,case,229.24,KRN,2021-12-13,ordinary,Research Services,completed,2021,11,25
+PO-2021-00060,1,2021-11-25,FCL-1023,BP-30038,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,30,kit,975.31,NDH,2021-12-26,ordinary,Clinical Services,completed,2021,11,31
+PO-2021-00061,1,2021-12-15,FCL-1020,BP-30052,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,11,sealed_lot,5168.5,TMB,2022-01-01,ordinary,Clinical Services,completed,2021,12,17
+PO-2022-00001,1,2022-01-04,FCL-1010,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,77,case,265.64,VLN,2022-02-12,ordinary,Clinical Programmes,completed,2022,1,39
+PO-2022-00002,1,2022-01-24,FCL-1010,BP-30078,ITM-BIO-002,Environmental reference sample lot,biological_sample,6,sealed_lot,1218.99,VLN,2022-02-09,expedited,Clinical Programmes,completed,2022,1,16
+PO-2022-00003,1,2022-01-30,FCL-1020,BP-30078,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,12,case,579.75,AVL,2022-03-10,ordinary,Field Operations,completed,2022,1,39
+PO-2022-00004,1,2022-02-01,FCL-1011,BP-30040,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,15,unit,11528.46,VLN,2022-03-01,restricted,Research Services,completed,2022,2,28
+PO-2022-00005,1,2022-02-01,FCL-1019,BP-30023,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3468.31,NDH,2022-02-21,ordinary,General Operations,completed,2022,2,20
+PO-2022-00006,1,2022-02-02,FCL-1001,BP-30062,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4068.44,TMB,2022-02-14,ordinary,Field Programmes,completed,2022,2,12
+PO-2022-00007,1,2022-02-02,FCL-1020,BP-30026,ITM-AGR-001,Durian produce pallet,agricultural_product,30,pallet,1727.64,TMB,2022-02-15,expedited,General Operations,completed,2022,2,13
+PO-2022-00008,1,2022-02-03,FCL-1011,BP-30041,ITM-COM-001,Secure communication service,communication_service,1,service,1310.07,VLN,2022-03-04,ordinary,Clinical Services,completed,2022,2,29
+PO-2022-00009,1,2022-02-04,FCL-1011,BP-30033,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,18,kit,826.65,VLN,2022-03-14,ordinary,Agricultural Distribution,completed,2022,2,38
+PO-2022-00010,1,2022-02-04,FCL-1014,BP-30020,ITM-CSE-002,Insulated transport container,cold_storage_equipment,11,unit,3422.5,TMB,2022-03-15,restricted,Facilities,completed,2022,2,39
+PO-2022-00011,1,2022-02-04,FCL-1010,BP-30026,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,7,sealed_lot,5566.32,VLN,2022-03-06,emergency,Agricultural Distribution,completed,2022,2,30
+PO-2022-00012,1,2022-02-04,FCL-1011,BP-30032,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2504.8,VLN,2022-02-13,restricted,Field Programmes,completed,2022,2,9
+PO-2022-00013,1,2022-02-04,FCL-1020,BP-30052,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,5,unit,12275.73,TMB,2022-02-16,ordinary,Research Services,completed,2022,2,12
+PO-2022-00014,1,2022-02-05,FCL-1011,BP-30080,ITM-AGR-001,Durian produce pallet,agricultural_product,11,pallet,1817.44,VLN,2022-02-23,ordinary,Facilities,completed,2022,2,18
+PO-2022-00015,1,2022-02-06,FCL-1014,BP-30032,ITM-LAB-002,Sample preparation material pack,laboratory_material,36,pack,499.11,TMB,2022-02-26,ordinary,Field Programmes,completed,2022,2,20
+PO-2022-00016,1,2022-02-06,FCL-1016,BP-30007,ITM-OFF-001,Office supply case,office_supply,46,case,109.32,TMB,2022-03-06,ordinary,Clinical Services,completed,2022,2,28
+PO-2022-00017,1,2022-02-06,FCL-1029,BP-30025,ITM-CSE-002,Insulated transport container,cold_storage_equipment,20,unit,3628.03,VLN,2022-03-07,restricted,Clinical Services,delayed,2022,2,29
+PO-2022-00018,1,2022-02-07,FCL-1025,BP-30080,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,3007.51,NDH,2022-03-11,ordinary,Clinical Services,completed,2022,2,32
+PO-2022-00019,1,2022-02-08,FCL-1011,BP-30069,ITM-OFF-001,Office supply case,office_supply,71,case,85.8,VLN,2022-03-02,emergency,Field Programmes,completed,2022,2,22
+PO-2022-00020,1,2022-02-08,FCL-1025,BP-30079,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3966.75,NDH,2022-02-17,ordinary,Field Programmes,completed,2022,2,9
+PO-2022-00021,1,2022-02-09,FCL-1011,BP-30018,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4225.02,VLN,2022-03-18,ordinary,Facilities,completed,2022,2,37
+PO-2022-00022,1,2022-02-09,FCL-1019,BP-30016,ITM-CSE-002,Insulated transport container,cold_storage_equipment,21,unit,3052.22,AVL,2022-03-17,ordinary,Facilities,completed,2022,2,36
+PO-2022-00023,1,2022-02-10,FCL-1019,BP-30078,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,21,kit,1957.76,AVL,2022-02-18,ordinary,Agricultural Distribution,completed,2022,2,8
+PO-2022-00024,1,2022-02-10,FCL-1029,BP-30017,ITM-RES-001,Applied research contract,research_contract,1,contract,20829.06,VLN,2022-03-10,expedited,Clinical Services,completed,2022,2,28
+PO-2022-00025,1,2022-02-12,FCL-1011,BP-30026,ITM-LAB-001,Laboratory assay material pack,laboratory_material,60,pack,721.06,VLN,2022-03-08,emergency,Research Services,completed,2022,2,24
+PO-2022-00026,1,2022-02-12,FCL-1016,BP-30024,ITM-BIO-002,Environmental reference sample lot,biological_sample,11,sealed_lot,1219.08,TMB,2022-02-22,restricted,General Operations,completed,2022,2,10
+PO-2022-00027,1,2022-02-13,FCL-1016,BP-30022,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3935.96,TMB,2022-03-12,ordinary,General Operations,completed,2022,2,27
+PO-2022-00028,1,2022-02-15,FCL-1019,BP-30002,ITM-LAB-001,Laboratory assay material pack,laboratory_material,7,pack,654.05,AVL,2022-02-26,emergency,Agricultural Distribution,completed,2022,2,11
+PO-2022-00029,1,2022-02-16,FCL-1011,BP-30040,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,8,kit,1849.61,VLN,2022-03-28,expedited,Cold Chain,completed,2022,2,40
+PO-2022-00030,1,2022-02-17,FCL-1018,BP-30011,ITM-OFF-001,Office supply case,office_supply,8,case,90.56,VLN,2022-02-25,ordinary,General Operations,completed,2022,2,8
+PO-2022-00031,1,2022-02-18,FCL-1015,BP-30066,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,9,sealed_lot,899.54,AVL,2022-03-19,ordinary,Agricultural Distribution,completed,2022,2,29
+PO-2022-00032,1,2022-02-19,FCL-1015,BP-30040,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,30,kit,2320.69,AVL,2022-03-10,ordinary,Field Programmes,completed,2022,2,19
+PO-2022-00033,1,2022-02-20,FCL-1019,BP-30008,ITM-MED-002,Sterile administration supplies,medical_consumables,21,case,277.01,AVL,2022-03-11,ordinary,Clinical Services,completed,2022,2,19
+PO-2022-00034,1,2022-02-21,FCL-1012,BP-30054,ITM-PRO-001,Field protective equipment case,protective_equipment,19,case,490.07,VLN,2022-03-18,ordinary,Clinical Services,completed,2022,2,25
+PO-2022-00035,1,2022-02-21,FCL-1007,BP-30066,ITM-MED-001,General clinical consumable case,medical_consumables,60,case,146.18,AVL,2022-03-22,restricted,Agricultural Distribution,completed,2022,2,29
+PO-2022-00036,1,2022-02-21,FCL-1014,BP-30064,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,11,pallet,1178.74,TMB,2022-03-07,ordinary,Cold Chain,delayed,2022,2,14
+PO-2022-00037,1,2022-02-22,FCL-1027,BP-30033,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2781.6,VLN,2022-03-10,expedited,Field Programmes,completed,2022,2,16
+PO-2022-00038,1,2022-02-22,FCL-1011,BP-30059,ITM-CON-001,Operational consulting service,consulting_service,1,service,6163.47,VLN,2022-03-16,expedited,General Operations,completed,2022,2,22
+PO-2022-00039,1,2022-02-23,FCL-1009,BP-30075,ITM-PRO-001,Field protective equipment case,protective_equipment,85,case,398.39,VLN,2022-03-04,expedited,Field Programmes,completed,2022,2,9
+PO-2022-00040,1,2022-02-25,FCL-1016,BP-30037,ITM-OTH-001,General facility material,other,11,unit,686.73,NDH,2022-04-01,ordinary,Agricultural Distribution,completed,2022,2,35
+PO-2022-00041,1,2022-02-27,FCL-1011,BP-30068,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,27,kit,951.72,VLN,2022-03-06,restricted,General Operations,completed,2022,2,7
+PO-2022-00042,1,2022-03-04,FCL-1011,BP-30034,ITM-PRO-001,Field protective equipment case,protective_equipment,52,case,445.81,VLN,2022-04-09,ordinary,Agricultural Distribution,completed,2022,3,36
+PO-2022-00043,1,2022-03-08,FCL-1024,BP-30043,ITM-PRO-001,Field protective equipment case,protective_equipment,67,case,450.71,KRN,2022-03-22,ordinary,Facilities,completed,2022,3,14
+PO-2022-00044,1,2022-03-22,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,40,case,138.26,VLN,2022-04-12,expedited,Clinical Programmes,completed,2022,3,21
+PO-2022-00045,1,2022-04-08,FCL-1007,BP-30078,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,3,sealed_lot,993.06,VLN,2022-04-28,ordinary,Facilities,completed,2022,4,20
+PO-2022-00046,1,2022-04-11,FCL-1003,BP-30068,ITM-CSE-002,Insulated transport container,cold_storage_equipment,4,unit,3475.68,TMB,2022-05-07,ordinary,Facilities,completed,2022,4,26
+PO-2022-00047,1,2022-04-19,FCL-1009,BP-30021,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,11,kit,971.57,VLN,2022-04-26,ordinary,Agricultural Distribution,completed,2022,4,7
+PO-2022-00048,1,2022-05-23,FCL-1010,BP-30012,ITM-GRA-001,Programme grant transfer,grant,1,grant,22476.36,VLN,2022-05-30,ordinary,Cold Chain,completed,2022,5,7
+PO-2022-00049,1,2022-05-27,FCL-1030,BP-30048,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,63,case,571.6,KRN,2022-06-07,ordinary,Cold Chain,completed,2022,5,11
+PO-2022-00050,1,2022-06-05,FCL-1008,BP-30064,ITM-OFF-001,Office supply case,office_supply,54,case,90.41,VLN,2022-06-20,ordinary,Research Services,pending,2022,6,15
+PO-2022-00051,1,2022-07-02,FCL-1007,BP-30030,ITM-RES-001,Applied research contract,research_contract,1,contract,16679.55,VLN,2022-08-10,ordinary,Field Programmes,completed,2022,7,39
+PO-2022-00052,1,2022-07-27,FCL-1001,BP-30011,ITM-OTH-001,General facility material,other,20,unit,615.92,TMB,2022-08-04,emergency,Cold Chain,pending,2022,7,8
+PO-2022-00053,1,2022-08-08,FCL-1011,BP-30059,ITM-OTH-001,General facility material,other,1,unit,650.25,VLN,2022-08-20,ordinary,General Operations,completed,2022,8,12
+PO-2022-00054,1,2022-08-14,FCL-1008,BP-30056,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4050.24,VLN,2022-09-11,emergency,Agricultural Distribution,pending,2022,8,28
+PO-2022-00055,1,2022-08-16,FCL-1009,BP-30015,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,77,case,604.01,NDH,2022-09-13,ordinary,Field Programmes,completed,2022,8,28
+PO-2022-00056,1,2022-09-11,FCL-1025,BP-30011,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4441.74,AVL,2022-10-18,ordinary,Clinical Services,completed,2022,9,37
+PO-2022-00057,1,2022-09-15,FCL-1011,BP-30043,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,2,pallet,1308.43,VLN,2022-10-09,ordinary,Cold Chain,completed,2022,9,24
+PO-2022-00058,1,2022-10-01,FCL-1015,BP-30029,ITM-MED-001,General clinical consumable case,medical_consumables,72,case,141.16,AVL,2022-11-09,ordinary,Research Services,completed,2022,10,39
+PO-2022-00059,1,2022-10-02,FCL-1011,BP-30066,ITM-MED-002,Sterile administration supplies,medical_consumables,76,case,283.29,VLN,2022-10-21,ordinary,Clinical Services,completed,2022,10,19
+PO-2022-00060,1,2022-10-03,FCL-1025,BP-30050,ITM-MED-002,Sterile administration supplies,medical_consumables,63,case,254.41,NDH,2022-10-30,restricted,Field Programmes,completed,2022,10,27
+PO-2022-00061,1,2022-10-04,FCL-1015,BP-30040,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,6,unit,13120.94,AVL,2022-10-11,ordinary,Research Services,completed,2022,10,7
+PO-2022-00062,1,2022-10-04,FCL-1026,BP-30055,ITM-LAB-002,Sample preparation material pack,laboratory_material,10,pack,484.05,KRN,2022-10-16,ordinary,Cold Chain,completed,2022,10,12
+PO-2022-00063,1,2022-10-05,FCL-1001,BP-30015,ITM-LEG-001,Regulatory legal service,legal_service,1,service,3913.53,TMB,2022-10-18,expedited,Field Programmes,completed,2022,10,13
+PO-2022-00064,1,2022-10-05,FCL-1023,BP-30037,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4176.7,NDH,2022-11-05,ordinary,Research Services,completed,2022,10,31
+PO-2022-00065,1,2022-10-05,FCL-1007,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,9,case,141.3,VLN,2022-11-15,expedited,Clinical Services,completed,2022,10,41
+PO-2022-00066,1,2022-10-06,FCL-1011,BP-30020,ITM-OTH-001,General facility material,other,8,unit,638.98,VLN,2022-11-13,expedited,unknown,completed,2022,10,38
+PO-2022-00067,1,2022-10-06,FCL-1011,BP-30050,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,9,unit,20258.07,VLN,2022-11-16,ordinary,Agricultural Distribution,completed,2022,10,41
+PO-2022-00068,1,2022-10-06,FCL-1030,BP-30022,ITM-CON-001,Operational consulting service,consulting_service,1,service,4989.36,KRN,2022-11-15,expedited,Facilities,completed,2022,10,40
+PO-2022-00069,1,2022-10-06,FCL-1004,BP-30042,ITM-RES-001,Applied research contract,research_contract,1,contract,17592.38,KRN,2022-10-16,ordinary,Field Programmes,completed,2022,10,10
+PO-2022-00070,1,2022-10-07,FCL-1018,BP-30072,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,22,unit,13262.74,VLN,2022-10-30,expedited,Clinical Services,completed,2022,10,23
+PO-2022-00071,1,2022-10-08,FCL-1016,BP-30002,ITM-LAB-001,Laboratory assay material pack,laboratory_material,52,pack,698.51,TMB,2022-11-14,ordinary,Field Programmes,completed,2022,10,37
+PO-2022-00072,1,2022-10-08,FCL-1020,BP-30073,ITM-CON-001,Operational consulting service,consulting_service,1,service,5060.86,TMB,2022-10-19,ordinary,Cold Chain,completed,2022,10,11
+PO-2022-00073,1,2022-10-09,FCL-1023,BP-30072,ITM-COM-001,Secure communication service,communication_service,1,service,1434.72,NDH,2022-11-16,ordinary,Agricultural Distribution,completed,2022,10,38
+PO-2022-00074,1,2022-10-10,FCL-1011,BP-30034,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4412.89,VLN,2022-10-28,restricted,Field Programmes,completed,2022,10,18
+PO-2022-00075,1,2022-10-10,FCL-1011,BP-30055,ITM-OFF-001,Office supply case,office_supply,47,case,96.6,VLN,2022-10-25,ordinary,General Operations,completed,2022,10,15
+PO-2022-00076,1,2022-10-11,FCL-1008,BP-30077,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2462.61,NDH,2022-11-21,emergency,Cold Chain,delayed,2022,10,41
+PO-2022-00077,1,2022-10-11,FCL-1011,BP-30030,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,5,unit,5707.21,VLN,2022-11-15,ordinary,Clinical Services,completed,2022,10,35
+PO-2022-00078,1,2022-10-12,FCL-1002,BP-30050,ITM-MED-001,General clinical consumable case,medical_consumables,43,case,143.95,NDH,2022-10-26,ordinary,Agricultural Distribution,completed,2022,10,14
+PO-2022-00079,1,2022-10-12,FCL-1023,BP-30017,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,14,unit,19132.46,NDH,2022-10-23,ordinary,Agricultural Distribution,delayed,2022,10,11
+PO-2022-00080,1,2022-10-14,FCL-1010,BP-30077,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,10,sealed_lot,5226.68,VLN,2022-11-24,ordinary,Clinical Services,completed,2022,10,41
+PO-2022-00081,1,2022-10-15,FCL-1011,BP-30047,ITM-CON-001,Operational consulting service,consulting_service,1,service,5166.09,VLN,2022-11-02,ordinary,Cold Chain,completed,2022,10,18
+PO-2022-00082,1,2022-10-19,FCL-1011,BP-30056,ITM-LAB-002,Sample preparation material pack,laboratory_material,24,pack,544.7,VLN,2022-11-25,ordinary,General Operations,completed,2022,10,37
+PO-2022-00083,1,2022-10-21,FCL-1011,BP-30056,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,3,unit,12407.03,VLN,2022-11-19,expedited,Research Services,completed,2022,10,29
+PO-2022-00084,1,2022-10-22,FCL-1011,BP-30056,ITM-MED-002,Sterile administration supplies,medical_consumables,79,case,241.69,VLN,2022-11-06,ordinary,Facilities,completed,2022,10,15
+PO-2022-00085,1,2022-10-27,FCL-1011,BP-30053,ITM-COM-001,Secure communication service,communication_service,1,service,1673.0,VLN,2022-11-20,ordinary,Field Programmes,completed,2022,10,24
+PO-2022-00086,1,2022-11-04,FCL-1014,BP-30043,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3457.8,TMB,2022-11-24,ordinary,Research Services,completed,2022,11,20
+PO-2022-00087,1,2022-12-01,FCL-1011,BP-30024,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,2,unit,17044.44,VLN,2023-01-02,ordinary,Cold Chain,pending,2022,12,32
+PO-2022-00088,1,2022-12-06,FCL-1029,BP-30035,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,16,kit,1994.86,VLN,2023-01-10,expedited,Facilities,completed,2022,12,35
+PO-2022-00089,1,2022-12-12,FCL-1011,BP-30029,ITM-OTH-001,General facility material,other,17,unit,730.74,VLN,2022-12-21,ordinary,Cold Chain,completed,2022,12,9
+PO-2022-00090,1,2022-12-14,FCL-1020,BP-30001,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3516.48,TMB,2023-01-18,restricted,Field Programmes,completed,2022,12,35
+PO-2022-00091,1,2022-12-21,FCL-1007,BP-30062,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,10,unit,11719.09,AVL,2022-12-31,restricted,Cold Chain,completed,2022,12,10
+PO-2023-00001,1,2023-01-11,FCL-1007,BP-30024,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2731.81,AVL,2023-02-08,ordinary,Clinical Services,completed,2023,1,28
+PO-2023-00002,1,2023-01-12,FCL-1011,BP-30060,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,2,sealed_lot,5062.48,VLN,2023-02-21,ordinary,Clinical Services,completed,2023,1,40
+PO-2023-00003,1,2023-01-19,FCL-1026,BP-30057,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,10,kit,1948.32,KRN,2023-02-26,restricted,Facilities,completed,2023,1,38
+PO-2023-00004,1,2023-01-23,FCL-1011,BP-30079,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,22,kit,2364.47,VLN,2023-02-05,ordinary,Cold Chain,delayed,2023,1,13
+PO-2023-00005,1,2023-01-23,FCL-1002,BP-30029,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,6,sealed_lot,5370.27,VLN,2023-02-22,ordinary,Research Services,delayed,2023,1,30
+PO-2023-00006,1,2023-01-23,FCL-1015,BP-30021,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,25,pallet,1525.44,NDH,2023-02-20,ordinary,Field Programmes,completed,2023,1,28
+PO-2023-00007,1,2023-02-13,FCL-1003,BP-30064,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3716.5,TMB,2023-03-03,ordinary,Cold Chain,completed,2023,2,18
+PO-2023-00008,1,2023-02-21,FCL-1011,BP-30011,ITM-AGR-001,Durian produce pallet,agricultural_product,13,pallet,1721.57,VLN,2023-03-18,emergency,Research Services,completed,2023,2,25
+PO-2023-00009,1,2023-02-22,FCL-1011,BP-30001,ITM-PRO-001,Field protective equipment case,protective_equipment,80,case,480.01,VLN,2023-03-01,emergency,Research Services,completed,2023,2,7
+PO-2023-00010,1,2023-03-05,FCL-1015,BP-30053,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,34,pallet,1482.66,NDH,2023-03-17,ordinary,General Operations,pending,2023,3,12
+PO-2023-00011,1,2023-03-12,FCL-1019,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,28,case,297.8,AVL,2023-03-30,ordinary,Facilities,completed,2023,3,18
+PO-2023-00012,1,2023-03-13,FCL-1007,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,47,case,270.26,VLN,2023-04-03,ordinary,Clinical Programmes,completed,2023,3,21
+PO-2023-00013,1,2023-04-01,FCL-1030,BP-30044,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3509.03,KRN,2023-04-17,ordinary,General Operations,cancelled,2023,4,16
+PO-2023-00014,1,2023-04-01,FCL-1010,BP-30079,ITM-OTH-001,General facility material,other,22,unit,592.41,VLN,2023-05-04,ordinary,Field Programmes,cancelled,2023,4,33
+PO-2023-00015,1,2023-04-01,FCL-1023,BP-30066,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,16,pallet,1448.08,NDH,2023-05-01,restricted,Research Services,pending,2023,4,30
+PO-2023-00016,1,2023-04-01,FCL-1029,BP-30022,ITM-GRA-001,Programme grant transfer,grant,1,grant,23446.5,VLN,2023-04-29,ordinary,Clinical Services,completed,2023,4,28
+PO-2023-00017,1,2023-04-02,FCL-1011,BP-30042,ITM-PRO-001,Field protective equipment case,protective_equipment,78,case,421.98,VLN,2023-05-08,ordinary,Cold Chain,completed,2023,4,36
+PO-2023-00018,1,2023-04-02,FCL-1007,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,20617.52,VLN,2023-05-13,restricted,General Operations,completed,2023,4,41
+PO-2023-00019,1,2023-04-02,FCL-1020,BP-30024,ITM-PRO-001,Field protective equipment case,protective_equipment,31,case,482.92,TMB,2023-04-18,ordinary,Cold Chain,completed,2023,4,16
+PO-2023-00020,1,2023-04-03,FCL-1012,BP-30020,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,4,pallet,1267.64,VLN,2023-04-19,ordinary,Facilities,completed,2023,4,16
+PO-2023-00021,1,2023-04-06,FCL-1011,BP-30053,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4134.44,VLN,2023-04-14,ordinary,Field Programmes,completed,2023,4,8
+PO-2023-00022,1,2023-04-06,FCL-1015,BP-30050,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,6,unit,13035.55,AVL,2023-04-24,ordinary,Facilities,completed,2023,4,18
+PO-2023-00023,1,2023-04-07,FCL-1030,BP-30043,ITM-MED-002,Sterile administration supplies,medical_consumables,70,case,238.45,KRN,2023-05-16,ordinary,Clinical Services,completed,2023,4,39
+PO-2023-00024,1,2023-04-07,FCL-1016,BP-30039,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,7,kit,2015.12,TMB,2023-05-18,expedited,Clinical Services,completed,2023,4,41
+PO-2023-00025,1,2023-04-07,FCL-1011,BP-30046,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,87,case,622.07,VLN,2023-04-17,ordinary,General Operations,completed,2023,4,10
+PO-2023-00026,1,2023-04-08,FCL-1020,BP-30066,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,6,unit,12072.25,TMB,2023-04-22,ordinary,Agricultural Distribution,delayed,2023,4,14
+PO-2023-00027,1,2023-04-09,FCL-1030,BP-30060,ITM-OTH-001,General facility material,other,17,unit,587.53,KRN,2023-04-30,emergency,Agricultural Distribution,completed,2023,4,21
+PO-2023-00028,1,2023-04-10,FCL-1011,BP-30035,ITM-OTH-001,General facility material,other,2,unit,650.2,VLN,2023-05-13,ordinary,Facilities,pending,2023,4,33
+PO-2023-00029,1,2023-04-10,FCL-1011,BP-30008,ITM-CON-001,Operational consulting service,consulting_service,1,service,5039.71,VLN,2023-05-01,restricted,Facilities,completed,2023,4,21
+PO-2023-00030,1,2023-04-11,FCL-1023,BP-30068,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,84,case,619.72,AVL,2023-05-08,emergency,Agricultural Distribution,completed,2023,4,27
+PO-2023-00031,1,2023-04-11,FCL-1011,BP-30044,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,4,kit,1964.89,VLN,2023-04-23,ordinary,Agricultural Distribution,completed,2023,4,12
+PO-2023-00032,1,2023-04-11,FCL-1030,BP-30028,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,22,unit,5051.73,KRN,2023-05-09,restricted,Cold Chain,completed,2023,4,28
+PO-2023-00033,1,2023-04-12,FCL-1019,BP-30054,ITM-CSE-002,Insulated transport container,cold_storage_equipment,11,unit,3345.97,AVL,2023-05-17,ordinary,Research Services,completed,2023,4,35
+PO-2023-00034,1,2023-04-13,FCL-1020,BP-30007,ITM-OFF-001,Office supply case,office_supply,54,case,87.78,AVL,2023-04-25,ordinary,Facilities,delayed,2023,4,12
+PO-2023-00035,1,2023-04-13,FCL-1007,BP-30078,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,50,pallet,1468.73,VLN,2023-05-08,ordinary,Clinical Services,completed,2023,4,25
+PO-2023-00036,1,2023-04-15,FCL-1024,BP-30044,ITM-MED-002,Sterile administration supplies,medical_consumables,84,case,279.08,KRN,2023-05-23,ordinary,Field Programmes,completed,2023,4,38
+PO-2023-00037,1,2023-04-15,FCL-1011,BP-30052,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,43,pallet,1501.44,VLN,2023-05-13,restricted,Facilities,completed,2023,4,28
+PO-2023-00038,1,2023-04-16,FCL-1030,BP-30055,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,25,kit,2291.13,KRN,2023-05-07,expedited,Clinical Services,completed,2023,4,21
+PO-2023-00039,1,2023-04-17,FCL-1019,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,64,case,164.22,AVL,2023-05-01,ordinary,Field Programmes,completed,2023,4,14
+PO-2023-00040,1,2023-04-18,FCL-1011,BP-30046,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,12,kit,957.58,VLN,2023-05-23,ordinary,Clinical Services,completed,2023,4,35
+PO-2023-00041,1,2023-04-19,FCL-1025,BP-30044,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,30,kit,1833.69,NDH,2023-05-06,ordinary,Clinical Services,completed,2023,4,17
+PO-2023-00042,1,2023-04-19,FCL-1025,BP-30072,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,3,kit,1022.46,AVL,2023-05-29,restricted,General Operations,completed,2023,4,40
+PO-2023-00043,1,2023-04-19,FCL-1014,BP-30001,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,29,kit,2163.08,NDH,2023-05-17,emergency,Field Programmes,completed,2023,4,28
+PO-2023-00044,1,2023-04-19,FCL-1019,BP-30017,ITM-LAB-002,Sample preparation material pack,laboratory_material,18,pack,450.26,AVL,2023-04-26,ordinary,Field Programmes,completed,2023,4,7
+PO-2023-00045,1,2023-04-19,FCL-1003,BP-30009,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,50,case,678.77,TMB,2023-05-17,ordinary,Field Programmes,completed,2023,4,28
+PO-2023-00046,1,2023-04-20,FCL-1013,BP-30031,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,3,kit,893.63,NDH,2023-05-10,ordinary,Field Programmes,completed,2023,4,20
+PO-2023-00047,1,2023-04-20,FCL-1019,BP-30009,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4374.54,AVL,2023-05-05,ordinary,Clinical Services,completed,2023,4,15
+PO-2023-00048,1,2023-04-20,FCL-1007,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,19984.37,VLN,2023-04-28,ordinary,Facilities,completed,2023,4,8
+PO-2023-00049,1,2023-04-21,FCL-1011,BP-30009,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,15,sealed_lot,929.0,VLN,2023-05-18,emergency,Clinical Services,completed,2023,4,27
+PO-2023-00050,1,2023-04-21,FCL-1030,BP-30021,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,48,pallet,1357.13,KRN,2023-05-08,expedited,Field Programmes,completed,2023,4,17
+PO-2023-00051,1,2023-04-21,FCL-1007,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,18043.65,VLN,2023-05-28,ordinary,Research Services,completed,2023,4,37
+PO-2023-00052,1,2023-04-22,FCL-1016,BP-30022,ITM-AGR-001,Durian produce pallet,agricultural_product,46,pallet,1752.69,TMB,2023-05-28,expedited,Agricultural Distribution,completed,2023,4,36
+PO-2023-00053,1,2023-04-23,FCL-1007,BP-30038,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,14,kit,1022.71,AVL,2023-05-27,ordinary,Field Programmes,completed,2023,4,34
+PO-2023-00054,1,2023-04-23,FCL-1016,BP-30039,ITM-COM-001,Secure communication service,communication_service,1,service,1604.26,TMB,2023-05-18,restricted,Research Services,completed,2023,4,25
+PO-2023-00055,1,2023-04-23,FCL-1012,BP-30037,ITM-COM-001,Secure communication service,communication_service,1,service,1609.86,VLN,2023-05-07,ordinary,Research Services,completed,2023,4,14
+PO-2023-00056,1,2023-06-12,FCL-1010,BP-30059,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,17,kit,1650.44,VLN,2023-06-19,ordinary,General Operations,completed,2023,6,7
+PO-2023-00057,1,2023-08-07,FCL-1004,BP-30059,ITM-RES-001,Applied research contract,research_contract,1,contract,17260.55,KRN,2023-09-06,ordinary,Research Services,completed,2023,8,30
+PO-2023-00058,1,2023-08-23,FCL-1011,BP-30030,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,44,pallet,1195.1,VLN,2023-09-19,ordinary,Facilities,completed,2023,8,27
+PO-2023-00059,1,2023-08-24,FCL-1025,BP-30026,ITM-CSE-002,Insulated transport container,cold_storage_equipment,10,unit,2902.63,AVL,2023-09-29,ordinary,Research Services,completed,2023,8,36
+PO-2023-00060,1,2023-08-27,FCL-1030,BP-30078,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,58,case,645.01,AVL,2023-09-12,restricted,Field Operations,completed,2023,8,16
+PO-2023-00061,1,2023-09-01,FCL-1011,BP-30056,ITM-PRO-001,Field protective equipment case,protective_equipment,84,case,461.09,VLN,2023-09-28,ordinary,Clinical Services,completed,2023,9,27
+PO-2023-00062,1,2023-09-02,FCL-1011,BP-30018,ITM-OTH-001,General facility material,other,14,unit,605.62,VLN,2023-09-16,ordinary,Research Services,completed,2023,9,14
+PO-2023-00063,1,2023-09-03,FCL-1030,BP-30033,ITM-AGR-001,Durian produce pallet,agricultural_product,10,pallet,1993.63,KRN,2023-09-21,ordinary,Facilities,completed,2023,9,18
+PO-2023-00064,1,2023-09-04,FCL-1018,BP-30049,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4163.7,VLN,2023-09-21,expedited,General Operations,completed,2023,9,17
+PO-2023-00065,1,2023-09-04,FCL-1014,BP-30080,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,24,unit,20006.7,NDH,2023-10-02,ordinary,Field Programmes,completed,2023,9,28
+PO-2023-00066,1,2023-09-04,FCL-1019,BP-30078,ITM-GRA-001,Programme grant transfer,grant,1,grant,25335.85,AVL,2023-09-28,ordinary,Research Services,completed,2023,9,24
+PO-2023-00067,1,2023-09-06,FCL-1007,BP-30078,ITM-BIO-002,Environmental reference sample lot,biological_sample,10,sealed_lot,1462.19,VLN,2023-10-10,ordinary,Research Services,completed,2023,9,34
+PO-2023-00068,1,2023-09-06,FCL-1010,BP-30008,ITM-PRO-001,Field protective equipment case,protective_equipment,46,case,398.8,VLN,2023-10-12,ordinary,Facilities,completed,2023,9,36
+PO-2023-00069,1,2023-09-07,FCL-1010,BP-30033,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,11,kit,965.8,VLN,2023-10-09,ordinary,General Operations,completed,2023,9,32
+PO-2023-00070,1,2023-09-07,FCL-1010,BP-30079,ITM-MED-001,General clinical consumable case,medical_consumables,24,case,132.48,VLN,2023-09-17,expedited,Clinical Services,completed,2023,9,10
+PO-2023-00071,1,2023-09-07,FCL-1019,BP-30035,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,20,kit,2024.11,AVL,2023-09-25,ordinary,Agricultural Distribution,completed,2023,9,18
+PO-2023-00072,1,2023-09-08,FCL-1002,BP-30056,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,23,unit,12820.2,NDH,2023-10-08,ordinary,Agricultural Distribution,completed,2023,9,30
+PO-2023-00073,1,2023-09-08,FCL-1005,BP-30041,ITM-MED-002,Sterile administration supplies,medical_consumables,64,case,242.42,TMB,2023-10-15,ordinary,Research Services,completed,2023,9,37
+PO-2023-00074,1,2023-09-08,FCL-1029,BP-30005,ITM-BIO-002,Environmental reference sample lot,biological_sample,5,sealed_lot,1406.52,VLN,2023-09-21,expedited,Facilities,completed,2023,9,13
+PO-2023-00075,1,2023-09-09,FCL-1015,BP-30015,ITM-MED-002,Sterile administration supplies,medical_consumables,45,case,249.33,AVL,2023-09-19,ordinary,Field Programmes,cancelled,2023,9,10
+PO-2023-00076,1,2023-09-10,FCL-1008,BP-30040,ITM-COM-001,Secure communication service,communication_service,1,service,1423.76,NDH,2023-10-12,ordinary,Cold Chain,completed,2023,9,32
+PO-2023-00077,1,2023-09-11,FCL-1020,BP-30014,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,19,unit,13026.01,TMB,2023-10-07,ordinary,Field Programmes,completed,2023,9,26
+PO-2023-00078,1,2023-09-12,FCL-1015,BP-30060,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,38,pallet,1239.93,AVL,2023-09-25,expedited,Facilities,pending,2023,9,13
+PO-2023-00079,1,2023-09-13,FCL-1026,BP-30079,ITM-OTH-001,General facility material,other,16,unit,704.62,KRN,2023-10-14,emergency,Clinical Services,completed,2023,9,31
+PO-2023-00080,1,2023-09-15,FCL-1011,BP-30053,ITM-OFF-001,Office supply case,office_supply,88,case,107.72,VLN,2023-09-27,ordinary,General Operations,completed,2023,9,12
+PO-2023-00081,1,2023-09-15,FCL-1005,BP-30047,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,14,sealed_lot,977.59,TMB,2023-09-23,expedited,Research Services,completed,2023,9,8
+PO-2023-00082,1,2023-09-15,FCL-1015,BP-30079,ITM-MED-002,Sterile administration supplies,medical_consumables,65,case,280.3,AVL,2023-10-07,ordinary,General Operations,completed,2023,9,22
+PO-2023-00083,1,2023-09-15,FCL-1018,BP-30047,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,9,kit,2027.52,VLN,2023-10-04,ordinary,Facilities,completed,2023,9,19
+PO-2023-00084,1,2023-09-16,FCL-1011,BP-30080,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,12,unit,20670.91,VLN,2023-10-11,restricted,General Operations,completed,2023,9,25
+PO-2023-00085,1,2023-09-16,FCL-1001,BP-30042,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2782.64,TMB,2023-10-02,restricted,Field Programmes,completed,2023,9,16
+PO-2023-00086,1,2023-09-17,FCL-1007,BP-30078,ITM-COM-001,Secure communication service,communication_service,1,service,1626.84,VLN,2023-10-20,ordinary,Research Services,completed,2023,9,33
+PO-2023-00087,1,2023-09-17,FCL-1012,BP-30047,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,12,unit,12326.4,VLN,2023-10-06,ordinary,Cold Chain,completed,2023,9,19
+PO-2023-00088,1,2023-09-18,FCL-1020,BP-30049,ITM-OFF-001,Office supply case,office_supply,53,case,108.62,TMB,2023-10-23,ordinary,Agricultural Distribution,completed,2023,9,35
+PO-2023-00089,1,2023-09-18,FCL-1010,BP-30038,ITM-MED-001,General clinical consumable case,medical_consumables,81,case,155.98,VLN,2023-10-28,ordinary,Clinical Services,completed,2023,9,40
+PO-2023-00090,1,2023-09-18,FCL-1011,BP-30056,ITM-CSE-002,Insulated transport container,cold_storage_equipment,3,unit,2969.21,VLN,2023-10-17,ordinary,Research Services,completed,2023,9,29
+PO-2023-00091,1,2023-09-20,FCL-1002,BP-30066,ITM-MED-002,Sterile administration supplies,medical_consumables,72,case,239.82,VLN,2023-10-29,emergency,Cold Chain,completed,2023,9,39
+PO-2023-00092,1,2023-09-20,FCL-1030,BP-30073,ITM-AGR-001,Durian produce pallet,agricultural_product,14,pallet,1960.13,KRN,2023-10-17,ordinary,Field Programmes,completed,2023,9,27
+PO-2023-00093,1,2023-09-21,FCL-1030,BP-30043,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,39,pallet,1502.59,KRN,2023-10-27,ordinary,Facilities,completed,2023,9,36
+PO-2023-00094,1,2023-09-21,FCL-1005,BP-30078,ITM-MED-002,Sterile administration supplies,medical_consumables,45,case,285.93,TMB,2023-10-03,expedited,Field Programmes,completed,2023,9,12
+PO-2023-00095,1,2023-09-22,FCL-1003,BP-30043,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3815.3,KRN,2023-10-21,ordinary,Field Programmes,completed,2023,9,29
+PO-2023-00096,1,2023-09-22,FCL-1019,BP-30046,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,3133.14,AVL,2023-09-30,ordinary,Cold Chain,completed,2023,9,8
+PO-2023-00097,1,2023-09-22,FCL-1007,BP-30041,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2457.7,VLN,2023-10-08,ordinary,Cold Chain,completed,2023,9,16
+PO-2023-00098,1,2023-09-23,FCL-1020,BP-30043,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,14,sealed_lot,4258.69,TMB,2023-10-06,ordinary,Agricultural Distribution,completed,2023,9,13
+PO-2023-00099,1,2023-09-23,FCL-1009,BP-30058,ITM-AGR-001,Durian produce pallet,agricultural_product,27,pallet,1765.34,VLN,2023-11-02,ordinary,Clinical Services,completed,2023,9,40
+PO-2023-00100,1,2023-09-26,FCL-1029,BP-30060,ITM-CON-001,Operational consulting service,consulting_service,1,service,5313.29,VLN,2023-10-10,ordinary,Facilities,completed,2023,9,14
+PO-2023-00101,1,2023-10-05,FCL-1024,BP-30049,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,26,case,586.41,KRN,2023-10-15,ordinary,Agricultural Distribution,completed,2023,10,10
+PO-2023-00102,1,2023-10-14,FCL-1017,BP-30056,ITM-AGR-001,Durian produce pallet,agricultural_product,26,pallet,1766.06,AVL,2023-11-10,restricted,Field Programmes,delayed,2023,10,27
+PO-2023-00103,1,2023-10-22,FCL-1019,BP-30078,ITM-CSE-002,Insulated transport container,cold_storage_equipment,3,unit,3462.47,AVL,2023-11-06,expedited,Field Operations,completed,2023,10,15
+PO-2023-00104,1,2023-10-23,FCL-1010,BP-30032,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,6,unit,19048.29,VLN,2023-11-07,expedited,Research Services,completed,2023,10,15
+PO-2023-00105,1,2023-11-28,FCL-1015,BP-30054,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,15,pallet,1477.0,AVL,2023-12-10,ordinary,Research Services,completed,2023,11,12
+PO-2023-00106,1,2023-12-14,FCL-1016,BP-30037,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,3185.41,TMB,2023-12-31,ordinary,Facilities,completed,2023,12,17
+PO-2023-00107,1,2023-12-15,FCL-1011,BP-30056,ITM-CSE-002,Insulated transport container,cold_storage_equipment,13,unit,3400.67,VLN,2024-01-13,ordinary,General Operations,completed,2023,12,29
+PO-2024-00001,1,2024-01-06,FCL-1011,BP-30056,ITM-LAB-001,Laboratory assay material pack,laboratory_material,39,pack,686.7,VLN,2024-01-13,ordinary,Clinical Services,completed,2024,1,7
+PO-2024-00002,1,2024-01-16,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,13,case,148.2,VLN,2024-02-11,ordinary,Clinical Programmes,completed,2024,1,26
+PO-2024-00003,1,2024-02-06,FCL-1010,BP-30078,ITM-MED-001,General clinical consumable case,medical_consumables,81,case,152.44,VLN,2024-02-26,ordinary,Clinical Programmes,completed,2024,2,20
+PO-2024-00004,1,2024-02-08,FCL-1020,BP-30049,ITM-LAB-001,Laboratory assay material pack,laboratory_material,43,pack,732.91,AVL,2024-02-21,expedited,Cold Chain,completed,2024,2,13
+PO-2024-00005,1,2024-02-25,FCL-1017,BP-30059,ITM-CSE-002,Insulated transport container,cold_storage_equipment,6,unit,3264.61,AVL,2024-03-09,ordinary,Facilities,completed,2024,2,13
+PO-2024-00006,1,2024-03-03,FCL-1030,BP-30078,ITM-CSE-002,Insulated transport container,cold_storage_equipment,24,unit,3452.52,AVL,2024-03-15,expedited,Field Operations,completed,2024,3,12
+PO-2024-00007,1,2024-04-16,FCL-1011,BP-30020,ITM-PRO-001,Field protective equipment case,protective_equipment,14,case,449.77,VLN,2024-05-04,expedited,Clinical Services,completed,2024,4,18
+PO-2024-00008,1,2024-05-12,FCL-1019,BP-30078,ITM-PRO-001,Field protective equipment case,protective_equipment,38,case,440.24,AVL,2024-06-11,ordinary,Field Operations,completed,2024,5,30
+PO-2024-00009,1,2024-05-31,FCL-1019,BP-30078,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,24,pallet,1400.37,AVL,2024-06-17,expedited,Research Services,completed,2024,5,17
+PO-2024-00010,1,2024-06-02,FCL-1029,BP-30034,ITM-OTH-001,General facility material,other,24,unit,723.3,VLN,2024-06-15,ordinary,Facilities,completed,2024,6,13
+PO-2024-00011,1,2024-06-02,FCL-1011,BP-30080,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,16,unit,11952.58,VLN,2024-06-15,ordinary,Facilities,completed,2024,6,13
+PO-2024-00012,1,2024-06-04,FCL-1003,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,19503.48,KRN,2024-06-28,ordinary,Agricultural Distribution,delayed,2024,6,24
+PO-2024-00013,1,2024-06-06,FCL-1011,BP-30032,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3619.89,VLN,2024-06-24,ordinary,General Operations,completed,2024,6,18
+PO-2024-00014,1,2024-06-06,FCL-1007,BP-30078,ITM-CSE-002,Insulated transport container,cold_storage_equipment,20,unit,3296.27,VLN,2024-07-07,ordinary,Field Programmes,completed,2024,6,31
+PO-2024-00015,1,2024-06-07,FCL-1029,BP-30026,ITM-LAB-002,Sample preparation material pack,laboratory_material,20,pack,571.98,VLN,2024-06-30,ordinary,Field Programmes,completed,2024,6,23
+PO-2024-00016,1,2024-06-08,FCL-1011,BP-30049,ITM-OFF-001,Office supply case,office_supply,54,case,91.95,VLN,2024-06-20,restricted,Agricultural Distribution,completed,2024,6,12
+PO-2024-00017,1,2024-06-08,FCL-1019,BP-30078,ITM-LAB-001,Laboratory assay material pack,laboratory_material,60,pack,666.76,AVL,2024-06-17,ordinary,unknown,completed,2024,6,9
+PO-2024-00018,1,2024-06-09,FCL-1006,BP-30064,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4037.36,TMB,2024-07-09,ordinary,Agricultural Distribution,completed,2024,6,30
+PO-2024-00019,1,2024-06-09,FCL-1030,BP-30064,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,14,kit,2459.7,KRN,2024-06-20,restricted,Facilities,completed,2024,6,11
+PO-2024-00020,1,2024-06-09,FCL-1019,BP-30078,ITM-BIO-002,Environmental reference sample lot,biological_sample,6,sealed_lot,1545.44,AVL,2024-06-16,ordinary,Clinical Services,completed,2024,6,7
+PO-2024-00021,1,2024-06-09,FCL-1010,BP-30054,ITM-CON-001,Operational consulting service,consulting_service,1,service,6409.83,VLN,2024-06-25,ordinary,Clinical Services,completed,2024,6,16
+PO-2024-00022,1,2024-06-10,FCL-1011,BP-30039,ITM-GRA-001,Programme grant transfer,grant,1,grant,23613.02,VLN,2024-07-12,emergency,Clinical Services,completed,2024,6,32
+PO-2024-00023,1,2024-06-10,FCL-1019,BP-30078,ITM-RES-001,Applied research contract,research_contract,1,contract,16718.85,AVL,2024-07-05,ordinary,Field Programmes,completed,2024,6,25
+PO-2024-00024,1,2024-06-11,FCL-1007,BP-30019,ITM-RES-001,Applied research contract,research_contract,1,contract,18792.11,VLN,2024-07-15,emergency,Agricultural Distribution,completed,2024,6,34
+PO-2024-00025,1,2024-06-12,FCL-1027,BP-30014,ITM-OTH-001,General facility material,other,1,unit,588.46,VLN,2024-07-04,ordinary,General Operations,completed,2024,6,22
+PO-2024-00026,1,2024-06-12,FCL-1028,BP-30012,ITM-PRO-001,Field protective equipment case,protective_equipment,27,case,391.7,AVL,2024-06-28,restricted,Facilities,completed,2024,6,16
+PO-2024-00027,1,2024-06-12,FCL-1029,BP-30074,ITM-MED-002,Sterile administration supplies,medical_consumables,5,case,300.27,VLN,2024-06-21,ordinary,Facilities,completed,2024,6,9
+PO-2024-00028,1,2024-06-13,FCL-1010,BP-30053,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,15,unit,11589.56,VLN,2024-07-11,ordinary,Research Services,completed,2024,6,28
+PO-2024-00029,1,2024-06-13,FCL-1019,BP-30041,ITM-OFF-001,Office supply case,office_supply,23,case,97.47,AVL,2024-07-08,restricted,Facilities,completed,2024,6,25
+PO-2024-00030,1,2024-06-14,FCL-1019,BP-30080,ITM-OTH-001,General facility material,other,8,unit,678.56,AVL,2024-07-23,ordinary,Cold Chain,completed,2024,6,39
+PO-2024-00031,1,2024-06-14,FCL-1007,BP-30078,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2913.18,VLN,2024-07-17,restricted,Clinical Services,completed,2024,6,33
+PO-2024-00032,1,2024-06-15,FCL-1007,BP-30057,ITM-PRO-001,Field protective equipment case,protective_equipment,16,case,380.9,AVL,2024-07-01,expedited,Field Programmes,completed,2024,6,16
+PO-2024-00033,1,2024-06-15,FCL-1011,BP-30014,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,1,unit,21542.27,VLN,2024-07-05,ordinary,Field Programmes,completed,2024,6,20
+PO-2024-00034,1,2024-06-15,FCL-1011,BP-30013,ITM-MED-002,Sterile administration supplies,medical_consumables,17,case,300.01,VLN,2024-07-24,expedited,Facilities,completed,2024,6,39
+PO-2024-00035,1,2024-06-17,FCL-1020,BP-30008,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4244.39,TMB,2024-07-28,expedited,Cold Chain,completed,2024,6,41
+PO-2024-00036,1,2024-06-17,FCL-1002,BP-30054,ITM-LAB-001,Laboratory assay material pack,laboratory_material,18,pack,745.54,VLN,2024-07-17,ordinary,General Operations,completed,2024,6,30
+PO-2024-00037,1,2024-06-17,FCL-1019,BP-30021,ITM-GRA-001,Programme grant transfer,grant,1,grant,28425.99,AVL,2024-07-26,ordinary,Cold Chain,completed,2024,6,39
+PO-2024-00038,1,2024-06-18,FCL-1016,BP-30033,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,24,pallet,1175.34,TMB,2024-07-05,ordinary,General Operations,completed,2024,6,17
+PO-2024-00039,1,2024-06-19,FCL-1025,BP-30025,ITM-PRO-001,Field protective equipment case,protective_equipment,4,case,406.74,AVL,2024-07-09,restricted,Agricultural Distribution,completed,2024,6,20
+PO-2024-00040,1,2024-06-19,FCL-1011,BP-30025,ITM-OTH-001,General facility material,other,22,unit,722.41,VLN,2024-07-08,expedited,Clinical Services,completed,2024,6,19
+PO-2024-00041,1,2024-06-19,FCL-1002,BP-30060,ITM-CSE-002,Insulated transport container,cold_storage_equipment,15,unit,3604.19,NDH,2024-07-05,ordinary,Agricultural Distribution,completed,2024,6,16
+PO-2024-00042,1,2024-06-19,FCL-1009,BP-30058,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2572.42,NDH,2024-07-26,ordinary,Cold Chain,completed,2024,6,37
+PO-2024-00043,1,2024-06-20,FCL-1016,BP-30059,ITM-MED-002,Sterile administration supplies,medical_consumables,50,case,283.81,TMB,2024-07-16,ordinary,Facilities,completed,2024,6,26
+PO-2024-00044,1,2024-06-20,FCL-1011,BP-30041,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,87,case,619.04,VLN,2024-07-26,expedited,Research Services,completed,2024,6,36
+PO-2024-00045,1,2024-06-21,FCL-1008,BP-30033,ITM-MED-002,Sterile administration supplies,medical_consumables,69,case,263.66,VLN,2024-07-18,ordinary,Clinical Services,completed,2024,6,27
+PO-2024-00046,1,2024-06-22,FCL-1010,BP-30007,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,49,pallet,1254.06,VLN,2024-07-29,restricted,Field Programmes,completed,2024,6,37
+PO-2024-00047,1,2024-06-23,FCL-1007,BP-30078,ITM-OFF-001,Office supply case,office_supply,33,case,102.24,VLN,2024-07-16,ordinary,General Operations,completed,2024,6,23
+PO-2024-00048,1,2024-06-23,FCL-1016,BP-30029,ITM-PRO-001,Field protective equipment case,protective_equipment,4,case,469.62,TMB,2024-07-13,ordinary,Clinical Services,completed,2024,6,20
+PO-2024-00049,1,2024-06-23,FCL-1025,BP-30028,ITM-OFF-001,Office supply case,office_supply,44,case,99.37,NDH,2024-08-03,emergency,Research Services,completed,2024,6,41
+PO-2024-00050,1,2024-06-23,FCL-1030,BP-30023,ITM-LAB-001,Laboratory assay material pack,laboratory_material,8,pack,809.37,KRN,2024-08-02,expedited,General Operations,completed,2024,6,40
+PO-2024-00051,1,2024-07-28,FCL-1020,BP-30078,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,16,kit,1984.94,AVL,2024-08-27,ordinary,Field Operations,completed,2024,7,30
+PO-2024-00052,1,2024-07-30,FCL-1010,BP-30072,ITM-OTH-001,General facility material,other,5,unit,656.93,VLN,2024-09-02,ordinary,Agricultural Distribution,delayed,2024,7,34
+PO-2024-00053,1,2024-08-15,FCL-1011,BP-30007,ITM-BIO-001,Temperature-sensitive clinical reference material,biological_sample,17,sealed_lot,5462.88,VLN,2024-08-29,expedited,Facilities,completed,2024,8,14
+PO-2024-00054,1,2024-09-03,FCL-1030,BP-30078,ITM-LAB-001,Laboratory assay material pack,laboratory_material,59,pack,793.02,KRN,2024-10-13,ordinary,Agricultural Distribution,cancelled,2024,9,40
+PO-2024-00055,1,2024-09-14,FCL-1001,BP-30033,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,16,kit,861.91,TMB,2024-10-13,expedited,Agricultural Distribution,completed,2024,9,29
+PO-2024-00056,1,2024-09-21,FCL-1011,BP-30056,ITM-OFF-001,Office supply case,office_supply,51,case,109.01,VLN,2024-10-17,ordinary,Cold Chain,completed,2024,9,26
+PO-2024-00057,1,2024-10-18,FCL-1011,BP-30012,ITM-CON-001,Operational consulting service,consulting_service,1,service,6240.08,VLN,2024-11-14,expedited,Agricultural Distribution,completed,2024,10,27
+PO-2024-00058,1,2024-10-19,FCL-1030,BP-30028,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,19,kit,1951.29,KRN,2024-11-24,ordinary,Clinical Services,completed,2024,10,36
+PO-2024-00059,1,2024-10-29,FCL-1024,BP-30060,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,14,kit,2034.87,KRN,2024-11-07,restricted,Facilities,completed,2024,10,9
+PO-2024-00060,1,2024-11-03,FCL-1014,BP-30049,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2622.37,TMB,2024-11-24,restricted,Field Programmes,completed,2024,11,21
+PO-2024-00061,1,2024-11-21,FCL-1008,BP-30020,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,25,unit,18925.55,NDH,2024-12-03,ordinary,Field Programmes,completed,2024,11,12
+PO-2024-00062,1,2024-12-02,FCL-1011,BP-30065,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,11,unit,5797.47,VLN,2024-12-12,restricted,Field Programmes,completed,2024,12,10
+PO-2025-00001,1,2025-01-04,FCL-1030,BP-30052,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2485.64,KRN,2025-01-29,ordinary,Facilities,completed,2025,1,25
+PO-2025-00002,1,2025-01-09,FCL-1010,BP-30017,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,3,unit,14279.85,VLN,2025-02-07,ordinary,Agricultural Distribution,completed,2025,1,29
+PO-2025-00003,1,2025-01-27,FCL-1028,BP-30001,ITM-AGR-001,Durian produce pallet,agricultural_product,37,pallet,2118.23,AVL,2025-02-18,ordinary,Facilities,completed,2025,1,22
+PO-2025-00004,1,2025-01-29,FCL-1011,BP-30057,ITM-CSE-002,Insulated transport container,cold_storage_equipment,6,unit,3677.04,VLN,2025-03-02,ordinary,Facilities,completed,2025,1,32
+PO-2025-00005,1,2025-02-06,FCL-1006,BP-30032,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4403.98,TMB,2025-02-25,ordinary,Clinical Services,completed,2025,2,19
+PO-2025-00006,1,2025-03-02,FCL-1010,BP-30022,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,9,sealed_lot,883.47,VLN,2025-03-09,ordinary,Agricultural Distribution,completed,2025,3,7
+PO-2025-00007,1,2025-03-09,FCL-1030,BP-30058,ITM-CSE-002,Insulated transport container,cold_storage_equipment,12,unit,3317.8,KRN,2025-03-20,ordinary,Clinical Services,completed,2025,3,11
+PO-2025-00008,1,2025-03-22,FCL-1011,BP-30079,ITM-MED-001,General clinical consumable case,medical_consumables,31,case,161.58,VLN,2025-04-19,ordinary,Agricultural Distribution,completed,2025,3,28
+PO-2025-00009,1,2025-03-30,FCL-1030,BP-30078,ITM-CSE-001,Portable cold-storage module,cold_storage_equipment,16,unit,11398.01,AVL,2025-05-06,ordinary,Field Operations,completed,2025,3,37
+PO-2025-00010,1,2025-04-20,FCL-1019,BP-30078,ITM-OTH-001,General facility material,other,2,unit,654.57,AVL,2025-05-15,ordinary,Clinical Services,completed,2025,4,25
+PO-2025-00011,1,2025-05-01,FCL-1011,BP-30018,ITM-MON-003,Telemetry maintenance kit,monitoring_equipment,11,kit,876.99,VLN,2025-05-27,ordinary,Research Services,completed,2025,5,26
+PO-2025-00012,1,2025-05-02,FCL-1019,BP-30078,ITM-CON-001,Operational consulting service,consulting_service,1,service,5549.12,AVL,2025-05-15,expedited,Facilities,completed,2025,5,13
+PO-2025-00013,1,2025-05-03,FCL-1007,BP-30078,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4368.66,VLN,2025-05-24,emergency,Agricultural Distribution,completed,2025,5,21
+PO-2025-00014,1,2025-05-03,FCL-1007,BP-30078,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,15,unit,19683.18,VLN,2025-05-27,expedited,Field Programmes,completed,2025,5,24
+PO-2025-00015,1,2025-05-03,FCL-1013,BP-30062,ITM-RES-001,Applied research contract,research_contract,1,contract,18983.39,NDH,2025-06-12,emergency,Field Programmes,completed,2025,5,40
+PO-2025-00016,1,2025-05-04,FCL-1009,BP-30080,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,23,unit,17366.22,VLN,2025-05-16,ordinary,Field Programmes,completed,2025,5,12
+PO-2025-00017,1,2025-05-04,FCL-1007,BP-30078,ITM-LEG-001,Regulatory legal service,legal_service,1,service,4609.62,VLN,2025-05-20,ordinary,Cold Chain,completed,2025,5,16
+PO-2025-00018,1,2025-05-04,FCL-1028,BP-30069,ITM-MED-002,Sterile administration supplies,medical_consumables,35,case,240.14,AVL,2025-06-08,ordinary,Field Programmes,completed,2025,5,35
+PO-2025-00019,1,2025-05-04,FCL-1011,BP-30035,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,33,pallet,1175.6,VLN,2025-06-02,ordinary,General Operations,completed,2025,5,29
+PO-2025-00020,1,2025-05-05,FCL-1025,BP-30038,ITM-MED-001,General clinical consumable case,medical_consumables,25,case,131.23,NDH,2025-06-14,ordinary,Agricultural Distribution,completed,2025,5,40
+PO-2025-00021,1,2025-05-05,FCL-1011,BP-30041,ITM-MEQ-001,Diagnostic equipment unit,medical_equipment,18,unit,17594.04,VLN,2025-05-20,ordinary,Agricultural Distribution,completed,2025,5,15
+PO-2025-00022,1,2025-05-06,FCL-1025,BP-30062,ITM-MON-001,Acoustic monitoring kit,monitoring_equipment,8,kit,1864.07,AVL,2025-05-16,ordinary,Field Programmes,completed,2025,5,10
+PO-2025-00023,1,2025-05-06,FCL-1016,BP-30020,ITM-MED-001,General clinical consumable case,medical_consumables,17,case,155.39,TMB,2025-06-05,ordinary,Facilities,completed,2025,5,30
+PO-2025-00024,1,2025-05-06,FCL-1029,BP-30012,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,7,sealed_lot,1058.6,VLN,2025-05-25,expedited,Research Services,completed,2025,5,19
+PO-2025-00025,1,2025-05-07,FCL-1015,BP-30028,ITM-LEG-001,Regulatory legal service,legal_service,1,service,3996.21,NDH,2025-05-31,ordinary,Facilities,completed,2025,5,24
+PO-2025-00026,1,2025-05-07,FCL-1003,BP-30013,ITM-CSE-002,Insulated transport container,cold_storage_equipment,4,unit,3511.45,TMB,2025-05-18,expedited,Facilities,completed,2025,5,11
+PO-2025-00027,1,2025-05-07,FCL-1007,BP-30078,ITM-OFF-001,Office supply case,office_supply,45,case,83.81,VLN,2025-05-26,expedited,General Operations,completed,2025,5,19
+PO-2025-00028,1,2025-05-07,FCL-1011,BP-30059,ITM-MED-002,Sterile administration supplies,medical_consumables,49,case,265.44,VLN,2025-05-30,restricted,Facilities,completed,2025,5,23
+PO-2025-00029,1,2025-05-08,FCL-1006,BP-30022,ITM-BIO-003,Wildlife survey specimen lot,biological_sample,3,sealed_lot,1036.42,TMB,2025-05-29,ordinary,Field Programmes,completed,2025,5,21
+PO-2025-00030,1,2025-05-09,FCL-1029,BP-30009,ITM-MON-002,Field camera and sensor kit,monitoring_equipment,20,kit,2281.59,VLN,2025-05-23,expedited,Field Programmes,completed,2025,5,14
+PO-2025-00031,1,2025-05-10,FCL-1019,BP-30062,ITM-CSE-002,Insulated transport container,cold_storage_equipment,14,unit,3488.04,NDH,2025-05-23,expedited,Clinical Services,completed,2025,5,13
+PO-2025-00032,1,2025-05-10,FCL-1011,BP-30053,ITM-LAB-001,Laboratory assay material pack,laboratory_material,33,pack,659.86,VLN,2025-05-31,emergency,Agricultural Distribution,completed,2025,5,21
+PO-2025-00033,1,2025-05-10,FCL-1023,BP-30015,ITM-OFF-001,Office supply case,office_supply,87,case,103.66,NDH,2025-06-17,restricted,Research Services,completed,2025,5,38
+PO-2025-00034,1,2025-05-10,FCL-1030,BP-30033,ITM-RES-001,Applied research contract,research_contract,1,contract,19121.34,KRN,2025-06-04,expedited,Clinical Services,completed,2025,5,25
+PO-2025-00035,1,2025-05-11,FCL-1028,BP-30018,ITM-AGR-001,Durian produce pallet,agricultural_product,7,pallet,1829.85,AVL,2025-05-18,expedited,General Operations,delayed,2025,5,7
+PO-2025-00036,1,2025-05-11,FCL-1010,BP-30001,ITM-MED-001,General clinical consumable case,medical_consumables,64,case,133.61,VLN,2025-05-25,ordinary,General Operations,completed,2025,5,14
+PO-2025-00037,1,2025-05-12,FCL-1019,BP-30078,ITM-COM-001,Secure communication service,communication_service,1,service,1554.15,AVL,2025-05-28,expedited,Clinical Services,completed,2025,5,16
+PO-2025-00038,1,2025-05-12,FCL-1020,BP-30012,ITM-REF-001,Refrigeration maintenance service,refrigeration_service,1,service,2815.02,AVL,2025-05-28,ordinary,Field Programmes,completed,2025,5,16
+PO-2025-00039,1,2025-05-13,FCL-1016,BP-30072,ITM-OFF-001,Office supply case,office_supply,55,case,106.67,NDH,2025-06-05,ordinary,General Operations,completed,2025,5,23
+PO-2025-00040,1,2025-05-14,FCL-1011,BP-30034,ITM-PRO-001,Field protective equipment case,protective_equipment,51,case,389.99,VLN,2025-05-26,ordinary,Field Programmes,completed,2025,5,12
+PO-2025-00041,1,2025-05-14,FCL-1009,BP-30039,ITM-COM-001,Secure communication service,communication_service,1,service,1573.27,VLN,2025-06-21,expedited,Research Services,completed,2025,5,38
+PO-2025-00042,1,2025-05-17,FCL-1016,BP-30042,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,4,unit,5366.89,TMB,2025-06-02,ordinary,Field Programmes,completed,2025,5,16
+PO-2025-00043,1,2025-05-17,FCL-1011,BP-30056,ITM-OTH-001,General facility material,other,10,unit,555.42,VLN,2025-06-15,ordinary,Research Services,completed,2025,5,29
+PO-2025-00044,1,2025-05-17,FCL-1020,BP-30044,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3583.29,TMB,2025-06-12,ordinary,Field Programmes,completed,2025,5,26
+PO-2025-00045,1,2025-05-17,FCL-1019,BP-30078,ITM-LAB-001,Laboratory assay material pack,laboratory_material,30,pack,663.14,AVL,2025-06-18,expedited,Research Services,completed,2025,5,32
+PO-2025-00046,1,2025-05-18,FCL-1011,BP-30039,ITM-AGR-002,Mixed orchard produce pallet,agricultural_product,43,pallet,1388.36,VLN,2025-06-28,expedited,Clinical Services,completed,2025,5,41
+PO-2025-00047,1,2025-05-19,FCL-1007,BP-30018,ITM-MED-001,General clinical consumable case,medical_consumables,45,case,146.7,VLN,2025-06-05,expedited,Facilities,completed,2025,5,17
+PO-2025-00048,1,2025-05-19,FCL-1010,BP-30058,ITM-LAB-002,Sample preparation material pack,laboratory_material,36,pack,455.36,VLN,2025-06-01,ordinary,Field Programmes,completed,2025,5,13
+PO-2025-00049,1,2025-05-19,FCL-1010,BP-30009,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,4056.26,VLN,2025-06-05,ordinary,Research Services,completed,2025,5,17
+PO-2025-00050,1,2025-05-19,FCL-1007,BP-30017,ITM-LAB-001,Laboratory assay material pack,laboratory_material,55,pack,687.3,VLN,2025-06-20,ordinary,Clinical Services,completed,2025,5,32
+PO-2025-00051,1,2025-05-21,FCL-1020,BP-30032,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,24,unit,5285.11,TMB,2025-05-28,ordinary,Field Programmes,completed,2025,5,7
+PO-2025-00052,1,2025-05-21,FCL-1011,BP-30030,ITM-AGR-001,Durian produce pallet,agricultural_product,16,pallet,1734.02,VLN,2025-06-24,expedited,General Operations,completed,2025,5,34
+PO-2025-00053,1,2025-05-21,FCL-1003,BP-30047,ITM-OFF-001,Office supply case,office_supply,60,case,103.22,KRN,2025-06-03,ordinary,Agricultural Distribution,completed,2025,5,13
+PO-2025-00054,1,2025-05-21,FCL-1014,BP-30077,ITM-PRO-001,Field protective equipment case,protective_equipment,29,case,409.05,NDH,2025-06-18,ordinary,Facilities,completed,2025,5,28
+PO-2025-00055,1,2025-05-21,FCL-1010,BP-30057,ITM-AGE-001,Orchard maintenance equipment,agricultural_equipment,2,unit,5855.61,VLN,2025-06-01,expedited,Agricultural Distribution,completed,2025,5,11
+PO-2025-00056,1,2025-05-21,FCL-1011,BP-30017,ITM-LAB-001,Laboratory assay material pack,laboratory_material,37,pack,842.95,VLN,2025-06-07,ordinary,General Operations,completed,2025,5,17
+PO-2025-00057,1,2025-05-22,FCL-1011,BP-30028,ITM-MED-002,Sterile administration supplies,medical_consumables,13,case,240.42,VLN,2025-06-13,restricted,Research Services,completed,2025,5,22
+PO-2025-00058,1,2025-05-22,FCL-1002,BP-30037,ITM-AGR-001,Durian produce pallet,agricultural_product,40,pallet,2112.42,NDH,2025-06-07,expedited,Clinical Services,pending,2025,5,16
+PO-2025-00059,1,2025-05-22,FCL-1025,BP-30007,ITM-CSE-002,Insulated transport container,cold_storage_equipment,15,unit,3353.95,NDH,2025-06-20,ordinary,General Operations,completed,2025,5,29
+PO-2025-00060,1,2025-05-25,FCL-1019,BP-30078,ITM-PRO-002,Cold-handling protective supplies,protective_equipment,59,case,631.64,AVL,2025-06-07,expedited,Field Operations,completed,2025,5,13
+PO-2025-00061,1,2025-05-30,FCL-1011,BP-30056,ITM-TRN-001,Regional refrigerated transport service,transport_service,1,service,3681.92,VLN,2025-06-25,ordinary,Agricultural Distribution,completed,2025,5,26
+PO-2025-00062,1,2025-06-18,FCL-1020,BP-30028,ITM-AGR-001,Durian produce pallet,agricultural_product,21,pallet,1772.8,TMB,2025-07-02,ordinary,Facilities,completed,2025,6,14
+PO-2025-00063,1,2025-06-23,FCL-1014,BP-30055,ITM-PRO-001,Field protective equipment case,protective_equipment,24,case,443.15,NDH,2025-07-22,expedited,Clinical Services,completed,2025,6,29
