@@ -1,0 +1,1068 @@
+encounter_number,patient_number,encounter_start,encounter_end,facility_license_number,encounter_type,referral_source,attending_license_number,service_unit,disposition,confidentiality_class,follow_up_date
+ENC-000001,PAT-31162,2018-02-27 09:15:00,2018-02-27 10:45:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2019-09-04
+ENC-000002,PAT-31162,2019-09-04 10:15:00,2019-09-04 11:20:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2021-01-14
+ENC-000003,PAT-31162,2021-01-14 11:15:00,2021-01-14 12:33:00,FAC-VLN-101,cardiac_assessment,executive health office,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2022-06-21
+ENC-000004,PAT-31162,2022-06-21 12:15:00,2022-06-21 13:38:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2023-11-18
+ENC-000005,PAT-31162,2023-11-18 13:15:00,2023-11-18 14:08:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-MED-1002,general assessment,follow_up_planned,confidential,2025-05-17
+ENC-000006,PAT-31162,2025-05-17 14:15:00,2025-05-17 15:32:00,FAC-VLN-101,ocular_assessment,self,LIC-VLN-MED-1003,specialist review,annual_review,confidential,
+ENC-000007,PAT-31040,2017-03-16 09:15:00,2017-03-16 11:03:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,restricted,2018-08-30
+ENC-000008,PAT-31040,2018-08-30 10:15:00,2018-08-30 11:13:00,FAC-AVL-201,mobility_assessment,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2020-04-07
+ENC-000009,PAT-31040,2020-04-07 11:15:00,2020-04-07 12:12:00,FAC-AVL-201,mobility_assessment,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2021-09-14
+ENC-000010,PAT-31040,2021-09-14 12:15:00,2021-09-14 13:47:00,FAC-AVL-201,ocular_assessment,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2023-02-07
+ENC-000011,PAT-31040,2023-02-07 13:15:00,2023-02-07 14:58:00,FAC-AVL-201,ocular_assessment,executive health office,LIC-VLN-MED-1005,mobility laboratory,discharged,standard,
+ENC-000012,PAT-31115,2018-05-31 09:15:00,2018-05-31 10:13:00,FAC-AVL-301,ocular_assessment,self,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2019-09-12
+ENC-000013,PAT-31115,2019-09-12 10:15:00,2019-09-12 11:25:00,FAC-AVL-301,ocular_assessment,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2021-04-08
+ENC-000014,PAT-31115,2021-04-08 11:15:00,2021-04-08 12:11:00,FAC-AVL-301,mobility_assessment,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2022-08-15
+ENC-000015,PAT-31115,2022-08-15 12:15:00,2022-08-15 13:19:00,FAC-AVL-301,ocular_assessment,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,confidential,2024-04-03
+ENC-000016,PAT-31115,2024-04-03 13:15:00,2024-04-03 14:59:00,FAC-AVL-301,ocular_assessment,executive health office,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2025-09-11
+ENC-000017,PAT-31115,2025-09-11 14:15:00,2025-09-11 16:08:00,FAC-AVL-301,cardiac_assessment,primary care,LIC-VLN-MED-1006,mobility laboratory,discharged,confidential,
+ENC-000018,PAT-31186,2017-07-08 09:15:00,2017-07-08 10:07:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2018-10-16
+ENC-000019,PAT-31186,2018-10-16 10:15:00,2018-10-16 12:01:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,confidential,2020-05-16
+ENC-000020,PAT-31186,2020-05-16 11:15:00,2020-05-16 12:14:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2021-10-06
+ENC-000021,PAT-31186,2021-10-06 12:15:00,2021-10-06 13:56:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2023-04-24
+ENC-000022,PAT-31186,2023-04-24 13:15:00,2023-04-24 14:37:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-RES-1044,cardiac diagnostics,annual_review,standard,
+ENC-000023,PAT-31215,2018-06-11 09:15:00,2018-06-11 10:44:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2019-11-30
+ENC-000024,PAT-31215,2019-11-30 10:15:00,2019-11-30 11:43:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-RES-1044,general assessment,follow_up_planned,confidential,2021-06-07
+ENC-000025,PAT-31215,2021-06-07 11:15:00,2021-06-07 13:08:00,FAC-AVL-201,ocular_assessment,self,LIC-VLN-MED-1001,general assessment,follow_up_planned,confidential,2022-11-15
+ENC-000026,PAT-31215,2022-11-15 12:15:00,2022-11-15 13:17:00,FAC-AVL-201,mobility_assessment,self,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2024-03-27
+ENC-000027,PAT-31215,2024-03-27 13:15:00,2024-03-27 14:44:00,FAC-AVL-201,cardiac_assessment,self,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2025-09-07
+ENC-000028,PAT-31215,2025-09-07 14:15:00,2025-09-07 15:57:00,FAC-AVL-201,mobility_assessment,self,LIC-VLN-MED-1006,general assessment,discharged,confidential,
+ENC-000029,PAT-31233,2017-09-14 09:15:00,2017-09-14 10:42:00,FAC-AVL-301,mobility_assessment,self,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2019-02-05
+ENC-000030,PAT-31233,2019-02-05 10:15:00,2019-02-05 11:12:00,FAC-AVL-301,mobility_assessment,primary care,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,confidential,2020-06-07
+ENC-000031,PAT-31233,2020-06-07 11:15:00,2020-06-07 12:30:00,FAC-AVL-301,ocular_assessment,primary care,LIC-VLN-MED-1001,general assessment,follow_up_planned,restricted,2021-11-06
+ENC-000032,PAT-31233,2021-11-06 12:15:00,2021-11-06 13:55:00,FAC-AVL-301,ocular_assessment,occupational service,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2023-04-25
+ENC-000033,PAT-31233,2023-04-25 13:15:00,2023-04-25 14:26:00,FAC-AVL-301,specialist_follow_up,primary care,LIC-VLN-MED-1001,mobility laboratory,discharged,confidential,
+ENC-000034,PAT-31065,2018-09-06 09:15:00,2018-09-06 10:59:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-MED-1006,specialist review,follow_up_planned,confidential,2020-02-28
+ENC-000035,PAT-31065,2020-02-28 10:15:00,2020-02-28 11:11:00,FAC-VLN-101,cardiac_assessment,executive health office,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2021-07-18
+ENC-000036,PAT-31065,2021-07-18 11:15:00,2021-07-18 12:32:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2023-01-19
+ENC-000037,PAT-31065,2023-01-19 12:15:00,2023-01-19 13:59:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2024-06-12
+ENC-000038,PAT-31065,2024-06-12 13:15:00,2024-06-12 15:09:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,confidential,2026-01-11
+ENC-000039,PAT-31065,2026-01-11 14:15:00,2026-01-11 15:47:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-RES-1016,general assessment,discharged,confidential,
+ENC-000040,PAT-31012,2017-02-05 09:15:00,2017-02-05 10:38:00,FAC-AVL-201,cardiac_assessment,research programme,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2018-07-13
+ENC-000041,PAT-31012,2018-07-13 10:15:00,2018-07-13 12:01:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2020-01-19
+ENC-000042,PAT-31012,2020-01-19 11:15:00,2020-01-19 12:12:00,FAC-AVL-201,mobility_assessment,research programme,LIC-VLN-MED-1001,general assessment,follow_up_planned,restricted,2021-05-23
+ENC-000043,PAT-31012,2021-05-23 12:15:00,2021-05-23 13:20:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2022-11-05
+ENC-000044,PAT-31012,2022-11-05 13:15:00,2022-11-05 15:04:00,FAC-AVL-201,mobility_assessment,research programme,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_as_needed,restricted,
+ENC-000045,PAT-31086,2018-02-21 09:15:00,2018-02-21 10:27:00,FAC-AVL-301,mobility_assessment,executive health office,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2019-09-15
+ENC-000046,PAT-31086,2019-09-15 10:15:00,2019-09-15 11:07:00,FAC-AVL-301,ocular_assessment,primary care,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2021-02-01
+ENC-000047,PAT-31086,2021-02-01 11:15:00,2021-02-01 12:33:00,FAC-AVL-301,specialist_follow_up,self,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2022-08-15
+ENC-000048,PAT-31086,2022-08-15 12:15:00,2022-08-15 13:32:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,confidential,2024-02-02
+ENC-000049,PAT-31086,2024-02-02 13:15:00,2024-02-02 14:41:00,FAC-AVL-301,mobility_assessment,occupational service,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2025-06-21
+ENC-000050,PAT-31086,2025-06-21 14:15:00,2025-06-21 15:55:00,FAC-AVL-301,cardiac_assessment,executive health office,LIC-VLN-MED-1003,cardiac diagnostics,annual_review,standard,
+ENC-000051,PAT-31037,2017-02-28 09:15:00,2017-02-28 10:15:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-MED-1001,general assessment,follow_up_planned,confidential,2018-07-21
+ENC-000052,PAT-31037,2018-07-21 10:15:00,2018-07-21 11:28:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1006,specialist review,follow_up_planned,confidential,2019-12-01
+ENC-000053,PAT-31037,2019-12-01 11:15:00,2019-12-01 12:28:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2021-07-06
+ENC-000054,PAT-31037,2021-07-06 12:15:00,2021-07-06 13:31:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,restricted,2022-12-01
+ENC-000055,PAT-31037,2022-12-01 13:15:00,2022-12-01 14:11:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-RES-1016,general assessment,annual_review,confidential,
+ENC-000056,PAT-31221,2015-09-21 09:15:00,2015-09-21 10:44:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2016-03-22
+ENC-000057,PAT-31221,2016-03-22 10:15:00,2016-03-22 11:16:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2018-04-01
+ENC-000058,PAT-31221,2018-04-01 11:15:00,2018-04-01 12:47:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,restricted,2020-04-17
+ENC-000059,PAT-31221,2020-04-17 12:15:00,2020-04-17 13:14:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2022-03-17
+ENC-000060,PAT-31221,2022-03-17 13:15:00,2022-03-17 15:05:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2024-04-03
+ENC-000061,PAT-31221,2024-04-03 14:15:00,2024-04-03 16:07:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-RES-1044,specialist review,annual_review,standard,
+ENC-000062,PAT-31044,2016-12-13 09:15:00,2016-12-13 10:53:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,restricted,2017-06-19
+ENC-000063,PAT-31044,2017-06-19 10:15:00,2017-06-19 11:06:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2019-06-29
+ENC-000064,PAT-31044,2019-06-29 11:15:00,2019-06-29 12:17:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2021-07-02
+ENC-000065,PAT-31044,2021-07-02 12:15:00,2021-07-02 13:30:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2024-09-25
+ENC-000066,PAT-31044,2024-09-25 13:15:00,2024-09-25 14:49:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-RES-1044,specialist review,follow_up_as_needed,standard,
+ENC-000067,PAT-31174,2015-04-13 09:15:00,2015-04-13 10:32:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2015-10-18
+ENC-000068,PAT-31174,2015-10-18 10:15:00,2015-10-18 11:40:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2017-11-03
+ENC-000069,PAT-31174,2017-11-03 11:15:00,2017-11-03 12:29:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2019-10-31
+ENC-000070,PAT-31174,2019-10-31 12:15:00,2019-10-31 13:27:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2021-11-16
+ENC-000071,PAT-31174,2021-11-16 13:15:00,2021-11-16 14:47:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,discharged,standard,
+ENC-000072,PAT-31119,2017-08-29 09:15:00,2017-08-29 11:06:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2018-03-05
+ENC-000073,PAT-31119,2018-03-05 10:15:00,2018-03-05 11:33:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2020-03-21
+ENC-000074,PAT-31119,2020-03-21 11:15:00,2020-03-21 13:03:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2022-02-25
+ENC-000075,PAT-31119,2022-02-25 12:15:00,2022-02-25 13:58:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2024-03-13
+ENC-000076,PAT-31119,2024-03-13 13:15:00,2024-03-13 15:02:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1004,specialist review,discharged,restricted,
+ENC-000077,PAT-31074,2017-06-06 09:15:00,2017-06-06 10:06:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,restricted,2017-12-11
+ENC-000078,PAT-31074,2017-12-11 10:15:00,2017-12-11 11:52:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2020-01-04
+ENC-000079,PAT-31074,2020-01-04 11:15:00,2020-01-04 12:05:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2022-05-13
+ENC-000080,PAT-31074,2022-05-13 12:15:00,2022-05-13 13:57:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2025-03-05
+ENC-000081,PAT-31074,2025-03-05 13:15:00,2025-03-05 14:31:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1006,specialist review,annual_review,standard,
+ENC-000082,PAT-31183,2016-01-18 09:15:00,2016-01-18 10:10:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2016-07-24
+ENC-000083,PAT-31183,2016-07-24 10:15:00,2016-07-24 11:18:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2018-08-03
+ENC-000084,PAT-31183,2018-08-03 11:15:00,2018-08-03 12:28:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2020-07-30
+ENC-000085,PAT-31183,2020-07-30 12:15:00,2020-07-30 13:46:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,restricted,
+ENC-000086,PAT-31142,2018-10-15 09:15:00,2018-10-15 10:31:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2019-04-16
+ENC-000087,PAT-31142,2019-04-16 10:15:00,2019-04-16 11:22:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2021-05-02
+ENC-000088,PAT-31142,2021-05-02 11:15:00,2021-05-02 12:52:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2023-05-19
+ENC-000089,PAT-31142,2023-05-19 12:15:00,2023-05-19 13:42:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1001,mobility laboratory,discharged,standard,
+ENC-000090,PAT-31099,2014-02-18 09:15:00,2014-02-18 10:40:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2014-08-15
+ENC-000091,PAT-31099,2014-08-15 10:15:00,2014-08-15 11:40:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2016-08-31
+ENC-000092,PAT-31099,2016-08-31 11:15:00,2016-08-31 12:34:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2018-09-17
+ENC-000093,PAT-31099,2018-09-17 12:15:00,2018-09-17 13:07:00,FAC-AVL-201,executive_health_review,research programme,LIC-VLN-MED-1004,mobility laboratory,discharged,restricted,
+ENC-000094,PAT-31113,2019-10-12 09:15:00,2019-10-12 10:37:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2021-03-13
+ENC-000095,PAT-31113,2021-03-13 10:15:00,2021-03-13 11:17:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2022-04-11
+ENC-000096,PAT-31113,2022-04-11 11:15:00,2022-04-11 12:14:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1002,general assessment,discharged,confidential,
+ENC-000097,PAT-31167,2018-11-28 09:15:00,2018-11-28 10:32:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2020-02-04
+ENC-000098,PAT-31167,2020-02-04 10:15:00,2020-02-04 11:25:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2020-11-05
+ENC-000099,PAT-31167,2020-11-05 11:15:00,2020-11-05 12:42:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2022-06-02
+ENC-000100,PAT-31167,2022-06-02 12:15:00,2022-06-02 13:06:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1006,cardiac diagnostics,discharged,standard,
+ENC-000101,PAT-31137,2021-09-07 09:15:00,2021-09-07 11:05:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2022-07-03
+ENC-000102,PAT-31137,2022-07-03 10:15:00,2022-07-03 11:22:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2023-11-05
+ENC-000103,PAT-31137,2023-11-05 11:15:00,2023-11-05 12:36:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1004,general assessment,follow_up_planned,restricted,2024-07-28
+ENC-000104,PAT-31137,2024-07-28 12:15:00,2024-07-28 13:23:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1001,mobility laboratory,annual_review,restricted,
+ENC-000105,PAT-31136,2021-10-03 09:15:00,2021-10-03 10:15:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2022-11-07
+ENC-000106,PAT-31136,2022-11-07 10:15:00,2022-11-07 12:08:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2023-05-30
+ENC-000107,PAT-31136,2023-05-30 11:15:00,2023-05-30 12:54:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2025-06-20
+ENC-000108,PAT-31136,2025-06-20 12:15:00,2025-06-20 14:01:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,discharged,standard,
+ENC-000109,PAT-31238,2019-03-01 09:15:00,2019-03-01 10:12:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2020-04-24
+ENC-000110,PAT-31238,2020-04-24 10:15:00,2020-04-24 11:58:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2021-07-25
+ENC-000111,PAT-31238,2021-07-25 11:15:00,2021-07-25 12:51:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2023-04-15
+ENC-000112,PAT-31238,2023-04-15 12:15:00,2023-04-15 13:27:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1044,general assessment,discharged,standard,
+ENC-000113,PAT-31041,2020-01-15 09:15:00,2020-01-15 10:37:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2020-10-12
+ENC-000114,PAT-31041,2020-10-12 10:15:00,2020-10-12 11:11:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,restricted,2022-12-02
+ENC-000115,PAT-31041,2022-12-02 11:15:00,2022-12-02 12:26:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1001,specialist review,annual_review,standard,
+ENC-000116,PAT-31120,2018-11-08 09:15:00,2018-11-08 10:23:00,FAC-VLN-101,ocular_assessment,occupational service,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2020-04-28
+ENC-000117,PAT-31120,2020-04-28 10:15:00,2020-04-28 12:05:00,FAC-VLN-101,ocular_assessment,research programme,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2021-06-06
+ENC-000118,PAT-31120,2021-06-06 11:15:00,2021-06-06 12:50:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2022-04-23
+ENC-000119,PAT-31120,2022-04-23 12:15:00,2022-04-23 13:50:00,FAC-VLN-101,ocular_assessment,self,LIC-VLN-MED-1003,specialist review,follow_up_as_needed,standard,
+ENC-000120,PAT-31128,2018-02-16 09:15:00,2018-02-16 10:10:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2019-04-17
+ENC-000121,PAT-31128,2019-04-17 10:15:00,2019-04-17 11:16:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1044,general assessment,follow_up_planned,confidential,2020-02-22
+ENC-000122,PAT-31128,2020-02-22 11:15:00,2020-02-22 12:05:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000123,PAT-31210,2019-05-25 09:15:00,2019-05-25 10:05:00,FAC-AVL-201,general_examination,self,LIC-VLN-MED-1004,general assessment,follow_up_planned,confidential,2020-08-24
+ENC-000124,PAT-31210,2020-08-24 10:15:00,2020-08-24 11:53:00,FAC-AVL-201,general_examination,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2021-07-09
+ENC-000125,PAT-31210,2021-07-09 11:15:00,2021-07-09 12:57:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2023-01-23
+ENC-000126,PAT-31210,2023-01-23 12:15:00,2023-01-23 13:50:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-RES-1044,specialist review,discharged,confidential,
+ENC-000127,PAT-31054,2018-04-28 09:15:00,2018-04-28 10:50:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2019-05-27
+ENC-000128,PAT-31054,2019-05-27 10:15:00,2019-05-27 11:55:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2020-01-26
+ENC-000129,PAT-31054,2020-01-26 11:15:00,2020-01-26 12:53:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2021-10-18
+ENC-000130,PAT-31054,2021-10-18 12:15:00,2021-10-18 14:09:00,FAC-VLN-101,cardiac_assessment,executive health office,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,confidential,2022-06-21
+ENC-000131,PAT-31054,2022-06-21 13:15:00,2022-06-21 14:48:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1002,cardiac diagnostics,annual_review,confidential,
+ENC-000132,PAT-31202,2021-01-16 09:15:00,2021-01-16 10:08:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2021-12-04
+ENC-000133,PAT-31202,2021-12-04 10:15:00,2021-12-04 12:05:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2023-03-13
+ENC-000134,PAT-31202,2023-03-13 11:15:00,2023-03-13 12:41:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2023-09-07
+ENC-000135,PAT-31202,2023-09-07 12:15:00,2023-09-07 13:37:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000136,PAT-31231,2017-10-28 09:15:00,2017-10-28 10:30:00,FAC-AVL-201,general_examination,self,LIC-VLN-RES-1016,specialist review,follow_up_planned,restricted,2018-11-28
+ENC-000137,PAT-31231,2018-11-28 10:15:00,2018-11-28 11:42:00,FAC-AVL-201,general_examination,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,restricted,2019-09-18
+ENC-000138,PAT-31231,2019-09-18 11:15:00,2019-09-18 12:41:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,confidential,2021-08-01
+ENC-000139,PAT-31231,2021-08-01 12:15:00,2021-08-01 14:04:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2021-11-15
+ENC-000140,PAT-31231,2021-11-15 13:15:00,2021-11-15 15:03:00,FAC-AVL-201,general_examination,executive health office,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000141,PAT-31190,2018-03-21 09:15:00,2018-03-21 11:06:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,restricted,2019-05-02
+ENC-000142,PAT-31190,2019-05-02 10:15:00,2019-05-02 12:08:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2020-07-16
+ENC-000143,PAT-31190,2020-07-16 11:15:00,2020-07-16 13:01:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2020-08-18
+ENC-000144,PAT-31190,2020-08-18 12:15:00,2020-08-18 13:06:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,restricted,2022-01-09
+ENC-000145,PAT-31190,2022-01-09 13:15:00,2022-01-09 14:53:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1003,cardiac diagnostics,discharged,standard,
+ENC-000146,PAT-31172,2021-01-01 09:15:00,2021-01-01 10:08:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2021-12-28
+ENC-000147,PAT-31172,2021-12-28 10:15:00,2021-12-28 11:31:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2023-06-09
+ENC-000148,PAT-31172,2023-06-09 11:15:00,2023-06-09 12:17:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2024-05-21
+ENC-000149,PAT-31172,2024-05-21 12:15:00,2024-05-21 13:13:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,discharged,restricted,
+ENC-000150,PAT-31039,2020-08-21 09:15:00,2020-08-21 10:46:00,FAC-VLN-101,ocular_assessment,executive health office,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2021-09-25
+ENC-000151,PAT-31039,2021-09-25 10:15:00,2021-09-25 11:25:00,FAC-VLN-101,ocular_assessment,executive health office,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2023-03-02
+ENC-000152,PAT-31039,2023-03-02 11:15:00,2023-03-02 13:07:00,FAC-VLN-101,ocular_assessment,research programme,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2023-11-01
+ENC-000153,PAT-31039,2023-11-01 12:15:00,2023-11-01 13:48:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-MED-1001,general assessment,discharged,standard,
+ENC-000154,PAT-31103,2019-05-25 09:15:00,2019-05-25 10:55:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2020-04-06
+ENC-000155,PAT-31103,2020-04-06 10:15:00,2020-04-06 11:43:00,FAC-AVL-301,occupational_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2021-11-27
+ENC-000156,PAT-31103,2021-11-27 11:15:00,2021-11-27 12:56:00,FAC-AVL-301,occupational_assessment,self,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2022-11-21
+ENC-000157,PAT-31103,2022-11-21 12:15:00,2022-11-21 13:39:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-MED-1001,specialist review,annual_review,standard,
+ENC-000158,PAT-31017,2020-12-09 09:15:00,2020-12-09 10:33:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,restricted,2022-04-06
+ENC-000159,PAT-31017,2022-04-06 10:15:00,2022-04-06 11:17:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2023-01-11
+ENC-000160,PAT-31017,2023-01-11 11:15:00,2023-01-11 12:17:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2023-04-05
+ENC-000161,PAT-31017,2023-04-05 12:15:00,2023-04-05 14:03:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,restricted,2025-06-20
+ENC-000162,PAT-31017,2025-06-20 13:15:00,2025-06-20 14:27:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1002,mobility laboratory,follow_up_as_needed,standard,
+ENC-000163,PAT-31007,2017-06-11 09:15:00,2017-06-11 10:06:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2018-10-13
+ENC-000164,PAT-31007,2018-10-13 10:15:00,2018-10-13 11:12:00,FAC-VLN-101,technical_repeat,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2019-03-22
+ENC-000165,PAT-31007,2019-03-22 11:15:00,2019-03-22 12:33:00,FAC-VLN-101,technical_repeat,executive health office,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2020-11-17
+ENC-000166,PAT-31007,2020-11-17 12:15:00,2020-11-17 13:07:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-RES-1016,specialist review,annual_review,standard,
+ENC-000167,PAT-31056,2017-08-31 09:15:00,2017-08-31 11:00:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2018-12-02
+ENC-000168,PAT-31056,2018-12-02 10:15:00,2018-12-02 11:27:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2019-08-26
+ENC-000169,PAT-31056,2019-08-26 11:15:00,2019-08-26 12:43:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2021-01-31
+ENC-000170,PAT-31056,2021-01-31 12:15:00,2021-01-31 13:32:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2021-06-28
+ENC-000171,PAT-31056,2021-06-28 13:15:00,2021-06-28 14:34:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,standard,
+ENC-000172,PAT-31093,2017-03-19 09:15:00,2017-03-19 10:27:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,confidential,2018-04-11
+ENC-000173,PAT-31093,2018-04-11 10:15:00,2018-04-11 11:07:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2019-07-23
+ENC-000174,PAT-31093,2019-07-23 11:15:00,2019-07-23 12:07:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-RES-1016,general assessment,discharged,standard,
+ENC-000175,PAT-31064,2019-05-30 09:15:00,2019-05-30 10:06:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2020-11-15
+ENC-000176,PAT-31064,2020-11-15 10:15:00,2020-11-15 11:42:00,FAC-VLN-101,technical_repeat,executive health office,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2021-07-12
+ENC-000177,PAT-31064,2021-07-12 11:15:00,2021-07-12 12:15:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2023-05-15
+ENC-000178,PAT-31064,2023-05-15 12:15:00,2023-05-15 14:01:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000179,PAT-31087,2021-03-31 09:15:00,2021-03-31 10:37:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2022-03-17
+ENC-000180,PAT-31087,2022-03-17 10:15:00,2022-03-17 11:39:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2022-11-14
+ENC-000181,PAT-31087,2022-11-14 11:15:00,2022-11-14 13:07:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2024-11-18
+ENC-000182,PAT-31087,2024-11-18 12:15:00,2024-11-18 14:00:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1001,general assessment,follow_up_as_needed,standard,
+ENC-000183,PAT-31079,2017-03-02 09:15:00,2017-03-02 10:11:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1005,general assessment,follow_up_planned,restricted,2018-02-12
+ENC-000184,PAT-31079,2018-02-12 10:15:00,2018-02-12 11:19:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,confidential,2019-02-25
+ENC-000185,PAT-31079,2019-02-25 11:15:00,2019-02-25 13:07:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2019-10-15
+ENC-000186,PAT-31079,2019-10-15 12:15:00,2019-10-15 14:08:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1044,mobility laboratory,annual_review,standard,
+ENC-000187,PAT-31048,2021-01-16 09:15:00,2021-01-16 10:30:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1001,general assessment,follow_up_planned,confidential,2022-02-25
+ENC-000188,PAT-31048,2022-02-25 10:15:00,2022-02-25 11:42:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2022-07-14
+ENC-000189,PAT-31048,2022-07-14 11:15:00,2022-07-14 13:05:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1001,general assessment,annual_review,confidential,
+ENC-000190,PAT-31081,2017-08-25 09:15:00,2017-08-25 10:15:00,FAC-AVL-201,ocular_assessment,occupational service,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2018-10-03
+ENC-000191,PAT-31081,2018-10-03 10:15:00,2018-10-03 11:14:00,FAC-AVL-201,ocular_assessment,research programme,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2020-01-12
+ENC-000192,PAT-31081,2020-01-12 11:15:00,2020-01-12 12:33:00,FAC-AVL-201,ocular_assessment,research programme,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2021-04-05
+ENC-000193,PAT-31081,2021-04-05 12:15:00,2021-04-05 14:05:00,FAC-AVL-201,ocular_assessment,research programme,LIC-VLN-MED-1003,mobility laboratory,annual_review,standard,
+ENC-000194,PAT-31219,2017-06-26 09:15:00,2017-06-26 10:23:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,restricted,2018-07-16
+ENC-000195,PAT-31219,2018-07-16 10:15:00,2018-07-16 11:50:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,restricted,2019-10-28
+ENC-000196,PAT-31219,2019-10-28 11:15:00,2019-10-28 12:26:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2020-11-19
+ENC-000197,PAT-31219,2020-11-19 12:15:00,2020-11-19 13:06:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1004,specialist review,annual_review,confidential,
+ENC-000198,PAT-31033,2017-08-04 09:15:00,2017-08-04 10:44:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2018-12-02
+ENC-000199,PAT-31033,2018-12-02 10:15:00,2018-12-02 12:09:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2020-01-01
+ENC-000200,PAT-31033,2020-01-01 11:15:00,2020-01-01 12:58:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2021-01-19
+ENC-000201,PAT-31033,2021-01-19 12:15:00,2021-01-19 13:52:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1005,cardiac diagnostics,annual_review,standard,
+ENC-000202,PAT-31195,2017-10-29 09:15:00,2017-10-29 11:07:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2018-12-03
+ENC-000203,PAT-31195,2018-12-03 10:15:00,2018-12-03 12:02:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2020-01-20
+ENC-000204,PAT-31195,2020-01-20 11:15:00,2020-01-20 13:00:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2020-03-08
+ENC-000205,PAT-31195,2020-03-08 12:15:00,2020-03-08 13:06:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1004,specialist review,annual_review,confidential,
+ENC-000206,PAT-31169,2018-07-22 09:15:00,2018-07-22 10:56:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2019-09-04
+ENC-000207,PAT-31169,2019-09-04 10:15:00,2019-09-04 11:39:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2020-11-13
+ENC-000208,PAT-31169,2020-11-13 11:15:00,2020-11-13 12:23:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2021-09-21
+ENC-000209,PAT-31169,2021-09-21 12:15:00,2021-09-21 13:10:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1006,general assessment,annual_review,standard,
+ENC-000210,PAT-31146,2020-11-09 09:15:00,2020-11-09 10:26:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2022-01-11
+ENC-000211,PAT-31146,2022-01-11 10:15:00,2022-01-11 12:01:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2023-01-30
+ENC-000212,PAT-31146,2023-01-30 11:15:00,2023-01-30 12:10:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1006,general assessment,annual_review,standard,
+ENC-000213,PAT-31095,2020-07-26 09:15:00,2020-07-26 10:51:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,restricted,2021-10-07
+ENC-000214,PAT-31095,2021-10-07 10:15:00,2021-10-07 11:42:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2022-03-07
+ENC-000215,PAT-31095,2022-03-07 11:15:00,2022-03-07 12:50:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2023-06-26
+ENC-000216,PAT-31095,2023-06-26 12:15:00,2023-06-26 13:50:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2024-07-25
+ENC-000217,PAT-31095,2024-07-25 13:15:00,2024-07-25 14:34:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1006,general assessment,follow_up_as_needed,standard,
+ENC-000218,PAT-31184,2017-12-04 09:15:00,2017-12-04 10:25:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2019-01-31
+ENC-000219,PAT-31184,2019-01-31 10:15:00,2019-01-31 11:39:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2019-11-07
+ENC-000220,PAT-31184,2019-11-07 11:15:00,2019-11-07 12:49:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1001,general assessment,follow_up_as_needed,restricted,
+ENC-000221,PAT-31126,2021-01-27 09:15:00,2021-01-27 10:40:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2022-02-13
+ENC-000222,PAT-31126,2022-02-13 10:15:00,2022-02-13 11:33:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2023-06-04
+ENC-000223,PAT-31126,2023-06-04 11:15:00,2023-06-04 12:25:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2023-08-12
+ENC-000224,PAT-31126,2023-08-12 12:15:00,2023-08-12 13:15:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1006,specialist review,annual_review,confidential,
+ENC-000225,PAT-31223,2019-10-07 09:15:00,2019-10-07 10:51:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2020-10-28
+ENC-000226,PAT-31223,2020-10-28 10:15:00,2020-10-28 11:05:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,restricted,2021-11-23
+ENC-000227,PAT-31223,2021-11-23 11:15:00,2021-11-23 12:33:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1003,mobility laboratory,follow_up_as_needed,standard,
+ENC-000228,PAT-31071,2020-01-24 09:15:00,2020-01-24 10:18:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,restricted,2021-04-06
+ENC-000229,PAT-31071,2021-04-06 10:15:00,2021-04-06 11:59:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2022-03-25
+ENC-000230,PAT-31071,2022-03-25 11:15:00,2022-03-25 12:22:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2023-06-29
+ENC-000231,PAT-31071,2023-06-29 12:15:00,2023-06-29 13:51:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,restricted,2024-02-23
+ENC-000232,PAT-31071,2024-02-23 13:15:00,2024-02-23 14:15:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-RES-1016,specialist review,annual_review,standard,
+ENC-000233,PAT-31085,2021-02-18 09:15:00,2021-02-18 11:00:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2021-11-20
+ENC-000234,PAT-31085,2021-11-20 10:15:00,2021-11-20 11:18:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2022-10-21
+ENC-000235,PAT-31085,2022-10-21 11:15:00,2022-10-21 12:23:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2024-04-26
+ENC-000236,PAT-31085,2024-04-26 12:15:00,2024-04-26 13:41:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2024-05-19
+ENC-000237,PAT-31085,2024-05-19 13:15:00,2024-05-19 14:54:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1016,specialist review,annual_review,standard,
+ENC-000238,PAT-31216,2019-04-02 09:15:00,2019-04-02 10:29:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2020-05-17
+ENC-000239,PAT-31216,2020-05-17 10:15:00,2020-05-17 11:41:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,confidential,2021-06-19
+ENC-000240,PAT-31216,2021-06-19 11:15:00,2021-06-19 12:52:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2022-01-21
+ENC-000241,PAT-31216,2022-01-21 12:15:00,2022-01-21 14:08:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2023-11-26
+ENC-000242,PAT-31216,2023-11-26 13:15:00,2023-11-26 14:42:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,annual_review,standard,
+ENC-000243,PAT-31192,2019-07-18 09:15:00,2019-07-18 10:17:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2020-06-30
+ENC-000244,PAT-31192,2020-06-30 10:15:00,2020-06-30 11:41:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2021-09-01
+ENC-000245,PAT-31192,2021-09-01 11:15:00,2021-09-01 12:28:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2022-06-27
+ENC-000246,PAT-31192,2022-06-27 12:15:00,2022-06-27 13:28:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1004,general assessment,discharged,standard,
+ENC-000247,PAT-31240,2017-08-21 09:15:00,2017-08-21 10:06:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2018-10-03
+ENC-000248,PAT-31240,2018-10-03 10:15:00,2018-10-03 11:22:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2019-12-10
+ENC-000249,PAT-31240,2019-12-10 11:15:00,2019-12-10 12:26:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2021-06-14
+ENC-000250,PAT-31240,2021-06-14 12:15:00,2021-06-14 13:19:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2022-08-30
+ENC-000251,PAT-31240,2022-08-30 13:15:00,2022-08-30 14:58:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,confidential,
+ENC-000252,PAT-31057,2019-12-22 09:15:00,2019-12-22 10:32:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,restricted,2021-02-03
+ENC-000253,PAT-31057,2021-02-03 10:15:00,2021-02-03 11:23:00,FAC-AVL-201,cardiac_assessment,executive health office,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2021-10-02
+ENC-000254,PAT-31057,2021-10-02 11:15:00,2021-10-02 12:52:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2023-03-09
+ENC-000255,PAT-31057,2023-03-09 12:15:00,2023-03-09 13:58:00,FAC-AVL-201,cardiac_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,restricted,2023-08-26
+ENC-000256,PAT-31057,2023-08-26 13:15:00,2023-08-26 14:23:00,FAC-AVL-201,cardiac_assessment,self,LIC-VLN-MED-1003,specialist review,annual_review,confidential,
+ENC-000257,PAT-31076,2018-07-25 09:15:00,2018-07-25 10:56:00,FAC-AVL-301,occupational_assessment,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2019-10-23
+ENC-000258,PAT-31076,2019-10-23 10:15:00,2019-10-23 11:42:00,FAC-AVL-301,general_examination,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2021-01-06
+ENC-000259,PAT-31076,2021-01-06 11:15:00,2021-01-06 12:42:00,FAC-AVL-301,general_examination,primary care,LIC-VLN-MED-1003,mobility laboratory,discharged,restricted,
+ENC-000260,PAT-31179,2018-04-05 09:15:00,2018-04-05 10:53:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2019-03-19
+ENC-000261,PAT-31179,2019-03-19 10:15:00,2019-03-19 11:25:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2020-05-30
+ENC-000262,PAT-31179,2020-05-30 11:15:00,2020-05-30 12:38:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-02-04
+ENC-000263,PAT-31179,2022-02-04 12:15:00,2022-02-04 13:42:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1002,general assessment,follow_up_planned,restricted,2022-12-16
+ENC-000264,PAT-31179,2022-12-16 13:15:00,2022-12-16 14:39:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-RES-1016,mobility laboratory,follow_up_as_needed,standard,
+ENC-000265,PAT-31225,2021-10-31 09:15:00,2021-10-31 10:14:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2022-09-28
+ENC-000266,PAT-31225,2022-09-28 10:15:00,2022-09-28 11:32:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2023-10-20
+ENC-000267,PAT-31225,2023-10-20 11:15:00,2023-10-20 12:25:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1001,general assessment,follow_up_planned,restricted,2025-04-02
+ENC-000268,PAT-31225,2025-04-02 12:15:00,2025-04-02 13:58:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1005,mobility laboratory,follow_up_as_needed,standard,
+ENC-000269,PAT-31232,2021-05-04 09:15:00,2021-05-04 11:01:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2022-05-03
+ENC-000270,PAT-31232,2022-05-03 10:15:00,2022-05-03 11:38:00,FAC-AVL-301,specialist_follow_up,primary care,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2023-07-17
+ENC-000271,PAT-31232,2023-07-17 11:15:00,2023-07-17 13:02:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-RES-1044,general assessment,follow_up_planned,confidential,2024-10-11
+ENC-000272,PAT-31232,2024-10-11 12:15:00,2024-10-11 13:31:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2025-06-20
+ENC-000273,PAT-31232,2025-06-20 13:15:00,2025-06-20 14:39:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_as_needed,standard,
+ENC-000274,PAT-31051,2020-06-26 09:15:00,2020-06-26 11:01:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1006,general assessment,follow_up_planned,confidential,2021-10-15
+ENC-000275,PAT-31051,2021-10-15 10:15:00,2021-10-15 11:08:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2022-11-08
+ENC-000276,PAT-31051,2022-11-08 11:15:00,2022-11-08 12:05:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2023-03-03
+ENC-000277,PAT-31051,2023-03-03 12:15:00,2023-03-03 13:33:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1002,specialist review,annual_review,standard,
+ENC-000278,PAT-31096,2019-07-10 09:15:00,2019-07-10 10:40:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2020-05-03
+ENC-000279,PAT-31096,2020-05-03 10:15:00,2020-05-03 11:25:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2021-05-10
+ENC-000280,PAT-31096,2021-05-10 11:15:00,2021-05-10 12:33:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2023-06-11
+ENC-000281,PAT-31096,2023-06-11 12:15:00,2023-06-11 13:25:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_as_needed,restricted,
+ENC-000282,PAT-31026,2020-09-14 09:15:00,2020-09-14 10:46:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2021-11-12
+ENC-000283,PAT-31026,2021-11-12 10:15:00,2021-11-12 11:07:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2023-06-18
+ENC-000284,PAT-31026,2023-06-18 11:15:00,2023-06-18 13:01:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,standard,
+ENC-000285,PAT-31222,2018-12-19 09:15:00,2018-12-19 10:05:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,restricted,2020-04-05
+ENC-000286,PAT-31222,2020-04-05 10:15:00,2020-04-05 11:20:00,FAC-AVL-301,specialist_follow_up,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2021-02-15
+ENC-000287,PAT-31222,2021-02-15 11:15:00,2021-02-15 12:36:00,FAC-AVL-301,occupational_assessment,research programme,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2022-01-15
+ENC-000288,PAT-31222,2022-01-15 12:15:00,2022-01-15 13:11:00,FAC-AVL-301,occupational_assessment,primary care,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2022-03-21
+ENC-000289,PAT-31222,2022-03-21 13:15:00,2022-03-21 14:08:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_as_needed,confidential,
+ENC-000290,PAT-31102,2020-09-19 09:15:00,2020-09-19 10:05:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2021-11-04
+ENC-000291,PAT-31102,2021-11-04 10:15:00,2021-11-04 11:06:00,FAC-VLN-101,occupational_assessment,unspecified,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,standard,2022-12-07
+ENC-000292,PAT-31102,2022-12-07 11:15:00,2022-12-07 13:05:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2023-08-11
+ENC-000293,PAT-31102,2023-08-11 12:15:00,2023-08-11 13:11:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2025-05-26
+ENC-000294,PAT-31102,2025-05-26 13:15:00,2025-05-26 14:51:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1005,mobility laboratory,follow_up_as_needed,standard,
+ENC-000295,PAT-31042,2021-06-08 09:15:00,2021-06-08 11:05:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2022-08-04
+ENC-000296,PAT-31042,2022-08-04 10:15:00,2022-08-04 11:39:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2023-06-14
+ENC-000297,PAT-31042,2023-06-14 11:15:00,2023-06-14 12:45:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000298,PAT-31171,2021-10-23 09:15:00,2021-10-23 10:08:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2023-01-02
+ENC-000299,PAT-31171,2023-01-02 10:15:00,2023-01-02 11:50:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2024-01-28
+ENC-000300,PAT-31171,2024-01-28 11:15:00,2024-01-28 12:06:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2025-03-10
+ENC-000301,PAT-31171,2025-03-10 12:15:00,2025-03-10 13:24:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2025-06-20
+ENC-000302,PAT-31171,2025-06-20 13:15:00,2025-06-20 14:59:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-RES-1044,general assessment,annual_review,confidential,
+ENC-000303,PAT-31072,2021-09-10 09:15:00,2021-09-10 10:15:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2022-08-23
+ENC-000304,PAT-31072,2022-08-23 10:15:00,2022-08-23 12:03:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2023-08-24
+ENC-000305,PAT-31072,2023-08-24 11:15:00,2023-08-24 12:14:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,restricted,2024-07-20
+ENC-000306,PAT-31072,2024-07-20 12:15:00,2024-07-20 13:32:00,FAC-VLN-101,mobility_assessment,primary care,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2025-06-20
+ENC-000307,PAT-31072,2025-06-20 13:15:00,2025-06-20 14:22:00,FAC-VLN-101,mobility_assessment,primary care,LIC-VLN-RES-1016,specialist review,discharged,confidential,
+ENC-000308,PAT-31135,2021-04-27 09:15:00,2021-04-27 10:15:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2022-08-20
+ENC-000309,PAT-31135,2022-08-20 10:15:00,2022-08-20 11:29:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2023-04-07
+ENC-000310,PAT-31135,2023-04-07 11:15:00,2023-04-07 13:05:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2025-01-11
+ENC-000311,PAT-31135,2025-01-11 12:15:00,2025-01-11 13:51:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2025-02-28
+ENC-000312,PAT-31135,2025-02-28 13:15:00,2025-02-28 14:44:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1005,cardiac diagnostics,discharged,standard,
+ENC-000313,PAT-31168,2017-01-20 09:15:00,2017-01-20 10:35:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1001,general assessment,follow_up_planned,restricted,2018-04-17
+ENC-000314,PAT-31168,2018-04-17 10:15:00,2018-04-17 11:05:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,standard,2019-02-26
+ENC-000315,PAT-31168,2019-02-26 11:15:00,2019-02-26 12:27:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2020-07-21
+ENC-000316,PAT-31168,2020-07-21 12:15:00,2020-07-21 13:25:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1002,general assessment,follow_up_planned,restricted,2021-11-18
+ENC-000317,PAT-31168,2021-11-18 13:15:00,2021-11-18 15:07:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2023-09-15
+ENC-000318,PAT-31168,2023-09-15 14:15:00,2023-09-15 15:08:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-RES-1044,general assessment,annual_review,standard,
+ENC-000319,PAT-31003,2019-06-19 09:15:00,2019-06-19 10:10:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,restricted,2020-08-20
+ENC-000320,PAT-31003,2020-08-20 10:15:00,2020-08-20 11:16:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2021-09-05
+ENC-000321,PAT-31003,2021-09-05 11:15:00,2021-09-05 12:12:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-07-31
+ENC-000322,PAT-31003,2022-07-31 12:15:00,2022-07-31 13:56:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2023-06-18
+ENC-000323,PAT-31003,2023-06-18 13:15:00,2023-06-18 14:28:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1005,general assessment,annual_review,confidential,
+ENC-000324,PAT-31125,2017-03-17 09:15:00,2017-03-17 10:39:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2018-05-20
+ENC-000325,PAT-31125,2018-05-20 10:15:00,2018-05-20 11:07:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,restricted,2019-04-28
+ENC-000326,PAT-31125,2019-04-28 11:15:00,2019-04-28 12:09:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2020-07-03
+ENC-000327,PAT-31125,2020-07-03 12:15:00,2020-07-03 13:31:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2021-02-17
+ENC-000328,PAT-31125,2021-02-17 13:15:00,2021-02-17 14:45:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1004,specialist review,follow_up_as_needed,standard,
+ENC-000329,PAT-31016,2019-08-26 09:15:00,2019-08-26 10:36:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,restricted,2021-01-13
+ENC-000330,PAT-31016,2021-01-13 10:15:00,2021-01-13 12:05:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2021-06-06
+ENC-000331,PAT-31016,2021-06-06 11:15:00,2021-06-06 12:34:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2022-11-01
+ENC-000332,PAT-31016,2022-11-01 12:15:00,2022-11-01 13:34:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2023-06-30
+ENC-000333,PAT-31016,2023-06-30 13:15:00,2023-06-30 14:20:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-RES-1016,mobility laboratory,follow_up_as_needed,standard,
+ENC-000334,PAT-31107,2021-10-31 09:15:00,2021-10-31 10:14:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2022-08-08
+ENC-000335,PAT-31107,2022-08-08 10:15:00,2022-08-08 11:18:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,restricted,2024-02-02
+ENC-000336,PAT-31107,2024-02-02 11:15:00,2024-02-02 12:30:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2024-12-18
+ENC-000337,PAT-31107,2024-12-18 12:15:00,2024-12-18 13:58:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2025-06-20
+ENC-000338,PAT-31107,2025-06-20 13:15:00,2025-06-20 14:07:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1006,mobility laboratory,follow_up_as_needed,standard,
+ENC-000339,PAT-31014,2019-04-30 09:15:00,2019-04-30 11:00:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2020-06-28
+ENC-000340,PAT-31014,2020-06-28 10:15:00,2020-06-28 11:44:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2021-08-21
+ENC-000341,PAT-31014,2021-08-21 11:15:00,2021-08-21 12:14:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2023-02-19
+ENC-000342,PAT-31014,2023-02-19 12:15:00,2023-02-19 13:09:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_as_needed,confidential,
+ENC-000343,PAT-31046,2021-04-09 09:15:00,2021-04-09 11:03:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-RES-1016,specialist review,follow_up_planned,restricted,2022-06-01
+ENC-000344,PAT-31046,2022-06-01 10:15:00,2022-06-01 11:43:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2023-10-11
+ENC-000345,PAT-31046,2023-10-11 11:15:00,2023-10-11 12:16:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2024-07-18
+ENC-000346,PAT-31046,2024-07-18 12:15:00,2024-07-18 13:07:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2025-06-20
+ENC-000347,PAT-31046,2025-06-20 13:15:00,2025-06-20 14:36:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1005,specialist review,annual_review,restricted,
+ENC-000348,PAT-31205,2019-08-02 09:15:00,2019-08-02 10:45:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2020-09-05
+ENC-000349,PAT-31205,2020-09-05 10:15:00,2020-09-05 12:09:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2021-10-14
+ENC-000350,PAT-31205,2021-10-14 11:15:00,2021-10-14 12:28:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-RES-1016,mobility laboratory,discharged,restricted,
+ENC-000351,PAT-31082,2020-02-13 09:15:00,2020-02-13 10:45:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2021-03-01
+ENC-000352,PAT-31082,2021-03-01 10:15:00,2021-03-01 11:47:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2022-01-31
+ENC-000353,PAT-31082,2022-01-31 11:15:00,2022-01-31 12:36:00,FAC-AVL-201,general_examination,self,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2022-08-11
+ENC-000354,PAT-31082,2022-08-11 12:15:00,2022-08-11 14:05:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,discharged,standard,
+ENC-000355,PAT-31001,2019-02-19 09:15:00,2019-02-19 10:54:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2020-03-23
+ENC-000356,PAT-31001,2020-03-23 10:15:00,2020-03-23 12:04:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2021-02-19
+ENC-000357,PAT-31001,2021-02-19 11:15:00,2021-02-19 13:03:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2021-09-14
+ENC-000358,PAT-31001,2021-09-14 12:15:00,2021-09-14 13:08:00,FAC-AVL-201,general_examination,self,LIC-VLN-RES-1044,specialist review,discharged,standard,
+ENC-000359,PAT-31058,2021-02-01 09:15:00,2021-02-01 10:09:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-01-28
+ENC-000360,PAT-31058,2022-01-28 10:15:00,2022-01-28 11:57:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2023-05-31
+ENC-000361,PAT-31058,2023-05-31 11:15:00,2023-05-31 13:09:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2023-08-21
+ENC-000362,PAT-31058,2023-08-21 12:15:00,2023-08-21 14:07:00,FAC-VLN-101,technical_repeat,research programme,LIC-VLN-MED-1005,mobility laboratory,follow_up_as_needed,standard,
+ENC-000363,PAT-31187,2019-04-10 09:15:00,2019-04-10 10:29:00,FAC-VLN-101,general_examination,unspecified,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2020-04-13
+ENC-000364,PAT-31187,2020-04-13 10:15:00,2020-04-13 11:49:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2021-07-26
+ENC-000365,PAT-31187,2021-07-26 11:15:00,2021-07-26 13:08:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2022-01-15
+ENC-000366,PAT-31187,2022-01-15 12:15:00,2022-01-15 13:21:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,restricted,2024-03-24
+ENC-000367,PAT-31187,2024-03-24 13:15:00,2024-03-24 14:43:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1044,cardiac diagnostics,discharged,standard,
+ENC-000368,PAT-31149,2017-02-20 09:15:00,2017-02-20 10:16:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1002,general assessment,follow_up_planned,restricted,2018-05-03
+ENC-000369,PAT-31149,2018-05-03 10:15:00,2018-05-03 11:40:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2019-05-07
+ENC-000370,PAT-31149,2019-05-07 11:15:00,2019-05-07 12:50:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000371,PAT-31034,2018-08-23 09:15:00,2018-08-23 10:34:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2020-01-02
+ENC-000372,PAT-31034,2020-01-02 10:15:00,2020-01-02 11:17:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2021-04-17
+ENC-000373,PAT-31034,2021-04-17 11:15:00,2021-04-17 13:04:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2022-03-16
+ENC-000374,PAT-31034,2022-03-16 12:15:00,2022-03-16 13:53:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1001,mobility laboratory,follow_up_as_needed,confidential,
+ENC-000375,PAT-31092,2017-12-26 09:15:00,2017-12-26 10:38:00,FAC-AVL-301,occupational_assessment,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2019-01-25
+ENC-000376,PAT-31092,2019-01-25 10:15:00,2019-01-25 12:06:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2020-01-12
+ENC-000377,PAT-31092,2020-01-12 11:15:00,2020-01-12 12:07:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,restricted,2021-03-11
+ENC-000378,PAT-31092,2021-03-11 12:15:00,2021-03-11 13:41:00,FAC-AVL-301,occupational_assessment,primary care,LIC-VLN-MED-1001,mobility laboratory,annual_review,restricted,
+ENC-000379,PAT-31176,2019-08-21 09:15:00,2019-08-21 10:48:00,FAC-AVL-301,occupational_assessment,primary care,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2020-10-16
+ENC-000380,PAT-31176,2020-10-16 10:15:00,2020-10-16 12:07:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2021-05-14
+ENC-000381,PAT-31176,2021-05-14 11:15:00,2021-05-14 12:47:00,FAC-AVL-301,general_examination,occupational service,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2023-03-27
+ENC-000382,PAT-31176,2023-03-27 12:15:00,2023-03-27 13:14:00,FAC-AVL-301,occupational_assessment,self,LIC-VLN-MED-1003,general assessment,discharged,standard,
+ENC-000383,PAT-31129,2021-12-14 09:15:00,2021-12-14 10:29:00,FAC-AVL-201,general_examination,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2023-02-12
+ENC-000384,PAT-31129,2023-02-12 10:15:00,2023-02-12 11:22:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2024-01-25
+ENC-000385,PAT-31129,2024-01-25 11:15:00,2024-01-25 12:57:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_as_needed,standard,
+ENC-000386,PAT-31144,2017-05-17 09:15:00,2017-05-17 10:34:00,FAC-AVL-201,cardiac_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,restricted,2018-09-14
+ENC-000387,PAT-31144,2018-09-14 10:15:00,2018-09-14 12:04:00,FAC-AVL-201,cardiac_assessment,occupational service,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2019-10-28
+ENC-000388,PAT-31144,2019-10-28 11:15:00,2019-10-28 12:13:00,FAC-AVL-201,cardiac_assessment,executive health office,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2021-09-05
+ENC-000389,PAT-31144,2021-09-05 12:15:00,2021-09-05 13:08:00,FAC-AVL-201,cardiac_assessment,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2022-02-15
+ENC-000390,PAT-31144,2022-02-15 13:15:00,2022-02-15 14:21:00,FAC-AVL-201,cardiac_assessment,research programme,LIC-VLN-MED-1003,specialist review,annual_review,standard,
+ENC-000391,PAT-31116,2021-08-03 09:15:00,2021-08-03 10:35:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2023-01-30
+ENC-000392,PAT-31116,2023-01-30 10:15:00,2023-01-30 11:13:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2023-06-25
+ENC-000393,PAT-31116,2023-06-25 11:15:00,2023-06-25 12:45:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2025-04-11
+ENC-000394,PAT-31116,2025-04-11 12:15:00,2025-04-11 13:22:00,FAC-VLN-101,mobility_assessment,primary care,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2025-06-20
+ENC-000395,PAT-31116,2025-06-20 13:15:00,2025-06-20 14:25:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000396,PAT-31152,2018-11-03 09:15:00,2018-11-03 10:16:00,FAC-AVL-201,ocular_assessment,primary care,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2019-12-27
+ENC-000397,PAT-31152,2019-12-27 10:15:00,2019-12-27 11:34:00,FAC-AVL-201,ocular_assessment,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2020-12-07
+ENC-000398,PAT-31152,2020-12-07 11:15:00,2020-12-07 12:06:00,FAC-AVL-201,ocular_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2022-02-15
+ENC-000399,PAT-31152,2022-02-15 12:15:00,2022-02-15 13:18:00,FAC-AVL-201,ocular_assessment,research programme,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,standard,
+ENC-000400,PAT-31020,2020-12-15 09:15:00,2020-12-15 10:55:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,restricted,2021-10-27
+ENC-000401,PAT-31020,2021-10-27 10:15:00,2021-10-27 11:57:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2023-01-29
+ENC-000402,PAT-31020,2023-01-29 11:15:00,2023-01-29 12:16:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2024-05-01
+ENC-000403,PAT-31020,2024-05-01 12:15:00,2024-05-01 13:12:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1004,specialist review,follow_up_planned,restricted,2025-06-20
+ENC-000404,PAT-31020,2025-06-20 13:15:00,2025-06-20 14:46:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_as_needed,confidential,
+ENC-000405,PAT-31008,2021-10-26 09:15:00,2021-10-26 11:05:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2023-02-09
+ENC-000406,PAT-31008,2023-02-09 10:15:00,2023-02-09 11:58:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2024-05-27
+ENC-000407,PAT-31008,2024-05-27 11:15:00,2024-05-27 12:37:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2025-06-11
+ENC-000408,PAT-31008,2025-06-11 12:15:00,2025-06-11 13:17:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,restricted,2025-06-20
+ENC-000409,PAT-31008,2025-06-20 13:15:00,2025-06-20 14:31:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1002,general assessment,discharged,restricted,
+ENC-000410,PAT-31155,2019-04-29 09:15:00,2019-04-29 11:02:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2020-08-30
+ENC-000411,PAT-31155,2020-08-30 10:15:00,2020-08-30 12:09:00,FAC-AVL-201,occupational_assessment,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2021-06-09
+ENC-000412,PAT-31155,2021-06-09 11:15:00,2021-06-09 12:41:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2022-02-10
+ENC-000413,PAT-31155,2022-02-10 12:15:00,2022-02-10 13:32:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,restricted,2022-09-21
+ENC-000414,PAT-31155,2022-09-21 13:15:00,2022-09-21 14:49:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1003,general assessment,annual_review,confidential,
+ENC-000415,PAT-31078,2020-12-24 09:15:00,2020-12-24 10:42:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2021-10-21
+ENC-000416,PAT-31078,2021-10-21 10:15:00,2021-10-21 11:30:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2023-05-31
+ENC-000417,PAT-31078,2023-05-31 11:15:00,2023-05-31 12:30:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2024-07-04
+ENC-000418,PAT-31078,2024-07-04 12:15:00,2024-07-04 13:43:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2024-08-27
+ENC-000419,PAT-31078,2024-08-27 13:15:00,2024-08-27 14:17:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1044,mobility laboratory,follow_up_as_needed,standard,
+ENC-000420,PAT-31117,2017-01-30 09:15:00,2017-01-30 10:22:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2018-06-19
+ENC-000421,PAT-31117,2018-06-19 10:15:00,2018-06-19 11:19:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2019-01-08
+ENC-000422,PAT-31117,2019-01-08 11:15:00,2019-01-08 12:59:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1006,mobility laboratory,annual_review,standard,
+ENC-000423,PAT-31133,2021-09-08 09:15:00,2021-09-08 10:05:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2023-04-05
+ENC-000424,PAT-31133,2023-04-05 10:15:00,2023-04-05 11:45:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2024-01-12
+ENC-000425,PAT-31133,2024-01-12 11:15:00,2024-01-12 12:08:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2025-02-02
+ENC-000426,PAT-31133,2025-02-02 12:15:00,2025-02-02 13:24:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2025-06-20
+ENC-000427,PAT-31133,2025-06-20 13:15:00,2025-06-20 14:41:00,FAC-VLN-101,mobility_assessment,occupational service,LIC-VLN-MED-1006,general assessment,discharged,confidential,
+ENC-000428,PAT-31097,2018-08-28 09:15:00,2018-08-28 10:23:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2019-10-01
+ENC-000429,PAT-31097,2019-10-01 10:15:00,2019-10-01 11:46:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2021-04-12
+ENC-000430,PAT-31097,2021-04-12 11:15:00,2021-04-12 13:02:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2021-05-06
+ENC-000431,PAT-31097,2021-05-06 12:15:00,2021-05-06 13:34:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,discharged,confidential,
+ENC-000432,PAT-31157,2018-07-05 09:15:00,2018-07-05 10:27:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,restricted,2019-09-13
+ENC-000433,PAT-31157,2019-09-13 10:15:00,2019-09-13 11:58:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2020-08-19
+ENC-000434,PAT-31157,2020-08-19 11:15:00,2020-08-19 12:16:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2021-06-11
+ENC-000435,PAT-31157,2021-06-11 12:15:00,2021-06-11 13:05:00,FAC-AVL-201,executive_health_review,self,LIC-VLN-MED-1005,general assessment,follow_up_planned,restricted,2022-12-05
+ENC-000436,PAT-31157,2022-12-05 13:15:00,2022-12-05 14:32:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1005,cardiac diagnostics,annual_review,standard,
+ENC-000437,PAT-31165,2019-08-27 09:15:00,2019-08-27 10:58:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2020-09-23
+ENC-000438,PAT-31165,2020-09-23 10:15:00,2020-09-23 11:38:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2022-02-04
+ENC-000439,PAT-31165,2022-02-04 11:15:00,2022-02-04 12:21:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1001,mobility laboratory,follow_up_as_needed,confidential,
+ENC-000440,PAT-31228,2018-01-27 09:15:00,2018-01-27 11:07:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2018-10-30
+ENC-000441,PAT-31228,2018-10-30 10:15:00,2018-10-30 11:20:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2020-02-13
+ENC-000442,PAT-31228,2020-02-13 11:15:00,2020-02-13 12:56:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2021-05-19
+ENC-000443,PAT-31228,2021-05-19 12:15:00,2021-05-19 13:52:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1004,mobility laboratory,follow_up_as_needed,standard,
+ENC-000444,PAT-31122,2020-10-20 09:15:00,2020-10-20 10:31:00,FAC-AVL-201,executive_health_review,executive health office,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,restricted,2021-12-10
+ENC-000445,PAT-31122,2021-12-10 10:15:00,2021-12-10 11:38:00,FAC-AVL-201,executive_health_review,research programme,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2023-05-03
+ENC-000446,PAT-31122,2023-05-03 11:15:00,2023-05-03 12:31:00,FAC-AVL-201,executive_health_review,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2024-06-19
+ENC-000447,PAT-31122,2024-06-19 12:15:00,2024-06-19 13:39:00,FAC-AVL-201,executive_health_review,primary care,LIC-VLN-MED-1006,specialist review,follow_up_planned,restricted,2024-08-03
+ENC-000448,PAT-31122,2024-08-03 13:15:00,2024-08-03 14:31:00,FAC-AVL-201,executive_health_review,research programme,LIC-VLN-MED-1004,general assessment,follow_up_as_needed,standard,
+ENC-000449,PAT-31134,2018-11-27 09:15:00,2018-11-27 10:55:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2019-12-09
+ENC-000450,PAT-31134,2019-12-09 10:15:00,2019-12-09 11:57:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2021-09-18
+ENC-000451,PAT-31134,2021-09-18 11:15:00,2021-09-18 13:06:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2022-08-22
+ENC-000452,PAT-31134,2022-08-22 12:15:00,2022-08-22 13:31:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,discharged,standard,
+ENC-000453,PAT-31130,2021-01-08 09:15:00,2021-01-08 10:54:00,FAC-VLN-101,technical_repeat,primary care,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2022-04-08
+ENC-000454,PAT-31130,2022-04-08 10:15:00,2022-04-08 11:43:00,FAC-VLN-101,technical_repeat,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2023-07-30
+ENC-000455,PAT-31130,2023-07-30 11:15:00,2023-07-30 12:14:00,FAC-VLN-101,technical_repeat,research programme,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2023-11-22
+ENC-000456,PAT-31130,2023-11-22 12:15:00,2023-11-22 13:23:00,FAC-VLN-101,technical_repeat,research programme,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_as_needed,confidential,
+ENC-000457,PAT-31060,2021-09-28 09:15:00,2021-09-28 10:34:00,FAC-AVL-301,general_examination,research programme,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2022-12-28
+ENC-000458,PAT-31060,2022-12-28 10:15:00,2022-12-28 11:19:00,FAC-AVL-301,general_examination,occupational service,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2024-01-26
+ENC-000459,PAT-31060,2024-01-26 11:15:00,2024-01-26 13:07:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2025-06-20
+ENC-000460,PAT-31060,2025-06-20 12:15:00,2025-06-20 13:13:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-MED-1001,mobility laboratory,follow_up_as_needed,restricted,
+ENC-000461,PAT-31208,2019-12-24 09:15:00,2019-12-24 10:57:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2021-06-10
+ENC-000462,PAT-31208,2021-06-10 10:15:00,2021-06-10 11:39:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2022-05-19
+ENC-000463,PAT-31208,2022-05-19 11:15:00,2022-05-19 12:58:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1003,mobility laboratory,discharged,confidential,
+ENC-000464,PAT-31201,2017-10-23 09:15:00,2017-10-23 10:09:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2019-02-05
+ENC-000465,PAT-31201,2019-02-05 10:15:00,2019-02-05 11:18:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2019-10-02
+ENC-000466,PAT-31201,2019-10-02 11:15:00,2019-10-02 12:24:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2020-12-03
+ENC-000467,PAT-31201,2020-12-03 12:15:00,2020-12-03 13:16:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2021-08-08
+ENC-000468,PAT-31201,2021-08-08 13:15:00,2021-08-08 15:02:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_as_needed,standard,
+ENC-000469,PAT-31204,2018-12-22 09:15:00,2018-12-22 11:04:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2020-01-31
+ENC-000470,PAT-31204,2020-01-31 10:15:00,2020-01-31 11:59:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2021-02-17
+ENC-000471,PAT-31204,2021-02-17 11:15:00,2021-02-17 13:02:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2022-12-26
+ENC-000472,PAT-31204,2022-12-26 12:15:00,2022-12-26 13:21:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000473,PAT-31138,2019-01-31 09:15:00,2019-01-31 10:17:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2020-05-08
+ENC-000474,PAT-31138,2020-05-08 10:15:00,2020-05-08 11:36:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2021-03-02
+ENC-000475,PAT-31138,2021-03-02 11:15:00,2021-03-02 12:52:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2022-10-23
+ENC-000476,PAT-31138,2022-10-23 12:15:00,2022-10-23 14:09:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2023-02-07
+ENC-000477,PAT-31138,2023-02-07 13:15:00,2023-02-07 15:02:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1006,cardiac diagnostics,discharged,confidential,
+ENC-000478,PAT-31052,2019-08-20 09:15:00,2019-08-20 10:46:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2021-02-16
+ENC-000479,PAT-31052,2021-02-16 10:15:00,2021-02-16 12:00:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,confidential,2021-08-03
+ENC-000480,PAT-31052,2021-08-03 11:15:00,2021-08-03 12:50:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2023-02-10
+ENC-000481,PAT-31052,2023-02-10 12:15:00,2023-02-10 13:40:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2024-10-15
+ENC-000482,PAT-31052,2024-10-15 13:15:00,2024-10-15 14:13:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1001,specialist review,annual_review,standard,
+ENC-000483,PAT-31100,2017-05-23 09:15:00,2017-05-23 10:21:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,restricted,2018-07-21
+ENC-000484,PAT-31100,2018-07-21 10:15:00,2018-07-21 11:29:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2019-06-20
+ENC-000485,PAT-31100,2019-06-20 11:15:00,2019-06-20 12:13:00,FAC-AVL-301,specialist_follow_up,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2020-12-09
+ENC-000486,PAT-31100,2020-12-09 12:15:00,2020-12-09 13:42:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,restricted,2020-12-26
+ENC-000487,PAT-31100,2020-12-26 13:15:00,2020-12-26 15:06:00,FAC-AVL-301,specialist_follow_up,self,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-05-30
+ENC-000488,PAT-31100,2022-05-30 14:15:00,2022-05-30 15:59:00,FAC-AVL-301,specialist_follow_up,primary care,LIC-VLN-MED-1004,specialist review,discharged,standard,
+ENC-000489,PAT-31083,2021-10-10 09:15:00,2021-10-10 10:44:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2022-12-03
+ENC-000490,PAT-31083,2022-12-03 10:15:00,2022-12-03 11:52:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2024-05-08
+ENC-000491,PAT-31083,2024-05-08 11:15:00,2024-05-08 12:34:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2025-05-01
+ENC-000492,PAT-31083,2025-05-01 12:15:00,2025-05-01 13:52:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_as_needed,standard,
+ENC-000493,PAT-31091,2021-10-23 09:15:00,2021-10-23 11:01:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1044,specialist review,follow_up_planned,confidential,2022-12-25
+ENC-000494,PAT-31091,2022-12-25 10:15:00,2022-12-25 12:00:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2023-10-18
+ENC-000495,PAT-31091,2023-10-18 11:15:00,2023-10-18 12:39:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,restricted,2025-06-20
+ENC-000496,PAT-31091,2025-06-20 12:15:00,2025-06-20 13:11:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,general assessment,discharged,standard,
+ENC-000497,PAT-31148,2017-01-26 09:15:00,2017-01-26 10:09:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2018-06-21
+ENC-000498,PAT-31148,2018-06-21 10:15:00,2018-06-21 11:31:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2018-12-24
+ENC-000499,PAT-31148,2018-12-24 11:15:00,2018-12-24 12:54:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,discharged,standard,
+ENC-000500,PAT-31193,2018-07-21 09:15:00,2018-07-21 10:30:00,FAC-AVL-301,general_examination,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2019-08-17
+ENC-000501,PAT-31193,2019-08-17 10:15:00,2019-08-17 11:46:00,FAC-AVL-301,general_examination,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2020-05-20
+ENC-000502,PAT-31193,2020-05-20 11:15:00,2020-05-20 12:27:00,FAC-AVL-301,general_examination,self,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2022-07-23
+ENC-000503,PAT-31193,2022-07-23 12:15:00,2022-07-23 13:19:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_as_needed,confidential,
+ENC-000504,PAT-31021,2018-06-19 09:15:00,2018-06-19 10:58:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2019-06-19
+ENC-000505,PAT-31021,2019-06-19 10:15:00,2019-06-19 11:13:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2020-07-31
+ENC-000506,PAT-31021,2020-07-31 11:15:00,2020-07-31 12:27:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,confidential,2021-07-08
+ENC-000507,PAT-31021,2021-07-08 12:15:00,2021-07-08 13:46:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2022-10-31
+ENC-000508,PAT-31021,2022-10-31 13:15:00,2022-10-31 15:09:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1002,mobility laboratory,annual_review,standard,
+ENC-000509,PAT-31032,2021-11-28 09:15:00,2021-11-28 10:05:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2022-12-09
+ENC-000510,PAT-31032,2022-12-09 10:15:00,2022-12-09 11:16:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2024-02-01
+ENC-000511,PAT-31032,2024-02-01 11:15:00,2024-02-01 12:23:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1003,specialist review,discharged,confidential,
+ENC-000512,PAT-31070,2020-04-08 09:15:00,2020-04-08 10:13:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2021-07-18
+ENC-000513,PAT-31070,2021-07-18 10:15:00,2021-07-18 12:05:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2022-06-23
+ENC-000514,PAT-31070,2022-06-23 11:15:00,2022-06-23 13:09:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2023-09-15
+ENC-000515,PAT-31070,2023-09-15 12:15:00,2023-09-15 13:56:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1005,specialist review,annual_review,standard,
+ENC-000516,PAT-31236,2017-09-12 09:15:00,2017-09-12 10:25:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2018-07-09
+ENC-000517,PAT-31236,2018-07-09 10:15:00,2018-07-09 11:24:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2020-03-28
+ENC-000518,PAT-31236,2020-03-28 11:15:00,2020-03-28 12:21:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2020-12-07
+ENC-000519,PAT-31236,2020-12-07 12:15:00,2020-12-07 13:16:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1016,specialist review,discharged,standard,
+ENC-000520,PAT-31062,2021-09-12 09:15:00,2021-09-12 11:02:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2022-12-18
+ENC-000521,PAT-31062,2022-12-18 10:15:00,2022-12-18 11:29:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2023-10-09
+ENC-000522,PAT-31062,2023-10-09 11:15:00,2023-10-09 13:08:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,discharged,standard,
+ENC-000523,PAT-31004,2019-11-01 09:15:00,2019-11-01 10:22:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,confidential,2021-01-02
+ENC-000524,PAT-31004,2021-01-02 10:15:00,2021-01-02 11:21:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,confidential,2022-05-12
+ENC-000525,PAT-31004,2022-05-12 11:15:00,2022-05-12 12:47:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,specialist review,follow_up_as_needed,standard,
+ENC-000526,PAT-31161,2021-12-20 09:15:00,2021-12-20 10:53:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1044,specialist review,follow_up_planned,restricted,2023-03-05
+ENC-000527,PAT-31161,2023-03-05 10:15:00,2023-03-05 11:06:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2024-03-08
+ENC-000528,PAT-31161,2024-03-08 11:15:00,2024-03-08 12:31:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1005,general assessment,follow_up_as_needed,confidential,
+ENC-000529,PAT-31214,2017-04-07 09:15:00,2017-04-07 11:09:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2018-06-08
+ENC-000530,PAT-31214,2018-06-08 10:15:00,2018-06-08 11:11:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2019-01-17
+ENC-000531,PAT-31214,2019-01-17 11:15:00,2019-01-17 12:20:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2020-06-25
+ENC-000532,PAT-31214,2020-06-25 12:15:00,2020-06-25 13:57:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000533,PAT-31061,2018-10-21 09:15:00,2018-10-21 10:09:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2019-10-26
+ENC-000534,PAT-31061,2019-10-26 10:15:00,2019-10-26 11:48:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1003,general assessment,follow_up_planned,restricted,2021-04-09
+ENC-000535,PAT-31061,2021-04-09 11:15:00,2021-04-09 12:32:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,restricted,2021-08-29
+ENC-000536,PAT-31061,2021-08-29 12:15:00,2021-08-29 13:29:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1001,specialist review,discharged,standard,
+ENC-000537,PAT-31069,2018-04-24 09:15:00,2018-04-24 10:27:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2019-07-31
+ENC-000538,PAT-31069,2019-07-31 10:15:00,2019-07-31 11:28:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2020-05-23
+ENC-000539,PAT-31069,2020-05-23 11:15:00,2020-05-23 13:02:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2022-08-27
+ENC-000540,PAT-31069,2022-08-27 12:15:00,2022-08-27 13:59:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1005,mobility laboratory,discharged,standard,
+ENC-000541,PAT-31200,2018-01-05 09:15:00,2018-01-05 11:04:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2018-12-07
+ENC-000542,PAT-31200,2018-12-07 10:15:00,2018-12-07 11:09:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2019-12-29
+ENC-000543,PAT-31200,2019-12-29 11:15:00,2019-12-29 12:57:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2021-07-24
+ENC-000544,PAT-31200,2021-07-24 12:15:00,2021-07-24 14:06:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1044,specialist review,discharged,standard,
+ENC-000545,PAT-31185,2017-09-08 09:15:00,2017-09-08 10:16:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2018-08-18
+ENC-000546,PAT-31185,2018-08-18 10:15:00,2018-08-18 11:53:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,restricted,2020-03-28
+ENC-000547,PAT-31185,2020-03-28 11:15:00,2020-03-28 12:19:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2021-12-28
+ENC-000548,PAT-31185,2021-12-28 12:15:00,2021-12-28 13:14:00,FAC-AVL-201,general_examination,executive health office,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2022-01-23
+ENC-000549,PAT-31185,2022-01-23 13:15:00,2022-01-23 14:53:00,FAC-AVL-201,general_examination,self,LIC-VLN-MED-1003,cardiac diagnostics,annual_review,standard,
+ENC-000550,PAT-31198,2021-10-23 09:15:00,2021-10-23 10:43:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2023-04-14
+ENC-000551,PAT-31198,2023-04-14 10:15:00,2023-04-14 11:58:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2023-11-13
+ENC-000552,PAT-31198,2023-11-13 11:15:00,2023-11-13 12:36:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2025-01-03
+ENC-000553,PAT-31198,2025-01-03 12:15:00,2025-01-03 13:45:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2025-06-20
+ENC-000554,PAT-31198,2025-06-20 13:15:00,2025-06-20 14:57:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,specialist review,follow_up_as_needed,confidential,
+ENC-000555,PAT-31053,2019-03-17 09:15:00,2019-03-17 10:45:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,restricted,2019-12-09
+ENC-000556,PAT-31053,2019-12-09 10:15:00,2019-12-09 11:43:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,restricted,2021-01-06
+ENC-000557,PAT-31053,2021-01-06 11:15:00,2021-01-06 12:14:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-MED-1002,mobility laboratory,discharged,standard,
+ENC-000558,PAT-31151,2021-11-19 09:15:00,2021-11-19 10:05:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2023-02-10
+ENC-000559,PAT-31151,2023-02-10 10:15:00,2023-02-10 11:16:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,confidential,2024-01-25
+ENC-000560,PAT-31151,2024-01-25 11:15:00,2024-01-25 13:04:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2025-06-20
+ENC-000561,PAT-31151,2025-06-20 12:15:00,2025-06-20 13:16:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,standard,
+ENC-000562,PAT-31141,2019-07-11 09:15:00,2019-07-11 10:23:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2020-07-20
+ENC-000563,PAT-31141,2020-07-20 10:15:00,2020-07-20 11:33:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2021-12-09
+ENC-000564,PAT-31141,2021-12-09 11:15:00,2021-12-09 12:10:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2023-02-28
+ENC-000565,PAT-31141,2023-02-28 12:15:00,2023-02-28 13:20:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2023-12-27
+ENC-000566,PAT-31141,2023-12-27 13:15:00,2023-12-27 14:34:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1001,general assessment,follow_up_as_needed,confidential,
+ENC-000567,PAT-31239,2020-06-20 09:15:00,2020-06-20 10:19:00,FAC-AVL-201,cardiac_assessment,research programme,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2021-11-15
+ENC-000568,PAT-31239,2021-11-15 10:15:00,2021-11-15 11:29:00,FAC-AVL-201,cardiac_assessment,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2023-03-27
+ENC-000569,PAT-31239,2023-03-27 11:15:00,2023-03-27 12:11:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2023-08-17
+ENC-000570,PAT-31239,2023-08-17 12:15:00,2023-08-17 13:30:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2025-06-20
+ENC-000571,PAT-31239,2025-06-20 13:15:00,2025-06-20 14:15:00,FAC-AVL-201,cardiac_assessment,research programme,LIC-VLN-RES-1044,specialist review,discharged,standard,
+ENC-000572,PAT-31188,2019-04-20 09:15:00,2019-04-20 11:05:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2020-06-14
+ENC-000573,PAT-31188,2020-06-14 10:15:00,2020-06-14 11:50:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2021-01-20
+ENC-000574,PAT-31188,2021-01-20 11:15:00,2021-01-20 12:38:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1006,general assessment,follow_up_planned,restricted,2023-06-17
+ENC-000575,PAT-31188,2023-06-17 12:15:00,2023-06-17 13:30:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1003,general assessment,annual_review,standard,
+ENC-000576,PAT-31140,2019-11-06 09:15:00,2019-11-06 10:22:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2020-08-06
+ENC-000577,PAT-31140,2020-08-06 10:15:00,2020-08-06 11:16:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2021-10-14
+ENC-000578,PAT-31140,2021-10-14 11:15:00,2021-10-14 12:56:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2022-08-06
+ENC-000579,PAT-31140,2022-08-06 12:15:00,2022-08-06 14:01:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1006,specialist review,annual_review,restricted,
+ENC-000580,PAT-31145,2021-01-25 09:15:00,2021-01-25 10:30:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2022-01-25
+ENC-000581,PAT-31145,2022-01-25 10:15:00,2022-01-25 11:54:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2023-06-05
+ENC-000582,PAT-31145,2023-06-05 11:15:00,2023-06-05 12:21:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2024-06-23
+ENC-000583,PAT-31145,2024-06-23 12:15:00,2024-06-23 13:20:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2025-06-10
+ENC-000584,PAT-31145,2025-06-10 13:15:00,2025-06-10 14:22:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-RES-1044,specialist review,follow_up_as_needed,confidential,
+ENC-000585,PAT-31166,2020-06-16 09:15:00,2020-06-16 10:28:00,FAC-AVL-301,occupational_assessment,research programme,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2021-05-27
+ENC-000586,PAT-31166,2021-05-27 10:15:00,2021-05-27 11:27:00,FAC-AVL-301,occupational_assessment,primary care,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2022-10-22
+ENC-000587,PAT-31166,2022-10-22 11:15:00,2022-10-22 13:05:00,FAC-AVL-301,specialist_follow_up,primary care,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2024-08-07
+ENC-000588,PAT-31166,2024-08-07 12:15:00,2024-08-07 13:31:00,FAC-AVL-301,general_examination,primary care,LIC-VLN-MED-1005,cardiac diagnostics,discharged,standard,
+ENC-000589,PAT-31191,2020-04-25 09:15:00,2020-04-25 11:05:00,FAC-AVL-201,mobility_assessment,occupational service,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2021-01-30
+ENC-000590,PAT-31191,2021-01-30 10:15:00,2021-01-30 11:58:00,FAC-AVL-201,mobility_assessment,occupational service,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2022-05-23
+ENC-000591,PAT-31191,2022-05-23 11:15:00,2022-05-23 12:14:00,FAC-AVL-201,mobility_assessment,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2024-01-08
+ENC-000592,PAT-31191,2024-01-08 12:15:00,2024-01-08 13:37:00,FAC-AVL-201,mobility_assessment,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2025-03-07
+ENC-000593,PAT-31191,2025-03-07 13:15:00,2025-03-07 14:20:00,FAC-AVL-201,mobility_assessment,occupational service,LIC-VLN-RES-1044,general assessment,discharged,confidential,
+ENC-000594,PAT-31047,2020-06-27 09:15:00,2020-06-27 11:09:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2021-08-20
+ENC-000595,PAT-31047,2021-08-20 10:15:00,2021-08-20 11:32:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1001,general assessment,follow_up_planned,confidential,2023-02-22
+ENC-000596,PAT-31047,2023-02-22 11:15:00,2023-02-22 12:10:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2023-05-09
+ENC-000597,PAT-31047,2023-05-09 12:15:00,2023-05-09 14:05:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1016,mobility laboratory,discharged,standard,
+ENC-000598,PAT-31088,2017-12-31 09:15:00,2017-12-31 10:48:00,FAC-AVL-301,general_examination,research programme,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2018-09-30
+ENC-000599,PAT-31088,2018-09-30 10:15:00,2018-09-30 11:49:00,FAC-AVL-301,occupational_assessment,primary care,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2020-06-09
+ENC-000600,PAT-31088,2020-06-09 11:15:00,2020-06-09 13:00:00,FAC-AVL-301,specialist_follow_up,self,LIC-VLN-RES-1016,mobility laboratory,discharged,standard,
+ENC-000601,PAT-31234,2018-07-27 09:15:00,2018-07-27 10:06:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2019-08-14
+ENC-000602,PAT-31234,2019-08-14 10:15:00,2019-08-14 11:28:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2021-01-23
+ENC-000603,PAT-31234,2021-01-23 11:15:00,2021-01-23 12:28:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2021-11-10
+ENC-000604,PAT-31234,2021-11-10 12:15:00,2021-11-10 13:32:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,general assessment,follow_up_as_needed,restricted,
+ENC-000605,PAT-31123,2020-12-17 09:15:00,2020-12-17 10:22:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2021-11-26
+ENC-000606,PAT-31123,2021-11-26 10:15:00,2021-11-26 11:52:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2023-02-04
+ENC-000607,PAT-31123,2023-02-04 11:15:00,2023-02-04 12:40:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2023-12-25
+ENC-000608,PAT-31123,2023-12-25 12:15:00,2023-12-25 13:57:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2025-06-20
+ENC-000609,PAT-31123,2025-06-20 13:15:00,2025-06-20 14:25:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1005,general assessment,annual_review,standard,
+ENC-000610,PAT-31030,2019-11-15 09:15:00,2019-11-15 10:46:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2021-04-27
+ENC-000611,PAT-31030,2021-04-27 10:15:00,2021-04-27 11:36:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2021-08-26
+ENC-000612,PAT-31030,2021-08-26 11:15:00,2021-08-26 12:54:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2022-11-22
+ENC-000613,PAT-31030,2022-11-22 12:15:00,2022-11-22 13:12:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_as_needed,confidential,
+ENC-000614,PAT-31235,2019-04-01 09:15:00,2019-04-01 10:55:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2020-04-15
+ENC-000615,PAT-31235,2020-04-15 10:15:00,2020-04-15 11:49:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2021-05-15
+ENC-000616,PAT-31235,2021-05-15 11:15:00,2021-05-15 13:00:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000617,PAT-31163,2018-12-13 09:15:00,2018-12-13 10:10:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2019-09-27
+ENC-000618,PAT-31163,2019-09-27 10:15:00,2019-09-27 11:21:00,FAC-VLN-101,ocular_assessment,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2021-04-10
+ENC-000619,PAT-31163,2021-04-10 11:15:00,2021-04-10 12:40:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,confidential,2022-01-02
+ENC-000620,PAT-31163,2022-01-02 12:15:00,2022-01-02 13:28:00,FAC-VLN-101,ocular_assessment,research programme,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000621,PAT-31106,2019-10-13 09:15:00,2019-10-13 10:25:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2020-12-23
+ENC-000622,PAT-31106,2020-12-23 10:15:00,2020-12-23 11:44:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2021-10-30
+ENC-000623,PAT-31106,2021-10-30 11:15:00,2021-10-30 12:54:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1001,general assessment,follow_up_planned,confidential,2022-10-10
+ENC-000624,PAT-31106,2022-10-10 12:15:00,2022-10-10 13:57:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1016,general assessment,annual_review,standard,
+ENC-000625,PAT-31177,2020-02-28 09:15:00,2020-02-28 10:40:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,confidential,2021-02-23
+ENC-000626,PAT-31177,2021-02-23 10:15:00,2021-02-23 11:54:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2022-03-05
+ENC-000627,PAT-31177,2022-03-05 11:15:00,2022-03-05 12:28:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2023-07-20
+ENC-000628,PAT-31177,2023-07-20 12:15:00,2023-07-20 14:05:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2024-07-22
+ENC-000629,PAT-31177,2024-07-22 13:15:00,2024-07-22 14:51:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1001,cardiac diagnostics,discharged,standard,
+ENC-000630,PAT-31005,2021-04-30 09:15:00,2021-04-30 10:48:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2022-04-09
+ENC-000631,PAT-31005,2022-04-09 10:15:00,2022-04-09 11:38:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,confidential,2023-06-02
+ENC-000632,PAT-31005,2023-06-02 11:15:00,2023-06-02 12:14:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2024-01-16
+ENC-000633,PAT-31005,2024-01-16 12:15:00,2024-01-16 13:49:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1005,cardiac diagnostics,annual_review,restricted,
+ENC-000634,PAT-31224,2018-04-22 09:15:00,2018-04-22 10:55:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2019-03-17
+ENC-000635,PAT-31224,2019-03-17 10:15:00,2019-03-17 11:39:00,FAC-AVL-201,general_examination,executive health office,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2020-06-16
+ENC-000636,PAT-31224,2020-06-16 11:15:00,2020-06-16 12:10:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2022-02-14
+ENC-000637,PAT-31224,2022-02-14 12:15:00,2022-02-14 13:47:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1004,specialist review,annual_review,standard,
+ENC-000638,PAT-31080,2020-11-30 09:15:00,2020-11-30 10:16:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1044,specialist review,follow_up_planned,restricted,2022-01-17
+ENC-000639,PAT-31080,2022-01-17 10:15:00,2022-01-17 11:07:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-RES-1016,specialist review,follow_up_planned,restricted,2023-03-06
+ENC-000640,PAT-31080,2023-03-06 11:15:00,2023-03-06 12:10:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2023-09-25
+ENC-000641,PAT-31080,2023-09-25 12:15:00,2023-09-25 14:07:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1006,mobility laboratory,annual_review,standard,
+ENC-000642,PAT-31104,2018-10-29 09:15:00,2018-10-29 10:05:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2019-11-10
+ENC-000643,PAT-31104,2019-11-10 10:15:00,2019-11-10 11:28:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2020-11-28
+ENC-000644,PAT-31104,2020-11-28 11:15:00,2020-11-28 12:27:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2022-02-01
+ENC-000645,PAT-31104,2022-02-01 12:15:00,2022-02-01 13:34:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1006,cardiac diagnostics,annual_review,standard,
+ENC-000646,PAT-31118,2018-11-11 09:15:00,2018-11-11 10:37:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2020-01-28
+ENC-000647,PAT-31118,2020-01-28 10:15:00,2020-01-28 11:55:00,FAC-AVL-201,occupational_assessment,self,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2020-09-08
+ENC-000648,PAT-31118,2020-09-08 11:15:00,2020-09-08 12:34:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1003,specialist review,discharged,standard,
+ENC-000649,PAT-31212,2020-06-24 09:15:00,2020-06-24 10:39:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2021-12-21
+ENC-000650,PAT-31212,2021-12-21 10:15:00,2021-12-21 11:11:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2022-10-07
+ENC-000651,PAT-31212,2022-10-07 11:15:00,2022-10-07 12:27:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2022-12-02
+ENC-000652,PAT-31212,2022-12-02 12:15:00,2022-12-02 13:40:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1003,cardiac diagnostics,annual_review,confidential,
+ENC-000653,PAT-31002,2020-10-02 09:15:00,2020-10-02 10:56:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2022-02-11
+ENC-000654,PAT-31002,2022-02-11 10:15:00,2022-02-11 11:11:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2022-10-20
+ENC-000655,PAT-31002,2022-10-20 11:15:00,2022-10-20 13:07:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2024-05-26
+ENC-000656,PAT-31002,2024-05-26 12:15:00,2024-05-26 13:22:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2024-09-06
+ENC-000657,PAT-31002,2024-09-06 13:15:00,2024-09-06 15:06:00,FAC-VLN-101,cardiac_assessment,executive health office,LIC-VLN-MED-1006,general assessment,discharged,confidential,
+ENC-000658,PAT-31196,2019-10-22 09:15:00,2019-10-22 10:14:00,FAC-AVL-301,mobility_assessment,executive health office,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2021-02-09
+ENC-000659,PAT-31196,2021-02-09 10:15:00,2021-02-09 11:35:00,FAC-AVL-301,mobility_assessment,self,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2022-01-09
+ENC-000660,PAT-31196,2022-01-09 11:15:00,2022-01-09 12:33:00,FAC-AVL-301,mobility_assessment,primary care,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2022-06-24
+ENC-000661,PAT-31196,2022-06-24 12:15:00,2022-06-24 13:16:00,FAC-AVL-301,mobility_assessment,research programme,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,restricted,2024-01-31
+ENC-000662,PAT-31196,2024-01-31 13:15:00,2024-01-31 14:26:00,FAC-AVL-301,mobility_assessment,executive health office,LIC-VLN-MED-1001,mobility laboratory,follow_up_as_needed,confidential,
+ENC-000663,PAT-31109,2019-03-25 09:15:00,2019-03-25 10:05:00,FAC-AVL-201,cardiac_assessment,research programme,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2020-04-25
+ENC-000664,PAT-31109,2020-04-25 10:15:00,2020-04-25 11:09:00,FAC-AVL-201,cardiac_assessment,self,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2021-01-07
+ENC-000665,PAT-31109,2021-01-07 11:15:00,2021-01-07 12:39:00,FAC-AVL-201,cardiac_assessment,self,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2022-01-19
+ENC-000666,PAT-31109,2022-01-19 12:15:00,2022-01-19 13:06:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2022-11-02
+ENC-000667,PAT-31109,2022-11-02 13:15:00,2022-11-02 15:09:00,FAC-AVL-201,cardiac_assessment,primary care,LIC-VLN-MED-1006,cardiac diagnostics,discharged,standard,
+ENC-000668,PAT-31114,2021-10-16 09:15:00,2021-10-16 10:26:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2022-10-19
+ENC-000669,PAT-31114,2022-10-19 10:15:00,2022-10-19 11:14:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2024-04-30
+ENC-000670,PAT-31114,2024-04-30 11:15:00,2024-04-30 12:07:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1002,general assessment,annual_review,standard,
+ENC-000671,PAT-31025,2017-06-08 09:15:00,2017-06-08 10:46:00,FAC-AVL-201,occupational_assessment,self,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2018-10-13
+ENC-000672,PAT-31025,2018-10-13 10:15:00,2018-10-13 11:29:00,FAC-AVL-201,general_examination,self,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2019-04-04
+ENC-000673,PAT-31025,2019-04-04 11:15:00,2019-04-04 12:09:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-MED-1006,general assessment,follow_up_planned,restricted,2019-09-24
+ENC-000674,PAT-31025,2019-09-24 12:15:00,2019-09-24 13:29:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1004,mobility laboratory,discharged,standard,
+ENC-000675,PAT-31049,2020-02-27 09:15:00,2020-02-27 10:31:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2020-11-14
+ENC-000676,PAT-31049,2020-11-14 10:15:00,2020-11-14 11:39:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2022-05-15
+ENC-000677,PAT-31049,2022-05-15 11:15:00,2022-05-15 12:37:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_as_needed,standard,
+ENC-000678,PAT-31227,2018-09-22 09:15:00,2018-09-22 10:24:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2019-09-06
+ENC-000679,PAT-31227,2019-09-06 10:15:00,2019-09-06 11:50:00,FAC-AVL-301,general_examination,self,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2021-02-02
+ENC-000680,PAT-31227,2021-02-02 11:15:00,2021-02-02 13:06:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2021-12-06
+ENC-000681,PAT-31227,2021-12-06 12:15:00,2021-12-06 13:38:00,FAC-AVL-301,general_examination,primary care,LIC-VLN-MED-1005,specialist review,follow_up_as_needed,standard,
+ENC-000682,PAT-31121,2017-12-19 09:15:00,2017-12-19 10:56:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2019-04-07
+ENC-000683,PAT-31121,2019-04-07 10:15:00,2019-04-07 11:16:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2020-05-03
+ENC-000684,PAT-31121,2020-05-03 11:15:00,2020-05-03 12:11:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1006,mobility laboratory,discharged,standard,
+ENC-000685,PAT-31022,2018-11-01 09:15:00,2018-11-01 10:18:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2019-09-14
+ENC-000686,PAT-31022,2019-09-14 10:15:00,2019-09-14 11:22:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2021-02-25
+ENC-000687,PAT-31022,2021-02-25 11:15:00,2021-02-25 13:02:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2021-06-13
+ENC-000688,PAT-31022,2021-06-13 12:15:00,2021-06-13 13:20:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2023-06-23
+ENC-000689,PAT-31022,2023-06-23 13:15:00,2023-06-23 14:27:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1004,cardiac diagnostics,discharged,standard,
+ENC-000690,PAT-31110,2016-12-15 09:15:00,2016-12-15 10:58:00,FAC-AVL-301,executive_health_review,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,restricted,2018-02-12
+ENC-000691,PAT-31110,2018-02-12 10:15:00,2018-02-12 11:16:00,FAC-AVL-301,executive_health_review,primary care,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,confidential,2019-01-11
+ENC-000692,PAT-31110,2019-01-11 11:15:00,2019-01-11 12:54:00,FAC-AVL-301,executive_health_review,primary care,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,restricted,2019-12-12
+ENC-000693,PAT-31110,2019-12-12 12:15:00,2019-12-12 13:06:00,FAC-AVL-301,executive_health_review,research programme,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,restricted,2020-05-22
+ENC-000694,PAT-31110,2020-05-22 13:15:00,2020-05-22 14:59:00,FAC-AVL-301,executive_health_review,primary care,LIC-VLN-MED-1006,cardiac diagnostics,discharged,confidential,
+ENC-000695,PAT-31059,2021-05-07 09:15:00,2021-05-07 10:29:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2022-07-14
+ENC-000696,PAT-31059,2022-07-14 10:15:00,2022-07-14 11:55:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2023-07-06
+ENC-000697,PAT-31059,2023-07-06 11:15:00,2023-07-06 12:26:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2024-04-17
+ENC-000698,PAT-31059,2024-04-17 12:15:00,2024-04-17 13:38:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2025-06-20
+ENC-000699,PAT-31059,2025-06-20 13:15:00,2025-06-20 14:09:00,FAC-VLN-101,cardiac_assessment,unspecified,LIC-VLN-MED-1002,mobility laboratory,follow_up_as_needed,standard,
+ENC-000700,PAT-31015,2020-07-23 09:15:00,2020-07-23 10:35:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,restricted,2021-06-03
+ENC-000701,PAT-31015,2021-06-03 10:15:00,2021-06-03 11:12:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2022-11-26
+ENC-000702,PAT-31015,2022-11-26 11:15:00,2022-11-26 12:14:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2024-04-11
+ENC-000703,PAT-31015,2024-04-11 12:15:00,2024-04-11 14:03:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1016,general assessment,discharged,confidential,
+ENC-000704,PAT-31101,2020-11-20 09:15:00,2020-11-20 11:01:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-RES-1044,general assessment,follow_up_planned,restricted,2022-01-22
+ENC-000705,PAT-31101,2022-01-22 10:15:00,2022-01-22 11:45:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2022-12-07
+ENC-000706,PAT-31101,2022-12-07 11:15:00,2022-12-07 12:42:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2024-04-26
+ENC-000707,PAT-31101,2024-04-26 12:15:00,2024-04-26 13:32:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,restricted,2024-08-23
+ENC-000708,PAT-31101,2024-08-23 13:15:00,2024-08-23 14:59:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2025-06-20
+ENC-000709,PAT-31101,2025-06-20 14:15:00,2025-06-20 15:27:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,specialist review,follow_up_as_needed,standard,
+ENC-000710,PAT-31024,2019-08-31 09:15:00,2019-08-31 11:05:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,restricted,2020-12-10
+ENC-000711,PAT-31024,2020-12-10 10:15:00,2020-12-10 11:31:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1002,general assessment,follow_up_planned,confidential,2021-09-11
+ENC-000712,PAT-31024,2021-09-11 11:15:00,2021-09-11 13:07:00,FAC-AVL-201,occupational_assessment,self,LIC-VLN-RES-1044,mobility laboratory,annual_review,confidential,
+ENC-000713,PAT-31077,2018-01-06 09:15:00,2018-01-06 10:18:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,restricted,2019-03-02
+ENC-000714,PAT-31077,2019-03-02 10:15:00,2019-03-02 11:12:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2019-08-16
+ENC-000715,PAT-31077,2019-08-16 11:15:00,2019-08-16 12:15:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,restricted,2020-06-20
+ENC-000716,PAT-31077,2020-06-20 12:15:00,2020-06-20 13:31:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2021-10-08
+ENC-000717,PAT-31077,2021-10-08 13:15:00,2021-10-08 14:47:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2022-12-19
+ENC-000718,PAT-31077,2022-12-19 14:15:00,2022-12-19 15:32:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1004,specialist review,follow_up_as_needed,confidential,
+ENC-000719,PAT-31218,2021-05-01 09:15:00,2021-05-01 10:38:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,restricted,2022-07-17
+ENC-000720,PAT-31218,2022-07-17 10:15:00,2022-07-17 11:40:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1002,general assessment,follow_up_planned,restricted,2023-07-20
+ENC-000721,PAT-31218,2023-07-20 11:15:00,2023-07-20 12:11:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1004,general assessment,follow_up_planned,confidential,2024-01-06
+ENC-000722,PAT-31218,2024-01-06 12:15:00,2024-01-06 14:01:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2025-06-20
+ENC-000723,PAT-31218,2025-06-20 13:15:00,2025-06-20 14:40:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000724,PAT-31211,2019-03-16 09:15:00,2019-03-16 10:42:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2020-03-09
+ENC-000725,PAT-31211,2020-03-09 10:15:00,2020-03-09 11:08:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2021-06-10
+ENC-000726,PAT-31211,2021-06-10 11:15:00,2021-06-10 13:02:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1006,general assessment,annual_review,confidential,
+ENC-000727,PAT-31132,2018-08-30 09:15:00,2018-08-30 10:27:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2019-07-20
+ENC-000728,PAT-31132,2019-07-20 10:15:00,2019-07-20 11:20:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1044,general assessment,follow_up_planned,confidential,2020-03-27
+ENC-000729,PAT-31132,2020-03-27 11:15:00,2020-03-27 12:11:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-RES-1016,specialist review,discharged,standard,
+ENC-000730,PAT-31066,2020-07-27 09:15:00,2020-07-27 10:36:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2021-06-14
+ENC-000731,PAT-31066,2021-06-14 10:15:00,2021-06-14 11:25:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2022-07-20
+ENC-000732,PAT-31066,2022-07-20 11:15:00,2022-07-20 13:05:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2023-06-17
+ENC-000733,PAT-31066,2023-06-17 12:15:00,2023-06-17 13:59:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2024-02-21
+ENC-000734,PAT-31066,2024-02-21 13:15:00,2024-02-21 14:23:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1005,mobility laboratory,discharged,confidential,
+ENC-000735,PAT-31209,2017-07-30 09:15:00,2017-07-30 10:53:00,FAC-VLN-101,cardiac_assessment,primary care,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2018-06-12
+ENC-000736,PAT-31209,2018-06-12 10:15:00,2018-06-12 11:42:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2019-12-02
+ENC-000737,PAT-31209,2019-12-02 11:15:00,2019-12-02 12:34:00,FAC-VLN-101,cardiac_assessment,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2020-08-25
+ENC-000738,PAT-31209,2020-08-25 12:15:00,2020-08-25 13:42:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-12-12
+ENC-000739,PAT-31209,2022-12-12 13:15:00,2022-12-12 15:09:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-MED-1003,general assessment,annual_review,standard,
+ENC-000740,PAT-31217,2017-10-30 09:15:00,2017-10-30 11:09:00,FAC-AVL-201,mobility_assessment,self,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2019-01-04
+ENC-000741,PAT-31217,2019-01-04 10:15:00,2019-01-04 11:49:00,FAC-AVL-201,mobility_assessment,research programme,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2019-03-22
+ENC-000742,PAT-31217,2019-03-22 11:15:00,2019-03-22 12:57:00,FAC-AVL-201,mobility_assessment,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2021-04-29
+ENC-000743,PAT-31217,2021-04-29 12:15:00,2021-04-29 13:20:00,FAC-AVL-201,mobility_assessment,executive health office,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2023-06-09
+ENC-000744,PAT-31217,2023-06-09 13:15:00,2023-06-09 14:05:00,FAC-AVL-201,mobility_assessment,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,annual_review,standard,
+ENC-000745,PAT-31045,2021-03-07 09:15:00,2021-03-07 10:12:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,confidential,2022-05-18
+ENC-000746,PAT-31045,2022-05-18 10:15:00,2022-05-18 12:08:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2023-03-16
+ENC-000747,PAT-31045,2023-03-16 11:15:00,2023-03-16 12:53:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2024-02-17
+ENC-000748,PAT-31045,2024-02-17 12:15:00,2024-02-17 13:20:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_as_needed,standard,
+ENC-000749,PAT-31043,2018-08-01 09:15:00,2018-08-01 11:09:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,confidential,2019-08-02
+ENC-000750,PAT-31043,2019-08-02 10:15:00,2019-08-02 12:02:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1044,specialist review,follow_up_planned,restricted,2021-03-22
+ENC-000751,PAT-31043,2021-03-22 11:15:00,2021-03-22 12:51:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2022-04-29
+ENC-000752,PAT-31043,2022-04-29 12:15:00,2022-04-29 13:44:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2023-01-18
+ENC-000753,PAT-31043,2023-01-18 13:15:00,2023-01-18 14:17:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1001,general assessment,follow_up_as_needed,standard,
+ENC-000754,PAT-31098,2020-06-27 09:15:00,2020-06-27 10:49:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2021-03-23
+ENC-000755,PAT-31098,2021-03-23 10:15:00,2021-03-23 12:02:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2022-09-07
+ENC-000756,PAT-31098,2022-09-07 11:15:00,2022-09-07 12:31:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-RES-1016,general assessment,annual_review,standard,
+ENC-000757,PAT-31073,2018-07-03 09:15:00,2018-07-03 10:23:00,FAC-VLN-101,cardiac_assessment,occupational service,LIC-VLN-MED-1001,general assessment,follow_up_planned,restricted,2019-04-21
+ENC-000758,PAT-31073,2019-04-21 10:15:00,2019-04-21 11:31:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,restricted,2020-07-18
+ENC-000759,PAT-31073,2020-07-18 11:15:00,2020-07-18 12:47:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2021-04-25
+ENC-000760,PAT-31073,2021-04-25 12:15:00,2021-04-25 13:13:00,FAC-VLN-101,cardiac_assessment,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,confidential,2022-09-23
+ENC-000761,PAT-31073,2022-09-23 13:15:00,2022-09-23 14:22:00,FAC-VLN-101,cardiac_assessment,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_as_needed,standard,
+ENC-000762,PAT-31006,2018-07-14 09:15:00,2018-07-14 10:13:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2019-08-03
+ENC-000763,PAT-31006,2019-08-03 10:15:00,2019-08-03 12:06:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2020-07-06
+ENC-000764,PAT-31006,2020-07-06 11:15:00,2020-07-06 12:13:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1044,cardiac diagnostics,annual_review,standard,
+ENC-000765,PAT-31063,2020-03-01 09:15:00,2020-03-01 10:16:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2021-04-11
+ENC-000766,PAT-31063,2021-04-11 10:15:00,2021-04-11 11:55:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1006,specialist review,follow_up_planned,confidential,2022-03-22
+ENC-000767,PAT-31063,2022-03-22 11:15:00,2022-03-22 12:41:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1002,cardiac diagnostics,discharged,confidential,
+ENC-000768,PAT-31013,2017-11-02 09:15:00,2017-11-02 10:48:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2019-02-27
+ENC-000769,PAT-31013,2019-02-27 10:15:00,2019-02-27 11:44:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2020-04-08
+ENC-000770,PAT-31013,2020-04-08 11:15:00,2020-04-08 12:17:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,restricted,2021-01-05
+ENC-000771,PAT-31013,2021-01-05 12:15:00,2021-01-05 13:05:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2022-03-01
+ENC-000772,PAT-31013,2022-03-01 13:15:00,2022-03-01 14:14:00,FAC-AVL-301,specialist_follow_up,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,discharged,confidential,
+ENC-000773,PAT-31124,2018-05-13 09:15:00,2018-05-13 11:03:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,general assessment,follow_up_planned,confidential,2019-07-02
+ENC-000774,PAT-31124,2019-07-02 10:15:00,2019-07-02 11:55:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2020-08-30
+ENC-000775,PAT-31124,2020-08-30 11:15:00,2020-08-30 12:17:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,annual_review,confidential,
+ENC-000776,PAT-31011,2017-04-23 09:15:00,2017-04-23 10:29:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-RES-1016,general assessment,follow_up_planned,restricted,2018-07-15
+ENC-000777,PAT-31011,2018-07-15 10:15:00,2018-07-15 11:58:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2019-08-22
+ENC-000778,PAT-31011,2019-08-22 11:15:00,2019-08-22 12:52:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1003,specialist review,follow_up_planned,restricted,2021-04-10
+ENC-000779,PAT-31011,2021-04-10 12:15:00,2021-04-10 13:34:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,restricted,2021-05-01
+ENC-000780,PAT-31011,2021-05-01 13:15:00,2021-05-01 14:18:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-RES-1016,mobility laboratory,discharged,confidential,
+ENC-000781,PAT-31180,2021-12-19 09:15:00,2021-12-19 10:20:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2022-10-06
+ENC-000782,PAT-31180,2022-10-06 10:15:00,2022-10-06 12:02:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2023-10-17
+ENC-000783,PAT-31180,2023-10-17 11:15:00,2023-10-17 13:01:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1001,cardiac diagnostics,discharged,standard,
+ENC-000784,PAT-31194,2021-08-17 09:15:00,2021-08-17 11:06:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2022-07-26
+ENC-000785,PAT-31194,2022-07-26 10:15:00,2022-07-26 11:11:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2024-01-13
+ENC-000786,PAT-31194,2024-01-13 11:15:00,2024-01-13 12:58:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1001,specialist review,discharged,confidential,
+ENC-000787,PAT-31175,2019-07-30 09:15:00,2019-07-30 10:24:00,FAC-AVL-301,specialist_follow_up,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_planned,confidential,2020-08-09
+ENC-000788,PAT-31175,2020-08-09 10:15:00,2020-08-09 11:29:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,confidential,2022-02-08
+ENC-000789,PAT-31175,2022-02-08 11:15:00,2022-02-08 12:26:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,annual_review,confidential,
+ENC-000790,PAT-31150,2020-08-30 09:15:00,2020-08-30 10:29:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2021-09-12
+ENC-000791,PAT-31150,2021-09-12 10:15:00,2021-09-12 11:50:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2022-07-23
+ENC-000792,PAT-31150,2022-07-23 11:15:00,2022-07-23 12:48:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2023-09-20
+ENC-000793,PAT-31150,2023-09-20 12:15:00,2023-09-20 14:07:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1002,specialist review,discharged,standard,
+ENC-000794,PAT-31127,2020-09-04 09:15:00,2020-09-04 11:06:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2021-11-18
+ENC-000795,PAT-31127,2021-11-18 10:15:00,2021-11-18 11:18:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2022-11-09
+ENC-000796,PAT-31127,2022-11-09 11:15:00,2022-11-09 12:12:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1006,general assessment,discharged,confidential,
+ENC-000797,PAT-31154,2021-07-15 09:15:00,2021-07-15 10:28:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,standard,2022-10-27
+ENC-000798,PAT-31154,2022-10-27 10:15:00,2022-10-27 11:56:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2023-10-24
+ENC-000799,PAT-31154,2023-10-24 11:15:00,2023-10-24 12:46:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-RES-1016,general assessment,follow_up_planned,restricted,2024-10-21
+ENC-000800,PAT-31154,2024-10-21 12:15:00,2024-10-21 13:26:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-RES-1016,specialist review,follow_up_as_needed,standard,
+ENC-000801,PAT-31010,2021-04-14 09:15:00,2021-04-14 11:03:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-06-15
+ENC-000802,PAT-31010,2022-06-15 10:15:00,2022-06-15 11:35:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2023-06-29
+ENC-000803,PAT-31010,2023-06-29 11:15:00,2023-06-29 12:37:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2025-03-19
+ENC-000804,PAT-31010,2025-03-19 12:15:00,2025-03-19 13:34:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-RES-1044,specialist review,annual_review,standard,
+ENC-000805,PAT-31182,2017-07-29 09:15:00,2017-07-29 11:00:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1016,specialist review,follow_up_planned,standard,2018-10-15
+ENC-000806,PAT-31182,2018-10-15 10:15:00,2018-10-15 12:01:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,confidential,2019-02-17
+ENC-000807,PAT-31182,2019-02-17 11:15:00,2019-02-17 12:43:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2020-10-31
+ENC-000808,PAT-31182,2020-10-31 12:15:00,2020-10-31 13:25:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,cardiac diagnostics,annual_review,standard,
+ENC-000809,PAT-31181,2020-06-27 09:15:00,2020-06-27 10:25:00,FAC-AVL-301,mobility_assessment,occupational service,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2021-05-21
+ENC-000810,PAT-31181,2021-05-21 10:15:00,2021-05-21 11:10:00,FAC-AVL-301,mobility_assessment,research programme,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2022-12-22
+ENC-000811,PAT-31181,2022-12-22 11:15:00,2022-12-22 12:18:00,FAC-AVL-301,mobility_assessment,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2024-02-03
+ENC-000812,PAT-31181,2024-02-03 12:15:00,2024-02-03 13:54:00,FAC-AVL-301,mobility_assessment,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2025-06-20
+ENC-000813,PAT-31181,2025-06-20 13:15:00,2025-06-20 14:32:00,FAC-AVL-301,mobility_assessment,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_as_needed,confidential,
+ENC-000814,PAT-31220,2017-10-09 09:15:00,2017-10-09 10:47:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2018-12-02
+ENC-000815,PAT-31220,2018-12-02 10:15:00,2018-12-02 11:26:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2019-09-04
+ENC-000816,PAT-31220,2019-09-04 11:15:00,2019-09-04 12:55:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2020-10-11
+ENC-000817,PAT-31220,2020-10-11 12:15:00,2020-10-11 13:18:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1004,specialist review,discharged,confidential,
+ENC-000818,PAT-31068,2019-02-20 09:15:00,2019-02-20 10:30:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2020-03-08
+ENC-000819,PAT-31068,2020-03-08 10:15:00,2020-03-08 11:24:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2021-06-06
+ENC-000820,PAT-31068,2021-06-06 11:15:00,2021-06-06 12:10:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2022-08-08
+ENC-000821,PAT-31068,2022-08-08 12:15:00,2022-08-08 14:03:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2023-04-07
+ENC-000822,PAT-31068,2023-04-07 13:15:00,2023-04-07 14:29:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1006,mobility laboratory,annual_review,standard,
+ENC-000823,PAT-31023,2020-07-08 09:15:00,2020-07-08 10:44:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1003,specialist review,follow_up_planned,confidential,2021-06-23
+ENC-000824,PAT-31023,2021-06-23 10:15:00,2021-06-23 12:01:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,restricted,2022-07-06
+ENC-000825,PAT-31023,2022-07-06 11:15:00,2022-07-06 12:13:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2023-06-09
+ENC-000826,PAT-31023,2023-06-09 12:15:00,2023-06-09 13:23:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_planned,confidential,2025-05-08
+ENC-000827,PAT-31023,2025-05-08 13:15:00,2025-05-08 14:19:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1005,mobility laboratory,annual_review,standard,
+ENC-000828,PAT-31027,2017-05-25 09:15:00,2017-05-25 10:19:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1004,specialist review,follow_up_planned,restricted,2018-04-01
+ENC-000829,PAT-31027,2018-04-01 10:15:00,2018-04-01 11:05:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2019-03-23
+ENC-000830,PAT-31027,2019-03-23 11:15:00,2019-03-23 12:28:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2020-09-02
+ENC-000831,PAT-31027,2020-09-02 12:15:00,2020-09-02 13:30:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,restricted,2022-06-05
+ENC-000832,PAT-31027,2022-06-05 13:15:00,2022-06-05 14:59:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2022-12-22
+ENC-000833,PAT-31027,2022-12-22 14:15:00,2022-12-22 16:09:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1005,cardiac diagnostics,annual_review,confidential,
+ENC-000834,PAT-31019,2021-08-19 09:15:00,2021-08-19 10:51:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2022-09-24
+ENC-000835,PAT-31019,2022-09-24 10:15:00,2022-09-24 11:52:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2024-03-13
+ENC-000836,PAT-31019,2024-03-13 11:15:00,2024-03-13 12:24:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1004,general assessment,follow_up_planned,confidential,2025-01-04
+ENC-000837,PAT-31019,2025-01-04 12:15:00,2025-01-04 13:07:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1006,specialist review,annual_review,standard,
+ENC-000838,PAT-31050,2020-11-25 09:15:00,2020-11-25 10:27:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1001,specialist review,follow_up_planned,confidential,2022-01-01
+ENC-000839,PAT-31050,2022-01-01 10:15:00,2022-01-01 11:37:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,confidential,2023-06-17
+ENC-000840,PAT-31050,2023-06-17 11:15:00,2023-06-17 13:06:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,standard,2024-06-20
+ENC-000841,PAT-31050,2024-06-20 12:15:00,2024-06-20 13:19:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2025-06-20
+ENC-000842,PAT-31050,2025-06-20 13:15:00,2025-06-20 14:26:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1001,general assessment,annual_review,confidential,
+ENC-000843,PAT-31108,2019-02-23 09:15:00,2019-02-23 10:23:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2020-02-01
+ENC-000844,PAT-31108,2020-02-01 10:15:00,2020-02-01 11:51:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2020-11-16
+ENC-000845,PAT-31108,2020-11-16 11:15:00,2020-11-16 12:16:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-05-04
+ENC-000846,PAT-31108,2022-05-04 12:15:00,2022-05-04 13:25:00,FAC-AVL-201,occupational_assessment,self,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2022-10-25
+ENC-000847,PAT-31108,2022-10-25 13:15:00,2022-10-25 14:24:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1003,general assessment,follow_up_as_needed,confidential,
+ENC-000848,PAT-31035,2019-05-23 09:15:00,2019-05-23 10:07:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_planned,confidential,2020-06-26
+ENC-000849,PAT-31035,2020-06-26 10:15:00,2020-06-26 11:24:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1003,specialist review,follow_up_planned,standard,2021-11-17
+ENC-000850,PAT-31035,2021-11-17 11:15:00,2021-11-17 12:35:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,specialist review,annual_review,standard,
+ENC-000851,PAT-31207,2021-02-04 09:15:00,2021-02-04 10:22:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2022-02-04
+ENC-000852,PAT-31207,2022-02-04 10:15:00,2022-02-04 11:54:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2023-03-09
+ENC-000853,PAT-31207,2023-03-09 11:15:00,2023-03-09 12:21:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-RES-1044,general assessment,discharged,restricted,
+ENC-000854,PAT-31230,2021-05-16 09:15:00,2021-05-16 10:27:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2022-05-18
+ENC-000855,PAT-31230,2022-05-18 10:15:00,2022-05-18 11:44:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2023-05-01
+ENC-000856,PAT-31230,2023-05-01 11:15:00,2023-05-01 13:07:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1004,specialist review,follow_up_planned,confidential,2024-10-07
+ENC-000857,PAT-31230,2024-10-07 12:15:00,2024-10-07 13:12:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1004,general assessment,follow_up_as_needed,confidential,
+ENC-000858,PAT-31197,2019-02-17 09:15:00,2019-02-17 10:59:00,FAC-AVL-301,general_examination,research programme,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2020-01-06
+ENC-000859,PAT-31197,2020-01-06 10:15:00,2020-01-06 11:59:00,FAC-AVL-301,general_examination,primary care,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2021-11-01
+ENC-000860,PAT-31197,2021-11-01 11:15:00,2021-11-01 12:07:00,FAC-AVL-301,specialist_follow_up,primary care,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2022-05-11
+ENC-000861,PAT-31197,2022-05-11 12:15:00,2022-05-11 13:05:00,FAC-AVL-301,occupational_assessment,research programme,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2022-12-24
+ENC-000862,PAT-31197,2022-12-24 13:15:00,2022-12-24 15:07:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1004,cardiac diagnostics,discharged,standard,
+ENC-000863,PAT-31055,2017-08-01 09:15:00,2017-08-01 10:49:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2018-07-25
+ENC-000864,PAT-31055,2018-07-25 10:15:00,2018-07-25 12:08:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2019-04-27
+ENC-000865,PAT-31055,2019-04-27 11:15:00,2019-04-27 12:29:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2019-11-10
+ENC-000866,PAT-31055,2019-11-10 12:15:00,2019-11-10 14:05:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,discharged,standard,
+ENC-000867,PAT-31089,2020-11-03 09:15:00,2020-11-03 10:29:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2022-01-31
+ENC-000868,PAT-31089,2022-01-31 10:15:00,2022-01-31 11:21:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2023-02-14
+ENC-000869,PAT-31089,2023-02-14 11:15:00,2023-02-14 12:31:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2025-06-04
+ENC-000870,PAT-31089,2025-06-04 12:15:00,2025-06-04 14:07:00,FAC-AVL-201,general_examination,self,LIC-VLN-MED-1002,cardiac diagnostics,annual_review,confidential,
+ENC-000871,PAT-31075,2021-04-22 09:15:00,2021-04-22 10:35:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-MED-1005,general assessment,follow_up_planned,confidential,2022-06-13
+ENC-000872,PAT-31075,2022-06-13 10:15:00,2022-06-13 11:31:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2023-10-23
+ENC-000873,PAT-31075,2023-10-23 11:15:00,2023-10-23 12:41:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2024-07-15
+ENC-000874,PAT-31075,2024-07-15 12:15:00,2024-07-15 13:30:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1016,general assessment,follow_up_as_needed,standard,
+ENC-000875,PAT-31131,2020-01-30 09:15:00,2020-01-30 10:22:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2021-01-18
+ENC-000876,PAT-31131,2021-01-18 10:15:00,2021-01-18 11:05:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,standard,2021-12-07
+ENC-000877,PAT-31131,2021-12-07 11:15:00,2021-12-07 12:49:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2023-01-09
+ENC-000878,PAT-31131,2023-01-09 12:15:00,2023-01-09 13:51:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1006,general assessment,follow_up_as_needed,standard,
+ENC-000879,PAT-31036,2017-07-07 09:15:00,2017-07-07 10:15:00,FAC-AVL-301,occupational_assessment,executive health office,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2018-04-27
+ENC-000880,PAT-31036,2018-04-27 10:15:00,2018-04-27 11:33:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2019-12-28
+ENC-000881,PAT-31036,2019-12-28 11:15:00,2019-12-28 12:05:00,FAC-AVL-301,specialist_follow_up,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2021-01-18
+ENC-000882,PAT-31036,2021-01-18 12:15:00,2021-01-18 13:41:00,FAC-AVL-301,occupational_assessment,occupational service,LIC-VLN-MED-1003,specialist review,discharged,standard,
+ENC-000883,PAT-31153,2017-09-03 09:15:00,2017-09-03 10:09:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2019-02-18
+ENC-000884,PAT-31153,2019-02-18 10:15:00,2019-02-18 11:40:00,FAC-VLN-101,occupational_assessment,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2019-11-25
+ENC-000885,PAT-31153,2019-11-25 11:15:00,2019-11-25 13:07:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2020-09-21
+ENC-000886,PAT-31153,2020-09-21 12:15:00,2020-09-21 13:51:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,discharged,confidential,
+ENC-000887,PAT-31237,2018-05-20 09:15:00,2018-05-20 10:42:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2019-05-05
+ENC-000888,PAT-31237,2019-05-05 10:15:00,2019-05-05 11:25:00,FAC-VLN-101,mobility_assessment,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2021-01-09
+ENC-000889,PAT-31237,2021-01-09 11:15:00,2021-01-09 12:57:00,FAC-VLN-101,mobility_assessment,primary care,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,confidential,2021-07-12
+ENC-000890,PAT-31237,2021-07-12 12:15:00,2021-07-12 14:08:00,FAC-VLN-101,mobility_assessment,executive health office,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,restricted,2022-09-16
+ENC-000891,PAT-31237,2022-09-16 13:15:00,2022-09-16 14:06:00,FAC-VLN-101,mobility_assessment,primary care,LIC-VLN-MED-1003,cardiac diagnostics,annual_review,standard,
+ENC-000892,PAT-31112,2019-06-20 09:15:00,2019-06-20 10:33:00,FAC-AVL-201,occupational_assessment,self,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,restricted,2020-08-03
+ENC-000893,PAT-31112,2020-08-03 10:15:00,2020-08-03 11:33:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,restricted,2021-06-27
+ENC-000894,PAT-31112,2021-06-27 11:15:00,2021-06-27 13:08:00,FAC-AVL-201,general_examination,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2023-01-22
+ENC-000895,PAT-31112,2023-01-22 12:15:00,2023-01-22 13:07:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_as_needed,confidential,
+ENC-000896,PAT-31158,2020-08-13 09:15:00,2020-08-13 10:26:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2021-07-18
+ENC-000897,PAT-31158,2021-07-18 10:15:00,2021-07-18 11:51:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2022-09-03
+ENC-000898,PAT-31158,2022-09-03 11:15:00,2022-09-03 13:06:00,FAC-AVL-201,general_examination,self,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2023-04-29
+ENC-000899,PAT-31158,2023-04-29 12:15:00,2023-04-29 13:52:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1005,general assessment,follow_up_as_needed,confidential,
+ENC-000900,PAT-31203,2021-02-05 09:15:00,2021-02-05 10:43:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2022-04-05
+ENC-000901,PAT-31203,2022-04-05 10:15:00,2022-04-05 11:38:00,FAC-VLN-101,ocular_assessment,occupational service,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2023-08-27
+ENC-000902,PAT-31203,2023-08-27 11:15:00,2023-08-27 13:04:00,FAC-VLN-101,ocular_assessment,research programme,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2023-11-02
+ENC-000903,PAT-31203,2023-11-02 12:15:00,2023-11-02 13:50:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_as_needed,standard,
+ENC-000904,PAT-31090,2018-07-31 09:15:00,2018-07-31 10:55:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2019-08-23
+ENC-000905,PAT-31090,2019-08-23 10:15:00,2019-08-23 11:06:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2020-07-31
+ENC-000906,PAT-31090,2020-07-31 11:15:00,2020-07-31 12:12:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000907,PAT-31173,2021-08-15 09:15:00,2021-08-15 10:15:00,FAC-VLN-101,occupational_assessment,research programme,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2022-09-30
+ENC-000908,PAT-31173,2022-09-30 10:15:00,2022-09-30 12:08:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2023-07-01
+ENC-000909,PAT-31173,2023-07-01 11:15:00,2023-07-01 13:08:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2024-05-31
+ENC-000910,PAT-31173,2024-05-31 12:15:00,2024-05-31 13:48:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1044,cardiac diagnostics,discharged,standard,
+ENC-000911,PAT-31213,2020-04-09 09:15:00,2020-04-09 10:50:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,confidential,2021-06-22
+ENC-000912,PAT-31213,2021-06-22 10:15:00,2021-06-22 11:26:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2022-06-16
+ENC-000913,PAT-31213,2022-06-16 11:15:00,2022-06-16 13:04:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2023-01-02
+ENC-000914,PAT-31213,2023-01-02 12:15:00,2023-01-02 13:47:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1002,cardiac diagnostics,discharged,standard,
+ENC-000915,PAT-31105,2018-03-28 09:15:00,2018-03-28 10:59:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1003,cardiac diagnostics,follow_up_planned,standard,2019-02-22
+ENC-000916,PAT-31105,2019-02-22 10:15:00,2019-02-22 11:13:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1003,general assessment,follow_up_planned,confidential,2021-03-10
+ENC-000917,PAT-31105,2021-03-10 11:15:00,2021-03-10 12:16:00,FAC-VLN-101,occupational_assessment,primary care,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2021-10-24
+ENC-000918,PAT-31105,2021-10-24 12:15:00,2021-10-24 13:52:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1044,cardiac diagnostics,annual_review,standard,
+ENC-000919,PAT-31199,2019-04-05 09:15:00,2019-04-05 10:49:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2020-06-01
+ENC-000920,PAT-31199,2020-06-01 10:15:00,2020-06-01 11:18:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2021-06-22
+ENC-000921,PAT-31199,2021-06-22 11:15:00,2021-06-22 12:15:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,standard,2022-06-01
+ENC-000922,PAT-31199,2022-06-01 12:15:00,2022-06-01 13:58:00,FAC-VLN-101,mobility_assessment,research programme,LIC-VLN-MED-1002,general assessment,follow_up_planned,standard,2023-09-22
+ENC-000923,PAT-31199,2023-09-22 13:15:00,2023-09-22 14:45:00,FAC-VLN-101,mobility_assessment,self,LIC-VLN-MED-1002,cardiac diagnostics,annual_review,confidential,
+ENC-000924,PAT-31139,2019-06-20 09:15:00,2019-06-20 10:23:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-MED-1006,specialist review,follow_up_planned,standard,2020-07-04
+ENC-000925,PAT-31139,2020-07-04 10:15:00,2020-07-04 11:29:00,FAC-VLN-101,technical_repeat,research programme,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2021-11-22
+ENC-000926,PAT-31139,2021-11-22 11:15:00,2021-11-22 12:43:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2022-04-23
+ENC-000927,PAT-31139,2022-04-23 12:15:00,2022-04-23 13:39:00,FAC-VLN-101,technical_repeat,research programme,LIC-VLN-MED-1004,cardiac diagnostics,annual_review,confidential,
+ENC-000928,PAT-31018,2021-12-06 09:15:00,2021-12-06 10:49:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2023-02-28
+ENC-000929,PAT-31018,2023-02-28 10:15:00,2023-02-28 12:05:00,FAC-VLN-101,specialist_follow_up,self,LIC-VLN-MED-1005,cardiac diagnostics,follow_up_planned,standard,2023-11-05
+ENC-000930,PAT-31018,2023-11-05 11:15:00,2023-11-05 12:10:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2025-01-03
+ENC-000931,PAT-31018,2025-01-03 12:15:00,2025-01-03 13:16:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1003,cardiac diagnostics,annual_review,confidential,
+ENC-000932,PAT-31170,2019-01-08 09:15:00,2019-01-08 10:19:00,FAC-VLN-101,ocular_assessment,primary care,LIC-VLN-RES-1044,cardiac diagnostics,follow_up_planned,standard,2020-01-27
+ENC-000933,PAT-31170,2020-01-27 10:15:00,2020-01-27 11:10:00,FAC-VLN-101,ocular_assessment,research programme,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2021-06-14
+ENC-000934,PAT-31170,2021-06-14 11:15:00,2021-06-14 12:25:00,FAC-VLN-101,ocular_assessment,executive health office,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,restricted,2022-03-23
+ENC-000935,PAT-31170,2022-03-23 12:15:00,2022-03-23 13:17:00,FAC-VLN-101,ocular_assessment,self,LIC-VLN-MED-1004,mobility laboratory,discharged,standard,
+ENC-000936,PAT-31084,2020-07-20 09:15:00,2020-07-20 10:40:00,FAC-VLN-101,technical_repeat,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,restricted,2021-07-29
+ENC-000937,PAT-31084,2021-07-29 10:15:00,2021-07-29 11:56:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2023-07-20
+ENC-000938,PAT-31084,2023-07-20 11:15:00,2023-07-20 12:28:00,FAC-VLN-101,technical_repeat,primary care,LIC-VLN-MED-1006,specialist review,follow_up_planned,restricted,2024-05-22
+ENC-000939,PAT-31084,2024-05-22 12:15:00,2024-05-22 13:11:00,FAC-VLN-101,technical_repeat,primary care,LIC-VLN-MED-1002,general assessment,discharged,confidential,
+ENC-000940,PAT-31111,2021-04-22 09:15:00,2021-04-22 10:18:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-RES-1016,specialist review,follow_up_planned,restricted,2022-04-05
+ENC-000941,PAT-31111,2022-04-05 10:15:00,2022-04-05 11:29:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1005,specialist review,follow_up_planned,confidential,2024-01-21
+ENC-000942,PAT-31111,2024-01-21 11:15:00,2024-01-21 12:52:00,FAC-VLN-101,general_examination,self,LIC-VLN-RES-1016,mobility laboratory,annual_review,standard,
+ENC-000943,PAT-31028,2021-10-15 09:15:00,2021-10-15 10:22:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2022-08-19
+ENC-000944,PAT-31028,2022-08-19 10:15:00,2022-08-19 12:02:00,FAC-AVL-201,specialist_follow_up,research programme,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2024-01-14
+ENC-000945,PAT-31028,2024-01-14 11:15:00,2024-01-14 12:05:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1003,mobility laboratory,follow_up_planned,confidential,2024-12-22
+ENC-000946,PAT-31028,2024-12-22 12:15:00,2024-12-22 13:35:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1003,specialist review,follow_up_as_needed,standard,
+ENC-000947,PAT-31009,2020-09-14 09:15:00,2020-09-14 10:54:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,confidential,2021-11-17
+ENC-000948,PAT-31009,2021-11-17 10:15:00,2021-11-17 11:19:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2022-10-17
+ENC-000949,PAT-31009,2022-10-17 11:15:00,2022-10-17 12:46:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-RES-1016,mobility laboratory,follow_up_planned,standard,2023-10-21
+ENC-000950,PAT-31009,2023-10-21 12:15:00,2023-10-21 13:11:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-RES-1016,cardiac diagnostics,discharged,confidential,
+ENC-000951,PAT-31226,2019-06-03 09:15:00,2019-06-03 10:43:00,FAC-AVL-201,specialist_follow_up,executive health office,LIC-VLN-RES-1044,specialist review,follow_up_planned,standard,2020-05-10
+ENC-000952,PAT-31226,2020-05-10 10:15:00,2020-05-10 11:42:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,confidential,2021-07-19
+ENC-000953,PAT-31226,2021-07-19 11:15:00,2021-07-19 12:56:00,FAC-AVL-201,occupational_assessment,research programme,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_planned,confidential,2022-01-11
+ENC-000954,PAT-31226,2022-01-11 12:15:00,2022-01-11 13:06:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1004,general assessment,follow_up_planned,confidential,2024-03-06
+ENC-000955,PAT-31226,2024-03-06 13:15:00,2024-03-06 14:20:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1003,mobility laboratory,annual_review,restricted,
+ENC-000956,PAT-31164,2018-03-10 09:15:00,2018-03-10 10:29:00,FAC-AVL-301,cardiac_assessment,occupational service,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2019-05-01
+ENC-000957,PAT-31164,2019-05-01 10:15:00,2019-05-01 11:34:00,FAC-AVL-301,cardiac_assessment,executive health office,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2020-04-18
+ENC-000958,PAT-31164,2020-04-18 11:15:00,2020-04-18 12:19:00,FAC-AVL-301,cardiac_assessment,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_planned,standard,2021-02-03
+ENC-000959,PAT-31164,2021-02-03 12:15:00,2021-02-03 14:01:00,FAC-AVL-301,cardiac_assessment,primary care,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2022-08-25
+ENC-000960,PAT-31164,2022-08-25 13:15:00,2022-08-25 14:17:00,FAC-AVL-301,cardiac_assessment,self,LIC-VLN-MED-1004,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000961,PAT-31147,2021-03-27 09:15:00,2021-03-27 10:54:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2021-12-01
+ENC-000962,PAT-31147,2021-12-01 10:15:00,2021-12-01 12:06:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2023-02-12
+ENC-000963,PAT-31147,2023-02-12 11:15:00,2023-02-12 12:55:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1004,mobility laboratory,annual_review,confidential,
+ENC-000964,PAT-31206,2017-03-06 09:15:00,2017-03-06 10:55:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_planned,restricted,2018-03-24
+ENC-000965,PAT-31206,2018-03-24 10:15:00,2018-03-24 12:00:00,FAC-VLN-101,executive_health_review,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2018-12-26
+ENC-000966,PAT-31206,2018-12-26 11:15:00,2018-12-26 12:23:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1006,general assessment,follow_up_planned,confidential,2020-09-19
+ENC-000967,PAT-31206,2020-09-19 12:15:00,2020-09-19 13:36:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-RES-1016,general assessment,follow_up_planned,restricted,2020-11-26
+ENC-000968,PAT-31206,2020-11-26 13:15:00,2020-11-26 14:24:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_as_needed,standard,
+ENC-000969,PAT-31159,2021-01-28 09:15:00,2021-01-28 11:05:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1006,general assessment,follow_up_planned,standard,2022-04-08
+ENC-000970,PAT-31159,2022-04-08 10:15:00,2022-04-08 11:37:00,FAC-AVL-201,specialist_follow_up,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,confidential,2023-01-09
+ENC-000971,PAT-31159,2023-01-09 11:15:00,2023-01-09 12:31:00,FAC-AVL-201,specialist_follow_up,self,LIC-VLN-MED-1002,mobility laboratory,discharged,confidential,
+ENC-000972,PAT-31160,2017-03-01 09:15:00,2017-03-01 10:59:00,FAC-VLN-101,executive_health_review,executive health office,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,restricted,2018-07-05
+ENC-000973,PAT-31160,2018-07-05 10:15:00,2018-07-05 11:09:00,FAC-VLN-101,executive_health_review,self,LIC-VLN-MED-1006,specialist review,follow_up_planned,restricted,2019-02-11
+ENC-000974,PAT-31160,2019-02-11 11:15:00,2019-02-11 12:27:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1006,general assessment,follow_up_planned,confidential,2020-03-25
+ENC-000975,PAT-31160,2020-03-25 12:15:00,2020-03-25 13:22:00,FAC-VLN-101,executive_health_review,occupational service,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,restricted,2021-04-30
+ENC-000976,PAT-31160,2021-04-30 13:15:00,2021-04-30 14:25:00,FAC-VLN-101,executive_health_review,research programme,LIC-VLN-MED-1004,cardiac diagnostics,discharged,standard,
+ENC-000977,PAT-31067,2021-05-13 09:15:00,2021-05-13 10:34:00,FAC-VLN-101,technical_repeat,occupational service,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,confidential,2022-06-30
+ENC-000978,PAT-31067,2022-06-30 10:15:00,2022-06-30 11:40:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-RES-1016,cardiac diagnostics,follow_up_planned,standard,2023-10-17
+ENC-000979,PAT-31067,2023-10-17 11:15:00,2023-10-17 12:09:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-MED-1002,mobility laboratory,follow_up_planned,standard,2024-08-06
+ENC-000980,PAT-31067,2024-08-06 12:15:00,2024-08-06 14:04:00,FAC-VLN-101,technical_repeat,self,LIC-VLN-MED-1001,general assessment,follow_up_as_needed,standard,
+ENC-000981,PAT-31178,2020-09-26 09:15:00,2020-09-26 11:01:00,FAC-VLN-101,ocular_assessment,self,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,standard,2021-12-05
+ENC-000982,PAT-31178,2021-12-05 10:15:00,2021-12-05 11:17:00,FAC-VLN-101,ocular_assessment,executive health office,LIC-VLN-MED-1001,cardiac diagnostics,follow_up_planned,standard,2022-12-07
+ENC-000983,PAT-31178,2022-12-07 11:15:00,2022-12-07 12:41:00,FAC-VLN-101,ocular_assessment,occupational service,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2023-10-01
+ENC-000984,PAT-31178,2023-10-01 12:15:00,2023-10-01 13:56:00,FAC-VLN-101,ocular_assessment,self,LIC-VLN-MED-1006,cardiac diagnostics,follow_up_as_needed,restricted,
+ENC-000985,PAT-31229,2018-04-22 09:15:00,2018-04-22 10:52:00,FAC-AVL-201,general_examination,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2019-06-23
+ENC-000986,PAT-31229,2019-06-23 10:15:00,2019-06-23 11:15:00,FAC-AVL-201,occupational_assessment,primary care,LIC-VLN-MED-1005,mobility laboratory,follow_up_planned,confidential,2020-05-27
+ENC-000987,PAT-31229,2020-05-27 11:15:00,2020-05-27 13:08:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2021-09-30
+ENC-000988,PAT-31229,2021-09-30 12:15:00,2021-09-30 13:22:00,FAC-AVL-201,occupational_assessment,executive health office,LIC-VLN-MED-1006,specialist review,follow_up_as_needed,confidential,
+ENC-000989,PAT-31038,2019-06-07 09:15:00,2019-06-07 10:55:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2020-09-16
+ENC-000990,PAT-31038,2020-09-16 10:15:00,2020-09-16 11:29:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1003,general assessment,follow_up_planned,standard,2021-08-29
+ENC-000991,PAT-31038,2021-08-29 11:15:00,2021-08-29 12:37:00,FAC-VLN-101,general_examination,research programme,LIC-VLN-MED-1004,specialist review,follow_up_planned,standard,2023-07-02
+ENC-000992,PAT-31038,2023-07-02 12:15:00,2023-07-02 13:15:00,FAC-VLN-101,occupational_assessment,executive health office,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2024-03-31
+ENC-000993,PAT-31038,2024-03-31 13:15:00,2024-03-31 14:53:00,FAC-VLN-101,specialist_follow_up,executive health office,LIC-VLN-MED-1004,general assessment,follow_up_as_needed,standard,
+ENC-000994,PAT-31156,2019-05-10 09:15:00,2019-05-10 10:27:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1006,general assessment,follow_up_planned,restricted,2020-06-02
+ENC-000995,PAT-31156,2020-06-02 10:15:00,2020-06-02 11:39:00,FAC-VLN-101,general_examination,occupational service,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2021-07-10
+ENC-000996,PAT-31156,2021-07-10 11:15:00,2021-07-10 12:29:00,FAC-VLN-101,general_examination,primary care,LIC-VLN-MED-1002,specialist review,follow_up_planned,standard,2022-09-30
+ENC-000997,PAT-31156,2022-09-30 12:15:00,2022-09-30 13:24:00,FAC-VLN-101,occupational_assessment,self,LIC-VLN-MED-1004,general assessment,discharged,standard,
+ENC-000998,PAT-31031,2017-03-09 09:15:00,2017-03-09 10:53:00,FAC-AVL-301,technical_repeat,occupational service,LIC-VLN-RES-1016,general assessment,follow_up_planned,confidential,2018-01-10
+ENC-000999,PAT-31031,2018-01-10 10:15:00,2018-01-10 11:14:00,FAC-AVL-301,technical_repeat,occupational service,LIC-VLN-MED-1004,general assessment,follow_up_planned,standard,2019-05-16
+ENC-001000,PAT-31031,2019-05-16 11:15:00,2019-05-16 12:46:00,FAC-AVL-301,technical_repeat,self,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2020-05-19
+ENC-001001,PAT-31031,2020-05-19 12:15:00,2020-05-19 13:11:00,FAC-AVL-301,technical_repeat,primary care,LIC-VLN-MED-1004,general assessment,annual_review,standard,
+ENC-001002,PAT-31143,2017-03-25 09:15:00,2017-03-25 10:43:00,FAC-VLN-101,general_examination,self,LIC-VLN-MED-1004,mobility laboratory,follow_up_planned,standard,2018-06-26
+ENC-001003,PAT-31143,2018-06-26 10:15:00,2018-06-26 11:44:00,FAC-VLN-101,specialist_follow_up,research programme,LIC-VLN-MED-1001,general assessment,follow_up_planned,standard,2018-10-10
+ENC-001004,PAT-31143,2018-10-10 11:15:00,2018-10-10 12:24:00,FAC-VLN-101,specialist_follow_up,occupational service,LIC-VLN-MED-1005,specialist review,follow_up_planned,standard,2020-10-03
+ENC-001005,PAT-31143,2020-10-03 12:15:00,2020-10-03 14:04:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-RES-1044,general assessment,follow_up_planned,standard,2021-05-29
+ENC-001006,PAT-31143,2021-05-29 13:15:00,2021-05-29 14:10:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1006,general assessment,annual_review,standard,
+ENC-001007,PAT-31029,2020-01-31 09:15:00,2020-01-31 10:52:00,FAC-AVL-201,general_examination,research programme,LIC-VLN-MED-1005,general assessment,follow_up_planned,standard,2021-02-09
+ENC-001008,PAT-31029,2021-02-09 10:15:00,2021-02-09 11:53:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-MED-1001,mobility laboratory,follow_up_planned,restricted,2022-01-21
+ENC-001009,PAT-31029,2022-01-21 11:15:00,2022-01-21 12:38:00,FAC-AVL-201,specialist_follow_up,primary care,LIC-VLN-MED-1006,specialist review,follow_up_planned,restricted,2023-07-30
+ENC-001010,PAT-31029,2023-07-30 12:15:00,2023-07-30 13:23:00,FAC-AVL-201,occupational_assessment,occupational service,LIC-VLN-RES-1044,cardiac diagnostics,annual_review,standard,
+ENC-001011,PAT-31189,2021-11-19 09:15:00,2021-11-19 10:56:00,FAC-VLN-101,specialist_follow_up,primary care,LIC-VLN-MED-1002,cardiac diagnostics,follow_up_planned,standard,2022-09-21
+ENC-001012,PAT-31189,2022-09-21 10:15:00,2022-09-21 12:00:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-RES-1044,mobility laboratory,follow_up_planned,standard,2024-02-03
+ENC-001013,PAT-31189,2024-02-03 11:15:00,2024-02-03 12:53:00,FAC-VLN-101,general_examination,executive health office,LIC-VLN-MED-1001,specialist review,follow_up_as_needed,confidential,
+ENC-001014,PAT-31094,2017-11-21 09:15:00,2017-11-21 10:47:00,FAC-AVL-301,specialist_follow_up,research programme,LIC-VLN-MED-1006,general assessment,follow_up_planned,confidential,2018-11-11
+ENC-001015,PAT-31094,2018-11-11 10:15:00,2018-11-11 11:39:00,FAC-AVL-301,occupational_assessment,research programme,LIC-VLN-MED-1006,mobility laboratory,follow_up_planned,standard,2020-02-21
+ENC-001016,PAT-31094,2020-02-21 11:15:00,2020-02-21 13:06:00,FAC-AVL-301,general_examination,research programme,LIC-VLN-RES-1016,general assessment,follow_up_planned,standard,2021-04-14
+ENC-001017,PAT-31094,2021-04-14 12:15:00,2021-04-14 13:23:00,FAC-AVL-301,general_examination,executive health office,LIC-VLN-RES-1016,mobility laboratory,annual_review,restricted,
+ENC-001018,PAT-31221,2016-02-18 08:30:00,2016-02-18 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2016-03-22
+ENC-001019,PAT-31221,2018-02-22 08:30:00,2018-02-22 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2018-04-01
+ENC-001020,PAT-31221,2020-03-05 08:30:00,2020-03-05 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2020-04-17
+ENC-001021,PAT-31221,2022-02-17 08:30:00,2022-02-17 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2022-03-17
+ENC-001022,PAT-31221,2024-03-01 08:30:00,2024-03-01 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2024-04-03
+ENC-001023,PAT-31044,2017-05-12 08:30:00,2017-05-12 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2017-06-19
+ENC-001024,PAT-31044,2019-05-17 08:30:00,2019-05-17 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2019-06-29
+ENC-001025,PAT-31044,2021-06-04 08:30:00,2021-06-04 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2021-07-02
+ENC-001026,PAT-31044,2024-08-23 08:30:00,2024-08-23 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2024-09-25
+ENC-001027,PAT-31174,2015-09-10 08:30:00,2015-09-10 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2015-10-18
+ENC-001028,PAT-31174,2017-09-21 08:30:00,2017-09-21 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2017-11-03
+ENC-001029,PAT-31174,2019-10-03 08:30:00,2019-10-03 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2019-10-31
+ENC-001030,PAT-31174,2021-10-14 08:30:00,2021-10-14 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2021-11-16
+ENC-001031,PAT-31119,2018-01-26 08:30:00,2018-01-26 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2018-03-05
+ENC-001032,PAT-31119,2020-02-07 08:30:00,2020-02-07 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2020-03-21
+ENC-001033,PAT-31119,2022-01-28 08:30:00,2022-01-28 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2022-02-25
+ENC-001034,PAT-31119,2024-02-09 08:30:00,2024-02-09 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2024-03-13
+ENC-001035,PAT-31074,2017-11-03 08:30:00,2017-11-03 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2017-12-11
+ENC-001036,PAT-31074,2019-11-22 08:30:00,2019-11-22 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2020-01-04
+ENC-001037,PAT-31074,2022-04-15 08:30:00,2022-04-15 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2022-05-13
+ENC-001038,PAT-31074,2025-01-31 08:30:00,2025-01-31 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2025-03-05
+ENC-001039,PAT-31183,2016-06-16 08:30:00,2016-06-16 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2016-07-24
+ENC-001040,PAT-31183,2018-06-21 08:30:00,2018-06-21 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2018-08-03
+ENC-001041,PAT-31183,2020-07-02 08:30:00,2020-07-02 12:30:00,FAC-VLN-101,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2020-07-30
+ENC-001042,PAT-31142,2019-03-14 08:30:00,2019-03-14 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2019-04-16
+ENC-001043,PAT-31142,2021-03-25 08:30:00,2021-03-25 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2021-05-02
+ENC-001044,PAT-31142,2023-04-06 08:30:00,2023-04-06 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2023-05-19
+ENC-001045,PAT-31099,2014-07-18 08:30:00,2014-07-18 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2014-08-15
+ENC-001046,PAT-31099,2016-07-29 08:30:00,2016-07-29 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2016-08-31
+ENC-001047,PAT-31099,2018-08-10 08:30:00,2018-08-10 12:30:00,FAC-AVL-201,specialist_procedure,executive health office,LIC-VLN-MED-1002,specialist day unit,follow_up_planned,restricted,2018-09-17
+ENC-001048,PAT-31034,2023-04-12 10:00:00,2023-04-12 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1002,clinical research unit,annual_review,restricted,2023-08-10
+ENC-001049,PAT-31011,2023-12-17 10:00:00,2023-12-17 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1002,clinical research unit,annual_review,restricted,2024-04-15
+ENC-001050,PAT-31205,2023-05-15 10:00:00,2023-05-15 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-RES-1044,clinical research unit,annual_review,restricted,2023-09-12
+ENC-001051,PAT-31203,2024-02-11 10:00:00,2024-02-11 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1003,clinical research unit,annual_review,restricted,2024-06-10
+ENC-001052,PAT-31185,2023-10-01 10:00:00,2023-10-01 13:00:00,FAC-AVL-201,research_procedure,research programme,LIC-VLN-MED-1002,clinical research unit,annual_review,restricted,2024-01-29
+ENC-001053,PAT-31090,2021-01-04 10:00:00,2021-01-04 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-RES-1016,clinical research unit,annual_review,restricted,2021-05-04
+ENC-001054,PAT-31100,2024-04-08 10:00:00,2024-04-08 13:00:00,FAC-AVL-301,research_procedure,research programme,LIC-VLN-MED-1004,clinical research unit,annual_review,restricted,2024-08-06
+ENC-001055,PAT-31161,2023-03-07 10:00:00,2023-03-07 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1004,clinical research unit,annual_review,restricted,2023-07-05
+ENC-001056,PAT-31204,2021-04-06 10:00:00,2021-04-06 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1001,clinical research unit,annual_review,restricted,2021-08-04
+ENC-001057,PAT-31208,2023-09-04 10:00:00,2023-09-04 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1002,clinical research unit,annual_review,restricted,2024-01-02
+ENC-001058,PAT-31077,2020-06-13 10:00:00,2020-06-13 13:00:00,FAC-AVL-201,research_procedure,research programme,LIC-VLN-RES-1044,clinical research unit,annual_review,restricted,2020-10-11
+ENC-001059,PAT-31002,2023-09-09 10:00:00,2023-09-09 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1004,clinical research unit,annual_review,restricted,2024-01-07
+ENC-001060,PAT-31198,2022-05-01 10:00:00,2022-05-01 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1002,clinical research unit,annual_review,restricted,2022-08-29
+ENC-001061,PAT-31220,2020-11-02 10:00:00,2020-11-02 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1006,clinical research unit,annual_review,restricted,2021-03-02
+ENC-001062,PAT-31030,2022-04-05 10:00:00,2022-04-05 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-RES-1016,clinical research unit,annual_review,restricted,2022-08-03
+ENC-001063,PAT-31210,2021-07-10 10:00:00,2021-07-10 13:00:00,FAC-AVL-201,research_procedure,research programme,LIC-VLN-MED-1006,clinical research unit,annual_review,restricted,2021-11-07
+ENC-001064,PAT-31188,2020-06-12 10:00:00,2020-06-12 13:00:00,FAC-AVL-201,research_procedure,research programme,LIC-VLN-RES-1016,clinical research unit,annual_review,restricted,2020-10-10
+ENC-001065,PAT-31190,2019-12-16 10:00:00,2019-12-16 13:00:00,FAC-VLN-101,research_procedure,research programme,LIC-VLN-MED-1002,clinical research unit,annual_review,restricted,2020-04-14
+ENC-001066,PAT-31224,2023-11-13 10:00:00,2023-11-13 13:00:00,FAC-AVL-201,research_procedure,research programme,LIC-VLN-MED-1006,clinical research unit,annual_review,restricted,2024-03-12
+ENC-001067,PAT-31043,2023-02-19 10:00:00,2023-02-19 13:00:00,FAC-AVL-201,research_procedure,research programme,LIC-VLN-MED-1006,clinical research unit,annual_review,restricted,2023-06-19
