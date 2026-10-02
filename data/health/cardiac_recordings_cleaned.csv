@@ -1,0 +1,45 @@
+recording_id,patient_number,encounter_number,recording_date,recording_context,facility_license_number,reviewing_license_number,device_serial_number,device_model,sampling_rate_hz,sampling_interval_ms,duration_seconds,channel_count,sample_count,amplitude_unit,automated_interpretation,recording_notes_code,device_quality,archive_status
+CRD-410031,PAT-31162,ENC-000004,2022-06-21,rest,FAC-VLN-101,LIC-VLN-RES-1016,DEV-CARD-07034,Vantage Rhythm Monitor,100,10,12.0,2,1200,normalized_unit,complex,rhythm_variability,80.9,finalized
+CRD-410019,PAT-31162,ENC-000004,2022-06-21,technical_repeat,FAC-VLN-101,LIC-VLN-RES-1016,DEV-CARD-07044,HelixCard Duo,100,10,30.0,2,3000,normalized_unit,irregular,repeat_recommended,88.0,finalized
+CRD-410025,PAT-31040,ENC-000007,2017-03-16,rest,FAC-AVL-201,LIC-VLN-MED-1003,DEV-CARD-07027,Asterion CV-3,125,8,12.0,2,1500,normalized_unit,review_required,no_note,84.8,finalized
+CRD-410016,PAT-31115,ENC-000017,2025-09-11,rest,FAC-AVL-301,LIC-VLN-MED-1006,DEV-CARD-07019,Asterion CV-2,125,8,30.0,2,3750,normalized_unit,inconclusive,signal_overlap,86.7,finalized
+CRD-410014,PAT-31233,ENC-000033,2023-04-25,rest,FAC-AVL-301,LIC-VLN-MED-1001,DEV-CARD-07022,HelixCard Duo,125,8,18.0,2,2250,normalized_unit,complex,rhythm_variability,93.0,finalized
+CRD-410038,PAT-31065,ENC-000038,2024-06-12,rest,FAC-VLN-101,LIC-VLN-MED-1002,DEV-CARD-07007,Asterion CV-3,125,8,24.0,2,3000,normalized_unit,irregular,repeat_recommended,86.0,finalized
+CRD-410005,PAT-31065,ENC-000038,2024-06-12,technical_repeat,FAC-VLN-101,LIC-VLN-MED-1002,DEV-CARD-07037,HelixCard Duo,100,10,30.0,2,3000,normalized_unit,review_required,no_note,85.5,finalized
+CRD-410022,PAT-31037,ENC-000053,2019-12-01,rest,FAC-VLN-101,LIC-VLN-MED-1005,DEV-CARD-07024,Vantage Rhythm Monitor,100,10,15.0,2,1500,normalized_unit,inconclusive,signal_overlap,94.2,finalized
+CRD-410001,PAT-31221,ENC-000061,2024-04-03,rest,FAC-VLN-101,LIC-VLN-RES-1044,DEV-CARD-07038,Asterion CV-2,100,10,18.0,2,1800,normalized_unit,normal,no_note,76.9,finalized
+CRD-410021,PAT-31119,ENC-000076,2024-03-13,rest,FAC-VLN-101,LIC-VLN-MED-1004,DEV-CARD-07042,Asterion CV-3,100,10,30.0,2,3000,normalized_unit,inconclusive,rhythm_variability,81.9,finalized
+CRD-410040,PAT-31183,ENC-000085,2020-07-30,rest,FAC-VLN-101,LIC-VLN-RES-1016,DEV-CARD-07028,HelixCard Duo,125,8,24.0,2,3000,normalized_unit,irregular,no_note,86.2,finalized
+CRD-410018,PAT-31099,ENC-000093,2018-09-17,rest,FAC-AVL-201,LIC-VLN-MED-1004,DEV-CARD-07010,Vantage Rhythm Monitor,125,8,30.0,2,3750,normalized_unit,normal,repeat_recommended,83.6,finalized
+CRD-410015,PAT-31226,ENC-000953,2021-07-19,rest,FAC-AVL-201,LIC-VLN-MED-1004,DEV-CARD-07002,Asterion CV-2,100,10,20.0,2,2000,normalized_unit,normal,no_note,96.8,finalized
+CRD-410030,PAT-31141,ENC-000565,2023-02-28,clinical_follow_up,FAC-VLN-101,LIC-VLN-MED-1004,DEV-CARD-07015,Asterion CV-2,100,10,18.0,2,1800,normalized_unit,normal,baseline_variation,93.9,finalized
+CRD-410011,PAT-31079,ENC-000185,2019-02-25,post_exercise,FAC-VLN-101,LIC-VLN-MED-1001,DEV-CARD-07008,Asterion CV-3,100,10,18.0,2,1800,normalized_unit,inconclusive,no_note,95.1,finalized
+CRD-410007,PAT-31223,ENC-000225,2019-10-07,rest,FAC-VLN-101,LIC-VLN-MED-1006,DEV-CARD-07014,Vantage Rhythm Monitor,125,8,15.0,2,1875,normalized_unit,normal,no_note,90.0,finalized
+CRD-410042,PAT-31150,ENC-000793,2023-09-20,clinical_follow_up,FAC-VLN-101,LIC-VLN-MED-1002,DEV-CARD-07026,Asterion CV-3,100,10,15.0,2,1500,normalized_unit,normal,baseline_variation,92.9,finalized
+CRD-410035,PAT-31095,ENC-000213,2020-07-26,post_exercise,FAC-VLN-101,LIC-VLN-RES-1016,DEV-CARD-07005,Vantage Rhythm Monitor,125,8,12.0,2,1500,normalized_unit,inconclusive,no_note,88.1,finalized
+CRD-410039,PAT-31131,ENC-000878,2023-01-09,rest,FAC-VLN-101,LIC-VLN-MED-1006,DEV-CARD-07012,Asterion CV-2,125,8,30.0,2,3750,normalized_unit,normal,no_note,91.8,finalized
+CRD-410029,PAT-31014,ENC-000339,2019-04-30,clinical_follow_up,FAC-VLN-101,LIC-VLN-MED-1006,DEV-CARD-07009,Asterion CV-3,125,8,20.0,2,2500,normalized_unit,normal,baseline_variation,92.2,finalized
+CRD-410013,PAT-31016,ENC-000333,2023-06-30,post_exercise,FAC-VLN-101,LIC-VLN-RES-1016,DEV-CARD-07043,Vantage Rhythm Monitor,125,8,12.0,2,1500,normalized_unit,inconclusive,no_note,96.5,finalized
+CRD-410034,PAT-31166,ENC-000585,2020-06-16,rest,FAC-AVL-301,LIC-VLN-MED-1006,DEV-CARD-07004,HelixCard Duo,125,8,15.0,2,1875,normalized_unit,normal,no_note,89.5,finalized
+CRD-410037,PAT-31097,ENC-000431,2021-05-06,clinical_follow_up,FAC-VLN-101,LIC-VLN-MED-1004,DEV-CARD-07016,HelixCard Duo,125,8,20.0,2,2500,normalized_unit,normal,baseline_variation,89.8,finalized
+CRD-410032,PAT-31102,ENC-000292,2022-12-07,post_exercise,FAC-VLN-101,LIC-VLN-MED-1004,DEV-CARD-07033,HelixCard Duo,125,8,15.0,2,1875,normalized_unit,inconclusive,no_note,98.0,finalized
+CRD-410026,PAT-31218,ENC-000723,2025-06-20,rest,FAC-VLN-101,LIC-VLN-MED-1002,DEV-CARD-07021,Vantage Rhythm Monitor,100,10,30.0,2,3000,normalized_unit,artefact,baseline_variation,87.4,finalized
+CRD-410003,PAT-31173,ENC-000908,2022-09-30,stress_assessment,FAC-VLN-101,LIC-VLN-MED-1003,DEV-CARD-07001,Asterion CV-2,125,8,18.0,2,2250,normalized_unit,inconclusive,no_note,91.4,finalized
+CRD-410023,PAT-31210,ENC-000123,2019-05-25,rest,FAC-AVL-201,LIC-VLN-MED-1004,DEV-CARD-07032,HelixCard Duo,125,8,18.0,2,2250,normalized_unit,normal,repeat_recommended,95.9,finalized
+CRD-410006,PAT-31135,ENC-000308,2021-04-27,stress_assessment,FAC-VLN-101,LIC-VLN-MED-1001,DEV-CARD-07006,Asterion CV-2,100,10,24.0,2,2400,normalized_unit,artefact,baseline_variation,92.2,finalized
+CRD-410033,PAT-31005,ENC-000631,2022-04-09,rest,FAC-AVL-201,LIC-VLN-MED-1005,DEV-CARD-07020,Asterion CV-2,100,10,20.0,2,2000,normalized_unit,inconclusive,no_note,94.7,finalized
+CRD-410043,PAT-31035,ENC-000850,2021-11-17,stress_assessment,FAC-VLN-101,LIC-VLN-MED-1003,DEV-CARD-07035,Vantage Rhythm Monitor,125,8,20.0,2,2500,normalized_unit,normal,repeat_recommended,95.7,finalized
+CRD-410010,PAT-31076,ENC-000259,2021-01-06,post_exercise,FAC-AVL-301,LIC-VLN-MED-1003,DEV-CARD-07003,Asterion CV-3,125,8,12.0,2,1500,normalized_unit,artefact,baseline_variation,93.6,finalized
+CRD-410008,PAT-31088,ENC-000598,2017-12-31,stress_assessment,FAC-AVL-301,LIC-VLN-MED-1002,DEV-CARD-07018,Vantage Rhythm Monitor,100,10,24.0,2,2400,normalized_unit,inconclusive,interference_suspected,95.6,finalized
+CRD-410036,PAT-31231,ENC-000140,2021-11-15,post_exercise,FAC-AVL-201,LIC-VLN-RES-1016,DEV-CARD-07041,HelixCard Duo,125,8,24.0,2,3000,normalized_unit,review_required,repeat_recommended,96.0,finalized
+CRD-410020,PAT-31107,ENC-000337,2024-12-18,stress_assessment,FAC-VLN-101,LIC-VLN-MED-1006,DEV-CARD-07030,HelixCard Duo,100,10,15.0,2,1500,normalized_unit,artefact,baseline_variation,98.0,finalized
+CRD-410044,PAT-31063,ENC-000766,2021-04-11,post_exercise,FAC-AVL-201,LIC-VLN-MED-1006,DEV-CARD-07013,Asterion CV-3,125,8,20.0,2,2500,normalized_unit,inconclusive,interference_suspected,88.7,finalized
+CRD-410012,PAT-31057,ENC-000255,2023-03-09,rest,FAC-AVL-201,LIC-VLN-MED-1002,DEV-CARD-07029,HelixCard Duo,100,10,18.0,2,1800,normalized_unit,review_required,signal_overlap,92.2,finalized
+CRD-410027,PAT-31020,ENC-000400,2020-12-15,clinical_follow_up,FAC-AVL-201,LIC-VLN-RES-1016,DEV-CARD-07039,Asterion CV-3,125,8,24.0,2,3000,normalized_unit,irregular,rhythm_variability,97.3,finalized
+CRD-410004,PAT-31008,ENC-000407,2024-05-27,rest,FAC-VLN-101,LIC-VLN-MED-1006,DEV-CARD-07036,Asterion CV-2,100,10,12.0,2,1200,normalized_unit,complex,repeat_recommended,85.8,finalized
+CRD-410009,PAT-31209,ENC-000738,2020-08-25,clinical_follow_up,FAC-VLN-101,LIC-VLN-MED-1002,DEV-CARD-07023,Asterion CV-2,100,10,15.0,2,1500,normalized_unit,review_required,signal_overlap,95.3,finalized
+CRD-410024,PAT-31059,ENC-000695,2021-05-07,rest,FAC-VLN-101,LIC-VLN-MED-1003,DEV-CARD-07040,Asterion CV-3,100,10,12.0,2,1200,normalized_unit,irregular,rhythm_variability,94.6,finalized
+CRD-410002,PAT-31080,ENC-000638,2020-11-30,technical_repeat,FAC-VLN-101,LIC-VLN-RES-1044,DEV-CARD-07025,Asterion CV-3,100,10,15.0,2,1500,normalized_unit,inconclusive,interference_suspected,93.6,finalized
+CRD-410017,PAT-31130,ENC-000454,2022-04-08,technical_repeat,FAC-VLN-101,LIC-VLN-MED-1001,DEV-CARD-07031,Vantage Rhythm Monitor,125,8,24.0,2,3000,normalized_unit,review_required,repeat_recommended,95.6,finalized
+CRD-410041,PAT-31155,ENC-000410,2019-04-29,technical_repeat,FAC-AVL-201,LIC-VLN-MED-1002,DEV-CARD-07017,Asterion CV-2,100,10,12.0,2,1200,normalized_unit,artefact,baseline_variation,97.1,finalized
+CRD-410028,PAT-31211,ENC-000724,2019-03-16,technical_repeat,FAC-VLN-101,LIC-VLN-MED-1002,DEV-CARD-07011,Vantage Rhythm Monitor,100,10,20.0,2,2000,normalized_unit,inconclusive,interference_suspected,97.2,finalized
