@@ -13,7 +13,12 @@
    - [2.4 Bloc 3 : Détection d'Anomalies, Patterns & Enquête](#24-bloc-3--détection-danomalies-patterns--enquête)
    - [2.5 Pièces à conviction & Bilan Médico-Légal](#25-pièces-à-conviction--bilan-médico-légal)
 3. [Fiche 2 : Analyse textuelle des rapports de terrain (`environmental_field_reports.ipynb`)](#3-fiche-2--analyse-textuelle-des-rapports-de-terrain-environmental_field_reportsipynb) *(En cours)*
-4. [Fiche 3 : Analyse des opérations de capteurs (`monitoring_device_operations.ipynb`)](#4-fiche-3--analyse-des-opérations-de-capteurs-monitoring_device_operationsipynb) *(À venir)*
+4. [Fiche 3 : Analyse des opérations de capteurs (`monitoring_device_operations.ipynb`)](#4-fiche-3--analyse-des-opérations-de-capteurs-monitoring_device_operationsipynb)
+    - [4.1 Prétraitement et Nettoyage des données](#41-prétraitement-et-nettoyage-des-données)
+    - [4.2 Bloc 1 : EDA et Statistiques Descriptives](#42-bloc-1--eda-et-statistiques-descriptives)
+    - [4.3 Bloc 2 : Clustering et Réduction de Dimensionnalité](#43-bloc-2--clustering-et-réduction-de-dimensionnalité)
+    - [4.4 Bloc 3 : Détection d'Anomalies, Patterns & Enquête](#44-bloc-3--détection-danomalies-patterns--enquête)
+    - [4.5 Bilan du fichier](#45-bilan-du-fichier)
 5. [Fiche 4 : Contrôle environnemental mensuel (`environmental_monthly.ipynb`)](#5-fiche-4--contrôle-environnemental-mensuel-environmental_monthlyipynb)
     - [5.1 Prétraitement et Nettoyage des données](#51-prétraitement-et-nettoyage-des-données)
     - [5.2 Bloc 1 : EDA et Statistiques Descriptives](#52-bloc-1--eda-et-statistiques-descriptives)
@@ -124,7 +129,87 @@ Application de l'algorithme Apriori sur les données discrétisées (selon les S
 ---
 
 ## 4. Fiche 3 : Analyse des opérations de capteurs (`monitoring_device_operations.ipynb`)
-*(À venir)*
+
+### 4.1 Prétraitement et Nettoyage des données
+
+* **Volumétrie initiale** : 4 994 cycles d'opération × 11 colonnes ; une ligne = un appareil sur un site (`site_code` / `device_reference`) entre `operation_start` et `operation_end`.
+* **Justifications de nos choix méthodologiques** :
+  1. **Doublons** : 2 doublons stricts + doublons d'identifiant `device_operation_id` supprimés $\implies$ **4 992** lignes.
+  2. **Correspondance site ↔ appareil** : relation 1-pour-1 (`site_code` ↔ `device_reference`) ; formats `DOP-…` / `DEV-…` homogènes.
+  3. **Dates** : `operation_end` au format mixte (`31-May-2025`, `2022/11/30`…) converti en `datetime` ; dérivation de `year`, `month`, `duration_days`.
+  4. **Numériques** : `uptime_pct` (virgule décimale) nettoyé ; pourcentages dans [0, 100], aucune valeur impossible.
+  5. **Catégorielles** : `maintenance_type` / `record_status` normalisés (casse) ; `record_status` = une seule modalité `closed` → peu informative.
+  6. **Manquants porteurs de sens** : `fault_code` manquant à ~96 %. Croisement : rempli à 100 % pour `corrective` / `sensor replacement`, jamais pour `routine` → imputation par **`NO_FAULT`**.
+  7. **Prestataire** : 30 trous imputés par le mode historique **du site** (1 prestataire par site sur le reste du jeu).
+  8. **Outliers** : uptime / qualité bas **conservés** (expliqués par le type de maintenance).
+  9. **Encodage** : One-Hot de `maintenance_type`, `fault_code`, `maintenance_provider` dans `df_encoded` ; `record_status` écartée ; export `cleaned/..._clean.csv` + `..._clean_encoded.csv`.
+
+---
+
+### 4.2 Bloc 1 : EDA et Statistiques Descriptives
+
+* **Typage** : numériques continues (`uptime_pct`, `acoustic_quality`) ; dates → `year` / `month` / `duration_days` ; nominales non ordonnées (`maintenance_type`, `fault_code`, `maintenance_provider`).
+* **Distributions** : `describe()`, histogrammes, boxplots ; skew négatif sur uptime / qualité (majorité « bonne », traîne de valeurs basses) — plutôt loi de puissance inversée qu'une normale classique. `duration_days` très concentré (~28–31 j, cycle mensuel).
+* **Catégorielles** : barplots `maintenance_type`, `fault_code`, `maintenance_provider` ; interventions non-routine et vrais codes de panne **rares** (~4 %).
+* **Corrélations** : Pearson + Spearman + heatmaps + pairplot ; lien positif attendu `uptime_pct` ↔ `acoustic_quality` ; `duration_days` ne corrèle avec rien. Rappel : **corrélation ≠ causalité** (variable cachée = type de maintenance).
+* **Tableaux croisés** : `maintenance_type` × `fault_code` / × `provider` ; routine ≈ toujours `NO_FAULT` ; corrective / remplacement concentrent les pannes.
+* **Tendances temporelles** : effectifs et moyennes d'uptime / qualité par année et par mois calendaire ; lecture des pics / creux (série 2025 éventuellement tronquée).
+* **Irrégularités visuelles** : extrêmes bas d'uptime/qualité = interventions lourdes ; modalités rares = codes de panne hors `NO_FAULT`.
+
+---
+
+### 4.3 Bloc 2 : Clustering et Réduction de Dimensionnalité
+
+* **Variables retenues** : `uptime_pct`, `acoustic_quality` + One-Hot maintenance / panne / prestataire. Écartés : identifiants, dates, `year` / `month`, `duration_days` (quasi constante).
+* **Standardisation** : `StandardScaler` sur les 2 numériques uniquement (dummies laissées en 0/1).
+* **Choix de $k$** :
+  * Coude : forte baisse d'inertie de $k=2$ à $k=3$, puis ralentissement.
+  * Silhouette : clairement meilleure à **$k=2$ (≈ 0.65)** ; chute nette dès $k=3$ (≈ 0.24).
+  * **Retenu : $k=2$** (meilleure séparation).
+* **CAH (Ward) + dendrogramme** : grand saut avant la dernière fusion ; coupe à $k=2$ ; tailles ≈ 190 / 4800. Tableau croisé K-Means ↔ CAH : **accord ≈ 99,7 %** (13 désaccords seulement) → groupes **stables**.
+* **Typologie des 2 profils** :
+  * 🟢 **Cluster 0 (~4 816, ~96%) — Fonctionnement normal** : uptime ≈ 93.7 %, qualité ≈ 79.6 ; quasi uniquement routine ; `NO_FAULT` ≈ 99.7 %.
+  * 🔴 **Cluster 1 (~176, ~4%) — Panne / maintenance lourde** : uptime ≈ 60.7 %, qualité ≈ 61.8 ; 0 % `NO_FAULT` ; ≈ 70 % corrective + ≈ 30 % `sensor replacement` ; pannes typiques `MICROPHONE_DRIFT`, `STORAGE_LIMIT`, `POWER_INTERRUPTION`.
+* **PCA 2D** : variance expliquée ≈ **47.5 % + 24 % = 71.5 %** ; PC1 tiré surtout par uptime / qualité acoustique ; le petit cluster apparaît nettement à part.
+
+---
+
+### 4.4 Bloc 3 : Détection d'Anomalies, Patterns & Enquête
+
+#### A. Détection Univariée (IQR & Z-Score)
+* Anomalies sur `uptime_pct` / `acoustic_quality` : concentrent les valeurs très basses.
+* Recoupent surtout `corrective maintenance` / `sensor replacement` et les vrais `fault_code` → **extrêmes réels**, pas erreurs de saisie (aligné avec le cluster 1).
+
+#### B. Détection Multivariée (Isolation Forest & LOF)
+* `contamination=0.02` (~100 anomalies chacune) sur `X_scaled` (même matrice que le clustering).
+* **Isolation Forest** : retrouve le profil panne / maintenance lourde ; recoupe très fortement les anomalies stats (≈ 99 / 100).
+* **LOF** : autre chose — surtout `routine inspection` + `NO_FAULT` (combinaisons localement atypiques). Peu de recoupement avec l'étape A.
+* IF ∩ LOF ≈ **1 ligne** $\implies$ méthodes **complémentaires**.
+
+#### C. Extraction de Règles d'Association (`mlxtend` / Apriori)
+* Discrétisation en terciles ; items = région + type maintenance + code panne + uptime/qualité. Prestataire exclu (risque de règles triviales).
+* `min_support=0.01` (les pannes sont rares ; un support 0.03 les masquerait), confiance ≥ 0.5, lift > 1.3.
+* Règles à lift très élevé : ex. `sensor replacement` → `MICROPHONE_DRIFT` ; `STORAGE_LIMIT` → `corrective maintenance` ; souvent associées à uptime/qualité bas.
+* **Bilan** : confirme le lien panne ↔ type d'intervention déjà vu en EDA / clustering, sans nouveau narratif caché.
+
+#### D. Croisement anomalies stats / ML × qualitatives
+* Signaux qualitatifs : `fault_code` ≠ `NO_FAULT`, maintenance non-routine, uptime < 70 %.
+* IF / anomalies stats recoupent massivement ce qualitatif = extrêmes **documentés**.
+* Flags **LOF sans signal qualitatif** = pistes secondaires (cycles routiniers un peu hors norme locale), à inspecter au cas par cas.
+
+---
+
+### 4.5 Bilan du fichier
+
+| Profil | Signature | Lecture |
+| :--- | :--- | :--- |
+| **Normal (~96 %)** | uptime / qualité hauts, routine, `NO_FAULT` | régime standard des capteurs |
+| **Panne (~4 %)** | uptime / qualité bas, corrective / remplacement, vrai `fault_code` | dysfonctionnement technique isolé par clustering + IF + Apriori |
+| **LOF « silencieux »** | souvent routine + `NO_FAULT` | atypie locale sans panne déclarée |
+
+> **Conclusion (rôle de ce fichier) :**  
+> `monitoring_device_operations` documente la **fiabilité des appareils**. Le signal dominant est technique : un petit groupe d'opérations en **panne / maintenance lourde**, stable entre K-Means, CAH, Isolation Forest et les règles d'association.  
+> Ce n'est pas une intrigue « cachée » spectaculaire : c'est la structure naturelle du jeu (≈ 4 % d'interventions non-routine). Utile en transversal pour vérifier si une baisse de mesures sur un site/mois vient d'un **capteur en panne** plutôt que d'un phénomène écologique.
 
 ---
 
@@ -234,4 +319,5 @@ Application de l'algorithme Apriori sur les données discrétisées (selon les S
 * **Épicentre confirmé** : `BAT-0000064` @ `KNT-KES` (05/04/2024) — chute de colonie −65.9 %.
 * **Cause qualitative** : rapport `EFR-510088` (filets cisaillés, traces d'intrusion → enlèvement / braconnage).
 * **Contrôle environnemental** : `environmental_monthly` **innocente le climat** pour ce même site/mois (section 5.5).
-* *Reste à intégrer :* `environmental_field_reports` (fiche 2), `monitoring_device_operations` (fiche 3), et croisement final des 4 sources.
+* **Contrôle capteurs** : `monitoring_device_operations` isole ~4 % d'opérations en panne / maintenance lourde (section 4) — piste pour expliquer d'éventuelles baisses de qualité de mesure, distincte de l'incident Kestrel.
+* *Reste à intégrer :* `environmental_field_reports` (fiche 2) et croisement final des 4 sources.
