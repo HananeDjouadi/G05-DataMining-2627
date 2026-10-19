@@ -29,8 +29,26 @@
 - Seule `clinical_procedures` a une structure nette : 50 procédures isolées (code `MRP-42`), toutes restreintes, chacune avec un matériel distinct. K-Means sur les variables brutes (silhouette 0,63) isole exactement les mêmes 50.
 - Ailleurs, pas de groupes naturels (silhouette < 0,3) : les clusters reflètent des combinaisons de modalités (type de mesure, sexe × statut), pas des profils cachés.
 
-## 3. Pistes pour le bloc 3 (à vérifier)
+## 3. Bloc 3 — Patterns et anomalies
 
-- Les **50 procédures `MRP-42`** (28 patients) correspondent exactement aux consultations `specialist_procedure` (30) et `research_procedure` (20), toutes `restricted`.
+**Méthode.** Règles d'association (Apriori, `mlxtend`) sur les variables catégorielles ; anomalies univariées (IQR, z-score, z modifié) puis multivariées (Isolation Forest, LOF, DBSCAN) sur des variables numériques construites (durées, retards, délais, âges). Chaque anomalie est discutée : valeur rare mais légitime, ou artefact.
+
+| Table | Patterns | Anomalies | Nature |
+|---|---|---|---|
+| `clinical_encounters` | 2 règles seulement, lift ≈ 1,2 : pas de structure | **50 consultations de durée fixe** (20 `research_procedure` à 180 min, 30 `specialist_procedure` à 240 min, toutes restreintes) ; 2 délais de suivi > 1 000 j | Signature de protocole, pas des erreurs |
+| `clinical_notes` (30) | 1 règle fragile (`imaging_report` ⇒ `FAC-VLN-101`, lift 1,47) | **8 notes sur 30 datées avant leur consultation** (jusqu'à −1 249 j) ; CLN-510126 à +2 670 j ; longueurs homogènes | Incohérence de données |
+| `clinical_observation` | `recorded` ⇒ `no_device` (lift 3,4) ; règles triviales sinon | **109 `discordant`** invisibles en univarié : écart apicale − pouls périphérique de 22,5 bpm contre 1,7. Isolation Forest en retrouve 17/109 (groupe trop dense : 10,7 %) | Anomalie contextuelle réelle |
+| `clinical_procedures` | `research_restricted` (lift 15,5) et `restricted_specialist` (lift 10,3) liés à des issues propres à `MRP-42` | Retards constants de 35 et 40 min pour ces 50 procédures ; **2 retards extrêmes** : PRC-000054 (59 j) et PRC-000071 (177 j) | Signature de classe ; 2 vraies anomalies |
+| `patient_administration` | Aucune règle (lift ≥ 1,2) | PAT-31099, PAT-31174, PAT-31183 isolés par les 3 méthodes : dossiers anciens (2014-2015), professions dirigeantes ou politiques | Rares mais plausibles |
+
+**À retenir**
+- Les anomalies univariées sont surtout des **constantes propres à un protocole** (durée, retard) : statistiquement aberrantes, mais pas des erreurs. IQR et MAD se dégradent quand la majorité des valeurs sont identiques (retards de 10 min) ; le z modifié avec repli sur l'écart moyen absolu isole alors les vrais extrêmes.
+- La discordance apicale/périphérique est une anomalie **bivariée** : aucune valeur n'est extrême seule, et les méthodes non supervisées la manquent à 5 % de contamination.
+
+## 4. Pistes pour le bloc 7 (à vérifier)
+
+- Les **50 procédures `MRP-42`** (28 patients) correspondent exactement aux consultations `specialist_procedure` (30) et `research_procedure` (20), toutes restreintes, de durée et de retard fixes, avec des issues qu'aucune autre procédure n'utilise.
 - Les **109 observations `discordant`** portent toutes sur la fréquence **apicale** (35 patients). Deux notes d'imagerie évoquent une « seconde structure cardiaque » : PAT-31065 fait partie des patients discordants ; PAT-31099 (dossier `deceased`) a reçu la procédure `MRP-42`.
 - **2 procédures** réalisées 59 et 177 jours après l'heure planifiée (`PRC-000054`, `PRC-000071`).
+- **8 notes** antérieures à leur consultation : à traiter comme artefact de génération avant toute inférence.
+- **Pistes abandonnées** : règles d'association sur `patient_administration` ; longueur des textes ; délai avant revue des procédures ; queues des scores bornés (`lefteye`, `idcons`...).
