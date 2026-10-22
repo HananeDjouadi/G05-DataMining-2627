@@ -289,6 +289,41 @@ and disturbed sediment along a route not used by the monitoring team.
 
 ---
 
+### 5.6 Bloc 4 : Graphes (similarité environnementale entre sites)
+
+* **Définition** : graphe **non orienté pondéré** — nœuds = 64 `site_code` ; arête si similarité cosinus des profils moyens ≥ 0.6 ; poids = similarité.
+* **Descriptifs** : n = 64, m = 136, densité ≈ 6.7 %, degré moyen ≈ 4.3 ; **pas** de loi de puissance (γ ≈ 0.4).
+* **Centralités** : `KNT-KES` connecté (degré 6) mais betweenness faible (rang ~28) ; `KNT-GGN` = pont fort (betweenness #2).
+* **Communautés** : Louvain Q ≈ 0.58 (meilleur) ; **KNT-KES et KNT-GGN jamais dans la même communauté**.
+* **Process mining** : **non applicable** (fichier ≠ event log).
+
+### 5.7 Bloc 5 : Spatial & Temporel
+
+* **Spatial** : jointure `monitoring_sites` → **64/64** coordonnées (géographie fictive) ; carte ; Moran / LISA / Voronoi **pertinents** (≠ cas à 3 GPS). Moran global peu informatif (3 régions disjointes) ; Moran par région non significatif.
+* **Temporel** : 78 mois (2019-01 → 2025-06) ; STL + ACF sur la pluie (saisonnalité ~12 mois) ; anomalies z-score en fenêtre glissante.
+* **KNT-KES avril 2024** : **aucun** |z_roll| > 3 sur les 6 mesures ; résidu STL pluie faible → mois **ordinaire**.
+* **DTW** : non appliqué (séries déjà alignées) ; K-Means sur profils de pluie recrée les 3 régions.
+
+### 5.8 Bloc 6 : Texte
+
+* **Non applicable** sur ce fichier (pas de champ narratif `text` / `title` / mémo). Documenté dans le notebook pour le rapport. Le corpus textuel ecology reste `environmental_field_reports`.
+
+### 5.9 Récapitulatif type « fiches bat / field reports »
+
+| Métrique | Valeur |
+| :--- | :--- |
+| **Données** | 4 992 relevés × 64 sites (2019–2025) |
+| **Clusters** | 3 profils (secs / humides / perturbés) |
+| **Signal propre** | Sites perturbés récurrents (`KNT-GGN`, `AVL-GRB`) |
+| **CONTRÔLE CLÉ** | **KNT-KES avril 2024 = environnement NORMAL** |
+| **Verdict** | Cause climatique / habitat **écartée** pour `BAT-0000064` |
+
+#### Découverte clé : innocence environnementale de KNT-KES (avril 2024)
+* Code météo **`NORMAL`** ; pas de flag IF/LOF ; z-scores historiques modérés ; graphe = nœud banal.
+* **Traduction** : le crash bats n'a **pas** de signature climatique dans ce fichier → conforte `EFR-510088` (braconnage).
+
+---
+
 ## 6. Synthèse Transversale & Résolution de l'Enquête du Dossier
 
 * **Épicentre confirmé** : `BAT-0000064` @ `KNT-KES` (05/04/2024) — chute de colonie −65.9 %.
