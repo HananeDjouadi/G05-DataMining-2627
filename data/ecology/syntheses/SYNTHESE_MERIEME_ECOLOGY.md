@@ -9,7 +9,7 @@
 - Sources : `../cleaned/monitoring_sites_cleaned.csv` et `../cleaned/orchard_surveys_cleaned.csv`.
 - Les notebooks de nettoyage existants sont conservés ; les nouvelles analyses ne réécrivent aucun CSV brut ou nettoyé.
 - Lancer les cellules dans l'ordre depuis la racine du dépôt ou le dossier du notebook. Dépendances : pandas, numpy, scipy, matplotlib, scikit-learn, IPython/Jupyter.
-- Exports : `<dataset>_anomalies.csv` et `<dataset>_seuils.csv`, dans ce dossier `syntheses/`. Une ligne d'anomalie correspond à une **méthode × variable × observation** ; plusieurs lignes peuvent concerner le même site ou relevé.
+- **Affichage dans les notebooks :** les anomalies et un aperçu des seuils apparaissent directement dans les cellules de résultats ; aucun CSV supplémentaire n’est exporté. Une ligne d’anomalie correspond à une **méthode × variable × observation** ; plusieurs lignes peuvent concerner le même site ou relevé.
 
 ## Méthodes observées dans le groupe et choix retenus
 

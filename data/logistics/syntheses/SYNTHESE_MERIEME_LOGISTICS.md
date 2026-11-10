@@ -7,7 +7,7 @@
 - `../goods_receipts_anomalies.ipynb` : 610 réceptions ; 4 figures enregistrées.
 - `../inventory_adjustments_anomalies.ipynb` : 140 ajustements ; 3 figures enregistrées.
 - Sources : versions `_cleaned.csv` de `../cleaned/`. Aucun nouveau nettoyage ni jointure externe.
-- Les notebooks existants de nettoyage sont conservés. Les analyses s'exécutent depuis le dépôt ou leur dossier et exportent seulement des rapports dans ce dossier `syntheses/`.
+- Les notebooks existants de nettoyage sont conservés. Les résultats (anomalies, seuils et tableau trimestriel) sont affichés directement dans les notebooks, sans création de CSV de résultats.
 
 Les notebooks `inventory_month_end`, `purchase_order_lines`, `shipments` et `health/patterns_anomalies` emploient notamment IQR, Z-score, Z-score modifié, IF/LOF et, pour la santé, DBSCAN. Les nouveaux notebooks reprennent la structure descriptive, les tableaux croisés, les graphiques et les méthodes statistiques adaptées.
 
@@ -44,7 +44,7 @@ Le contrôle conditionnel après BH retient **3 pics**, tous à `FCL-1011` :
 | Juin 2021 | 9 | ≈ 0,000353 |
 | Mars 2022 | 9 | ≈ 0,021735 |
 
-Les identifiants de toutes les réceptions de ces mois sont enregistrés dans le CSV d'anomalies. Vérifier si ces concentrations correspondent à une activité réelle, des saisies groupées ou une couverture particulière.
+Les identifiants des réceptions concernées sont consultables dans les tables affichées par le notebook. Vérifier si ces concentrations correspondent à une activité réelle, des saisies groupées ou une couverture particulière.
 
 ### Attentes qualité
 
@@ -52,7 +52,7 @@ Les identifiants de toutes les réceptions de ces mois sont enregistrés dans le
 - Taux brut le plus élevé : `FCL-1023`, **2/8 = 25 %**. Ce faible dénominateur implique une forte incertitude.
 - **Aucun établissement** ne présente un taux significativement supérieur aux autres au seuil q<0,05 après BH.
 - Les taux trimestriels sont affichés avec effectifs et intervalles. Un trimestre sans réception a un taux manquant, pas zéro.
-- Les taux par établissement **et** trimestre sont aussi détaillés dans `goods_receipts_qualite_trimestrielle.csv` ; une carte thermique représente les six établissements les plus documentés sur les douze derniers trimestres, avec chaque dénominateur.
+- Les taux par établissement **et** trimestre sont conservés dans la variable `quality_table` (aperçu affiché dans le notebook) ; une carte thermique représente les six établissements les plus documentés sur les douze derniers trimestres, avec chaque dénominateur.
 
 **Conclusion :** trois pics de fréquence méritent une vérification documentaire. Aucun signal statistique suffisamment étayé ne permet ici de qualifier un établissement de particulièrement défaillant sur la qualité.
 
@@ -88,9 +88,9 @@ L'union de ces lectures signale **23 ajustements**, ce qui ne veut pas dire 23 m
 
 **Conclusion :** la structure dominante des consommables médicaux (nombreuses petites diminutions) explique une partie des signaux. Relire les sept amplitudes, leurs motifs et les conventions de stock ; ne pas inverser un signe parce qu'un motif paraît surprenant.
 
-## Lecture des fichiers exportés
+## Lecture des tableaux affichés dans les notebooks
 
-Pour chaque dataset, `<dataset>_anomalies.csv` contient les détections, scores, bornes, groupe de référence, méthode et interprétation possible. `*_seuils.csv` conserve les seuils, y compris les méthodes non évaluables.
+Pour chaque dataset, le registre `register` affiché dans le notebook contient les détections, scores, bornes, groupe de référence, méthode et interprétation possible. Les règles et seuils sont affichés à la suite du registre (aperçu des premières lignes). Aucun fichier CSV d’anomalies ou de seuils n’est créé.
 
 - `echelle_seuil=valeur` : les bornes concernent la mesure brute (IQR, Z et Z modifié).
 - `echelle_seuil=score` : lire la règle et le score (q<0,05 pour les tests exacts).
