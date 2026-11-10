@@ -1,0 +1,31 @@
+groupe,variable,methode,borne_basse,borne_haute,n_reference,regle,echelle_seuil
+region=Eastern Avelora Agricultural Cluster,distance_centre_km,IQR,-10.339153744369687,54.621395685209976,22,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Eastern Avelora Agricultural Cluster,distance_centre_km,Z-score,-14.52953108100754,62.30722745433771,22,|z| > 3,valeur
+region=Eastern Avelora Agricultural Cluster,distance_centre_km,Z-modifie,-21.023961756997174,66.91291481107592,22,|z_mod| > 3.5,valeur
+region=Eastern Avelora Agricultural Cluster,distance_voisin_km,IQR,-2.380776323693736,19.04157902639578,22,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Eastern Avelora Agricultural Cluster,distance_voisin_km,Z-score,-5.944431018294642,23.423683826865883,22,|z| > 3,valeur
+region=Eastern Avelora Agricultural Cluster,distance_voisin_km,Z-modifie,-2.8813201393009376,15.456216248937443,22,|z_mod| > 3.5,valeur
+region=Eastern Avelora Agricultural Cluster,elevation_m,IQR,-94.75000000000003,426.85,22,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Eastern Avelora Agricultural Cluster,elevation_m,Z-score,-102.03228664029297,418.55955936756567,22,|z| > 3,valeur
+region=Eastern Avelora Agricultural Cluster,elevation_m,Z-modifie,-197.13628613787992,515.8362861378799,22,|z_mod| > 3.5,valeur
+region=Kintara Karst Cluster,distance_centre_km,IQR,-19.790818304326212,61.7361713857444,22,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Kintara Karst Cluster,distance_centre_km,Z-score,-19.397898377115673,59.1446821009878,22,|z| > 3,valeur
+region=Kintara Karst Cluster,distance_centre_km,Z-modifie,-28.547973579086246,55.47837737599204,22,|z_mod| > 3.5,valeur
+region=Kintara Karst Cluster,distance_voisin_km,IQR,-6.4302773298904174,18.28384538486496,22,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Kintara Karst Cluster,distance_voisin_km,Z-score,-17.181851738448138,34.43448361963728,22,|z| > 3,valeur
+region=Kintara Karst Cluster,distance_voisin_km,Z-modifie,-10.401618299885827,20.39770522119654,22,|z_mod| > 3.5,valeur
+region=Kintara Karst Cluster,elevation_m,IQR,-61.2,417.20000000000005,21,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Kintara Karst Cluster,elevation_m,Z-score,-96.18193661964324,470.296222333929,21,|z| > 3,valeur
+region=Kintara Karst Cluster,elevation_m,Z-modifie,-108.48806523350626,489.28806523350625,21,|z_mod| > 3.5,valeur
+region=Tembara Coastal Cluster,distance_centre_km,IQR,-35.5055756373429,92.58720191612932,20,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Tembara Coastal Cluster,distance_centre_km,Z-score,-25.004618136427453,78.19986436368006,20,|z| > 3,valeur
+region=Tembara Coastal Cluster,distance_centre_km,Z-modifie,-35.87143198071847,81.39974547975716,20,|z_mod| > 3.5,valeur
+region=Tembara Coastal Cluster,distance_voisin_km,IQR,-3.106115322349015,20.61500921108204,20,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Tembara Coastal Cluster,distance_voisin_km,Z-score,-8.237290606295524,26.913881856696356,20,|z| > 3,valeur
+region=Tembara Coastal Cluster,distance_voisin_km,Z-modifie,-5.188804773855846,20.16986128750008,20,|z_mod| > 3.5,valeur
+region=Tembara Coastal Cluster,elevation_m,IQR,-183.77499999999998,319.625,20,hors Q1−1.5×IQR ; Q3+1.5×IQR,valeur
+region=Tembara Coastal Cluster,elevation_m,Z-score,-178.44828502120833,368.91828502120836,20,|z| > 3,valeur
+region=Tembara Coastal Cluster,elevation_m,Z-modifie,-330.07627872498153,505.8762787249816,20,|z_mod| > 3.5,valeur
+Eastern Avelora Agricultural Cluster,latitude + longitude (Haversine),LOF_k5,-inf,1.5,22,LOF > 1.5 ; k=5 ; sensibilité k=3/8,score
+Kintara Karst Cluster,latitude + longitude (Haversine),LOF_k5,-inf,1.5,22,LOF > 1.5 ; k=5 ; sensibilité k=3/8,score
+Tembara Coastal Cluster,latitude + longitude (Haversine),LOF_k5,-inf,1.5,20,LOF > 1.5 ; k=5 ; sensibilité k=3/8,score
