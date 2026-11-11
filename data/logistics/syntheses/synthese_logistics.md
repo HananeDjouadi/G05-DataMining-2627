@@ -361,6 +361,34 @@ FCL-1010 (hub)
 
 ## 11. Conclusion
 
+### Ce que l'enquête logistics montre, en clair
+
+#### Qui est au centre ?
+**FCL-1010** (Asterion).  
+C'est le site qui revient partout : gros stocks médicaux, beaucoup de commandes, et beaucoup d'expéditions qui arrivent chez lui.
+
+#### Qui gère ce site ?
+**BP-30021**.  
+Dans l'ERP, c'est lui qui **opère** FCL-1010, et son statut partenaire est **`review`** (à surveiller).
+
+#### Point important
+Il n'y a **aucune commande d'achat** directe entre BP-30021 et FCL-1010.  
+Donc leur lien n'est pas « il lui vend via une PO », mais plutôt « il gère / est lié au site ».
+
+#### D'où viennent les gros flux ?
+Souvent de **FCL-1011** (le siège / bureau).  
+Ce site n'est déclaré que comme un **office** (pas un entrepôt), pourtant il envoie beaucoup de matériel vers FCL-1010, surtout des consommables médicaux.
+
+#### Est-ce une preuve de fraude ?
+**Non.**  
+Les données montrent des **signaux forts** (hub de stock, flux lourds, partenaire en review, corridor inhabituel).  
+Mais ça ne prouve pas à lui seul une intention frauduleuse. Il faut encore vérifier cas par cas (expéditions, réceptions, ajustements).
+
+#### En résumé
+**FCL-1010 accumule le matériel médical. BP-30021 le gère et est signalé dans l'ERP. FCL-1011 l'alimente de façon atypique. Leur lien ne passe pas par une commande d'achat directe.**
+
+### Points techniques à garder
+
 1. **FCL-1010 est le hub logistics** : stock médical lourd, achats nombreux, destination majeure des expéditions signalées.
 2. **BP-30021** est l'opérateur du site et un partenaire en **`review`** ; le lien n'est **pas** une PO directe.
 3. **FCL-1011** apparaît comme émetteur atypique (office sans stockage déclaré, pics de réceptions, corridor vers FCL-1010).
