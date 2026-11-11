@@ -1,6 +1,6 @@
 # Rapport écologie : anomalies détectées
 
-Quatre fichiers ont été analysés : `bat_surveys`, `environmental_monthly`, `monitoring_device_operations`, `environmental_field_reports`. Chaque anomalie est présentée avec sa méthode, les chiffres issus du notebook, et les figures qui les appuient. Les figures sont dans `../figures/` et sont extraites des sorties des notebooks.
+Six fichiers ont été analysés : `bat_surveys`, `environmental_monthly`, `monitoring_device_operations`, `environmental_field_reports`, `monitoring_sites`, `orchard_surveys`. Chaque anomalie est présentée avec sa méthode, les chiffres issus du notebook, et les figures qui les appuient. Les figures sont dans `../figures/` et sont extraites des sorties des notebooks.
 
 ---
 
@@ -8,16 +8,41 @@ Quatre fichiers ont été analysés : `bat_surveys`, `environmental_monthly`, `m
 
 - **Une baisse de 65,9 % à KNT-KES en avril 2024** (`BAT-0000064`) coïncide avec un rapport d'intrusion (`EFR-510088`) le même mois. Elle n'est signalée par aucune méthode du notebook : le z-score contextuel vaut -0,86.
 - **D'autres anomalies sont présentes dans `bat_surveys`** : un creux en avril 2021 à KNT-KES, 13 mois KNT-KES signalés par la fenêtre glissante, 181 relevés contextuels et 100 relevés Isolation Forest.
-- **Les trois autres fichiers** signalent des anomalies locales : sites perturbés (`environmental_monthly`), pannes de capteurs (`monitoring_device_operations`), rapports qualité capteur (`environmental_field_reports`).
+- **Les autres fichiers** signalent des anomalies locales : sites perturbés (`environmental_monthly`), pannes de capteurs (`monitoring_device_operations`), rapports qualité capteur (`environmental_field_reports`), sites géographiquement isolés (`monitoring_sites`), relevés de vergers atypiques (`orchard_surveys`).
+- **`monitoring_sites`** : 8 sites signalés (isolement / altitude), sans erreur de coordonnées démontrée.
+- **`orchard_surveys`** : 64 relevés signalés au total ; plus forte baisse annuelle −54,55 % (AVL-HUA, août 2021). Association exploratoire vergers ↔ chauves-souris modeste (Spearman ≈ 0,15–0,20), non causale.
 - **Le lien entre la baisse et l'intrusion n'est pas démontré.** Les données montrent une coïncidence de date.
+
+---
+
+## Ce que ce dossier apporte à l'enquête
+
+### Qui est au centre ?
+**KNT-KES en avril 2024.**  
+Les colonies de chauves-souris chutent de **−65,9 %** par rapport à avril 2023 (`BAT-0000064`).
+
+### Qu'est-ce qui tombe le même mois ?
+Un rapport de terrain (`EFR-510088`) décrit une **intrusion** (filets / matériel coupés).  
+Les données montrent une **coïncidence de date**, pas une preuve que l'intrusion a causé la baisse.
+
+### Est-ce un capteur cassé ou la météo ?
+**Non d'après les fichiers.**  
+À cette date, l'environnement de KNT-KES est dans sa plage habituelle, et le capteur est en routine sans panne.
+
+### Et les sites / vergers ?
+Ils montrent des sites isolés et des relevés agricoles atypiques, plus une association **modeste** vergers ↔ chauves-souris.  
+Cela **n'explique pas** la baisse de KNT-KES.
+
+### En résumé
+**La baisse à KNT-KES est réelle. Elle coïncide avec une intrusion documentée. Environnement et capteur sont normaux. Sites et vergers n'apportent pas de cause alternative démontrée.**
 
 ---
 
 ## 1. Démarche commune
 
 - **Nettoyage** : valeurs manquantes traitées au cas par cas (inférence par site, codes d'absence, suppression de doublons exacts). Valeurs extrêmes conservées quand elles correspondent à des réalités écologiques.
-- **Détection** : Isolation Forest et LOF (`contamination=0,02`) pour le multivarié ; IQR et z-score pour l'univarié ; z-score contextuel par site (|z| > 2) ; fenêtre glissante de 12 mois sur la série KNT-KES.
-- **Clustering** : K-Means avec choix de k par silhouette.
+- **Détection** : Isolation Forest et LOF (`contamination=0,02`) pour le multivarié ; IQR et z-score pour l'univarié ; z-score contextuel par site (|z| > 2) ; fenêtre glissante de 12 mois sur la série KNT-KES. Pour sites / vergers : IQR/Z/Z modifié régionaux ou saisonniers, LOF régional, distances Haversine.
+- **Clustering** : K-Means avec choix de k par silhouette (et k=2 descriptif sur les 16 vergers).
 
 ---
 
@@ -247,7 +272,103 @@ KNT-KES en avril 2024 : opération de routine, code `NO_FAULT`, z-score de l'upt
 
 ---
 
-## 7. Croisement des anomalies
+## 7. Fichier `monitoring_sites`
+
+Source principale : `monitoring_sites_anomalies.ipynb`.
+
+### 7.1 Choix techniques
+
+- **64 sites**, aucune suppression. Une altitude manquante (`KNT-CYP`) ; dates de fin absentes (programmes actifs).
+- Distances **Haversine** en km ; IQR / Z / Z modifié **par région** ; LOF régional (k=5, seuil 1,5 ; sensibilité k=3 et 8).
+- Graphe de proximité régionale (seuils 15 / 25 / 35 km) en complément.
+- Cartes schématiques : lieux fictifs, pas de géocodage externe.
+
+### 7.2 Anomalies
+
+**A.** 7 sites signalés par au moins une méthode statistique régionale ; LOF k=5 en signale 5. Union = **8 sites**, pour 20 détections méthode/variable.
+
+| Exemple | Mesure | Lecture |
+|---|---|---|
+| `AVL-ARU` | Voisin régional le plus proche à 24,77 km ; Z ≈ 3,28 | Isolement relatif |
+| `KNT-YRX` | Voisin à 30,41 km ; LOF ≈ 3,73 | Site périphérique |
+| `KNT-CHP` | Altitude 418,8 m ; borne IQR haute 417,2 m | Dépassement très faible |
+| `TMB-UVF` | Voisin à 23,13 km ; LOF ≈ 2,82 | Isolement relatif |
+
+**B.** LOF k=5 : `KNT-YRX`, `KNT-CHP`, `KNT-TEX`, `TMB-CKU`, `TMB-UVF`.
+
+**C.** Aucune coordonnée hors limites physiques, aucun doublon lat/long exact, aucun site plus proche du centre d'une autre région que du sien.
+
+**D. Graphe (seuil 25 km)** : Avelora et Tembara connectées ; Kintara en 3 composantes, avec `KNT-CHP` et `KNT-YRX` isolés. À 35 km, les régions se reconnectent.
+
+### 7.3 Preuves
+
+![Carte / isolement](../figures/monitoring_sites_anomalies_019_1.png)
+
+*Visualisation des sites et signaux d'isolement (cellule 19).*
+
+![LOF / statistiques](../figures/monitoring_sites_anomalies_023_1.png)
+
+*Scores / détections régionales (cellule 23).*
+
+![Graphe de proximité](../figures/monitoring_sites_anomalies_043_1.png)
+
+*Graphe de proximité régionale (cellule 43).*
+
+**Conclusion fichier :** des sites localement inhabituels existent, mais **aucune erreur physique de coordonnées** n'est démontrée. Cela n'explique pas la baisse de KNT-KES en avril 2024.
+
+---
+
+## 8. Fichier `orchard_surveys`
+
+Source principale : `orchard_surveys_anomalies.ipynb`.
+
+### 8.1 Choix techniques
+
+- **1 248** relevés : 16 sites × 78 mois (janv. 2019–juin 2025), séries continues.
+- Rendement en **kg/ha** par relevé mensuel ; référence saisonnière leave-one-year-out par site et mois.
+- IQR / Z / Z modifié sur résidus ; IF / LOF (contamination 2 %) sur six résidus standardisés par site.
+- ACP + K-Means descriptif des 16 vergers (k=2 retenu).
+- Rapprochement exploratoire avec `bat_surveys` sur `(site_code, mois)`.
+
+### 8.2 Anomalies
+
+**A.** 35 relevés contextuels IQR/Z/Z modifié ; 25 IF et 25 LOF (**12 communs**). Union = **64 relevés** (106 détections méthode/variable).
+
+**B. Exemples**
+
+| Relevé | Site | Date | Signal |
+|---|---|---|---|
+| `ORC-0000812` | AVL-HUA | 2021-08 | −54,55 % vs août 2020 (plus forte baisse annuelle) |
+| `ORC-0000449` | AVL-GRB | 2023-11 | fructification 28,7 %, Z résidu ≈ −3,27 |
+| `ORC-0000532` | AVL-ECJ | 2024-04 | rendement ≈ 1 553,55 kg/ha, Z résidu ≈ +3,14 |
+
+**C. vs chauves-souris (exploratoire)** : 1 248 / 1 248 relevés appariés sur 16 sites. Spearman rendement ↔ bats/heure ≈ **0,146** ; fructification ↔ bats/heure ≈ **0,195**. Association **modeste**, non causale.
+
+**D. Clustering sites** : k=2 (8+8 vergers) ; rendements moyens ≈ 1 087 vs 995 kg/ha. Descriptive seulement.
+
+### 8.3 Preuves
+
+![Séries / résidus](../figures/orchard_surveys_anomalies_019_1.png)
+
+*Séries ou résidus de rendement (cellule 19).*
+
+![Anomalies IF/LOF](../figures/orchard_surveys_anomalies_027_1.png)
+
+*Détections IF / LOF sur les résidus (cellule 27).*
+
+![Profils vergers](../figures/orchard_surveys_anomalies_044_1.png)
+
+*ACP / profils des 16 vergers (cellule 44).*
+
+![Association bats](../figures/orchard_surveys_anomalies_048_1.png)
+
+*Rapprochement exploratoire vergers / chauves-souris (cellule 48).*
+
+**Conclusion fichier :** les relevés signalés sont des variations locales. Les données **ne permettent pas** d'attribuer la baisse de KNT-KES à un effet verger / pollinisation.
+
+---
+
+## 9. Croisement des anomalies
 
 ```
 BAT-0000064 (bat_surveys)                     baisse -65,9 % vs avril 2023, KNT-KES
@@ -257,30 +378,59 @@ BAT-0000064 (bat_surveys)                     baisse -65,9 % vs avril 2023, KNT-
    │
    ├── environmental_monthly (KNT-KES)        environnement normal → pas de cause climatique
    │
-   └── monitoring_device_operations (KNT-KES) capteur fonctionnel → pas de panne technique
+   ├── monitoring_device_operations (KNT-KES) capteur fonctionnel → pas de panne technique
+   │
+   ├── monitoring_sites                       pas d'erreur GPS démontrée ; sites isolés ailleurs
+   │
+   └── orchard_surveys                        variations locales ; pas de cause pour KNT-KES
 ```
 
 | Fichier | Anomalies | Lien avec les autres fichiers |
 |---|---|---|
-| `bat_surveys` | creux 2021 et baisse 2024 à KNT-KES ; 13 mois KNT-KES ; 181 contextuels ; 100 IF ; 100 LOF | Aucun lien documenté hors EFR-510088 |
+| `bat_surveys` | creux 2021 et baisse 2024 à KNT-KES ; 13 mois KNT-KES ; 181 contextuels ; 100 IF ; 100 LOF | Lien documenté avec EFR-510088 |
 | `environmental_monthly` | 85 lignes, dont 37 sur KNT-GGN | Sites perturbés, sans lien avec la faune mesurée |
-| `monitoring_device_operations` | 196 lignes, pannes réelles | Pas d'anomalie écologique |
-| `environmental_field_reports` | 5 hors EFR-510088 | Deux rapports qualité capteur sur KNT-VXR |
+| `monitoring_device_operations` | 196 lignes, pannes réelles | Pas d'anomalie écologique en avril 2024 à KNT-KES |
+| `environmental_field_reports` | 6 anomalies, dont EFR-510088 | Deux rapports qualité capteur sur KNT-VXR |
+| `monitoring_sites` | 8 sites signalés (isolement / altitude) | Référentiel spatial ; pas de cause de la baisse |
+| `orchard_surveys` | 64 relevés signalés ; corr. bats modeste | Piste agricole exploratoire, non démontrée |
 
 ---
 
-## 8. Conclusion
+## 10. Conclusion
+
+### Ce que l'enquête ecology montre, en clair
+
+#### Qui est au centre ?
+**KNT-KES en avril 2024.**  
+Les colonies de chauves-souris chutent de **−65,9 %** par rapport à avril 2023 (`BAT-0000064`).
+
+#### Qu'est-ce qui tombe le même mois ?
+Un rapport de terrain (`EFR-510088`) décrit une **intrusion** (filets / matériel coupés).  
+Les données montrent une **coïncidence de date**, pas une preuve que l'intrusion a causé la baisse.
+
+#### Est-ce un capteur cassé ou la météo ?
+**Non d'après les fichiers.**  
+À cette date, l'environnement de KNT-KES est dans sa plage habituelle, et le capteur est en routine sans panne.
+
+#### Et les sites / vergers ?
+Ils montrent des sites isolés et des relevés agricoles atypiques, plus une association **modeste** vergers ↔ chauves-souris.  
+Cela **n'explique pas** la baisse de KNT-KES.
+
+#### En résumé
+**La baisse à KNT-KES est réelle. Elle coïncide avec une intrusion documentée. Environnement et capteur sont normaux. Sites et vergers n'apportent pas de cause alternative démontrée.**
+
+### Points techniques à garder
 
 1. **La baisse de KNT-KES en avril 2024 (-65,9 %) est réelle**, mais elle n'est pas signalée par les modèles du notebook et se situe dans la variabilité de la série : 2021 présente un creux comparable.
 2. **Le notebook signale d'autres anomalies** : 13 mois KNT-KES (baisses et hausses), 181 relevés contextuels (161 hausses), 100 relevés Isolation Forest dont les plus extrêmes sont à TMB-BRC.
 3. **L'intrusion documentée (`EFR-510088`) tombe le même mois** que la baisse. C'est une coïncidence de date, documentée mais non démontrée.
 4. **Environnement et capteurs sont normaux** en avril 2024 : aucune cause technique ou climatique n'est identifiée.
-5. **Les anomalies des autres fichiers sont locales** (sites perturbés, pannes de capteurs, rapports qualité) et ne sont pas reliées à la baisse.
+5. **`monitoring_sites` et `orchard_surveys`** ajoutent des signaux locaux (isolement, rendements atypiques) sans expliquer la baisse.
 6. **Pour confirmer le lien**, il faudrait davantage de rapports d'intrusion reliés à des relevés, et comparer les baisses des sites avec et sans intrusion.
 
 ---
 
-## 9. Index des figures
+## 11. Index des figures
 
 | Figure | Source (cellule) | Ce qu'elle montre |
 |---|---|---|
@@ -299,3 +449,10 @@ BAT-0000064 (bat_surveys)                     baisse -65,9 % vs avril 2023, KNT-
 | `monitoring_device_operations_146_1.png` | monitoring (146) | Décomposition STL de l'uptime |
 | `environmental_field_reports_096_1.png` | field_reports (096) | ACP 2D des rapports et anomalies |
 | `environmental_field_reports_111_1.png` | field_reports (111) | Anomalies par site |
+| `monitoring_sites_anomalies_019_1.png` | monitoring_sites (19) | Carte / isolement des sites |
+| `monitoring_sites_anomalies_023_1.png` | monitoring_sites (23) | Scores LOF / stats régionales |
+| `monitoring_sites_anomalies_043_1.png` | monitoring_sites (43) | Graphe de proximité |
+| `orchard_surveys_anomalies_019_1.png` | orchard_surveys (19) | Séries / résidus de rendement |
+| `orchard_surveys_anomalies_027_1.png` | orchard_surveys (27) | Anomalies IF / LOF |
+| `orchard_surveys_anomalies_044_1.png` | orchard_surveys (44) | ACP / profils des vergers |
+| `orchard_surveys_anomalies_048_1.png` | orchard_surveys (48) | Rapprochement vergers / chauves-souris |
