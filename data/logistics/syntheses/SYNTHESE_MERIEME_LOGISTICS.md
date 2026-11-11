@@ -1,128 +1,170 @@
-# Contribution Merieme — anomalies des réceptions et ajustements
+# SYNTHÈSE LOGISTICS — RÉCEPTIONS ET AJUSTEMENTS DE STOCK
 
-État vérifié le 25 octobre 2026. Complément autonome ; la synthèse collective et le notebook local `analyse_logistics.ipynb` sont préservés.
+**Master 2 Data Science — Groupe 05 | Année 2026–2027**
 
-## Organisation et méthode
+Cette synthèse résume nos deux notebooks : `goods_receipts_anomalies.ipynb` et `inventory_adjustments_anomalies.ipynb`. Les détails des calculs et les graphiques sont conservés dans les notebooks.
 
-- `../goods_receipts_anomalies.ipynb` : 610 réceptions ; 4 figures enregistrées.
-- `../inventory_adjustments_anomalies.ipynb` : 140 ajustements ; 3 figures enregistrées.
-- Sources : versions `_cleaned.csv` de `../cleaned/`. Aucun nouveau nettoyage ni jointure externe.
-- Les notebooks existants de nettoyage sont conservés. Les résultats (anomalies, seuils et tableau trimestriel) sont affichés directement dans les notebooks, sans création de CSV de résultats.
+## SYNTHÈSE EXÉCUTIVE
 
-Les notebooks `inventory_month_end`, `purchase_order_lines`, `shipments` et `health/patterns_anomalies` emploient notamment IQR, Z-score, Z-score modifié, IF/LOF et, pour la santé, DBSCAN. Les nouveaux notebooks reprennent la structure descriptive, les tableaux croisés, les graphiques et les méthodes statistiques adaptées.
+| Aspect | Résultat principal |
+| :--- | :--- |
+| **Données étudiées** | 610 réceptions de marchandises et 140 ajustements de stock |
+| **Réceptions en attente qualité** | 34/610, soit **5,57 %** |
+| **Pics de réceptions** | **3 mois** retenus après correction BH, tous à `FCL-1011` |
+| **Taux qualité anormal par établissement** | **Aucun** retenu après correction BH |
+| **Ajustements atypiques sur les quantités** | **23 ajustements**, dont **7 grandes amplitudes** dans `medical_consumables / case` |
+| **Pics mensuels d’ajustements** | Aucun pic retenu après correction BH |
+| **Chronologie des références** | **21 ajustements** citent une réception ou expédition datée après l’ajustement |
+| **Analyses exploratoires ajoutées** | Pearson/Spearman, nuages de points, ACF, STL et graphe des références |
 
-Les identifiants ne deviennent pas des mesures numériques. Les quantités de catégories/unités différentes ne sont jamais additionnées dans un indicateur global.
+**Idée principale :** les méthodes nous aident à repérer des périodes, établissements ou ajustements à vérifier. Elles ne permettent pas, à elles seules, d'affirmer qu'il existe une erreur de saisie ou une livraison manquante.
 
-### Compléments justifiés pour les effectifs
+## Sommaire
 
-Les quantités continues ne suivent pas le même mécanisme que des comptes mensuels souvent nuls ou des proportions à petits dénominateurs. En complément des seuils IQR/Z du groupe :
+1. [Goods receipts — réceptions](#1-goods-receipts--réceptions)
+2. [Inventory adjustments — mouvements de stock](#2-inventory-adjustments--mouvements-de-stock)
+3. [Connexion entre les deux fichiers](#3-connexion-entre-les-deux-fichiers)
+4. [Bilan transversal](#4-bilan-transversal)
 
-- **Pic mensuel** : comparaison aux 12 mois précédents. Sous hypothèse de taux constant et d'expositions mensuelles égales, conditionnellement au total des 13 mois, le compte courant suit Binomiale(total, 1/13). Test unilatéral, puis Benjamini–Hochberg (BH), q<0,05, sur toutes les fenêtres évaluables du fichier.
-- **Taux qualité par établissement** : test exact de Fisher, unilatéral, contre les autres établissements ; BH sur tous les établissements. Les intervalles de Wilson à 95 % montrent l'incertitude des proportions.
-- Les mois sans événement entre première et dernière observation valent zéro **sous hypothèse de couverture continue**. Les mois aux bords des historiques sont exclus des tests, ainsi que les fenêtres dont l'historique n'a pas 12 mois internes complets.
-- Les seuils IQR/MAD nuls et les groupes trop petits sont explicitement non évaluables ; pas de division par zéro ni de quota forcé.
+---
 
-Ces compléments ne prouvent pas une causalité. Des ouvertures d'établissements, changements de collecte, dépendances entre événements ou saisons peuvent expliquer des différences.
+## 1. GOODS RECEIPTS — RÉCEPTIONS
 
-## 1. Goods receipts
+### 1.1 Prétraitement et exploration
 
-### Audit
+Le fichier nettoyé contient **610 réceptions** (612 dans le fichier brut), entre juillet 2014 et juin 2025. Les lignes sont uniques et les dates et quantités ont été contrôlées dans le notebook de nettoyage, qui reste séparé.
 
-610 lignes uniques après le nettoyage précédent (612 brutes). Les dates et quantités sont exploitables. Quatre inspections restent inconnues, mais `receipt_status` est renseigné pour chaque réception et définit le taux étudié.
+- `receipt_status` permet de distinguer les réceptions `posted` et `quality_hold`.
+- **34 réceptions** sont en `quality_hold` (**5,57 %**).
+- Quatre valeurs d'`inspection_status` ne sont pas renseignées ; elles restent inconnues, sans imputation.
+- `FCL-1011` est l'établissement avec le plus de réceptions (**133**), suivi de `FCL-1007` (**76**) et `FCL-1010` (**61**).
 
-### Fréquences
+**Notre choix :** calculer les taux d'attente qualité avec leur nombre de réceptions. Un taux de 25 % sur seulement 8 réceptions (`FCL-1023` : 2/8) n'a pas la même précision qu'un taux calculé sur plus de 100 réceptions. Les intervalles de Wilson permettent de visualiser cette incertitude.
 
-`FCL-1011` compte 133 réceptions, devant `FCL-1007` (76) et `FCL-1010` (61). Ce classement mesure l'activité enregistrée, pas un dysfonctionnement.
+**Corrélations et graphiques :** les matrices Pearson/Spearman et les nuages de points comparent, sur les 30 établissements, le nombre de réceptions, les mois actifs, les réceptions par mois actif et le taux d'attente qualité. Le nombre de réceptions et les mois actifs sont mécaniquement liés en partie ; les taux de qualité sont fragiles pour les petits établissements.
 
-IQR/Z signalent **113 mois distincts**, principalement à cause des comptes très faibles et de nombreuses valeurs zéro. Ce grand nombre n'est pas traité comme une preuve de 113 problèmes.
+### 1.2 Bloc 2 — Clustering et réduction de dimension
 
-Le contrôle conditionnel après BH retient **3 pics**, tous à `FCL-1011` :
+Les **30 établissements** sont comparés selon leur nombre de réceptions, leurs mois actifs, leur activité moyenne et leur taux de `quality_hold`. Les volumes sont transformés en logarithme puis les variables standardisées.
 
-| Mois | Réceptions | q ajusté BH |
-|---|---:|---:|
-| Mai 2018 | 6 | ≈ 0,000353 |
-| Juin 2021 | 9 | ≈ 0,000353 |
-| Mars 2022 | 9 | ≈ 0,021735 |
+| Profil K-Means | Établissements | Ce qu’on observe |
+| :--- | ---: | :--- |
+| Cluster 0 | 16 | Peu de réceptions (médiane **5,5**) |
+| Cluster 1 | 9 | Activité plus importante (médiane **37** réceptions) |
+| Cluster 2 | 5 | Volume limité, mais attente qualité médiane plus élevée (**14,3 %**) |
 
-Les identifiants des réceptions concernées sont consultables dans les tables affichées par le notebook. Vérifier si ces concentrations correspondent à une activité réelle, des saisies groupées ou une couverture particulière.
+K-Means retient **3 groupes**. La CAH donne une partition proche (**ARI = 0,883**). Le dendrogramme, l'ACP et t-SNE permettent de visualiser ces profils.
 
-### Attentes qualité
+**Interprétation :** le troisième groupe ne représente pas automatiquement des établissements en difficulté. Certains ont très peu de réceptions : les proportions sont donc instables.
 
-- **34/610 = 5,57 %** des réceptions sont en `quality_hold`.
-- Taux brut le plus élevé : `FCL-1023`, **2/8 = 25 %**. Ce faible dénominateur implique une forte incertitude.
-- **Aucun établissement** ne présente un taux significativement supérieur aux autres au seuil q<0,05 après BH.
-- Les taux trimestriels sont affichés avec effectifs et intervalles. Un trimestre sans réception a un taux manquant, pas zéro.
-- Les taux par établissement **et** trimestre sont conservés dans la variable `quality_table` (aperçu affiché dans le notebook) ; une carte thermique représente les six établissements les plus documentés sur les douze derniers trimestres, avec chaque dénominateur.
+### 1.3 Bloc 3 — Détection d’anomalies
 
-**Conclusion :** trois pics de fréquence méritent une vérification documentaire. Aucun signal statistique suffisamment étayé ne permet ici de qualifier un établissement de particulièrement défaillant sur la qualité.
+**Fréquences :** les tests IQR/Z signalent **113 mois-établissement distincts**, mais les séries sont très clairsemées et contiennent beaucoup de zéros. Ce nombre ne signifie pas 113 incidents.
 
-## 2. Inventory adjustments
+**Complément temporel ACF/STL :** une série mensuelle globale couvre **132 mois**, dont **16 sans réception enregistrée**. Une ACF à 24 décalages et une décomposition STL (période annuelle de 12 mois) visualisent la dépendance entre mois, la tendance, la saisonnalité et les résidus. Les zéros désignent une absence de ligne dans cette extraction : on ne sait pas si l'établissement était ouvert ou correctement couvert. **Les résidus STL ne sont donc pas considérés comme des anomalies confirmées.**
 
-### Audit et fréquences
+Nous avons aussi comparé chaque mois aux 12 mois précédents, avec un test conditionnel binomial puis une correction de Benjamini–Hochberg (BH). Trois pics restent retenus :
 
-140 lignes uniques, dont **89 diminutions** et **51 augmentations**. Un rôle d'approbation manque ; 117 références de réception et 103 références d'expédition sont vides et restent conservées.
+| Établissement | Mois | Réceptions | q ajusté BH |
+| :--- | :--- | ---: | ---: |
+| `FCL-1011` | Mai 2018 | 6 | ≈ 0,000353 |
+| `FCL-1011` | Juin 2021 | 9 | ≈ 0,000353 |
+| `FCL-1011` | Mars 2022 | 9 | ≈ 0,021735 |
 
-`FCL-1010` est le plus représenté avec 20 ajustements. Cela ne fournit aucun taux rapporté au stock ou aux réceptions : le dénominateur d'activité n'est pas dans ce fichier.
+**Qualité :** le test exact de Fisher, suivi de BH, ne retient **aucun établissement** avec un taux d'attente qualité supérieur aux autres au seuil q<0,05. Les taux par trimestre sont visualisés avec les effectifs et une carte thermique.
 
-31 mois sont signalés par le Z-score descriptif, mais **aucun pic de fréquence ne subsiste au seuil q<0,05** après le test conditionnel et BH. Les signaux de Z sur des séries très creuses doivent être interprétés avec prudence.
+**Autres méthodes :** Isolation Forest, LOF et DBSCAN comparent les profils des établissements. Elles signalent des profils inhabituels, pas des erreurs confirmées. Avec Apriori, **52 ensembles fréquents et 5 règles** sont trouvés ; les associations concernent notamment l'unité `service` et les volumes élevés, sans interprétation causale.
 
-### Quantités : trois lectures à distinguer
+### 1.4 Vérification avec les commandes
 
-1. Quantité signée par catégorie/unité : les deux queues peuvent inclure des augmentations rares dans un groupe dominé par les diminutions.
-2. Amplitude absolue par catégorie/unité : recherche d'ajustements particulièrement importants ou petits.
-3. Vérification secondaire par catégorie/unité/signe, uniquement pour n≥8 : vérifie la sensibilité au mélange des directions.
+La jointure sur **numéro de commande + ligne de commande** donne :
 
-L'union de ces lectures signale **23 ajustements**, ce qui ne veut pas dire 23 mouvements excessifs ou erreurs.
+- **0 réception** dont la commande est absente du fichier de référence ;
+- **0 désaccord d'unité** entre commande et réception ;
+- **65 lignes de commande** dont la quantité reçue enregistrée est inférieure à la quantité commandée ;
+- **0 ligne** dont la quantité reçue dépasse la quantité commandée.
 
-**7 ajustements ont une amplitude particulièrement élevée au sein de leur catégorie/unité**, tous en `medical_consumables / case` :
+**À vérifier :** les statuts, dates et éventuelles livraisons partielles. Nous n'affirmons pas que les 65 lignes correspondent à des marchandises définitivement manquantes.
 
-| Ajustement | Quantité signée (case) |
-|---|---:|
-| ADJ-2019-00032 | −5,86 |
-| ADJ-2019-00049 | −5,45 |
-| ADJ-2021-00068 | −5,44 |
-| ADJ-2022-00093 | +7,41 |
-| ADJ-2022-00097 | −7,88 |
-| ADJ-2024-00116 | −6,68 |
-| ADJ-2025-00132 | +5,55 |
+---
 
-**Conclusion :** la structure dominante des consommables médicaux (nombreuses petites diminutions) explique une partie des signaux. Relire les sept amplitudes, leurs motifs et les conventions de stock ; ne pas inverser un signe parce qu'un motif paraît surprenant.
+## 2. INVENTORY ADJUSTMENTS — MOUVEMENTS DE STOCK
 
-## Lecture des tableaux affichés dans les notebooks
+### 2.1 Prétraitement et exploration
 
-Pour chaque dataset, le registre `register` affiché dans le notebook contient les détections, scores, bornes, groupe de référence, méthode et interprétation possible. Les règles et seuils sont affichés à la suite du registre (aperçu des premières lignes). Aucun fichier CSV d’anomalies ou de seuils n’est créé.
+Le fichier contient **140 ajustements**, dont **89 diminutions** et **51 augmentations**. La quantité signée, l'amplitude absolue, le motif et le statut sont examinés séparément.
 
-- `echelle_seuil=valeur` : les bornes concernent la mesure brute (IQR, Z et Z modifié).
-- `echelle_seuil=score` : lire la règle et le score (q<0,05 pour les tests exacts).
-- Les identifiants `FCL-…|AAAA-MM` sont des mois-établissement ; `ADJ-…` désigne un ajustement individuel. Ne pas les additionner comme des unités équivalentes.
-- Une observation peut être signalée plusieurs fois par des méthodes différentes. Les 100 lignes du registre d'ajustements correspondent à 23 ajustements et 31 mois distincts, pas 100 événements anormaux.
+**Notre choix :** comparer les quantités **par catégorie de produit et par unité**. Un ajustement négatif signifie une diminution de stock, ce qui est normal. Les références de réception et d'expédition absentes sont optionnelles et ne sont pas automatiquement considérées comme des erreurs.
 
-## Limites et points à vérifier
+**Corrélations et graphiques :** les matrices Pearson/Spearman et les nuages de points comparent les établissements sur leurs nombres d'ajustements, leurs mois actifs, la part des diminutions et la part des événements avec référence documentaire. Nous ne corrélons pas directement des quantités exprimées dans des unités différentes. Les proportions d'un petit établissement peuvent être instables.
 
-- Confirmer la couverture continue des fichiers et l'exposition réelle de chaque établissement ; la première/dernière observation n'est pas une date d'ouverture/fermeture.
-- Les tests supposent une stabilité locale et des événements indépendants. Les fenêtres se chevauchent ; les résultats restent exploratoires même après BH.
-- Les seuils IQR/Z ne sont pas ajustés pour tests multiples et sont sensibles aux séries creuses, aux mixtures de signes et aux petits effectifs.
-- La qualité peut dépendre des marchandises, fournisseurs et périodes ; Fisher ne corrige pas ces facteurs.
-- IF/LOF ne sont pas imposés : pour les ajustements, quantité et amplitude sont redondantes ; pour les taux, les dénominateurs doivent être explicitement traités. DBSCAN ou un encodage numérique des identifiants ne résoudraient pas ces problèmes.
-- Aucune incohérence entre fichiers n'est ajoutée à ces résultats autonomes. Le notebook local de jointures est laissé intact pour une étape ultérieure.
+### 2.2 Bloc 2 — Clustering et réduction de dimension
 
-## Vérification technique et transparence
+K-Means retient **5 clusters**. Leur composition suit principalement les cinq catégories d'articles :
 
-Exécution intégrale des deux notebooks avec des noyaux Jupyter neufs ; graphiques et résultats enregistrés. Assertions sur les sommes des comptes mensuels, les dénominateurs, les clés et l'éligibilité des mois détectés. Versions : Python 3.9, pandas 2.3.3, numpy 2.0.2, scipy 1.13.1, scikit-learn 1.6.1, matplotlib 3.9.4.
+| Cluster | Ajustements | Catégorie dominante |
+| :--- | ---: | :--- |
+| 0 | 14 | `protective_equipment` |
+| 1 | 20 | `monitoring_equipment` |
+| 2 | 51 | `medical_consumables` |
+| 3 | 19 | `agricultural_product` |
+| 4 | 36 | `biological_sample` |
 
+La comparaison avec la CAH donne un **ARI de 0,575** : les deux classifications ne sont pas identiques. Les graphiques ACP et t-SNE aident à visualiser les profils. Une autre analyse de projection porte uniquement sur les **51 ajustements `medical_consumables / case`**, afin de ne pas mélanger des unités incompatibles.
 
+**Interprétation :** les catégories utilisées pour construire les profils expliquent une grande partie du clustering. Le regroupement ne permet donc pas de conclure directement qu'un mouvement est anormal.
 
-## Complément du 10 novembre 2026 — contrôles documentaires ciblés
+### 2.3 Bloc 3 — Détection d’anomalies
 
-**Réceptions et commandes.** Jointure sur `(purchase_order_number, purchase_order_line)` avec le fichier de commandes nettoyé : **0 réception sans commande correspondante** et **0 désaccord d'unité**. Après cumul des réceptions par ligne de commande, **65 lignes** présentent une quantité reçue inférieure à la quantité commandée, **aucune** une quantité supérieure. Il s'agit des quantités *enregistrées dans l'extraction*, pas de la preuve d'un défaut de livraison ; tenir compte de l'état de commande et des éventuelles livraisons ultérieures. La table `inspection_status × receipt_status` est cohérente dans l'extraction : 34 `quality_hold` correspondent à 34 inspections `held` ; les 4 inspections absentes sont associées à `posted` et restent inconnues.
+Les tests IQR, Z-score et Z-score modifié sont appliqués à des groupes comparables. Nous distinguons la quantité signée et l'amplitude absolue.
 
-**Ajustements et événements associés.** Sur 140 ajustements, **23 références** de réception et **37 références** d'expédition sont renseignées et toutes retrouvées. Parmi elles, **11 réceptions** et **13 expéditions** sont datées après l'ajustement qui les cite. Les deux familles se chevauchent : **21 ajustements distincts** possèdent au moins une de ces références futures. Ce constat est potentiellement important pour la traçabilité et la chronologie, mais le sens métier exact de `related_receipt_number` / `related_shipment_number` doit être clarifié avant de parler de lien impossible ou de correction frauduleuse. Les comparaisons sont établies sur la date (pas l'heure) de l'ajustement et le premier départ enregistré d'une expédition.
+- **23 ajustements** sont signalés sur les quantités par au moins une comparaison.
+- Parmi eux, **7 amplitudes élevées** concernent `medical_consumables / case` ; elles sont affichées avec leurs identifiants dans le notebook.
+- Les séries mensuelles produisent **31 mois signalés par IQR/Z**, mais **aucun pic** n'est retenu par le test conditionnel après correction BH.
+- `FCL-1010` enregistre **20 ajustements**, sans que ce volume prouve un dysfonctionnement : nous ne disposons pas du dénominateur d'activité correspondant.
 
-**Étape suivante pour le groupe.** Relire les 21 ajustements avec leurs motifs et statuts, vérifier les références atypiques avec les documents, et discuter de `FCL-1029` (présent dans les ajustements et le référentiel brut, absent du référentiel nettoyé). Le notebook local `analyse_logistics.ipynb` centralise les contrôles de catégorie, unité et établissement, mais ses conclusions restent **des indices documentaires**, et non des accusations.
+**Complément temporel ACF/STL :** la série couvre **132 mois, dont 80 sans ajustement enregistré**. L'ACF et la STL (cycle de 12 mois) servent uniquement à explorer l'évolution des comptes. Les événements sont trop clairsemés pour interpréter les composantes comme des anomalies logistiques certaines : les mois sans ligne ont été codés à zéro dans cette extraction.
 
+Sur le sous-groupe des 51 ajustements médicaux en `case`, Isolation Forest signale **3 cas**, LOF **18** et DBSCAN **6 points isolés**. Ce sont des définitions différentes de l'atypicité, dépendantes des paramètres.
 
-## Complément méthodologique — cours 2 et 3 (10 novembre 2026)
+**Associations :** la recherche de paires de modalités donne **6 règles** avec les seuils choisis. L'analyse Apriori complémentaire donne **83 règles retenues**, dont **58** impliquant un motif, un signe ou un statut. Les règles ne prouvent ni intention ni irrégularité.
 
-**Clustering descriptif des 30 établissements de réception (cours 2).** Quatre variables à l'échelle de l'établissement sont utilisées : nombre de réceptions, mois d'activité, réceptions moyennes pendant les mois actifs et proportion de `quality_hold`. Après transformation logarithmique des volumes et standardisation, les silhouettes K-means pour k=2, 3, 4 sont **0,456 ; 0,488 ; 0,478**. Le choix exploratoire **k=3** distingue 16 établissements peu actifs (médiane 5,5 réceptions), 9 plus actifs (médiane 37) et 5 de moindre volume mais à taux médian d'attente qualité plus élevé (14,3 %). Ce dernier groupe comprend de petits dénominateurs : il **ne prouve pas** une mauvaise qualité et ne remplace pas les tests exacts de Fisher.
+### 2.4 Vérification des références et de la chronologie
 
-**Règles d'association sur les 140 ajustements (cours 3).** Un panier comporte les modalités de motif, catégorie, signe et statut. Recherche de couples fréquents (support ≥ 8 %, confiance ≥ 60 %, lift ≥ 1,2) : **six règles orientées** passent les seuils exploratoires. L'association `statut=approved → signe=augmentation` concerne 17 ajustements, support 12,1 %, confiance 68 %, lift ≈ 1,87. L'association `categorie=monitoring_equipment → signe=augmentation` concerne 12 ajustements, support 8,6 %, confiance 60 %, lift ≈ 1,65. Ces régularités décrivent des modalités corrélées ; elles ne démontrent pas d'irrégularité, d'intention ou de causalité et nécessitent une lecture métier des statuts.
+Nous avons comparé les ajustements aux réceptions et expéditions nettoyées :
+
+| Contrôle | Résultat |
+| :--- | ---: |
+| Références de réception renseignées | 23 |
+| Références d'expédition renseignées | 37 |
+| Références renseignées introuvables | 0 |
+| Réceptions liées datées après l'ajustement | 11 |
+| Expéditions liées datées après l'ajustement | 13 |
+| **Ajustements distincts avec au moins une référence future** | **21** |
+
+**Interprétation :** ces **21 ajustements** sont de bonnes pistes de vérification documentaire. Cependant, nous ne savons pas encore exactement quel lien métier est représenté par `related_receipt_number` et `related_shipment_number`. On ne peut donc pas qualifier ces dates d'impossibles sans cette information.
+
+**Graphe des références :** les **60 liens documentaires renseignés** forment un graphe de **115 nœuds** (ajustements, réceptions et expéditions) répartis en **55 composantes** : 50 de taille 2 et 5 de taille 3. Les ajustements sans référence ne sont pas représentés. La structure du graphe permet de visualiser les liens connus, mais **n'atteste pas le sens métier ni la chronologie des documents**.
+
+---
+
+## 3. CONNEXION ENTRE LES DEUX FICHIERS
+
+Les deux analyses se complètent :
+
+- `goods_receipts` permet de voir les **réceptions enregistrées**, leurs dates et les attentes qualité ;
+- `inventory_adjustments` permet d'observer les **corrections de stock** et leurs références vers les mouvements logistiques.
+
+Les références de réception renseignées dans les ajustements sont toutes retrouvées. Ce rapprochement permet de vérifier la chronologie, mais il faut aussi consulter les motifs et les statuts. Le notebook collectif `analyse_logistics.ipynb` fournit un cadre supplémentaire pour croiser commandes, réceptions, ajustements et expéditions.
+
+**Point à discuter avec le groupe :** `FCL-1029` figure dans les ajustements et le référentiel brut des établissements, mais pas dans le référentiel nettoyé. Il faut comprendre le choix de nettoyage avant de modifier les données ou d'en déduire une erreur.
+
+## 4. BILAN TRANSVERSAL
+
+Les deux fichiers présentent des observations atypiques : pics de réceptions, quantités inhabituelles, profils d'établissements différents et dates de références à examiner. Nous avons préféré **conserver les valeurs extrêmes** et les contextualiser plutôt que les supprimer automatiquement.
+
+**Limites :** les décompositions STL et les ACF portent sur des **comptes d'événements enregistrés**, et non des mesures mensuelles continues de stock ou de qualité. Elles sont exploratoires et ne servent pas à confirmer des anomalies. Les tests de fréquence reposent sur des hypothèses de couverture continue, d'exposition comparable et de stabilité locale. Les fenêtres mensuelles se chevauchent. Les taux qualité reposent parfois sur de très petits effectifs. Les résultats des méthodes de clustering et d'anomalies dépendent des variables et des paramètres choisis.
+
+**Pour continuer :** vérifier en priorité les trois pics de réception, les sept grandes amplitudes d'ajustements et les 21 cas de chronologie surprenante. Leurs identifiants et tableaux détaillés se trouvent dans les notebooks. Les anomalies restent des **pistes**, pas des preuves de fraude ou de livraison manquante.
+
+*Fichiers source nettoyés conservés ; aucun export CSV supplémentaire d'anomalies. Les notebooks de nettoyage et les autres travaux du groupe n'ont pas été modifiés.*
