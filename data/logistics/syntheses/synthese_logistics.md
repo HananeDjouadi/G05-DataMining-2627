@@ -214,23 +214,23 @@ Source principale : `goods_receipts_anomalies.ipynb` (+ contrôles dans `analyse
 
 ### 6.3 Preuves et interprétation
 
-![Taux par établissement](../figures/goods_receipts_merieme_taux_actuels.png)
+![Taux par établissement](../figures/goods_receipts_taux_actuels.png)
 
 *Taux d'attente qualité avec effectifs, dans le notebook actuel.*
 
-![ACF des réceptions](../figures/goods_receipts_merieme_acf_actuelle.png)
+![ACF des réceptions](../figures/goods_receipts_acf_actuelle.png)
 
 *Comptes mensuels et autocorrélation ; les mois absents dans l'extraction sont codés à zéro.*
 
-![STL réceptions](../figures/goods_receipts_merieme_stl_actuelle.png)
+![STL réceptions](../figures/goods_receipts_stl_actuelle.png)
 
 *STL : tendance, saisonnalité et résidus des comptes mensuels.*
 
-![Corrélations réceptions](../figures/goods_receipts_merieme_correlations_actuelles.png)
+![Corrélations réceptions](../figures/goods_receipts_correlations_actuelles.png)
 
 *Pearson et Spearman entre profils des 30 établissements.*
 
-![Groupes de réception](../figures/goods_receipts_merieme_clusters_actuels.png)
+![Groupes de réception](../figures/goods_receipts_clusters_actuels.png)
 
 *Clustering descriptif des établissements.*
 
@@ -268,23 +268,23 @@ Source principale : `inventory_adjustments_anomalies.ipynb`.
 
 ### 7.3 Preuves et interprétation
 
-![Motifs et signes](../figures/inventory_adjustments_merieme_motifs_actuels.png)
+![Motifs et signes](../figures/inventory_adjustments_motifs_actuels.png)
 
 *Répartition des ajustements selon motifs et signes.*
 
-![Corrélations d'ajustements](../figures/inventory_adjustments_merieme_correlations_actuelles.png)
+![Corrélations d'ajustements](../figures/inventory_adjustments_correlations_actuelles.png)
 
 *Pearson et Spearman sur des indicateurs agrégés par établissement.*
 
-![ACF ajustements](../figures/inventory_adjustments_merieme_acf_actuelle.png)
+![ACF ajustements](../figures/inventory_adjustments_acf_actuelle.png)
 
 *Fréquences mensuelles et autocorrélation.*
 
-![STL ajustements](../figures/inventory_adjustments_merieme_stl_actuelle.png)
+![STL ajustements](../figures/inventory_adjustments_stl_actuelle.png)
 
 *Décomposition STL : lecture exploratoire des 132 mois.*
 
-![Graphe des références](../figures/inventory_adjustments_merieme_graphe_references.png)
+![Graphe des références](../figures/inventory_adjustments_graphe_references.png)
 
 *Composantes du graphe entre ajustements et documents référencés.*
 
@@ -446,13 +446,13 @@ Mais ça ne prouve pas à lui seul une intention frauduleuse. Il faut encore vé
 | `shipments_105_1.png` | shipments (105) | PCA shipments |
 | `shipments_135_1.png` | shipments (135) | Réseau d'acteurs |
 | `shipments_144_1.png` | shipments (144) | Spatio-temporel |
-| `goods_receipts_merieme_taux_actuels.png` | receipts | Volumes / taux actuels |
-| `goods_receipts_merieme_acf_actuelle.png` | receipts | Comptes mensuels et ACF |
-| `goods_receipts_merieme_stl_actuelle.png` | receipts | Décomposition STL |
-| `goods_receipts_merieme_clusters_actuels.png` | receipts | Profils établissements |
-| `inventory_adjustments_merieme_motifs_actuels.png` | adj | Motifs / directions |
-| `inventory_adjustments_merieme_acf_actuelle.png` | adj | Fréquences et ACF |
-| `inventory_adjustments_merieme_graphe_references.png` | adj | Graphe de références |
+| `goods_receipts_taux_actuels.png` | receipts | Volumes / taux actuels |
+| `goods_receipts_acf_actuelle.png` | receipts | Comptes mensuels et ACF |
+| `goods_receipts_stl_actuelle.png` | receipts | Décomposition STL |
+| `goods_receipts_clusters_actuels.png` | receipts | Profils établissements |
+| `inventory_adjustments_motifs_actuels.png` | adj | Motifs / directions |
+| `inventory_adjustments_acf_actuelle.png` | adj | Fréquences et ACF |
+| `inventory_adjustments_graphe_references.png` | adj | Graphe de références |
 | `erp_facilities_051_1.png` | facilities (51) | Outliers |
 | `erp_facilities_092_1.png` | facilities (92) | PCA / anomalies |
 | `erp_facilities_125_1.png` | facilities (125) | Spatial |

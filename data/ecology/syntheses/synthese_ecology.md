@@ -303,19 +303,19 @@ Source principale : `monitoring_sites_anomalies.ipynb`.
 
 ### 7.3 Preuves et interprétation
 
-![Localisation des 64 sites](../figures/monitoring_sites_merieme_carte_actuelle.png)
+![Localisation des 64 sites](../figures/monitoring_sites_carte_actuelle.png)
 
 *Carte schématique des sites, issue de la version actuelle du notebook.*
 
-![Clusters des sites](../figures/monitoring_sites_merieme_clusters_actuels.png)
+![Clusters des sites](../figures/monitoring_sites_clusters_actuels.png)
 
 *Profils K-Means et catégories : le clustering est descriptif.*
 
-![Signaux régionaux](../figures/monitoring_sites_merieme_anomalies_actuelles.png)
+![Signaux régionaux](../figures/monitoring_sites_anomalies_actuelles.png)
 
 *Visualisation des valeurs atypiques selon la région.*
 
-![Sensibilité aux distances de voisinage](../figures/monitoring_sites_merieme_sensibilite_graphe.png)
+![Sensibilité aux distances de voisinage](../figures/monitoring_sites_sensibilite_graphe.png)
 
 *Nombre de sites isolés selon le seuil utilisé pour construire le graphe de proximité.*
 
@@ -358,19 +358,19 @@ Source principale : `orchard_surveys_anomalies.ipynb`.
 
 ### 8.3 Preuves et interprétation
 
-![Corrélations des vergers](../figures/orchard_surveys_merieme_correlations_actuelles.png)
+![Corrélations des vergers](../figures/orchard_surveys_correlations_actuelles.png)
 
 *Matrices de corrélation Pearson et Spearman sur les variables des vergers.*
 
-![Profils des vergers](../figures/orchard_surveys_merieme_clusters_actuels.png)
+![Profils des vergers](../figures/orchard_surveys_clusters_actuels.png)
 
 *Visualisation des deux groupes de vergers.*
 
-![Détections contextualisées](../figures/orchard_surveys_merieme_detection_actuelle.png)
+![Détections contextualisées](../figures/orchard_surveys_detection_actuelle.png)
 
 *Graphiques des observations signalées par les méthodes d’anomalies.*
 
-![STL des rendements](../figures/orchard_surveys_merieme_stl_actuelle.png)
+![STL des rendements](../figures/orchard_surveys_stl_actuelle.png)
 
 *Décomposition du rendement mensuel du verger AVL-ECJ : observé, tendance, saisonnalité et résidus.*
 
@@ -465,10 +465,10 @@ Cela **n'explique pas** la baisse de KNT-KES.
 | `monitoring_device_operations_146_1.png` | monitoring (146) | Décomposition STL de l'uptime |
 | `environmental_field_reports_096_1.png` | field_reports (096) | ACP 2D des rapports et anomalies |
 | `environmental_field_reports_111_1.png` | field_reports (111) | Anomalies par site |
-| `monitoring_sites_merieme_carte_actuelle.png` | monitoring_sites | Carte actuelle des 64 sites |
-| `monitoring_sites_merieme_anomalies_actuelles.png` | monitoring_sites | Signaux régionaux actuels |
-| `monitoring_sites_merieme_sensibilite_graphe.png` | monitoring_sites | Sensibilité du graphe de proximité |
-| `orchard_surveys_merieme_stl_actuelle.png` | orchard_surveys | STL des rendements |
-| `orchard_surveys_merieme_detection_actuelle.png` | orchard_surveys | Graphiques d'anomalies |
-| `orchard_surveys_merieme_clusters_actuels.png` | orchard_surveys | Profils de vergers |
-| `orchard_surveys_merieme_correlations_actuelles.png` | orchard_surveys | Pearson et Spearman des vergers |
+| `monitoring_sites_carte_actuelle.png` | monitoring_sites | Carte actuelle des 64 sites |
+| `monitoring_sites_anomalies_actuelles.png` | monitoring_sites | Signaux régionaux actuels |
+| `monitoring_sites_sensibilite_graphe.png` | monitoring_sites | Sensibilité du graphe de proximité |
+| `orchard_surveys_stl_actuelle.png` | orchard_surveys | STL des rendements |
+| `orchard_surveys_detection_actuelle.png` | orchard_surveys | Graphiques d'anomalies |
+| `orchard_surveys_clusters_actuels.png` | orchard_surveys | Profils de vergers |
+| `orchard_surveys_correlations_actuelles.png` | orchard_surveys | Pearson et Spearman des vergers |
