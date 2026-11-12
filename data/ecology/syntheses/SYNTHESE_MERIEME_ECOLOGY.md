@@ -1,113 +1,210 @@
-# Contribution Merieme — anomalies des sites et des vergers
+# SYNTHÈSE ÉCOLOGIE — SITES DE SUIVI ET VERGERS
 
-État vérifié le 25 octobre 2026. Complément autonome à la synthèse collective, qui reste inchangée.
+**Master 2 Data Science — Groupe 05 | Année 2026–2027**
+**Fichiers étudiés :** `monitoring_sites` et `orchard_surveys`
 
-## Organisation et reproduction
+---
 
-- `../monitoring_sites_anomalies.ipynb` : 64 sites, 4 figures enregistrées.
-- `../orchard_surveys_anomalies.ipynb` : 1 248 relevés, 6 figures enregistrées.
-- Sources : `../cleaned/monitoring_sites_cleaned.csv` et `../cleaned/orchard_surveys_cleaned.csv`.
-- Les notebooks de nettoyage existants sont conservés ; les nouvelles analyses ne réécrivent aucun CSV brut ou nettoyé.
-- Lancer les cellules dans l'ordre depuis la racine du dépôt ou le dossier du notebook. Dépendances : pandas, numpy, scipy, matplotlib, scikit-learn, IPython/Jupyter.
-- **Affichage dans les notebooks :** les anomalies et un aperçu des seuils apparaissent directement dans les cellules de résultats ; aucun CSV supplémentaire n’est exporté. Une ligne d’anomalie correspond à une **méthode × variable × observation** ; plusieurs lignes peuvent concerner le même site ou relevé.
+## SYNTHÈSE EXÉCUTIVE
 
-## Méthodes observées dans le groupe et choix retenus
+| Aspect | Résultat |
+| :--- | :--- |
+| **Données étudiées** | 64 sites de suivi et 1 248 relevés mensuels de vergers (16 sites) |
+| **Bloc 2 — Clustering** | K-Means, CAH (Ward), dendrogrammes et visualisations ACP ; t-SNE en comparaison |
+| **Exploration des vergers** | Pearson/Spearman, nuages de points et décomposition saisonnière STL |
+| **Bloc 3 — Anomalies** | IQR, Z-score, Z-score modifié, Isolation Forest, LOF, DBSCAN et règles Apriori |
+| **Monitoring sites** | 8 sites distincts signalés par les méthodes statistiques et LOF |
+| **Orchard surveys** | 64 relevés distincts signalés par les méthodes statistiques, Isolation Forest ou LOF |
+| **Croisement qualitatif** | 3 relevés atypiques comportent également une note de perturbation agricole |
+| **Conclusion principale** | Des sites et des relevés méritent une vérification, mais les analyses ne prouvent pas à elles seules une erreur ou sa cause |
 
-Le code de `bat_surveys.ipynb` et `environmental_monthly.ipynb` utilise IQR, Z-score, anomalies contextuelles, Isolation Forest et LOF ; `health/patterns_anomalies.ipynb` utilise aussi le Z-score modifié et DBSCAN. Les notebooks logistiques `inventory_month_end` et `purchase_order_lines` utilisent IQR/Z puis IF/LOF. Les analyses du groupe montrent aussi K-Means, CAH, PCA, corrélations et Apriori.
+---
 
-Les synthèses sont utiles pour comprendre les questions du groupe, mais ne remplacent pas le code effectivement présent : par exemple, la synthèse ecology décrit davantage d'étapes pour `monitoring_device_operations` que son notebook actuel. Aucun de leurs verdicts causaux n'est utilisé comme étiquette dans ces analyses.
+## Sommaire
 
-Les consignes du notebook de base demandent des titres et une explication du raisonnement, des résultats et des conclusions. Les nouveaux notebooks reprennent ce format.
+1. [Monitoring sites — Localisation des sites](#1-monitoring-sites--localisation-des-sites)
+2. [Orchard surveys — Relevés des vergers](#2-orchard-surveys--relevés-des-vergers)
+3. [Connexion entre les deux fichiers](#3-connexion-entre-les-deux-fichiers)
+4. [Bilan transversal](#4-bilan-transversal)
 
-| Analyse | Choix et justification |
-|---|---|
-| Sites | Distances Haversine en km ; IQR/Z/Z modifié par région ; LOF régional, k=5 et seuil 1,5, sensibilité k=3 et 8. Pas de quota de sites « anormaux ». |
-| Vergers | Rendement mensuel en kg/ha ; référence saisonnière par site et mois calendaire, en excluant la ligne testée ; IQR/Z/Z modifié sur résidus et différences mensuelles de résidus ; IF/LOF sur six résidus standardisés par site. |
-| Seuils | IQR 1,5 ; Z 3 ; Z modifié 3,5 ; groupes de moins de 8 valeurs ou dispersion nulle non évaluables. Pas de détection forcée lorsque MAD/IQR=0. |
-| IF/LOF vergers | IF 200 arbres, seed 42, contamination 2 % ; LOF 20 voisins, contamination 2 %. Sensibilité : contamination 1/2/5 % et voisins 10/20/35. |
+---
 
-DBSCAN global isolerait surtout les régions pour les sites ; il n'est pas ajouté automatiquement. Clustering et Apriori ne sont pas nécessaires pour répondre aux questions ciblées de cette contribution.
+## 1. MONITORING SITES — LOCALISATION DES SITES
 
-## 1. Monitoring sites
+### 1.1 Prétraitement et exploration
 
-### Audit et description
+Le fichier contient **64 sites**, répartis entre trois régions fictives : **22** dans la région de Kintara, **22** en Avelora et **20** à Tembara.
 
-64 sites et aucune suppression. Une altitude manque (`KNT-CYP`) ; les 64 dates de fin sont absentes, compatibles avec des programmes actifs. Les catégories sont décrites par région, habitat et type de suivi.
+- **Doublons :** aucun doublon exact ni doublon de `site_code`.
+- **Coordonnées :** aucune latitude ou longitude manquante, hors limites ou strictement dupliquée.
+- **Valeurs manquantes :** une altitude absente (`KNT-CYP`) et 64 dates de fin de programme non renseignées.
+- **Distances :** calcul de la distance au centre régional et au voisin régional le plus proche avec la formule de **Haversine**.
 
-- Aucune coordonnée hors des limites physiques ou manquante.
-- Aucun couple latitude/longitude exactement dupliqué.
-- Aucun site plus proche du centre d'une autre région que du sien : simple contrôle interne, pas validation de frontières administratives.
-- Les cartes restent schématiques : les lieux sont fictifs, aucun géocodage externe n'est utilisé.
+**Choix :** les distances sont analysées **par région**. Comparer directement des sites de régions éloignées créerait des anomalies artificielles.
 
-### Signaux
+### 1.2 Bloc 2 — Clustering et réduction de dimension
 
-7 sites sont signalés par au moins une méthode statistique régionale ; LOF k=5 en signale 5. Leur union est de **8 sites**, pour 20 détections méthode/variable.
+**Méthodes utilisées :** standardisation, encodage des catégories, K-Means, CAH Ward, dendrogramme, ACP et t-SNE exploratoire.
 
-| Exemple | Mesure | Lecture |
-|---|---|---|
-| `AVL-ARU` | Voisin régional le plus proche à 24,77 km ; Z ≈ 3,28 | Isolement relatif, pas coordonnée impossible. |
-| `KNT-YRX` | Voisin à 30,41 km ; LOF ≈ 3,73 | Site périphérique/isolé à examiner. |
-| `KNT-CHP` | Altitude 418,8 m ; borne IQR haute 417,2 m | Dépassement très faible (1,6 m), faible argument pour une erreur. |
-| `TMB-UVF` | Voisin à 23,13 km ; LOF ≈ 2,82 | Isolement géographique relatif. |
+| Méthode | Résultat | Interprétation |
+| :--- | :--- | :--- |
+| **K-Means** | **5 groupes** retenus parmi les valeurs de `k` testées | Profils de sites présentant des caractéristiques similaires |
+| **CAH (Ward)** | Dendrogramme et partition comparée à K-Means | Permet d'observer les regroupements hiérarchiques |
+| **Accord K-Means / CAH** | **ARI = 0,668** | Accord partiel entre les deux partitions |
+| **ACP / t-SNE** | Projections en deux dimensions | Illustrent les profils, sans prouver une anomalie |
 
-LOF k=5 signale `KNT-YRX`, `KNT-CHP`, `KNT-TEX`, `TMB-CKU`, `TMB-UVF`. Certains scores sont proches de 1,5 : consulter la sensibilité au voisinage avant d'interpréter ces cas.
+Les variables de regroupement associent les distances régionales, l'altitude et des catégories de sites. Le regroupement reste **descriptif** : deux sites semblables n'ont pas nécessairement le même rôle écologique.
 
-**Conclusion :** des sites localement inhabituels existent, mais aucune erreur physique de coordonnées n'est démontrée. Vérifier l'intention d'échantillonnage, le relief et les sites isolés avant toute correction.
+### 1.3 Bloc 3 — Détection d'anomalies
 
-## 2. Orchard surveys
+**Détection univariée :** IQR, Z-score et Z-score modifié, appliqués par région aux distances et à l'altitude. **Détection locale :** LOF sur les coordonnées avec distance de Haversine et sensibilité à différents nombres de voisins.
 
-### Audit et contexte
+| Résultat | Nombre |
+| :--- | ---: |
+| Sites signalés par au moins un test univarié | **7** |
+| Sites signalés par LOF (`k = 5`) | **5** |
+| **Union des sites signalés** | **8** |
+| Détections totales (méthode × variable × site) | **20** |
 
-16 sites × 78 mois, janvier 2019–juin 2025, clés site/mois uniques et séries mensuelles continues. Superficies positives, taux dans [0,100], pas de mesure numérique manquante. Les 1 225 notes vides restent sans interprétation automatique.
+Les méthodes supplémentaires **Isolation Forest** et **DBSCAN** servent à comparer les alertes spatiales. Elles ne sont pas incluses dans le chiffre de 8 sites issu du premier bilan.
 
-Le rendement est en **kg/ha par relevé mensuel**. Les comparaisons entre années utilisent également janvier–juin pour chaque année, afin de ne pas comparer 2025 à une année complète. Les huit taux convertis depuis des proportions au nettoyage restent une hypothèse de format héritée à valider si une source plus précise existe.
+**Exemples à examiner :**
 
-### Signaux
+| Site | Observation | Lecture |
+| :--- | :--- | :--- |
+| `KNT-YRX` | Voisin régional à environ **30,41 km**, LOF ≈ **3,73** | Site relativement isolé |
+| `KNT-CHP` | Altitude **418,8 m**, légèrement au-dessus de la borne IQR ≈ **417,2 m** | Dépassement faible ; relief à vérifier |
+| `AVL-ARU` | Voisin régional à environ **24,77 km**, Z-score ≈ **3,28** | Distance inhabituelle dans sa région |
+| `TMB-UVF` | Voisin régional à environ **23,13 km**, LOF ≈ **2,82** | Faible densité locale |
 
-- 35 relevés signalés par les tests contextuels IQR/Z/Z modifié.
-- 25 par IF, 25 par LOF, dont **12 communs** ; ce nombre dépend du quota de 2 %.
-- Union de tous les indicateurs : **64 relevés**, pour 106 détections méthode/variable. Ce n'est pas une estimation du nombre de « vraies erreurs ».
-- Plus forte baisse annuelle relative : **`ORC-0000812`, AVL-HUA, août 2021 : −54,55 %** du rendement par hectare par rapport à août 2020.
-- `ORC-0000449`, AVL-GRB, novembre 2023 : fructification 28,7 %, résidu local avec Z ≈ −3,27.
-- `ORC-0000532`, AVL-ECJ, avril 2024 : rendement ≈ 1 553,55 kg/ha, résidu local avec Z ≈ +3,14.
+**Règles d'association (Apriori) :** les catégories de sites, les habitats, les accès et le contexte des vergers sont étudiés ensemble. **49 ensembles fréquents** et **93 règles** respectent les seuils choisis. Plusieurs associations traduisent simplement la façon dont les catégories ont été définies ; elles ne constituent pas une découverte causale.
 
-**Conclusion :** les relevés signalés sont des baisses, hausses ou combinaisons inhabituelles dans leur contexte local. Les données seules ne permettent pas d'attribuer ces variations à un prélèvement de chauves-souris, aux pesticides ou à une autre cause. Les notes et séries complètes doivent être relues.
+### 1.4 Graphe de proximité et contrôles croisés
 
-## Limites et vérifications manuelles
+Un graphe relie deux sites d'une même région lorsqu'ils sont suffisamment proches.
 
-1. Les références saisonnières reposent sur 6–7 années et utilisent rétrospectivement d'autres années : ce n'est pas une prévision prospective.
-2. Les seuils univariés sont exploratoires ; les observations mensuelles et les méthodes sont dépendantes. Une accumulation de drapeaux n'est pas une accumulation de preuves indépendantes.
-3. L'intersection IF/LOF est un accord, pas une confirmation. Les identifiants, noms et dates n'entrent pas comme valeurs numériques dans les modèles.
-4. Les petits groupes régionaux et la sensibilité de LOF nécessitent une lecture des cartes, pas une correction automatique.
-5. Aucune ligne signalée n'est supprimée et aucune cause de l'énigme n'est déclarée établie.
+- **Seuil de 25 km :** Kintara possède **3 composantes**, dont deux sites isolés (`KNT-CHP` et `KNT-YRX`).
+- **Seuil de 35 km :** les sites deviennent connectés à l'intérieur de chacune des trois régions.
+- **Seuil de 15 km :** les réseaux sont davantage fragmentés.
 
-## Vérification technique et transparence
+**Conclusion monitoring sites :** certaines localisations sont atypiques au regard de leur région, mais **aucune erreur de coordonnées n'est démontrée**. Un site isolé peut résulter d'un choix d'échantillonnage.
 
-Les deux notebooks ont été exécutés intégralement avec des noyaux Jupyter neufs, depuis leur dossier, avec tableaux et images intégrés. Versions de vérification : Python 3.9, pandas 2.3.3, numpy 2.0.2, scipy 1.13.1, scikit-learn 1.6.1, matplotlib 3.9.4. Les paramètres et versions sont également affichés à l'exécution.
+---
 
+## 2. ORCHARD SURVEYS — RELEVÉS DES VERGERS
 
+### 2.1 Prétraitement et exploration
 
-## Complément du 10 novembre 2026 — vérifications inter-sources
+Le fichier comprend **1 248 relevés**, soit **16 vergers suivis pendant 78 mois**, de janvier 2019 à juin 2025.
 
-**Couverture du référentiel.** Les 16 sites disposant de relevés de vergers sont tous présents parmi les 64 sites de `monitoring_sites` et correspondent exactement aux 16 sites renseignés comme `commercial or research orchard` ; aucun identifiant de verger orphelin. Ce contrôle n'établit pas la justesse des coordonnées ni l'exhaustivité du réseau.
+- **Clés :** un relevé unique par site et par mois ; aucune série mensuelle interrompue.
+- **Variables étudiées :** rendement ramené à l'hectare, fructification, activité des autres pollinisateurs, fertilisation et irrigation.
+- **Valeurs manquantes :** pas de mesures numériques manquantes dans les variables analysées ; **1 225 notes agricoles non renseignées**.
+- **Saisonnalité :** comparaison de chaque relevé à l'historique du **même site et du même mois**, en excluant l'observation examinée.
 
-**Rapprochement exploratoire vergers / chauves-souris.** Jointure sur la clé composée `(site_code, mois)` après agrégation des visites de chauves-souris : **1 248 / 1 248 relevés** appariés, sur **16 sites**. Pour chacun des deux fichiers, les variations sont exprimées relativement à la médiane *du même site et du même mois calendaire dans les autres années* (leave-one-year-out). L'indicateur des chauves-souris est `observed_bat_count / observation_hours`, et non le seul nombre observé.
+**Choix :** il ne serait pas pertinent de comparer directement un rendement de janvier avec celui d'un mois de récolte, ni le début de 2025 avec une année complète.
 
-| Mesures résiduelles comparées | Spearman ρ | Intervalle bootstrap exploratoire 95 % (rééchantillonnage des 16 sites, 400 répétitions, graine 42) |
-|---|---:|---:|
-| Rendement (kg/ha) ↔ chauves-souris / heure | 0,146 | [0,093 ; 0,199] |
-| Fructification (%) ↔ chauves-souris / heure | 0,195 | [0,130 ; 0,254] |
+**Corrélations et graphiques (EDA) :** les matrices de Pearson et Spearman et les nuages de points comparent rendement, fructification, densité florale, activité des autres pollinisateurs, fertilisation et irrigation. Le rendement est fortement lié à la fructification (**Pearson 0,915 ; Spearman 0,908**), plus modérément à l'activité des autres pollinisateurs (**0,427 ; 0,401**). Ce sont des associations globales : les différences entre sites et saisons peuvent intervenir, sans qu'une cause soit établie.
 
-**Interprétation.** Il existe une association positive **modeste** dans ces données synthétiques, sans identification d'une cause : saisonnalité imparfaitement contrôlée, autocorrélation des séries, facteurs agricoles et environnementaux non inclus, variation de la détectabilité des chauves-souris. Les intervalles bootstrap décrivent la variabilité par site sous leurs hypothèses, **pas un intervalle causal** ; l'échantillon ne comporte que 16 sites. Le tableau peut soutenir une piste de discussion avec le groupe, pas une démonstration sur la pollinisation. Aucune ligne ni mesure n'a été modifiée pour obtenir ce résultat.
+**STL (analyse temporelle) :** une décomposition sur les **78 mois du verger `AVL-ECJ`**, choisi car son rendement moyen est proche de la médiane des 16 vergers, sépare tendance, saisonnalité annuelle et résidus. Le résidu absolu le plus élevé est observé en **avril 2024 (≈ +508,56 kg/ha)**. Ce résultat sert de visualisation complémentaire : un résidu élevé ne prouve pas une erreur ni une cause écologique.
 
+### 2.2 Bloc 2 — Clustering et réduction de dimension
 
-## Complément méthodologique — méthodes des cours 2 et 4 (10 novembre 2026)
+**Méthodes utilisées :** standardisation des profils de vergers, ACP, K-Means, CAH Ward et dendrogramme. Une projection t-SNE et DBSCAN sont ajoutés à titre exploratoire.
 
-**Graphe de proximité des 64 sites (cours 4).** Chaque site est un sommet ; deux sites d'une même région sont liés si leur distance de Haversine ne dépasse pas un seuil choisi. À **25 km**, les régions Avelora et Tembara forment chacune une composante connectée, tandis que Kintara comporte **3 composantes**, avec deux sites isolés : `KNT-CHP` et `KNT-YRX`. À **35 km**, les trois régions deviennent connectées au sein de leur propre réseau. À **15 km**, elles sont au contraire fragmentées (4, 6 et 7 composantes pour Avelora, Kintara et Tembara). La conclusion dépend donc du seuil ; il ne s'agit pas de frontières réelles ni d'une preuve d'erreur de localisation. Le degré et les composantes complètent le LOF, qui mesure la densité locale.
+| Méthode | Résultat | Interprétation |
+| :--- | :--- | :--- |
+| **ACP** | Deux premières composantes : **60,6 % + 18,9 %** de variance | Environ **79,5 %** de l'information statistique représentée sur deux axes |
+| **K-Means** | **2 groupes de 8 vergers** | Choix évitant les groupes d'un seul site |
+| **CAH (Ward)** | Dendrogramme des **16 vergers** | Autre façon de comparer les profils |
+| **Accord K-Means / CAH** | **ARI = 0,749** | Regroupements assez proches, sans être identiques |
 
-**ACP et K-means sur les 16 vergers (cours 2).** Six descripteurs à l'échelle du site (moyennes et dispersions de rendement et fructification, activité des autres pollinisateurs, usage des fertilisants) sont standardisés. Les deux axes de l'ACP expliquent **60,6 % et 18,9 %** de la variance, soit environ **79,5 %** ensemble. La silhouette vaut **0,294 (k=2)**, **0,281 (k=3)** et **0,369 (k=4)**. Toutefois, k=3 et k=4 créent un groupe d'un seul verger ; pour ne pas traiter un cas individuel comme une classe stable, **k=2** est retenu à titre descriptif. Les deux groupes comprennent 8 sites chacun, avec des profils moyens différents (rendement ≈ **1 087 vs 995 kg/ha par relevé mensuel** ; fructification ≈ **55,9 % vs 51,2 %**). Une classe n'est pas une preuve de mécanisme agronomique et le regroupement des mois ne dit rien sur les causes d'une anomalie ponctuelle.
+Les profils sont construits à partir de six caractéristiques : niveaux moyens et variabilité du rendement et de la fructification, activité des autres pollinisateurs et utilisation des fertilisants.
 
+**Lecture :** les groupes décrivent des comportements moyens différents. Ils n'expliquent pas, à eux seuls, les changements soudains observés certains mois.
 
-### Complément temporel inspiré du découpage pédagogique du groupe
+### 2.3 Bloc 3 — Détection d'anomalies
 
-Pour les 16 vergers (78 observations mensuelles chacun), les autocorrélations du rendement sont évaluées **site par site**, puis résumées par la médiane : au décalage d'un mois, **0,238** sur les valeurs brutes contre **−0,015** après retrait de la référence saisonnière ; au décalage de douze mois, **0,384** sur les valeurs brutes contre **−0,128** sur les résidus. Ces résultats sont compatibles avec une composante saisonnière importante, sans prouver sa nature ni une relation causale. La référence médiane leave-one-year-out peut elle-même influencer la corrélation des résidus, notamment à 12 mois. La comparaison doit donc rester descriptive et être replacée dans les séries de chaque verger.
+**Détection univariée :** IQR, Z-score et Z-score modifié sur les écarts aux références saisonnières. **Détection multivariée :** Isolation Forest et LOF sur les résidus standardisés par site.
+
+| Méthode | Relevés signalés |
+| :--- | ---: |
+| Tests statistiques contextuels | **35** |
+| Isolation Forest (contamination = 2 %) | **25** |
+| LOF (contamination = 2 %) | **25** |
+| Accord Isolation Forest ∩ LOF | **12** |
+| **Union de toutes les méthodes** | **64 relevés distincts** |
+
+Le tableau détaillé des résultats comprend **106 détections** : un même relevé peut être signalé par plusieurs variables ou méthodes.
+
+**Exemples à examiner :**
+
+| Relevé | Signal | Lecture |
+| :--- | :--- | :--- |
+| `ORC-0000812` — `AVL-HUA` | Baisse annuelle du rendement de **54,55 %** (août 2021) | Forte variation par rapport à août 2020 |
+| `ORC-0000449` — `AVL-GRB` | Fructification **28,7 %**, Z local ≈ **−3,27** | Relevé faible par rapport au contexte du site |
+| `ORC-0000532` — `AVL-ECJ` | Rendement ≈ **1 553,55 kg/ha**, Z local ≈ **+3,14** | Relevé élevé par rapport au contexte du site |
+
+### 2.4 Patterns fréquents et croisement qualitatif
+
+**Apriori :** paniers construits à partir des saisons et de catégories dérivées des rendements, de la fructification, des autres pollinisateurs et de la présence d'une note agricole. Le calcul produit **97 ensembles fréquents** et **40 règles** aux seuils retenus.
+
+Les règles les plus visibles associent fréquemment **rendement faible** et **fructification faible**. Ce rapprochement est descriptif et attendu : il ne démontre pas l'existence d'une cause extérieure.
+
+**Croisement avec les notes de perturbation :**
+
+| Situation | Avec note | Sans note |
+| :--- | ---: | ---: |
+| Relevés signalés par au moins une méthode | **3** | **61** |
+| Relevés non signalés | **20** | **1 164** |
+
+Les **3 relevés atypiques disposant d'une note agricole** concernent le site `AVL-FNQ` :
+
+- `ORC-0000945` : application élevée de pesticides, septembre 2019.
+- `ORC-0000947` : pertes de fleurs liées à une tempête, novembre 2019.
+- `ORC-0000965` : application élevée de pesticides, mai 2021.
+
+**Conclusion orchard surveys :** ces notes constituent des pistes de vérification, **pas une preuve que les événements notés ont causé les anomalies**.
+
+---
+
+## 3. CONNEXION ENTRE LES DEUX FICHIERS
+
+### 3.1 Couverture des sites
+
+Les **16 sites** présents dans `orchard_surveys` sont tous référencés dans `monitoring_sites`. Ils correspondent aux **16 sites décrits dans un contexte de verger** : aucun identifiant n'est orphelin.
+
+### 3.2 Complément avec `bat_surveys`
+
+Les relevés de vergers ont été rapprochés des observations de chauves-souris par **site et mois** : **1 248 relevés appariés**, sur **16 sites**. Les comparaisons portent sur les écarts aux références saisonnières, et les observations de chauves-souris sont ramenées à une durée d'observation.
+
+| Indicateurs comparés | Corrélation de Spearman (ρ) | Intervalle bootstrap exploratoire 95 % |
+| :--- | ---: | :--- |
+| Rendement ↔ chauves-souris par heure | **0,146** | [0,093 ; 0,199] |
+| Fructification ↔ chauves-souris par heure | **0,195** | [0,130 ; 0,254] |
+
+**Lecture :** les associations sont **positives mais modestes**. Elles ne prouvent pas que l'activité des chauves-souris provoque les variations de rendement. La saisonnalité, les conditions agricoles et les autres facteurs environnementaux peuvent intervenir.
+
+---
+
+## 4. BILAN TRANSVERSAL
+
+| Question | Réponse apportée par les analyses |
+| :--- | :--- |
+| Les coordonnées des sites sont-elles incohérentes ? | **Non, aucune incohérence physique démontrée.** Quelques sites sont relativement isolés. |
+| Les vergers présentent-ils des valeurs atypiques ? | **Oui, 64 relevés distincts** sont signalés par au moins une des méthodes principales. |
+| Les méthodes de clustering sont-elles concordantes ? | Accord K-Means / CAH **partiel à assez marqué** selon le fichier (ARI **0,668** et **0,749**). |
+| Les notes agricoles expliquent-elles les anomalies ? | **Non démontré.** Trois relevés atypiques comportent une note, à examiner. |
+| Les observations de chauves-souris permettent-elles une conclusion causale ? | **Non.** Les corrélations observées sont modestes et descriptives. |
+
+### Limites et suite de l'enquête
+
+- Les régions et sites sont **fictifs** ; les cartes ne valident pas des localisations réelles.
+- Les seuils des méthodes d'anomalies et les paramètres de clustering influencent les résultats.
+- Les détections d'un même relevé ne sont **pas des preuves indépendantes**.
+- Les séries mensuelles et les 16 sites de vergers ne permettent pas, à eux seuls, de déterminer une cause.
+- **Aucune ligne signalée n'est supprimée.** Les anomalies sont proposées à la discussion et à la vérification avec les autres fichiers Ecology.
+
+**Conclusion générale :** le référentiel des sites est cohérent mais comporte des localisations peu représentées. Les relevés des vergers montrent des variations saisonnières et quelques observations particulièrement atypiques. Les croisements avec les notes agricoles et `bat_surveys` orientent l'enquête, sans suffire à confirmer une explication causale.
+
+---
