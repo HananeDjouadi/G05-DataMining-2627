@@ -1,54 +1,72 @@
-# Synthèse — Dossier Health, partie clinique
+# Synthèse — Health, partie clinique
 
-*Groupe G05 · Tables : `clinical_encounters`, `clinical_notes`, `clinical_observation`, `clinical_procedures`, `patient_administration`*
+*G05 · `clinical_encounters`, `clinical_notes`, `clinical_observation`, `clinical_procedures`, `patient_administration`*
+*Notebooks : `cleaning` → `eda` (1) → `clustering` (2) → `patterns_anomalies` (3) → `graphs_process` (4) → `spatio_temporal` (5) → `text_mining` (6) → `narrative` (7)*
 
 ---
 
-## 1. Nettoyage
+## 1. Choix techniques
 
-- **Doublons exacts** : 6 supprimés (encounters 2, observation 2, procedures 1, patient_administration 1).
-- **Dates** : 11 colonnes converties en `datetime` (formats mixtes). Aucune incohérence : pas de fin avant le début, aucune observation hors de sa consultation.
-- **Types** : `numeric_value` (observation) contenait ~340 valeurs textuelles (virgule décimale, unité collée, ex. « 82.2 index »), extraites puis converties en `float`.
-- **Catégories** : minuscules et espaces nettoyés (ex. `encounter_type` 15 → 10 modalités, `interpretation_code` 9 → 4). Identifiants, licences et codes de procédure laissés intacts.
-- **Manquants** : colonne vide `superseded_document_id` supprimée ; absences codées explicitement (`no_device`, `no_material`, `unspecified`, `non_applicable`) ; dates manquantes laissées en `NaT`.
-- **Aberrants** : aucune ligne supprimée, pour ne pas perdre d'indices. Sorties : `cleaned/*_cleaned.csv`.
+| Bloc | Méthode | Pourquoi |
+|---|---|---|
+| Nettoyage | 6 doublons retirés, dates et `numeric_value` convertis, catégories normalisées, aucun aberrant supprimé | Ne pas perdre d'indices |
+| 1. EDA | Typage, dates → durées, stats, histogrammes, normalité, CCDF, Pearson / Spearman | `numeric_value` décrite par type de mesure |
+| 2. Clustering | One-hot + Hamming, CAH, K-Means, PCA / t-SNE | Variables nominales |
+| 3. Anomalies | Apriori ; IQR, z, z modifié ; Isolation Forest, LOF | Écart apical − pouls (anomalie bivariée) |
+| 4. Graphes | Biparti patients – praticiens, sous-graphe restreint, centralités, Louvain, process mining | La structure n'apparaît qu'en contexte restreint |
+| 5. Spatio-temporel | Carte des 3 sites, χ² par région, ACF, STL, z modifié glissant | Moran / LISA non pertinents (3 sites) |
+| 6. Texte | Dédoublonnage, `nltk`, TF-IDF, n-grams, similarité, LDA, concordancier | Les doublons faussent les fréquences |
+| 7. Narratif | Tests avant / après, Mann-Whitney, Wilcoxon, Fisher | Tester chaque hypothèse |
 
-## 2. Bloc 2 — Clustering
+---
 
-**Méthode.** Dates, textes, identifiants et noms exclus : il ne reste que des variables catégorielles. Encodage one-hot, distance de Hamming (cours 2, variables nominales), classification hiérarchique (liaison `average`). K-Means (coude, silhouette) en comparaison. Visualisation par PCA / t-SNE.
+## 2. Anomalies
 
-| Table | k : tailles | Lecture | Silhouette |
-|---|---|---|---|
-| `clinical_encounters` (1 067) | 3 : 1 004 / 40 / 23 | Flux courant (suivi planifié 80 %) ; 40 consultations confidentielles (92 %), souvent clôturées ; 23 consultations de recherche (`research_procedure` 87 %, 100 % restreintes) | 0,16 |
-| `clinical_notes` (30) | non clusterisée | 2 variables catégorielles, 30 lignes, tableau croisé sans structure ; l'information est dans le texte (bloc 3) | – |
-| `clinical_observation` (17 734) | 4 : 11 250 / 5 188 / 1 017 / 279 | Mesures dans la norme ; observations qualitatives « recorded » ; fréquence apicale (1 017) ; mesures à revoir `review` (279) | 0,26 |
-| `clinical_procedures` (310) | 3 : 260 / 30 / 20 | Procédures standard ; 30 `restricted_specialist` ; 20 `research_restricted` | 0,64 |
-| `patient_administration` (240) | 4 : 193 / 38 / 7 / 2 | Dossiers actifs ; 38 `nonbinary` actifs ; 9 dossiers inactifs | 0,27 |
+**Indices**
+- **A1 – `MRP-42`** : 8 dirigeants reçoivent une procédure secrète tous les ~742 jours depuis 2014 ; 20 personnes ordinaires la reçoivent une fois à partir de 2019.
+- **A2 – Un seul médecin** : `LIC-VLN-MED-1002` (Dr. Naima Orrel) réalise les 30 administrations des dirigeants.
+- **A3 – Âge biologique** : ~12 ans sous l'âge réel après `MRP-42`.
+- **A4 – Seconde source cardiaque** : 35 patients ont une fréquence apicale ≈ +20 bpm au-dessus du pouls.
+- **A5 – Phénotype** : ces 35 patients balancent plus et sont moins bien reconnus par les caméras ; aucun lien avec `MRP-42`.
+- **A6 – Notes rédigées** : 4 notes sur 30, dont une qui relie PAT-31065 à **Elias Voss**.
 
-**À retenir**
-- Seule `clinical_procedures` a une structure nette : 50 procédures isolées (code `MRP-42`), toutes restreintes, chacune avec un matériel distinct. K-Means sur les variables brutes (silhouette 0,63) isole exactement les mêmes 50.
-- Ailleurs, pas de groupes naturels (silhouette < 0,3) : les clusters reflètent des combinaisons de modalités (type de mesure, sexe × statut), pas des profils cachés.
+**Artefacts et leurres (écartés)**
+- Inscriptions toutes au 1er du mois.
+- 22 consultations le 20/06/2025 : dates de suivi plafonnées.
+- 26 notes gabarits, 42 phrases dupliquées, 8 notes datées avant leur consultation.
+- Leurres : CLN-510126 (*dual cardiac* rejeté), CLN-510039 (*appearance control* = réglage caméra).
 
-## 3. Bloc 3 — Patterns et anomalies
+---
 
-**Méthode.** Règles d'association (Apriori, `mlxtend`) sur les variables catégorielles ; anomalies univariées (IQR, z-score, z modifié) puis multivariées (Isolation Forest, LOF, DBSCAN) sur des variables numériques construites (durées, retards, délais, âges). Chaque anomalie est discutée : valeur rare mais légitime, ou artefact.
+## 3. Preuves
 
-| Table | Patterns | Anomalies | Nature |
-|---|---|---|---|
-| `clinical_encounters` | 2 règles seulement, lift ≈ 1,2 : pas de structure | **50 consultations de durée fixe** (20 `research_procedure` à 180 min, 30 `specialist_procedure` à 240 min, toutes restreintes) ; 2 délais de suivi > 1 000 j | Signature de protocole, pas des erreurs |
-| `clinical_notes` (30) | 1 règle fragile (`imaging_report` ⇒ `FAC-VLN-101`, lift 1,47) | **8 notes sur 30 datées avant leur consultation** (jusqu'à −1 249 j) ; CLN-510126 à +2 670 j ; longueurs homogènes | Incohérence de données |
-| `clinical_observation` | `recorded` ⇒ `no_device` (lift 3,4) ; règles triviales sinon | **109 `discordant`** invisibles en univarié : écart apicale − pouls périphérique de 22,5 bpm contre 1,7. Isolation Forest en retrouve 17/109 (groupe trop dense : 10,7 %) | Anomalie contextuelle réelle |
-| `clinical_procedures` | `research_restricted` (lift 15,5) et `restricted_specialist` (lift 10,3) liés à des issues propres à `MRP-42` | Retards constants de 35 et 40 min pour ces 50 procédures ; **2 retards extrêmes** : PRC-000054 (59 j) et PRC-000071 (177 j) | Signature de classe ; 2 vraies anomalies |
-| `patient_administration` | Aucune règle (lift ≥ 1,2) | PAT-31099, PAT-31174, PAT-31183 isolés par les 3 méthodes : dossiers anciens (2014-2015), professions dirigeantes ou politiques | Rares mais plausibles |
+**A1 – Chronologie `MRP-42`**
+![](images/fig2_chronologie_mrp42.png)
+Intervalle médian de 742 jours, toujours jeudi ou vendredi à 09 h 05.
 
-**À retenir**
-- Les anomalies univariées sont surtout des **constantes propres à un protocole** (durée, retard) : statistiquement aberrantes, mais pas des erreurs. IQR et MAD se dégradent quand la majorité des valeurs sont identiques (retards de 10 min) ; le z modifié avec repli sur l'écart moyen absolu isole alors les vrais extrêmes.
-- La discordance apicale/périphérique est une anomalie **bivariée** : aucune valeur n'est extrême seule, et les méthodes non supervisées la manquent à 5 % de contamination.
+**A2 – Graphe restreint**
+![](images/fig3_graphe_restreint.png)
+`LIC-VLN-MED-1002` a une betweenness de 0,50, et ses 8 liens les plus lourds vont aux 8 dirigeants.
 
-## 4. Pistes pour le bloc 7 (à vérifier)
+**A3 – Âge biologique**
+![](images/fig1_bioage_mrp42.png)
+L'écart passe de −4,6 ans avant à −12,4 ans après (autres patients : −1,0 ; Mann-Whitney p ≈ 1e-12). L'âge biologique de PAT-31099 baisse de 75 à 69 ans entre ses 78 et 83 ans.
 
-- Les **50 procédures `MRP-42`** (28 patients) correspondent exactement aux consultations `specialist_procedure` (30) et `research_procedure` (20), toutes restreintes, de durée et de retard fixes, avec des issues qu'aucune autre procédure n'utilise.
-- Les **109 observations `discordant`** portent toutes sur la fréquence **apicale** (35 patients). Deux notes d'imagerie évoquent une « seconde structure cardiaque » : PAT-31065 fait partie des patients discordants ; PAT-31099 (dossier `deceased`) a reçu la procédure `MRP-42`.
-- **2 procédures** réalisées 59 et 177 jours après l'heure planifiée (`PRC-000054`, `PRC-000071`).
-- **8 notes** antérieures à leur consultation : à traiter comme artefact de génération avant toute inférence.
-- **Pistes abandonnées** : règles d'association sur `patient_administration` ; longueur des textes ; délai avant revue des procédures ; queues des scores bornés (`lefteye`, `idcons`...).
+**A4 – Apical vs pouls**
+![](images/fig4_apical_vs_pouls.png)
+Les 109 observations discordantes forment un groupe à part, visible seulement en bivarié.
+
+**A5 – Profil des discordants**
+![](images/fig5_profil_discordants.png)
+4 différences significatives (Bonferroni), et aucune sur les témoins. Aucun dirigeant n'est discordant (Fisher p = 0,78).
+
+**A6 – Notes**
+![](images/fig6_similarite_notes.png)
+Les 4 notes rédigées sont sous le seuil IQR ; les leurres sont écartés en lisant le contexte.
+
+**Artefacts**
+![](images/fig7_artefacts_temporels.png)
+
+---
+
+**À croiser** : `public_records` (Orrel, Voss, nominations), `logistics` (matériel `MTL-…`, Nivren), `ecology` (Belen, labo `FAC-AVL-301`), `cardiac` (PAT-31065).

@@ -9,8 +9,8 @@ Sept jeux ont été analysés : `inventory_month_end`, `purchase_order_lines`, `
 - **FCL-1010** concentre un **hub de stock médical** (`inventory_month_end`), un volume d'achat élevé (`purchase_order_lines`), et une part importante des expéditions à fort volume (`shipments`).
 - **BP-30021** opère FCL-1010 dans `erp_facilities` et apparaît en statut **`review`** dans `erp_business_partners`. Dans les PO, **BP-30021 ∩ FCL-1010 = 0**.
 - Le corridor **FCL-1011 → FCL-1010** porte une part notable du fret signalé côté expéditions (334 caisses, 19,4 % du volume intercepté dans le notebook).
-- **Réceptions** : 3 pics de fréquence à FCL-1011 ; aucun établissement significativement défaillant sur la qualité après correction BH.
-- **Ajustements** : 7 amplitudes élevées en `medical_consumables / case` ; 21 ajustements citent une réception ou une expédition datée **après** l'ajustement.
+- **Réceptions** : 610 réceptions, dont 34 en attente qualité (5,57 %) ; 3 pics à FCL-1011, mais aucun établissement significativement plus élevé sur le taux `quality_hold` après correction BH. Analyse ACF/STL des 132 mois à titre exploratoire.
+- **Ajustements** : 23 mouvements atypiques sur les quantités (dont 7 amplitudes élevées en `medical_consumables / case`) ; 21 ajustements citent une réception ou une expédition datée **après** l'ajustement. Graphe documentaire de 60 liens.
 - Les anomalies ERP partenaires forment surtout un **problème systémique Valenne** (geo-mismatch / risk), avec BP-30048 comme hub de graphe — distinct du signal opérationnel FCL-1010 / BP-30021, mais utile pour le référentiel.
 
 ---
@@ -46,7 +46,7 @@ Sept jeux ont été analysés : `inventory_month_end`, `purchase_order_lines`, `
 
 ### 2.2 Ce qui n'est pas une PO directe
 
-Le couple BP-30021 × FCL-1010 **n'apparaît pas** dans `purchase_order_lines`.  
+Le couple BP-30021 × FCL-1010 **n'apparaît pas** dans `purchase_order_lines`.\
 Le lien documenté est **organisationnel** (opérateur du site) et **opérationnel** (stocks / expéditions), pas une commande d'achat directe.
 
 ### 2.3 Conclusion sur ce cas
@@ -198,7 +198,8 @@ Source principale : `goods_receipts_anomalies.ipynb` (+ contrôles dans `analyse
 
 - 610 réceptions uniques (612 brutes).
 - Indicateurs : fréquences mensuelles par établissement, taux `quality_hold`, tests conditionnels + Benjamini–Hochberg.
-- Clustering descriptif des 30 établissements (k=3 exploratoire).
+- Clustering descriptif des 30 établissements (k=3 exploratoire), CAH et ARI = **0,883** ; ACP et t-SNE.
+- Corrélations Pearson / Spearman, nuages de points, ACF et STL sur les comptes mensuels (132 mois, dont 16 sans réception enregistrée).
 - Jointure commandes : 0 réception sans PO ; 0 désaccord d'unité.
 
 ### 6.2 Anomalies
@@ -211,23 +212,35 @@ Source principale : `goods_receipts_anomalies.ipynb` (+ contrôles dans `analyse
 
 **D. vs commandes** : 65 lignes de commande avec total reçu < commandé ; 0 avec total reçu > commandé ; 40 lignes de commande sans réception dans l'extraction.
 
-### 6.3 Preuves
+### 6.3 Preuves et interprétation
 
-![Volumes réceptions](../figures/goods_receipts_anomalies_028_1.png)
+![Taux par établissement](../figures/goods_receipts_taux_actuels.png)
 
-*Volumes / taux descriptifs (cellule 28).*
+*Taux d'attente qualité avec effectifs, dans le notebook actuel.*
 
-![Évolution temporelle](../figures/goods_receipts_anomalies_030_1.png)
+![ACF des réceptions](../figures/goods_receipts_acf_actuelle.png)
 
-*Évolution temporelle des réceptions (cellule 30).*
+*Comptes mensuels et autocorrélation ; les mois absents dans l'extraction sont codés à zéro.*
 
-![Qualité trimestrielle](../figures/goods_receipts_anomalies_032_1.png)
+![STL réceptions](../figures/goods_receipts_stl_actuelle.png)
 
-*Attentes qualité par trimestre (cellule 32).*
+*STL : tendance, saisonnalité et résidus des comptes mensuels.*
 
-![Profils établissements](../figures/goods_receipts_anomalies_051_1.png)
+![Corrélations réceptions](../figures/goods_receipts_correlations_actuelles.png)
 
-*Clustering des profils de réception (cellule 51).*
+*Pearson et Spearman entre profils des 30 établissements.*
+
+![Groupes de réception](../figures/goods_receipts_clusters_actuels.png)
+
+*Clustering descriptif des établissements.*
+
+### 6.4 Lecture des résultats et limites
+
+K-Means distingue **16 établissements peu actifs** (médiane **5,5 réceptions**), **9 plus actifs** (médiane **37**) et **5 à taux médian d'attente qualité plus élevé** (**14,3 %**) mais sur de petits dénominateurs. La CAH donne une classification proche (**ARI = 0,883**). Les analyses Pearson/Spearman comparent activité, mois actifs et taux d'attente qualité, sans prouver de causalité ; ces indicateurs peuvent aussi être liés par construction.
+
+Les **132 mois** de la série globale comprennent **16 mois sans réception enregistrée**. ACF et STL sont donc descriptives, pas des détecteurs fiables d'incidents de livraison : absence de ligne ne prouve pas absence d'activité. Le rapprochement avec les commandes identifie **65 lignes sous-reçues dans l'extraction**, sans démontrer de livraison manquante définitive.
+
+**Conclusion fichier :** les trois pics à FCL-1011 justifient un examen documentaire, mais le statut `quality_hold` et les profils de clusters ne démontrent aucune défaillance d'un établissement.
 
 ---
 
@@ -239,31 +252,49 @@ Source principale : `inventory_adjustments_anomalies.ipynb`.
 
 - 140 ajustements uniques : 89 diminutions, 51 augmentations.
 - Lectures quantité signée / amplitude / signe ; Apriori sur motifs × catégorie × signe × statut.
+- K-Means k=5, CAH Ward (**ARI = 0,575**), ACP, t-SNE, Isolation Forest, LOF, DBSCAN et contrôles IQR/Z/MAD par catégorie et unité.
+- Corrélations Pearson / Spearman et nuages de points **par établissement**, sans mélanger les unités ; ACF et STL exploratoires sur les comptes mensuels.
 - Contrôles documentaires : références réception / expédition.
 
 ### 7.2 Anomalies
 
 **A. Fréquences** : FCL-1010 le plus représenté (20). Aucun pic de fréquence retenu après test conditionnel + BH (q<0,05).
 
-**B. Amplitudes élevées** : **7** ajustements en `medical_consumables / case` (ex. ADJ-2022-00097 = −7,88 ; ADJ-2022-00093 = +7,41).
+**B. Quantités atypiques** : **23 ajustements** signalés par au moins une comparaison, dont **7 amplitudes élevées** en `medical_consumables / case` (ex. ADJ-2022-00097 = −7,88 ; ADJ-2022-00093 = +7,41).
 
 **C. Références futures** : 23 références réception et 37 références expédition renseignées et retrouvées ; **21 ajustements** citent au moins une référence datée **après** l'ajustement. Sens métier des champs `related_*` à clarifier avant toute accusation.
 
-**D. Apriori (exploratoire)** : ex. `approved → augmentation` (support 12,1 %, conf. 68 %, lift ≈ 1,87).
+**D. Clustering et associations** : les 5 clusters suivent principalement les catégories d'articles (14, 20, 51, 19 et 36 ajustements) ; ils ne sont pas des groupes de fraude. Apriori retient **83 règles**, dont **58** impliquant motif, signe ou statut. Une recherche plus ciblée de paires donne 6 règles, par exemple `approved → augmentation` (support 12,1 %, conf. 68 %, lift ≈ 1,87).
 
-### 7.3 Preuves
+### 7.3 Preuves et interprétation
 
-![Motifs / directions](../figures/inventory_adjustments_anomalies_026_1.png)
+![Motifs et signes](../figures/inventory_adjustments_motifs_actuels.png)
 
-*Motifs et directions des ajustements (cellule 26).*
+*Répartition des ajustements selon motifs et signes.*
 
-![Fréquences](../figures/inventory_adjustments_anomalies_036_1.png)
+![Corrélations d'ajustements](../figures/inventory_adjustments_correlations_actuelles.png)
 
-*Fréquences par établissement / période (cellule 36).*
+*Pearson et Spearman sur des indicateurs agrégés par établissement.*
 
-![Association](../figures/inventory_adjustments_anomalies_052_1.png)
+![ACF ajustements](../figures/inventory_adjustments_acf_actuelle.png)
 
-*Règles d'association (cellule 52).*
+*Fréquences mensuelles et autocorrélation.*
+
+![STL ajustements](../figures/inventory_adjustments_stl_actuelle.png)
+
+*Décomposition STL : lecture exploratoire des 132 mois.*
+
+![Graphe des références](../figures/inventory_adjustments_graphe_references.png)
+
+*Composantes du graphe entre ajustements et documents référencés.*
+
+### 7.4 Graphe documentaire, saisonnalité et précautions
+
+La série mensuelle compte **132 mois dont 80 sans ajustement enregistré** : l'ACF et la STL illustrent les fluctuations, mais ne prouvent pas une saisonnalité métier. Les quantités restent comparées **par catégorie et unité**. Une quantité négative est une diminution normale de stock et les valeurs atypiques ne sont pas supprimées automatiquement.
+
+Le graphe de références présente **60 liens entre 115 nœuds**, répartis en **55 composantes** (**50 de taille 2, 5 de taille 3**). Il visualise les références documentaires renseignées, sans reconstruire à lui seul le flux logistique. Les **21 références chronologiquement surprenantes** demeurent des points à vérifier avec les motifs et le sens exact des champs `related_*`.
+
+**Conclusion fichier :** ces signaux sont utiles pour sélectionner les documents à examiner, mais ne prouvent pas une erreur ou une intention frauduleuse.
 
 ---
 
@@ -352,8 +383,8 @@ FCL-1010 (hub)
 | `inventory_month_end` | cluster fort volume ~5 % ; 94 stats ; 25 IF/LOF | Hub FCL-1010 / FCL-1020 |
 | `purchase_order_lines` | 113 stats ; acteurs FCL-1010 / BP-30021 ; 0 PO 1010×30021 | Amont achat ; lien org. via facilities |
 | `shipments` | 23 vol. ; 9 prioritaires ; corridor 1011→1010 | Alimente le stock FCL-1010 |
-| `goods_receipts` | 3 pics FCL-1011 ; 65 PO sous-reçues | Boucle commande → réception |
-| `inventory_adjustments` | 7 amplitudes medical/case ; 21 refs futures | Piste sur écarts de formule stock |
+| `goods_receipts` | 3 pics FCL-1011 ; 65 PO sous-reçues ; 34 `quality_hold` | Boucle commande → réception |
+| `inventory_adjustments` | 23 quantités atypiques, 7 fortes amplitudes ; 21 refs futures | Piste sur écarts de formule stock |
 | `erp_facilities` | FCL-1010 prioritaire ; FCL-1011 = office | Cadre géo / capacités / opérateur |
 | `erp_business_partners` | BP-30021 review ; graphe Valenne / BP-30048 | Référentiel risque partenaires |
 
@@ -364,24 +395,24 @@ FCL-1010 (hub)
 ### Ce que l'enquête logistics montre, en clair
 
 #### Qui est au centre ?
-**FCL-1010** (Asterion).  
+**FCL-1010** (Asterion).\
 C'est le site qui revient partout : gros stocks médicaux, beaucoup de commandes, et beaucoup d'expéditions qui arrivent chez lui.
 
 #### Qui gère ce site ?
-**BP-30021**.  
+**BP-30021**.\
 Dans l'ERP, c'est lui qui **opère** FCL-1010, et son statut partenaire est **`review`** (à surveiller).
 
 #### Point important
-Il n'y a **aucune commande d'achat** directe entre BP-30021 et FCL-1010.  
+Il n'y a **aucune commande d'achat** directe entre BP-30021 et FCL-1010.\
 Donc leur lien n'est pas « il lui vend via une PO », mais plutôt « il gère / est lié au site ».
 
 #### D'où viennent les gros flux ?
-Souvent de **FCL-1011** (le siège / bureau).  
+Souvent de **FCL-1011** (le siège / bureau).\
 Ce site n'est déclaré que comme un **office** (pas un entrepôt), pourtant il envoie beaucoup de matériel vers FCL-1010, surtout des consommables médicaux.
 
 #### Est-ce une preuve de fraude ?
-**Non.**  
-Les données montrent des **signaux forts** (hub de stock, flux lourds, partenaire en review, corridor inhabituel).  
+**Non.**\
+Les données montrent des **signaux forts** (hub de stock, flux lourds, partenaire en review, corridor inhabituel).\
 Mais ça ne prouve pas à lui seul une intention frauduleuse. Il faut encore vérifier cas par cas (expéditions, réceptions, ajustements).
 
 #### En résumé
@@ -415,13 +446,13 @@ Mais ça ne prouve pas à lui seul une intention frauduleuse. Il faut encore vé
 | `shipments_105_1.png` | shipments (105) | PCA shipments |
 | `shipments_135_1.png` | shipments (135) | Réseau d'acteurs |
 | `shipments_144_1.png` | shipments (144) | Spatio-temporel |
-| `goods_receipts_anomalies_028_1.png` | receipts (28) | Volumes / taux |
-| `goods_receipts_anomalies_030_1.png` | receipts (30) | Évolution temporelle |
-| `goods_receipts_anomalies_032_1.png` | receipts (32) | Qualité trimestrielle |
-| `goods_receipts_anomalies_051_1.png` | receipts (51) | Profils établissements |
-| `inventory_adjustments_anomalies_026_1.png` | adj (26) | Motifs / directions |
-| `inventory_adjustments_anomalies_036_1.png` | adj (36) | Fréquences |
-| `inventory_adjustments_anomalies_052_1.png` | adj (52) | Apriori |
+| `goods_receipts_taux_actuels.png` | receipts | Volumes / taux actuels |
+| `goods_receipts_acf_actuelle.png` | receipts | Comptes mensuels et ACF |
+| `goods_receipts_stl_actuelle.png` | receipts | Décomposition STL |
+| `goods_receipts_clusters_actuels.png` | receipts | Profils établissements |
+| `inventory_adjustments_motifs_actuels.png` | adj | Motifs / directions |
+| `inventory_adjustments_acf_actuelle.png` | adj | Fréquences et ACF |
+| `inventory_adjustments_graphe_references.png` | adj | Graphe de références |
 | `erp_facilities_051_1.png` | facilities (51) | Outliers |
 | `erp_facilities_092_1.png` | facilities (92) | PCA / anomalies |
 | `erp_facilities_125_1.png` | facilities (125) | Spatial |
