@@ -45,4 +45,4 @@ Dans chaque dossier :
 
 1. Créer l'environnement : `conda create --name <envname> --file requirements.txt`
 2. Lancer les notebooks depuis le dossier de leur domaine (par exemple `data/ecology/`), avec *Restart & Run All*. Les notebooks lisent leurs CSV relativement à leur dossier.
-3. Les fichiers `cleaned/` sont produits par les notebooks de nettoyage ; les lancer en premier.
+3. Les fichiers `cleaned/` sont écrits par la cellule de nettoyage de chaque notebook qui les produit (par exemple `data/ecology/bat_surveys.ipynb` écrit `cleaned/bat_surveys_cleaned.csv`). Les notebooks suivants les lisent : il faut donc lancer les notebooks qui écrivent dans `cleaned/` avant les autres. Dans le dossier `health/`, le nettoyage est fait par `cleaning.ipynb`, à lancer en premier.
